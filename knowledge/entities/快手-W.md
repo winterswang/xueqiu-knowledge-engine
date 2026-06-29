@@ -1,0 +1,50 @@
+---
+name: 快手-W
+type: company
+ticker: '01024'
+market: ''
+aliases:
+- $快手-W(01024)$
+- 快手
+- 快手-W
+timeline:
+- date: '2026-05-27'
+  source: sources/2026-05-27-391301609.md
+  signals:
+  - entity: 快手-W
+    direction: neutral
+    confidence: medium
+    time_frame: short_term
+    summary: 业绩基本符合预期，经营利润beat不可持续
+    caveats:
+    - 经营利润超预期来自非主业其他收益，不具备持续性
+    - 电商GMV增速预计放缓至约10%
+    - AI算力Capex投入260亿压制毛利率1-2pct
+    - 今年起不再披露GMV数据，增加跟踪难度
+    quote: 业绩整体看基本符合预期，经营利润beat主要是因为与主业无关的其他收益带来，不具备稳定持续性
+    business_line: null
+  - entity: 快手-W
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: 可灵Q1收入6.5亿，ARR已达5亿美金且持续增长
+    caveats:
+    - 拆分上市进展对快手整体估值影响最大
+    - AI算力投入占Capex大头，短期压制毛利率
+    quote: 可灵是亮点，Q1收入6.5亿，比指引的5亿要高，截至3月ARR已经达到5亿美金，且4、5月继续增长
+    business_line: 可灵AI
+last_updated: '2026-06-30T01:18:16.430117+08:00'
+---
+
+# 快手-W
+
+> 类型: company
+> 股票代码: 01024
+
+## 信号时间线
+
+
+### 2026-05-27
+> 来源: [sources/2026-05-27-391301609.md](sources/2026-05-27-391301609.md)
+- ➡️ [neutral] 业绩基本符合预期，经营利润beat不可持续
+- 📈 [positive] 可灵Q1收入6.5亿，ARR已达5亿美金且持续增长

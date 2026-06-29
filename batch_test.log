@@ -1,0 +1,172 @@
+Loaded dictionary: 65 verified entities
+
+============================================================
+Batch Test: 50 articles
+============================================================
+
+[1/50] raw/377107149.md (2012 bytes)
+  ⏭️  Skipped: body_length 1793 < min 2000
+
+[2/50] raw/389326981.md (2017 bytes)
+  ⏭️  Skipped: body_length 1820 < min 2000
+
+[3/50] raw/391745437.md (2021 bytes)
+  ⏭️  Skipped: body_length 1819 < min 2000
+
+[4/50] raw/396202718.md (2021 bytes)
+  ⏭️  Skipped: body_length 1827 < min 2000
+
+[5/50] raw/378065599.md (2034 bytes)
+  ⏭️  Skipped: body_length 1842 < min 2000
+
+[6/50] raw/376812092.md (2037 bytes)
+  ⏭️  Skipped: body_length 1841 < min 2000
+
+[7/50] raw/376601012.md (2039 bytes)
+  ⏭️  Skipped: body_length 1844 < min 2000
+
+[8/50] raw/372532423.md (2057 bytes)
+  ⏭️  Skipped: body_length 1824 < min 2000
+
+[9/50] raw/371624650.md (2060 bytes)
+  ⏭️  Skipped: body_length 1860 < min 2000
+
+[10/50] raw/387684564.md (2074 bytes)
+  ⏭️  Skipped: body_length 1903 < min 2000
+
+[11/50] raw/368325540.md (2089 bytes)
+  ⏭️  Skipped: body_length 1835 < min 2000
+
+[12/50] raw/392296360.md (2108 bytes)
+  ⏭️  Skipped: body_length 1915 < min 2000
+
+[13/50] raw/377548665.md (2117 bytes)
+  ⏭️  Skipped: body_length 1907 < min 2000
+
+[14/50] raw/378636738.md (2140 bytes)
+  ⏭️  Skipped: body_length 1965 < min 2000
+
+[15/50] raw/394749612.md (2161 bytes)
+  ⏭️  Skipped: body_length 1881 < min 2000
+
+[16/50] raw/391960222.md (2187 bytes)
+  ⏭️  Skipped: body_length 1990 < min 2000
+
+[17/50] raw/380038502.md (2192 bytes)
+  ⏭️  Skipped: body_length 1967 < min 2000
+
+[18/50] raw/391937777.md (2193 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 91 column 54 (char 2476)
+  ✅ OK: 0 entities, 0 concepts
+
+[19/50] raw/373143737.md (2213 bytes)
+  ⏭️  Skipped: body_length 1978 < min 2000
+
+[20/50] raw/394172632.md (2226 bytes)
+  ⚠️ 需要 review: 文中提到'mk'平台未能确认具体指代（可能为某AI游戏创作平台）, 文章为个人观点分享，无具体公司、股票代码或量化数据支撑, 信号层面：文章表达的是对AI游戏开发能力的行业认知，非针对特定可投资实体的投资观点
+  ✅ OK: 0 entities, 2 concepts
+
+[21/50] raw/392419167.md (2237 bytes)
+  ✅ OK: 1 entities, 2 concepts
+
+[22/50] raw/391643486.md (2243 bytes)
+  ✅ OK: 1 entities, 3 concepts
+
+[23/50] raw/391313887.md (2247 bytes)
+  ✅ OK: 3 entities, 0 concepts
+
+[24/50] raw/395547070.md (2261 bytes)
+  ⚠️ 需要 review: 文章为IPO招股信息公告性质，缺乏投资观点与深度分析，信号方向判断存在模糊性, 灼识咨询作为第三方数据来源未在字典中，未单独建实体, 礼邦医药管线信息较简略，'全球肾脏适应症覆盖最广'的表述需进一步核实
+  ✅ OK: 5 entities, 2 concepts
+
+[25/50] raw/394783622.md (2279 bytes)
+  ⚠️ 需要 review: 文章为公司公告/PR性质，缺乏独立第三方分析，信息密度极低, 信号方向判断存疑：文章基调积极但清盘呈请实质风险未解除，将direction定为neutral可能过于保守, 清盘呈请聆讯延期不等于风险消除，需要review信号方向与置信度
+  ✅ OK: 1 entities, 2 concepts
+
+[26/50] raw/375418261.md (2298 bytes)
+  ⚠️ 需要 review: 文章为个人使用体验分享，非投资分析，信息密度极低, 未提供任何业务数据、财务指标或竞争分析, AI搜索替代传统搜索是否构成可建概念页存疑（行业层面分析不足）, 信号方向判断困难：Gemini替代搜索对谷歌既可能正面（AI成功）也可能负面（搜索业务被自身蚕食）
+  ✅ OK: 2 entities, 1 concepts
+
+[27/50] raw/375573177.md (2303 bytes)
+  ⚠️ 需要 review: 信号方向判断：作者整体倾向建仓但明确犹豫（'或许可以再等等，或许只是先搞一个观察仓'），正/中性边界模糊, 概念'物理履约确定性'的独立性较弱，目前仅在美团语境下被论证，跨实体适用性待观察
+  ✅ OK: 4 entities, 2 concepts
+
+[28/50] raw/392777104.md (2309 bytes)
+  ✅ OK: 6 entities, 3 concepts
+
+[29/50] raw/389769209.md (2318 bytes)
+  ✅ OK: 1 entities, 2 concepts
+
+[30/50] raw/392525798.md (2325 bytes)
+  ✅ OK: 2 entities, 2 concepts
+
+[31/50] raw/391301609.md (2339 bytes)
+  ✅ OK: 2 entities, 2 concepts
+
+[32/50] raw/394254984.md (2344 bytes)
+  ✅ OK: 9 entities, 3 concepts
+
+[33/50] raw/393311692.md (2345 bytes)
+  ⚠️ 需要 review: 文章仅为价值投资年会议程通告，未包含实质性投资分析或观点, 无明确投资信号（无方向、无置信度可判断的内容）, 实体均作为待讨论对象被提及，无具体分析内容, 演讲者多为匿名/化名（社交媒体账号），实体识别置信度低
+  ✅ OK: 10 entities, 3 concepts
+
+[34/50] raw/393043383.md (2381 bytes)
+  ⚠️ 需要 review: 文章主要是IPO进程的信息性报道，缺乏深度投资分析和明确投资观点，信号方向判断为neutral的置信度有限, 净利增速放缓与公司市场地位之间的隐含矛盾需要进一步分析判断, 国产替代概念在文中未明确提及，仅为推断关联
+  ✅ OK: 4 entities, 3 concepts
+
+[35/50] raw/396004904.md (2412 bytes)
+  ✅ OK: 8 entities, 6 concepts
+
+[36/50] raw/375894183.md (2433 bytes)
+  ✅ OK: 5 entities, 2 concepts
+
+[37/50] raw/389750015.md (2436 bytes)
+  ✅ OK: 2 entities, 2 concepts
+
+[38/50] raw/397223871.md (2468 bytes)
+  ✅ OK: 3 entities, 4 concepts
+
+[39/50] raw/378422596.md (2469 bytes)
+  ⚠️ 需要 review: 文章多次出现错别字（'霍尔木斯'应为'霍尔木兹'、'专业人土'应为'专业人士'），可能影响原文引用准确性, 地缘政治推高油价的逻辑链较为主观，缺乏数据支撑，置信度较低, 中海油净利润与市值单位疑似有误（1270亿元利润对应11400亿市值，PE约9倍量级基本合理，但需核实原始数据）, 戴维斯双击的判断依赖油价上涨假设，而油价中长期预测本身存在较大不确定性
+  ✅ OK: 3 entities, 3 concepts
+
+[40/50] raw/391884713.md (2491 bytes)
+  ⚠️ 需要 review: 内在价值估算高度依赖2025年利润预测的准确性，且15倍PE倍数的选取缺乏行业比较支撑, 作者将投资业务现金与主营业务PE估值叠加，方法论与严格DCF/分部估值SOTP有差距, 转型期利润'远高于内在价值对应利润'的判断逻辑上需审视——若利润下滑至400亿，对应市值仍有支撑，但需确认转型期时长与最坏情景
+  ✅ OK: 3 entities, 4 concepts
+
+[41/50] raw/391100049.md (2509 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 104 column 43 (char 2511)
+  ✅ OK: 0 entities, 0 concepts
+
+[42/50] raw/390609121.md (2515 bytes)
+  ⚠️ 需要 review: 文章未点名任何具体公司（初创公司、卡网络公司、AI投资人均未具名），无法提取具体实体, 文章为个人观察/随笔式讨论，非系统性投资分析，信息密度较低, 无明确投资标的与买卖观点，未提取信号, 需确认是否将'美国前三大的卡网公司'作为背景实体提及
+  ✅ OK: 0 entities, 4 concepts
+
+[43/50] raw/397045099.md (2519 bytes)
+  ✅ OK: 3 entities, 2 concepts
+
+[44/50] raw/378401867.md (2527 bytes)
+  ✅ OK: 4 entities, 2 concepts
+
+[45/50] raw/392983221.md (2552 bytes)
+  ✅ OK: 1 entities, 4 concepts
+
+[46/50] raw/396129467.md (2556 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 83 column 72 (char 2155)
+  ✅ OK: 0 entities, 0 concepts
+
+[47/50] raw/390812765.md (2558 bytes)
+  ✅ OK: 2 entities, 3 concepts
+
+[48/50] raw/378680281.md (2562 bytes)
+  ✅ OK: 1 entities, 3 concepts
+
+[49/50] raw/394430632.md (2595 bytes)
+  ⚠️ 需要 review: 文章为前帖讨论的补充内容，部分背景（如心动公司/TapTap关系、原文具体数据上下文）缺失, 点点指向点点互动（Century Games）仅为推断，存在歧义, 信号方向判断：作者整体对TapTap中长期持正面看法但强调短期波动，需复核neutral vs positive的拆分是否合理, TapTap实际对应上市公司为心动公司（02400.HK），文章未直接提及，需提示关联
+  ✅ OK: 12 entities, 4 concepts
+
+[50/50] raw/378696533.md (2596 bytes)
+  ✅ OK: 1 entities, 2 concepts
+
+============================================================
+Git commit...
