@@ -21,7 +21,10 @@ from typing import Optional
 
 import yaml
 
-from src.extractor import KnowledgeExtractor
+try:
+    from src.extractor import KnowledgeExtractor
+except ImportError:
+    from extractor import KnowledgeExtractor
 
 
 TZ = timezone(timedelta(hours=8))
@@ -72,6 +75,7 @@ class ArticleParser:
 
         # 清理空行
         body = '\n'.join(line for line in body.split('\n') if line.strip())
+        body = body.strip()
 
         return {
             'id': Path(filepath).stem,
@@ -79,7 +83,8 @@ class ArticleParser:
             'author': author,
             'date': pub_date,
             'url': url,
-            'body': body.strip(),
+            'body': body,
+            'body_length': len(body.encode('utf-8')),
             'source': 'xueqiu',
             'raw_path': filepath,
         }
@@ -411,16 +416,34 @@ class IngestPipeline:
         self.entity_writer = EntityPageWriter(self.knowledge_dir)
         self.concept_writer = ConceptPageWriter(self.knowledge_dir)
 
+    def _get_config(self, section: str, key: str, default=None):
+        """读取 engine.yaml 配置"""
+        config_path = self.base_dir / "config" / "engine.yaml"
+        if config_path.exists():
+            with open(config_path, 'r', encoding='utf-8') as f:
+                config = yaml.safe_load(f) or {}
+            return config.get(section, {}).get(key, default)
+        return default
+
     def ingest(self, raw_filepath: str, entity_dict: Optional[dict] = None) -> dict:
         """
         摄入单篇文章
 
         Returns:
-            {'success': bool, 'source_page': str, 'entities_updated': list, 'concepts_updated': list, 'error': str}
+            {'success': bool, 'skipped': bool, 'source_page': str, 'entities_updated': list, 'concepts_updated': list, 'error': str}
         """
         try:
             # 1. 解析文章
             article = ArticleParser.parse(raw_filepath)
+
+            # 1.5 长度检查
+            min_length = self._get_config('ingest', 'min_article_length', 0)
+            if min_length > 0 and article.get('body_length', 0) < min_length:
+                return {
+                    'success': True,
+                    'skipped': True,
+                    'reason': f"body_length {article.get('body_length', 0)} < min {min_length}",
+                }
 
             # 2. LLM 提取
             result = self.extractor.extract(article['body'], entity_dict)
@@ -573,7 +596,9 @@ if __name__ == "__main__":
 
         result = pipeline.ingest(fpath, entity_dict)
 
-        if result['success']:
+        if result.get('skipped'):
+            print(f"⏭️  Skipped: {result['reason']}")
+        elif result['success']:
             print(f"✅ Source page: {result['source_page']}")
             print(f"   Entities: {len(result['entities_updated'])}")
             print(f"   Concepts: {len(result['concepts_updated'])}")

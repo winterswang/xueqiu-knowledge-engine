@@ -10,30 +10,22 @@ llm:
 
 # 知识库配置
 knowledge:
-  # 来源页目录
   sources_dir: knowledge/sources
-  # 实体页目录
   entities_dir: knowledge/entities
-  # 概念页目录
   concepts_dir: knowledge/concepts
-  # 索引文件
   index_file: knowledge/index.md
-  # 日志文件
   log_file: knowledge/log.md
 
 # Ingest 配置
 ingest:
-  # 单线程（默认）
   concurrency: 1
-  # 批量处理时每批大小
   batch_size: 50
-  # 来源页 frontmatter 中必须包含的字段
+  min_article_length: 2000  # 跳过短文/快评
   required_fields:
     - title
     - url
     - date
     - author
-  # 来源页可选字段
   optional_fields:
     - source
     - tickers
@@ -45,16 +37,11 @@ ingest:
 
 # 验证配置
 validation:
-  # 格式验证：必填字段缺失 → 拒绝写入
   strict_required: true
-  # 业务规则：质量评分阈值（低于此值标记为 needs_review）
   quality_threshold: 0.6
-  # 别名检测阈值（相似度 > 此值触发警告）
   alias_similarity_threshold: 0.85
 
 # 词典配置
 dictionary:
-  # 实体词典文件
   entity_dict_file: config/entity_dictionary.yaml
-  # 最小提及次数（历史文章提取时）
   min_mention_count: 3

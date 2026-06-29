@@ -1,7 +1,7 @@
 ---
 name: GIC
 type: company
-ticker: null
+ticker: ''
 market: ''
 aliases:
 - GIC
@@ -9,13 +9,13 @@ timeline:
 - date: '2026-06-26'
   source: sources/2026-06-26-396894229.md
   signals: []
-last_updated: '2026-06-29T21:38:20.613399+08:00'
+last_updated: '2026-06-29T23:50:37.483336+08:00'
 ---
 
 # GIC
 
 > 类型: company
-> 股票代码: None
+> 股票代码: 
 
 ## 信号时间线
 
