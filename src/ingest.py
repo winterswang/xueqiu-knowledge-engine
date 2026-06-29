@@ -93,9 +93,10 @@ class ArticleParser:
 class SourcePageWriter:
     """生成来源页"""
 
-    def __init__(self, knowledge_dir: str):
+    def __init__(self, knowledge_dir: str, config_reader: Optional[callable] = None):
         self.sources_dir = Path(knowledge_dir) / "sources"
         self.sources_dir.mkdir(parents=True, exist_ok=True)
+        self._get_config = config_reader or (lambda s, k, d: d)
 
     def write(self, article: dict, extraction: dict, quality_score: float) -> str:
         """
@@ -154,7 +155,7 @@ class SourcePageWriter:
 
 ## 正文
 
-{article['body'][:2000]}{'...' if len(article['body']) > 2000 else ''}
+{article['body'][:self._get_config('ingest', 'max_body_preview_length', 2000)]}{'...' if len(article['body']) > self._get_config('ingest', 'max_body_preview_length', 2000) else ''}
 
 ## 提取摘要
 
@@ -412,7 +413,7 @@ class IngestPipeline:
         self.base_dir = Path(base_dir)
         self.knowledge_dir = self.base_dir / "knowledge"
         self.extractor = KnowledgeExtractor()
-        self.source_writer = SourcePageWriter(self.knowledge_dir)
+        self.source_writer = SourcePageWriter(self.knowledge_dir, config_reader=self._get_config)
         self.entity_writer = EntityPageWriter(self.knowledge_dir)
         self.concept_writer = ConceptPageWriter(self.knowledge_dir)
 

@@ -20,7 +20,8 @@ knowledge:
 ingest:
   concurrency: 1
   batch_size: 50
-  min_article_length: 2000  # 跳过短文/快评
+  min_article_length: 2000        # 跳过短文/快评（bytes）
+  max_body_preview_length: 2000   # 来源页正文预览最大长度
   required_fields:
     - title
     - url
