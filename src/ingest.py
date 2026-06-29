@@ -227,9 +227,8 @@ class EntityPageWriter:
         safe_name = re.sub(r'[^\w\u4e00-\u9fff\-]', '_', entity_name)
         filepath = self.entities_dir / f"{safe_name}.md"
 
-        # 如果实体页已存在，读取现有内容
+        # 如果实体页已存在，读取现有 frontmatter
         existing_frontmatter = {}
-        existing_body = ""
         if filepath.exists():
             with open(filepath, 'r', encoding='utf-8') as f:
                 content = f.read()
@@ -238,7 +237,6 @@ class EntityPageWriter:
             if fm_match:
                 try:
                     existing_frontmatter = yaml.safe_load(fm_match.group(1)) or {}
-                    existing_body = content[fm_match.end():]
                 except yaml.YAMLError:
                     pass
 
@@ -296,8 +294,6 @@ class EntityPageWriter:
 ## 信号时间线
 
 {self._format_timeline(unique_timeline)}
-
-{existing_body if existing_body else ""}
 """
 
         with open(filepath, 'w', encoding='utf-8') as f:
