@@ -389,6 +389,9 @@ class ConceptPageWriter:
             fm_match = re.search(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
             if fm_match:
                 body = content[fm_match.end():]
+            else:
+                # 防御性处理：如果找不到 frontmatter 边界，保留全文
+                body = content
 
         yaml_front = yaml.dump(frontmatter, allow_unicode=True, sort_keys=False)
 
