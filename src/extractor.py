@@ -280,7 +280,13 @@ class KnowledgeExtractor:
             review_reasons=data.get("review_reasons", [])
         )
 
+        # 实体去重：按 name + type 去重，保留第一个
+        seen_entities = set()
         for e in data.get("entities", []):
+            key = (e.get("name", ""), e.get("type", "company"))
+            if key in seen_entities:
+                continue
+            seen_entities.add(key)
             result.entities.append(ExtractedEntity(
                 name=e.get("name", ""),
                 type=e.get("type", "company"),

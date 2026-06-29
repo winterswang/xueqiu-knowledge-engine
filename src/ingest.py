@@ -21,7 +21,7 @@ from typing import Optional
 
 import yaml
 
-from extractor import KnowledgeExtractor
+from src.extractor import KnowledgeExtractor
 
 
 TZ = timezone(timedelta(hours=8))
