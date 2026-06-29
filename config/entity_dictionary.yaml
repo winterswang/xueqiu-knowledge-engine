@@ -1,0 +1,469 @@
+# 实体词典（初始版本）
+# 来源：morning-brief watchlist 同步
+# 生成时间：2026-06-29
+# 总计：130 个实体
+# status: verified = 已确认（从 watchlist 同步）
+# status: unverified = 待确认（从历史文章提取）
+# status: deprecated = 已废弃
+
+verified:
+  智谱:
+    ticker: 2513.HK
+    market: HK
+    aliases:
+    - 智谱
+    status: verified
+  海吉亚医疗:
+    ticker: 6078.HK
+    market: HK
+    aliases:
+    - 海吉亚医疗
+    status: verified
+  SpaceX:
+    ticker: SPCX.US
+    market: US
+    aliases:
+    - SPCX
+    - SpaceX
+    - spcx
+    status: verified
+  Rocket Lab:
+    ticker: RKLB.US
+    market: US
+    aliases:
+    - RKLB
+    - rklb
+    - Rocket Lab
+    status: verified
+  Spotify:
+    ticker: SPOT.US
+    market: US
+    aliases:
+    - SPOT
+    - Spotify
+    - spot
+    status: verified
+  Okta:
+    ticker: OKTA.US
+    market: US
+    aliases:
+    - OKTA
+    - okta
+    - Okta
+    status: verified
+  康方生物:
+    ticker: 9926.HK
+    market: HK
+    aliases:
+    - 康方生物
+    status: verified
+  Cerebras:
+    ticker: CBRS.US
+    market: US
+    aliases:
+    - Cerebras
+    - cbrs
+    - CBRS
+    status: verified
+  腾讯音乐-SW:
+    ticker: 1698.HK
+    market: HK
+    aliases:
+    - 腾讯音乐-SW
+    status: verified
+  铂力特:
+    ticker: 688333.SH
+    market: CN
+    aliases:
+    - 铂力特
+    status: verified
+  Coreweave:
+    ticker: CRWV.US
+    market: US
+    aliases:
+    - crwv
+    - CRWV
+    - Coreweave
+    status: verified
+  法拉利:
+    ticker: RACE.US
+    market: US
+    aliases:
+    - 法拉利
+    - RACE
+    - race
+    status: verified
+  爱马仕(ADR):
+    ticker: HESAY.US
+    market: US
+    aliases:
+    - 爱马仕(ADR)
+    - hesay
+    - HESAY
+    status: verified
+  任天堂(ADR):
+    ticker: NTDOY.US
+    market: US
+    aliases:
+    - NTDOY
+    - 任天堂(ADR)
+    - ntdoy
+    status: verified
+  芯原股份:
+    ticker: 688521.SH
+    market: CN
+    aliases:
+    - 芯原股份
+    status: verified
+  Fiserv, Inc.:
+    ticker: FISV.US
+    market: US
+    aliases:
+    - FISV
+    - Fiserv, Inc.
+    - fisv
+    status: verified
+  阿斯麦:
+    ticker: ASML.US
+    market: US
+    aliases:
+    - 阿斯麦
+    - ASML
+    - asml
+    status: verified
+  Tempus AI:
+    ticker: TEM.US
+    market: US
+    aliases:
+    - Tempus AI
+    - tem
+    - TEM
+    status: verified
+  Circle:
+    ticker: CRCL.US
+    market: US
+    aliases:
+    - crcl
+    - Circle
+    - CRCL
+    status: verified
+  携程网:
+    ticker: TCOM.US
+    market: US
+    aliases:
+    - 携程网
+    - TCOM
+    - tcom
+    status: verified
+  美的集团:
+    ticker: 300.HK
+    market: HK
+    aliases:
+    - 美的集团
+    status: verified
+  安克创新:
+    ticker: 300866.SZ
+    market: CN
+    aliases:
+    - 安克创新
+    status: verified
+  古茗:
+    ticker: 1364.HK
+    market: HK
+    aliases:
+    - 古茗
+    status: verified
+  华住集团-S:
+    ticker: 1179.HK
+    market: HK
+    aliases:
+    - 华住集团-S
+    status: verified
+  歌尔股份:
+    ticker: 002241.SZ
+    market: CN
+    aliases:
+    - 歌尔股份
+    status: verified
+  诺和诺德公司:
+    ticker: NVO.US
+    market: US
+    aliases:
+    - nvo
+    - NVO
+    - 诺和诺德公司
+    status: verified
+  好未来:
+    ticker: TAL.US
+    market: US
+    aliases:
+    - TAL
+    - tal
+    - 好未来
+    status: verified
+  泡泡玛特:
+    ticker: 9992.HK
+    market: HK
+    aliases:
+    - 泡泡玛特
+    status: verified
+  多邻国:
+    ticker: DUOL.US
+    market: US
+    aliases:
+    - DUOL
+    - 多邻国
+    - duol
+    status: verified
+  迅雷:
+    ticker: XNET.US
+    market: US
+    aliases:
+    - xnet
+    - 迅雷
+    - XNET
+    status: verified
+  影石创新:
+    ticker: 688775.SH
+    market: CN
+    aliases:
+    - 影石创新
+    status: verified
+  紫金矿业:
+    ticker: 2899.HK
+    market: HK
+    aliases:
+    - 紫金矿业
+    status: verified
+  迈瑞医疗:
+    ticker: 300760.SZ
+    market: CN
+    aliases:
+    - 迈瑞医疗
+    status: verified
+  新城发展:
+    ticker: 1030.HK
+    market: HK
+    aliases:
+    - 新城发展
+    status: verified
+  中国海洋石油:
+    ticker: 883.HK
+    market: HK
+    aliases:
+    - 中国海洋石油
+    status: verified
+  中远海能:
+    ticker: 1138.HK
+    market: HK
+    aliases:
+    - 中远海能
+    status: verified
+  Reddit:
+    ticker: RDDT.US
+    market: US
+    aliases:
+    - RDDT
+    - rddt
+    - Reddit
+    status: verified
+  AppLovin:
+    ticker: APP.US
+    market: US
+    aliases:
+    - app
+    - APP
+    - AppLovin
+    status: verified
+  英伟达:
+    ticker: NVDA.US
+    market: US
+    aliases:
+    - nvda
+    - 英伟达
+    - NVDA
+    status: verified
+  中国中免:
+    ticker: 1880.HK
+    market: HK
+    aliases:
+    - 中国中免
+    status: verified
+  阿里巴巴:
+    ticker: BABA.US
+    market: US
+    aliases:
+    - BABA
+    - baba
+    - 阿里巴巴
+    status: verified
+  心动公司:
+    ticker: 2400.HK
+    market: HK
+    aliases:
+    - 心动公司
+    status: verified
+  优步:
+    ticker: UBER.US
+    market: US
+    aliases:
+    - UBER
+    - 优步
+    - uber
+    status: verified
+  爱彼迎:
+    ticker: ABNB.US
+    market: US
+    aliases:
+    - abnb
+    - 爱彼迎
+    - ABNB
+    status: verified
+  亚马逊:
+    ticker: AMZN.US
+    market: US
+    aliases:
+    - amzn
+    - AMZN
+    - 亚马逊
+    status: verified
+  贝壳:
+    ticker: BEKE.US
+    market: US
+    aliases:
+    - 贝壳
+    - BEKE
+    - beke
+    status: verified
+  贝壳-W:
+    ticker: 2423.HK
+    market: HK
+    aliases:
+    - 贝壳-W
+    status: verified
+  瑞幸咖啡(ADR):
+    ticker: LKNCY.US
+    market: US
+    aliases:
+    - lkncy
+    - LKNCY
+    - 瑞幸咖啡(ADR)
+    status: verified
+  中芯国际:
+    ticker: 981.HK
+    market: HK
+    aliases:
+    - 中芯国际
+    status: verified
+  台积电:
+    ticker: TSM.US
+    market: US
+    aliases:
+    - 台积电
+    - tsm
+    - TSM
+    status: verified
+  Meta:
+    ticker: META.US
+    market: US
+    aliases:
+    - meta
+    - META
+    - Meta
+    status: verified
+  谷歌-A:
+    ticker: GOOGL.US
+    market: US
+    aliases:
+    - 谷歌-A
+    - GOOGL
+    - googl
+    status: verified
+  沪深300:
+    ticker: 000300.SH
+    market: CN
+    aliases:
+    - 沪深300
+    status: verified
+  标普 500 指数:
+    ticker: .SPX.US
+    market: US
+    aliases:
+    - ''
+    - 标普 500 指数
+    status: verified
+  纳斯达克综合指数:
+    ticker: .IXIC.US
+    market: US
+    aliases:
+    - ''
+    - 纳斯达克综合指数
+    status: verified
+  恒生指数:
+    ticker: HSI.HK
+    market: HK
+    aliases:
+    - 恒生指数
+    status: verified
+  恒生科技指数:
+    ticker: HSTECH.HK
+    market: HK
+    aliases:
+    - 恒生科技指数
+    status: verified
+  美团-W:
+    ticker: 3690.HK
+    market: HK
+    aliases:
+    - 美团-W
+    status: verified
+  伯克希尔哈撒韦-B:
+    ticker: BRK.B.US
+    market: US
+    aliases:
+    - BRK
+    - brk
+    - 伯克希尔哈撒韦-B
+    status: verified
+  宁德时代:
+    ticker: 300750.SZ
+    market: CN
+    aliases:
+    - 宁德时代
+    status: verified
+  拼多多:
+    ticker: PDD.US
+    market: US
+    aliases:
+    - PDD
+    - pdd
+    - 拼多多
+    status: verified
+  特斯拉:
+    ticker: TSLA.US
+    market: US
+    aliases:
+    - tsla
+    - 特斯拉
+    - TSLA
+    status: verified
+  苹果:
+    ticker: AAPL.US
+    market: US
+    aliases:
+    - 苹果
+    - AAPL
+    - aapl
+    status: verified
+  腾讯控股:
+    ticker: 700.HK
+    market: HK
+    aliases:
+    - 腾讯控股
+    status: verified
+  贵州茅台:
+    ticker: 600519.SH
+    market: CN
+    aliases:
+    - 贵州茅台
+    status: verified
