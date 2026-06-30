@@ -117,6 +117,7 @@ class SourcePageWriter:
             'author': article['author'],
             'source': article['source'],
             'raw_id': article['id'],
+            'tags': ['_structured_note', '来源/雪球'],
         }
 
         # 提取的实体
@@ -231,7 +232,7 @@ class EntityPageWriter:
         """
         # 文件名：使用规范名（清理特殊字符）
         safe_name = re.sub(r'[^\w\u4e00-\u9fff\-]', '_', entity_name)
-        filepath = self.entities_dir / f"{safe_name}.md"
+        filepath = self.entities_dir / f"实体_{safe_name}.md"
 
         # 如果实体页已存在，读取现有 frontmatter
         existing_frontmatter = {}
@@ -252,6 +253,7 @@ class EntityPageWriter:
         frontmatter['type'] = entity_data.get('type', 'company')
         frontmatter['ticker'] = entity_data.get('ticker', '')
         frontmatter['market'] = entity_data.get('market', '')
+        frontmatter['tags'] = ['_entity_page', f'实体/{entity_name}']
 
         # 更新别名
         aliases = set(frontmatter.get('aliases', []))
@@ -332,7 +334,7 @@ class ConceptPageWriter:
         更新概念页
         """
         safe_name = re.sub(r'[^\w\u4e00-\u9fff\-]', '_', concept_name)
-        filepath = self.concepts_dir / f"{safe_name}.md"
+        filepath = self.concepts_dir / f"概念_{safe_name}.md"
 
         # 读取现有内容
         existing_frontmatter = {}
@@ -350,6 +352,7 @@ class ConceptPageWriter:
         frontmatter = existing_frontmatter.copy()
         frontmatter['name'] = concept_name
         frontmatter['definition'] = concept_data.get('definition', '')
+        frontmatter['tags'] = ['_concept_page', '概念']
 
         # 更新关联实体
         entities = set(frontmatter.get('entities', []))

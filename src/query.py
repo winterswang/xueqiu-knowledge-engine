@@ -45,11 +45,11 @@ class KnowledgeQuery:
         """构建内存索引"""
         # 实体索引
         for f in self.entities_dir.glob("*.md"):
-            self._entity_index[f.stem] = str(f)
+            self._entity_index[f.stem.replace('实体_', '')] = str(f)
         
         # 概念索引
         for f in self.concepts_dir.glob("*.md"):
-            self._concept_index[f.stem] = str(f)
+            self._concept_index[f.stem.replace('概念_', '')] = str(f)
         
         # 来源索引（按日期）
         for f in self.sources_dir.glob("*.md"):
