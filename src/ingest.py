@@ -366,42 +366,35 @@ class ConceptPageWriter:
         # 更新最后时间
         frontmatter['last_updated'] = datetime.now(TZ).isoformat()
 
-        # 首次创建时添加定义
-        body = ""
-        if not filepath.exists():
-            body = f"""
-## 定义
+        # 构建 body（统一从 frontmatter 生成，避免首次创建与更新不一致）
+        entity_links = '\n'.join(
+            f'- [[entities/{re.sub(r"[^\w\u4e00-\u9fff\-]", "_", e)}|{e}]]'
+            for e in sorted(entities)
+        ) if entities else '_暂无关联实体_'
+        source_links = '\n'.join(
+            f'- [{s}]({s})'
+            for s in sources[-10:]
+        ) if sources else '_暂无来源_'
+        body = f"""## 定义
 
-{concept_data.get('definition', '')}
+{concept_data.get('definition', '') or '_待补充_'}
 
 ## 关联实体
 
-{chr(10).join(f'- [[entities/{re.sub(r"[^\\w\\u4e00-\\u9fff\\-]", "_", e)}|{e}]]' for e in sorted(entities))}
+{entity_links}
 
 ## 来源文章
 
-{chr(10).join(f'- [{s}]({s})' for s in sources[-10:])}
+{source_links}
 """
-        else:
-            # 已存在，只更新 frontmatter，保留 body
-            with open(filepath, 'r', encoding='utf-8') as f:
-                content = f.read()
-            fm_match = re.search(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
-            if fm_match:
-                body = content[fm_match.end():]
-            else:
-                # 防御性处理：如果找不到 frontmatter 边界，保留全文
-                body = content
-
         yaml_front = yaml.dump(frontmatter, allow_unicode=True, sort_keys=False)
-
         md_content = f"""---
 {yaml_front}---
-
 # {concept_name}
-
 {body}
 """
+
+
 
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(md_content)

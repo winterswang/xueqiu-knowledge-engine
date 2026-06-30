@@ -18,7 +18,7 @@ class ExtractedEntity:
     type: str          # company / person / product / index
     role: str          # analyzed / mentioned / example / background
     confidence: str    # high / medium / low
-    verified: bool = True  # 是否在词典中
+    verified: bool = False  # 是否在词典中（默认 False，防止未验证实体被误标）
     ticker: Optional[str] = None
     aliases_found: List[str] = field(default_factory=list)
 
