@@ -7,7 +7,7 @@ sources:
 - sources/2026-05-19-389750015.md
 last_updated: '2026-06-30T01:20:22.306443+08:00'
 tags:
-- industry
+- business
 ---
 
 # AI驱动广告增长
