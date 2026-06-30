@@ -506,6 +506,7 @@ class IngestPipeline:
                     'type': e.type,
                     'ticker': e.ticker,
                     'aliases': e.aliases_found,
+                    'verified': e.verified,
                 }
                 # 从词典补充信息
                 if entity_dict:
@@ -514,6 +515,7 @@ class IngestPipeline:
                             dict_entry = entity_dict[status][e.name]
                             entity_data['ticker'] = entity_data['ticker'] or dict_entry.get('ticker')
                             entity_data['market'] = dict_entry.get('market', '')
+                            entity_data['verified'] = True
                             break
 
                 entity_signals = [s for s in extraction['signals'] if s['entity'] == e.name]

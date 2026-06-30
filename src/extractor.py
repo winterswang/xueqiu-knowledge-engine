@@ -18,6 +18,7 @@ class ExtractedEntity:
     type: str          # company / person / product / index
     role: str          # analyzed / mentioned / example / background
     confidence: str    # high / medium / low
+    verified: bool = True  # 是否在词典中
     ticker: Optional[str] = None
     aliases_found: List[str] = field(default_factory=list)
 
@@ -136,16 +137,30 @@ class KnowledgeExtractor:
 
 ## 提取规则
 
-### 1. 实体提取（公司/人/产品/指数）
-- **只提取有明确股票代码或明确业务指向的公司**
-- **忽略**：泛化指代（如"某同行"、"互联网巨头"、"龙头企业"）
-- **类型**：company / person / product / index
+### 1. 实体提取（可投资标的）
+- **核心原则**：只提取可投资的标的（上市公司、拟上市公司、指数）
+- ✅ **提取**（以下情况满足其一）：
+  - 有股票代码的公司（如 $拼多多(PDD)$、$快手-W(01024)$）
+  - 明确可投资的上市公司（文中提到其股票、IPO、财报）
+  - 投资指数（如沪深300、纳斯达克100）
+  - 知名投资机构（如 GIC、腾讯投资、高瓴）—— 作为 background 角色
+- ❌ **不提取**（以下情况全部不提取）：
+  - 纯产品/游戏/App 名称（如"心动小镇"、"可灵"、"豆包"、"微信"）
+  - 非上市且不可投资的子公司/业务部门（如"多多买菜"、"Temu"——除非文章明确讨论其独立上市前景）
+  - 泛化指代（如"某同行"、"互联网巨头"、"龙头企业"）
+  - 仅作为案例提及的无代码公司
+- **类型**：
+  - company: 上市公司/拟上市公司
+  - person: 投资人/分析师/企业家
+  - product: 产品/服务（仅记录为信息，不建独立实体页）
+  - index: 指数/板块
 - **角色**：
   - analyzed: 文章重点分析的对象
   - mentioned: 被明确提及但非重点
   - example: 作为案例引用
   - background: 仅作为背景信息
 - **规范名优先**：如果实体在词典中，使用词典中的规范名
+- **开放识别**：即使实体不在词典中，只要是有股票代码或明确可投资的上市公司，也应识别（标记 verified=false）
 
 ### 2. 概念提取（抽象主题/投资逻辑）
 - **判断标准**：这个主题是否跨实体通用？是否包含行业层面分析？
@@ -157,7 +172,15 @@ class KnowledgeExtractor:
   - 仅某实体特有（如"迈瑞医疗的国际化进展"→ 归入实体页属性）
   - 仅一句话提及
   - 纯财务数据（如"ROIC=15%"）
-- **粒度**：能独立回答一个投资问题（如"AI基础设施"✅，"AI"❌太粗）
+- **粒度**：能独立回答一个投资问题
+  - ✅ 合适粒度："AI基础设施"、"PC端广告变现"、"跨境电商"、"本地生活服务竞争格局"
+  - ❌ 太粗："AI"、"互联网"、"投资"
+  - ❌ 太细："2026年Q1快手直播收入"（归入实体页属性）
+- **业绩分析文章也必须提取概念**：即使是业绩分析文章，也要提取背后的行业概念（如拼多多业绩分析应提取"跨境电商"、"下沉市场竞争"等）
+- **概念层级**：提取时标注粒度级别
+  - L1 宏观：跨行业通用（如"消费升级"、"AI革命"）
+  - L2 中观：行业内通用（如"PC端广告变现"、"新能源汽车电池技术路线"）
+  - L3 微观：公司特定（不建概念页，归入实体页）
 
 ### 3. 信号提取（投资观点）
 - **只提取有明确观点的文章**，纯数据描述不提取信号
@@ -200,6 +223,7 @@ class KnowledgeExtractor:
       "type": "company|person|product|index",
       "role": "analyzed|mentioned|example|background",
       "confidence": "high|medium|low",
+      "verified": true,
       "ticker": "可选",
       "aliases_found": ["文中出现的别名"]
     }}
@@ -210,6 +234,7 @@ class KnowledgeExtractor:
       "definition": "一句话定义",
       "role": "core|related|mentioned",
       "confidence": "high|medium|low",
+      "level": "L1|L2|L3",
       "entities_related": ["相关实体规范名"]
     }}
   ],
@@ -280,18 +305,35 @@ class KnowledgeExtractor:
             review_reasons=data.get("review_reasons", [])
         )
 
+        # 获取词典中的实体名集合
+        verified_names = set()
+        if entity_dict and "verified" in entity_dict:
+            verified_names = set(entity_dict["verified"].keys())
+
         # 实体去重：按 name + type 去重，保留第一个
         seen_entities = set()
         for e in data.get("entities", []):
-            key = (e.get("name", ""), e.get("type", "company"))
+            name = e.get("name", "")
+            entity_type = e.get("type", "company")
+            key = (name, entity_type)
             if key in seen_entities:
                 continue
             seen_entities.add(key)
+
+            # 判断是否在词典中
+            verified = name in verified_names
+
+            # 过滤：product 类型不建独立实体页，但保留在提取结果中
+            # 过滤规则：如果 type=product 且不是已验证实体，跳过
+            if entity_type == "product" and not verified:
+                continue
+
             result.entities.append(ExtractedEntity(
-                name=e.get("name", ""),
-                type=e.get("type", "company"),
+                name=name,
+                type=entity_type,
                 role=e.get("role", "mentioned"),
                 confidence=e.get("confidence", "medium"),
+                verified=verified,
                 ticker=e.get("ticker"),
                 aliases_found=e.get("aliases_found", [])
             ))
@@ -363,7 +405,8 @@ if __name__ == "__main__":
 
         print(f"\nEntities ({len(result.entities)}):")
         for e in result.entities:
-            print(f"  - {e.name} ({e.type}, {e.role}, {e.confidence})")
+            verified_mark = "✓" if e.verified else "?"
+            print(f"  [{verified_mark}] {e.name} ({e.type}, {e.role}, {e.confidence})")
 
         print(f"\nConcepts ({len(result.concepts)}):")
         for c in result.concepts:
