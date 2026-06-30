@@ -7,6 +7,8 @@ entities:
 sources:
 - sources/2026-05-27-391301609.md
 last_updated: '2026-06-30T01:18:16.431646+08:00'
+tags:
+- business
 ---
 
 # AI商业化

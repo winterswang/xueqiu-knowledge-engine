@@ -170,3 +170,17 @@ Batch Test: 50 articles
 
 ============================================================
 Git commit...
+✅ Committed
+
+============================================================
+BATCH TEST SUMMARY
+============================================================
+Success: 32
+Skipped: 18
+Failed:  0
+Total:   50
+
+Knowledge base:
+  Sources: 39
+  Entities: 148
+  Concepts: 119

@@ -6,6 +6,8 @@ entities:
 sources:
 - sources/2026-06-05-393043383.md
 last_updated: '2026-06-30T01:19:15.909698+08:00'
+tags:
+- business
 ---
 
 # A+H两地上市

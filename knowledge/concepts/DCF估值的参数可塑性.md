@@ -5,6 +5,8 @@ entities: []
 sources:
 - sources/2026-05-25-390812765.md
 last_updated: '2026-06-30T01:24:04.257438+08:00'
+tags:
+- methodology
 ---
 
 # DCF估值的参数可塑性

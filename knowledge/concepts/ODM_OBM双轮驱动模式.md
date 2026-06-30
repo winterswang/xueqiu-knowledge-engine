@@ -6,6 +6,8 @@ entities:
 sources:
 - sources/2026-06-03-392525798.md
 last_updated: '2026-06-30T01:17:30.016375+08:00'
+tags:
+- business
 ---
 
 # ODM/OBM双轮驱动模式

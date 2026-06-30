@@ -5,6 +5,8 @@ entities: []
 sources:
 - sources/2026-06-13-390609121.md
 last_updated: '2026-06-30T01:22:15.175267+08:00'
+tags:
+- methodology
 ---
 
 # Acqui-hire（人才收购）

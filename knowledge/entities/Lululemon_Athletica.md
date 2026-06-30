@@ -6,7 +6,6 @@ market: ''
 aliases:
 - Lululemon
 - Lululemon Athletica
-- 公司
 timeline:
 - date: '2026-06-05'
   source: sources/2026-06-05-392983221.md

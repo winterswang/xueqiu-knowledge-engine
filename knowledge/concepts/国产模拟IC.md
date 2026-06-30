@@ -6,6 +6,8 @@ entities:
 sources:
 - sources/2026-06-26-396894229.md
 last_updated: '2026-06-30T01:05:55.654049+08:00'
+tags:
+- business
 ---
 
 # 国产模拟IC

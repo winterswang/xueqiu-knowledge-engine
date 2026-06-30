@@ -7,6 +7,8 @@ entities:
 sources:
 - sources/2026-05-27-391301609.md
 last_updated: '2026-06-30T01:18:16.431968+08:00'
+tags:
+- business
 ---
 
 # AI算力投入与资本开支

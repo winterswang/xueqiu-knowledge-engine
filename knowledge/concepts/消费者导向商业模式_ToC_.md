@@ -8,6 +8,8 @@ entities:
 sources:
 - sources/2026-03-05-365069233.md
 last_updated: '2026-06-30T00:54:56.901755+08:00'
+tags:
+- business
 ---
 
 # 消费者导向商业模式(ToC)

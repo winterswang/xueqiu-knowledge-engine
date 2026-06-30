@@ -7,6 +7,8 @@ entities:
 sources:
 - sources/2026-06-18-395547070.md
 last_updated: '2026-06-30T01:15:09.909702+08:00'
+tags:
+- business
 ---
 
 # 港股18A生物科技IPO

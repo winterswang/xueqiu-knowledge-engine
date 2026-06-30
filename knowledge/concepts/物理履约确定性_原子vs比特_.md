@@ -6,6 +6,8 @@ entities:
 sources:
 - sources/2026-02-10-375573177.md
 last_updated: '2026-06-30T01:16:32.513777+08:00'
+tags:
+- business
 ---
 
 # 物理履约确定性（原子vs比特）

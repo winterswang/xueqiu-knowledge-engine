@@ -9,6 +9,8 @@ entities:
 sources:
 - sources/2026-06-13-394430632.md
 last_updated: '2026-06-30T01:25:15.066180+08:00'
+tags:
+- business
 ---
 
 # PC端广告变现

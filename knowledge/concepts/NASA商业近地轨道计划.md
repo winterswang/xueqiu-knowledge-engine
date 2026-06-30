@@ -7,6 +7,8 @@ entities:
 sources:
 - sources/2026-06-12-394254984.md
 last_updated: '2026-06-30T01:18:34.536776+08:00'
+tags:
+- business
 ---
 
 # NASA商业近地轨道计划

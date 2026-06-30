@@ -4,7 +4,6 @@ type: company
 ticker: 09637.HK
 market: ''
 aliases:
-- 公司
 - 礼邦医药
 - 礼邦医药-B
 timeline:

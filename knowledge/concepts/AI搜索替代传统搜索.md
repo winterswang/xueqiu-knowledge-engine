@@ -6,6 +6,8 @@ entities:
 sources:
 - sources/2026-02-08-375418261.md
 last_updated: '2026-06-30T01:15:52.575559+08:00'
+tags:
+- business
 ---
 
 # AI搜索替代传统搜索

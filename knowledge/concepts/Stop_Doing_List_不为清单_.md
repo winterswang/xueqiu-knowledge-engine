@@ -7,6 +7,8 @@ entities:
 sources:
 - sources/2026-01-23-372771178.md
 last_updated: '2026-06-30T00:55:23.710577+08:00'
+tags:
+- business
 ---
 
 # Stop Doing List（不为清单）

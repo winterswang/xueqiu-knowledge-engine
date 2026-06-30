@@ -8,6 +8,8 @@ entities:
 sources:
 - sources/2026-06-13-394430632.md
 last_updated: '2026-06-30T01:25:15.066824+08:00'
+tags:
+- business
 ---
 
 # 大DAU游戏与中高AP买量游戏的二分

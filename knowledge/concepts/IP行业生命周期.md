@@ -6,6 +6,8 @@ entities:
 sources:
 - sources/2026-01-23-372771178.md
 last_updated: '2026-06-30T00:55:23.711859+08:00'
+tags:
+- business
 ---
 
 # IP行业生命周期

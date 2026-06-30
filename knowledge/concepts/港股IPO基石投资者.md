@@ -10,6 +10,8 @@ entities:
 sources:
 - sources/2026-06-22-396004904.md
 last_updated: '2026-06-30T01:19:35.007126+08:00'
+tags:
+- business
 ---
 
 # 港股IPO基石投资者

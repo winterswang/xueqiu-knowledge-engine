@@ -7,6 +7,8 @@ entities:
 sources:
 - sources/2026-06-28-397223871.md
 last_updated: '2026-06-30T01:20:36.162455+08:00'
+tags:
+- business
 ---
 
 # AI需求驱动

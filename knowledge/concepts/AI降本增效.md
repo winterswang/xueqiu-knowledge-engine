@@ -5,6 +5,8 @@ entities: []
 sources:
 - sources/2026-06-12-394172632.md
 last_updated: '2026-06-30T01:13:47.352861+08:00'
+tags:
+- methodology
 ---
 
 # AI降本增效
