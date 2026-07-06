@@ -1,31 +1,31 @@
 ---
 name: PC端广告变现
-definition: PC端作为内容/游戏平台的广告收入变现路径，是2024下半年开始广告增长的核心动力
+definition: 内容平台通过PC端流量获取广告收入的能力，与移动端变现逻辑存在差异
 entities:
 - TapTap
 - 哔哩哔哩
 - 字节跳动
 - 小红书
+- 心动公司
 sources:
 - sources/2026-06-13-394430632.md
-last_updated: '2026-06-30T01:25:15.066180+08:00'
+last_updated: '2026-07-07T01:06:29.108101+08:00'
 tags:
-- business
+- _concept_page
+- 概念
 ---
-
 # PC端广告变现
-
-
 ## 定义
 
-PC端作为内容/游戏平台的广告收入变现路径，是2024下半年开始广告增长的核心动力
+内容平台通过PC端流量获取广告收入的能力，与移动端变现逻辑存在差异
 
 ## 关联实体
 
-- [[entities/T__T__|TapTap]]
-- [[entities/____|哔哩哔哩]]
-- [[entities/____|字节跳动]]
-- [[entities/___|小红书]]
+- [[entities/TapTap|TapTap]]
+- [[entities/哔哩哔哩|哔哩哔哩]]
+- [[entities/字节跳动|字节跳动]]
+- [[entities/小红书|小红书]]
+- [[entities/心动公司|心动公司]]
 
 ## 来源文章
 

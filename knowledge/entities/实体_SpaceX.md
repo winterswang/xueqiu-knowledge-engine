@@ -1,7 +1,7 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX.US
+ticker: SPCX
 market: US
 tags:
 - _entity_page
@@ -18,6 +18,7 @@ aliases:
 - Starlink
 - Starship
 - Transporter
+- 埃隆·马斯克旗下SpaceX
 - 太空探索技术公司
 - 星链母公司
 - 星链（Starlink）
@@ -387,16 +388,51 @@ timeline:
 - date: '2026-06-11'
   source: sources/2026-06-11-394076037.md
   signals: []
-last_updated: '2026-07-07T00:50:59.972234+08:00'
+- date: '2026-06-12'
+  source: sources/2026-06-12-394254984.md
+  signals: []
+- date: '2026-06-12'
+  source: sources/2026-06-12-394431226.md
+  signals:
+  - entity: SpaceX
+    direction: negative
+    confidence: high
+    time_frame: short_term
+    summary: 克莱默警告IPO首日或现4.9万亿估值泡沫并遭做空崩盘
+    caveats:
+    - 克莱默在社区素有"反向指标"人设
+    - 文章为推演性质，SpaceX是否已IPO待核实
+    - 未上市标的无法直接交易
+    quote: 如果你在狂热的最高点去接盘，没能赶紧获利了结，它很快就会在你的持仓里臭气熏天。
+    business_line: IPO首日交易
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 克莱默认可SpaceX为顶级资产，长期仍具持有价值
+    caveats:
+    - 前提是避免在IPO狂热高点入场
+    - 公司尚未实现稳定盈利
+    quote: SpaceX 绝对是一个了不起的顶级猎物。
+    business_line: 整体公司价值
+last_updated: '2026-07-07T01:07:33.994694+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX.US
+> 股票代码: SPCX
 
 ## 信号时间线
 
+
+### 2026-06-12
+> 来源: [sources/2026-06-12-394254984.md](sources/2026-06-12-394254984.md)
+
+### 2026-06-12
+> 来源: [sources/2026-06-12-394431226.md](sources/2026-06-12-394431226.md)
+- 📉 [negative] 克莱默警告IPO首日或现4.9万亿估值泡沫并遭做空崩盘
+- 📈 [positive] 克莱默认可SpaceX为顶级资产，长期仍具持有价值
 
 ### 2026-06-11
 > 来源: [sources/2026-06-11-394076037.md](sources/2026-06-11-394076037.md)

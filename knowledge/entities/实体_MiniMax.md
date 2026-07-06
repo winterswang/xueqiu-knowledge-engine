@@ -10,6 +10,7 @@ aliases:
 - '00100'
 - MINIMAX-WP
 - MiniMax
+- MiniMax（00100.HK）
 - Minimax
 timeline:
 - date: '2026-03-02'
@@ -39,7 +40,10 @@ timeline:
 - date: '2026-06-10'
   source: sources/2026-06-10-394022542.md
   signals: []
-last_updated: '2026-07-07T00:48:16.598227+08:00'
+- date: '2026-06-11'
+  source: sources/2026-06-11-394263931.md
+  signals: []
+last_updated: '2026-07-07T01:00:42.438484+08:00'
 ---
 
 # MiniMax
@@ -49,6 +53,9 @@ last_updated: '2026-07-07T00:48:16.598227+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-11
+> 来源: [sources/2026-06-11-394263931.md](sources/2026-06-11-394263931.md)
 
 ### 2026-06-10
 > 来源: [sources/2026-06-10-394022542.md](sources/2026-06-10-394022542.md)

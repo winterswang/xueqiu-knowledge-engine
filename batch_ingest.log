@@ -1643,3 +1643,72 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [500/746] 394246857.md (28884 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[501/746] 394254984.md (2344 bytes)
+  ⚠️ 需要 review: $太空创新者ETF(NASA)$ 标的真实性存疑，主流美股市场未见该ticker的ETF, 文章主要基于CEO公开表态和主观推断，数据支撑相对有限, Voyager Technologies刚上市不久，公开财务数据较少，营收预测可靠性需进一步核实, NASA商业空间站最终选型及预算走向属于重大未决事项
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[502/746] 394263931.md (8289 bytes)
+  ⚠️ 需要 review: MiniMax (00100.HK) 实体识别存疑：该名称与AI模型同名，需确认是否为文中实际提及的港股公司, 文章涉及大量个股（20+），均为案例引用而非深度分析，信号提取主要聚焦于市场层面而非具体买卖建议, 无单一被分析实体，文章核心是港股新股市场整体观察，信号归因对象选择存在主观性, 跳过未验证无ticker实体: 药捷安康, 跳过未验证无ticker实体: 博雷顿, 跳过未验证无ticker实体: 滴普科技, 跳过未验证无ticker实体: 曹操出行, 跳过未验证无ticker实体: 剑桥科技, 跳过未验证无ticker实体: 博泰车联
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[503/746] 394265820.md (5979 bytes)
+  ⚠️ 需要 review: 文章同时包含强烈正面（AI PCB景气）和强烈负面（治理/减持）的观点，信号方向判定存在主观性, 胜宏科技存在A/H双上市，提取时需确认使用哪个ticker作为主代码, 实控人陈涛作为自然人是否独立建实体页需要进一步判断, 跳过未验证无ticker实体: AMD, 跳过未验证无ticker实体: 谷歌, 跳过未验证无ticker实体: 微软, 跳过未验证无ticker实体: 英特尔, 跳过未验证无ticker实体: 比亚迪, 跳过未验证无ticker实体: 摩根大通, 跳过未验证无ticker实体: 华西证券
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[504/746] 394372982.md (5287 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[505/746] 394418052.md (34659 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[506/746] 394419166.md (3326 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[507/746] 394422583.md (58104 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[508/746] 394424627.md (3138 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1729 (char 1728)
+  ✅ OK: 0 entities, 0 concepts
+
+[509/746] 394430632.md (2595 bytes)
+  ⚠️ 需要 review: 文章为论坛回帖形式，未直接点名分析对象为心动公司（虽上下文暗示）, 未提供明确买卖建议，信号方向为基于内容语境推断, 小红书上市状态未完全确认，暂未标记 ticker, 点点互动的归属公司未明确，未单独建实体, 跳过未验证无ticker实体: 小红书
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[510/746] 394431226.md (5460 bytes)
+  ⚠️ 需要 review: 文章内容为对SpaceX未来IPO的推演性分析，SpaceX目前是否已实际IPO及SPCX代码有效性需核实, 文章核心观点完全引用自Jim Cramer节目评论，需评估评论者（克莱默"反向指标"人设）权重, 文章风格偏娱乐化/标题党，"5万亿杀猪盘"等表述带有强烈情绪色彩，需区分事实与推演, OpenAI、Anthropic、Robinhood、E-Trade等公司被提及但未建实体，需确认是否符合"不提取"规则
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[511/746] 394436158.md (4910 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[512/746] 394446837.md (8150 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[513/746] 394451310.md (3711 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[514/746] 394462821.md (3708 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[515/746] 394464635.md (4678 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[516/746] 394472379.md (7625 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[517/746] 394472406.md (4899 bytes)
+  ✅ OK: 0 entities, 0 concepts
+
+[518/746] 394472434.md (4131 bytes)
+  ⚠️ 需要 review: 文章为地缘政治/宏观分析文章，未涉及任何可投资标的（无上市公司、指数或投资机构），因此 entities 与 signals 均为空，需确认是否需要标注潜在受益板块（如原油、油运、黄金等）, 文章核心结论（海峡封锁持续、油价上行压力）对能源板块、大宗商品有间接投资含义，但原文未明确点出投资标的，需判断是否应补提'原油供给侧风险溢价'作为概念
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[519/746] 394476952.md (3128 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[520/746] 394482668.md (2965 bytes)
+  ⚠️ 需要 review: 美团信号方向偏中性偏正面，文中同时存在看空因素（竞争）和看好因素（逐季改善），需确认方向判定, 腾讯的AI产出受益于'互惠互利思维'的论断偏定性，置信度需复核, 概念'互联网公司估值方法切换'的粒度是否合适需确认
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

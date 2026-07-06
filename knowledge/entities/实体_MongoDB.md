@@ -9,6 +9,7 @@ tags:
 aliases:
 - MDB
 - MongoDB
+- 公司
 timeline:
 - date: '2026-03-04'
   source: sources/2026-03-04-377947838.md
@@ -36,7 +37,32 @@ timeline:
     - 下半年消耗型收入模式可见度有限
     quote: 整体基调偏中性略偏积极。管理层在正式陈述中语气自信，但在问答环节中更为谨慎，尤其在 EA 增长预测与管理层交接问题上强调风险控制。
     business_line: Enterprise Advanced (EA) / 销售管理
-last_updated: '2026-07-06T18:36:30.642985+08:00'
+- date: '2026-06-12'
+  source: sources/2026-06-12-394418052.md
+  signals:
+  - entity: MongoDB
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: AI浪潮核心受益者，本地+云双引擎驱动
+    caveats:
+    - 企业AI部署时间表不确定
+    - 宏观环境与利率影响消耗
+    - 短期云端增速指引保守
+    quote: 毫无疑问，我们坚信自己是人工智能浪潮的赢家……我们对自己占据极佳的竞争位置充满信心。
+    business_line: 整体
+  - entity: MongoDB
+    direction: positive
+    confidence: medium
+    time_frame: short_term
+    summary: 本地高级版有望超中个位数指引
+    caveats:
+    - 本地版一季度ARR增长11%但基数效应逐步走高
+    - 二季度26%指引与一季度持平显审慎
+    - 超预期幅度受宏观消耗波动影响
+    quote: 它的增速能否超出我们之前给出的中个位数指引？我们当然希望如此……我们正在极力推进最高安全级别的合规认证。
+    business_line: Enterprise Advanced (本地高级版)
+last_updated: '2026-07-07T01:02:35.222555+08:00'
 ---
 
 # MongoDB
@@ -46,6 +72,11 @@ last_updated: '2026-07-06T18:36:30.642985+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-12
+> 来源: [sources/2026-06-12-394418052.md](sources/2026-06-12-394418052.md)
+- 📈 [positive] AI浪潮核心受益者，本地+云双引擎驱动
+- 📈 [positive] 本地高级版有望超中个位数指引
 
 ### 2026-03-04
 > 来源: [sources/2026-03-04-377947838.md](sources/2026-03-04-377947838.md)

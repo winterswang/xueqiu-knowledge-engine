@@ -217,7 +217,22 @@ timeline:
 - date: '2026-06-10'
   source: sources/2026-06-10-394022542.md
   signals: []
-last_updated: '2026-07-07T00:48:16.617188+08:00'
+- date: '2026-06-13'
+  source: sources/2026-06-13-394482668.md
+  signals:
+  - entity: 美团-W
+    direction: neutral
+    confidence: medium
+    time_frame: medium_term
+    summary: 逐季改善但竞争激烈，估值切换时点不确定
+    caveats:
+    - 抖音到店酒旅竞争
+    - 阿里闪购竞争
+    - AI投入加大
+    - 市场可能不会提前按明年利润估值
+    quote: 在这种情况下，不管是今年的利润还是下半年单季度利润*4都是没法估值的，只能用明年的利润才能估值并且有不少空间
+    business_line: 核心本地商业
+last_updated: '2026-07-07T01:13:18.797111+08:00'
 tags:
 - _entity_page
 - 实体/美团-W
@@ -230,6 +245,10 @@ tags:
 
 ## 信号时间线
 
+
+### 2026-06-13
+> 来源: [sources/2026-06-13-394482668.md](sources/2026-06-13-394482668.md)
+- ➡️ [neutral] 逐季改善但竞争激烈，估值切换时点不确定
 
 ### 2026-06-10
 > 来源: [sources/2026-06-10-394022542.md](sources/2026-06-10-394022542.md)

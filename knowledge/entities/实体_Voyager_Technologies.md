@@ -31,7 +31,10 @@ timeline:
     - 取决于能否击败竞争对手拿到唯一名额
     quote: NASA已经明确暗示，预算只能赞助一家空间站，而非多家。这就意味着一旦拿下Nasa的赞助，具有短期内非常确定性的壁垒
     business_line: Starlab商业空间站
-last_updated: '2026-06-30T01:18:34.531855+08:00'
+last_updated: '2026-07-07T00:59:48.698427+08:00'
+tags:
+- _entity_page
+- 实体/Voyager Technologies
 ---
 
 # Voyager Technologies
