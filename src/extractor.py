@@ -65,6 +65,40 @@ class ExtractionResult:
     review_reasons: List[str] = field(default_factory=list)
 
 
+def normalize_entity_name(name: str, entity_dict: Optional[dict]) -> tuple:
+    """将实体别名归一到规范名，返回 (规范名, ticker, verified)。
+    如果不在词典中，返回 (原name, None, False)。
+    自动处理港股-W后缀别名匹配："阿里"→"阿里巴巴-W"，"腾讯"→"腾讯控股"
+    """
+    if not entity_dict or "verified" not in entity_dict:
+        return name, None, False
+    
+    verified = entity_dict["verified"]
+    
+    # 1. 精确匹配规范名
+    if name in verified:
+        return name, verified[name].get("ticker"), True
+    
+    # 2. 精确匹配别名
+    for canonical_name, info in verified.items():
+        aliases = info.get("aliases", [])
+        if name in aliases:
+            return canonical_name, info.get("ticker"), True
+    
+    # 3. 模糊匹配港股后缀：去掉-W/-S后比较
+    name_clean = name.replace("-W", "").replace("-S", "")
+    for canonical_name, info in verified.items():
+        canonical_clean = canonical_name.replace("-W", "").replace("-S", "")
+        if name_clean == canonical_clean:
+            return canonical_name, info.get("ticker"), True
+        # 检查别名去掉-W后匹配
+        for alias in info.get("aliases", []):
+            if name_clean == alias.replace("-W", "").replace("-S", ""):
+                return canonical_name, info.get("ticker"), True
+    
+    return name, None, False
+
+
 class KnowledgeExtractor:
     """知识提取器"""
 
@@ -305,23 +339,21 @@ class KnowledgeExtractor:
             review_reasons=data.get("review_reasons", [])
         )
 
-        # 获取词典中的实体名集合
-        verified_names = set()
-        if entity_dict and "verified" in entity_dict:
-            verified_names = set(entity_dict["verified"].keys())
-
-        # 实体去重：按 name + type 去重，保留第一个
+        # 实体去重：按 归一化后的规范名 + type 去重，保留第一个
         seen_entities = set()
         for e in data.get("entities", []):
-            name = e.get("name", "")
+            raw_name = e.get("name", "")
             entity_type = e.get("type", "company")
-            key = (name, entity_type)
+            
+            # 别名归一化：将别名映射到词典规范名
+            canonical_name, ticker, verified = normalize_entity_name(raw_name, entity_dict)
+            # 如果LLM返回了ticker优先用LLM的，否则用词典里的
+            entity_ticker = e.get("ticker") or ticker
+            
+            key = (canonical_name, entity_type)
             if key in seen_entities:
                 continue
             seen_entities.add(key)
-
-            # 判断是否在词典中
-            verified = name in verified_names
 
             # 过滤：product 类型不建独立实体页，但保留在提取结果中
             # 过滤规则：如果 type=product 且不是已验证实体，跳过
@@ -329,27 +361,41 @@ class KnowledgeExtractor:
                 continue
 
             result.entities.append(ExtractedEntity(
-                name=name,
+                name=canonical_name,
                 type=entity_type,
                 role=e.get("role", "mentioned"),
                 confidence=e.get("confidence", "medium"),
                 verified=verified,
-                ticker=e.get("ticker"),
-                aliases_found=e.get("aliases_found", [])
+                ticker=entity_ticker,
+                aliases_found=e.get("aliases_found", []) + ([raw_name] if raw_name != canonical_name else [])
             ))
 
         for c in data.get("concepts", []):
+            # 概念关联实体也做别名归一化
+            related_raw = c.get("entities_related", [])
+            related_normalized = []
+            seen_related = set()
+            for e_name in related_raw:
+                canonical, _, _ = normalize_entity_name(e_name, entity_dict)
+                if canonical not in seen_related:
+                    related_normalized.append(canonical)
+                    seen_related.add(canonical)
+            
             result.concepts.append(ExtractedConcept(
                 name=c.get("name", ""),
                 definition=c.get("definition", ""),
                 role=c.get("role", "related"),
                 confidence=c.get("confidence", "medium"),
-                entities_related=c.get("entities_related", [])
+                entities_related=related_normalized
             ))
 
         for s in data.get("signals", []):
+            # 信号关联实体也做归一化
+            raw_entity = s.get("entity", "")
+            canonical_entity, _, _ = normalize_entity_name(raw_entity, entity_dict)
+            
             result.signals.append(ExtractedSignal(
-                entity=s.get("entity", ""),
+                entity=canonical_entity,
                 direction=s.get("direction", "neutral"),
                 confidence=s.get("confidence", "medium"),
                 time_frame=s.get("time_frame", "medium_term"),

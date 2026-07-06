@@ -296,6 +296,14 @@ verified:
     - BABA
     - baba
     - 阿里巴巴
+    - 阿里
+    status: verified
+  阿里巴巴-W:
+    ticker: 09988.HK
+    market: HK
+    aliases:
+    - 阿里巴巴-W
+    - 阿里港股
     status: verified
   心动公司:
     ticker: 2400.HK
@@ -416,6 +424,7 @@ verified:
     market: HK
     aliases:
     - 美团-W
+    - 美团
     status: verified
   伯克希尔哈撒韦-B:
     ticker: BRK.B.US
@@ -460,10 +469,19 @@ verified:
     market: HK
     aliases:
     - 腾讯控股
+    - 腾讯
     status: verified
   贵州茅台:
     ticker: 600519.SH
     market: CN
     aliases:
     - 贵州茅台
+    - 茅台
+    status: verified
+  快手-W:
+    ticker: 1024.HK
+    market: HK
+    aliases:
+    - 快手-W
+    - 快手
     status: verified
