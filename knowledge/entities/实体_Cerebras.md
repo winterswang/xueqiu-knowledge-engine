@@ -11,6 +11,8 @@ aliases:
 - Cerebras
 - Cerebras Systems
 - Cerebras Systems(CBRS)
+- Cerebras WSE
+- Cerebras WSE 3
 timeline:
 - date: '2026-05-24'
   source: sources/2026-05-24-390625098.md
@@ -48,7 +50,22 @@ timeline:
 - date: '2026-06-14'
   source: sources/2026-06-14-394618677.md
   signals: []
-last_updated: '2026-07-07T01:25:30.826636+08:00'
+- date: '2026-06-17'
+  source: sources/2026-06-17-394939307.md
+  signals:
+  - entity: Cerebras
+    direction: neutral
+    confidence: high
+    time_frame: medium_term
+    summary: 极端高门槛高收益，但客户集中度极高
+    caveats:
+    - 两名阿联酋大客户G42和MBZUAI 2024/2025年分别占总收入85%和62%
+    - 软件生态完全独立
+    - 单台数百万美元加25kW功耗加液冷要求苛刻
+    - 无法普惠规模化
+    quote: Cerebras WSE则是极致高门槛、高收益、高风险的小众模式……客户集中度极高，一旦核心客户流失，企业经营会直接承压，根据Cerebras的招股书，其两名阿联酋大客户G42和MBZUAI分别是其最近两年的单一大客，于2024年和2025年分别占了其总收入的85%和62%。
+    business_line: 晶圆级AI芯片
+last_updated: '2026-07-07T01:45:13.627305+08:00'
 ---
 
 # Cerebras
@@ -58,6 +75,10 @@ last_updated: '2026-07-07T01:25:30.826636+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-17
+> 来源: [sources/2026-06-17-394939307.md](sources/2026-06-17-394939307.md)
+- ➡️ [neutral] 极端高门槛高收益，但客户集中度极高
 
 ### 2026-06-14
 > 来源: [sources/2026-06-14-394618677.md](sources/2026-06-14-394618677.md)

@@ -1,7 +1,7 @@
 ---
 name: Alphabet
 type: company
-ticker: GOOG.US
+ticker: GOOGL
 market: ''
 tags:
 - _entity_page
@@ -70,16 +70,22 @@ timeline:
 - date: '2026-06-10'
   source: sources/2026-06-10-394022542.md
   signals: []
-last_updated: '2026-07-07T00:48:16.540943+08:00'
+- date: '2026-06-16'
+  source: sources/2026-06-16-394944250.md
+  signals: []
+last_updated: '2026-07-07T01:45:56.609668+08:00'
 ---
 
 # Alphabet
 
 > 类型: company
-> 股票代码: GOOG.US
+> 股票代码: GOOGL
 
 ## 信号时间线
 
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-394944250.md](sources/2026-06-16-394944250.md)
 
 ### 2026-06-10
 > 来源: [sources/2026-06-10-394022542.md](sources/2026-06-10-394022542.md)

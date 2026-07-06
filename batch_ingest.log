@@ -1778,3 +1778,75 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [540/746] 394797413.md (3385 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[541/746] 394809662.md (24684 bytes)
+  ⚠️ 需要 review: 文章为卡尔·伊坎传记及敌意收购方法论介绍，非具体上市公司投资分析, 文中提及的苹果、微软、奈飞、雅虎、戴尔等公司均为历史案例引用，无当前投资观点, 无法从本文生成针对特定可投资标的的交易信号, 1980年代案例中部分公司（环球航空、菲利普石油、德士古石油）已退市或被并购，不构成可投资标的, 跳过未验证无ticker实体: 3G资本
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[542/746] 394809680.md (3308 bytes)
+  ⚠️ 需要 review: 文章为投资哲学/方法论类随笔，非具体标的分析，无重点分析实体, 无明确可投资标的，仅有巴菲特和道琼斯指数作为历史背景/案例, 信号方向判断主观性较强：文章整体倡导长期持有股票的正向态度，但未针对任何当前可投资标的给出明确观点, 核心论断（如'人类股票历史任何波动后都创新高'）偏经验性概括，置信度需人工复核
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[543/746] 394809698.md (9800 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[544/746] 394809908.md (5659 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2079 (char 2078)
+  ✅ OK: 0 entities, 0 concepts
+
+[545/746] 394811097.md (3707 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[546/746] 394814069.md (4096 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 5372 (char 5371)
+  ✅ OK: 0 entities, 0 concepts
+
+[547/746] 394837509.md (22886 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[548/746] 394840664.md (2764 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[549/746] 394846197.md (3807 bytes)
+  ⚠️ 需要 review: 实体'MINIMAX-W(00100)'名称疑似数据乱码，需人工核对实际公司名, 文章为IPO追踪类资讯，结论偏正面但缺乏深度独立分析，需结合业绩兑现情况判断, 跳过未验证无ticker实体: 高盛, 跳过未验证无ticker实体: 华创证券, 跳过未验证无ticker实体: 东吴证券, 跳过未验证无ticker实体: 港交所
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[550/746] 394873814.md (7795 bytes)
+  ⚠️ 需要 review: 信号方向来自 Rocket Lab CEO 本人，存在自我宣传偏差，需要交叉验证, SpaceX 是否真的以 SPCX 上市未在主流交易所确认，ticker 存疑, Peter Beck 提到'行业第二'的具体口径（按发射次数？按收入？）需进一步核实
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[551/746] 394887929.md (3396 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[552/746] 394902474.md (6015 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[553/746] 394939307.md (17639 bytes)
+  ⚠️ 需要 review: 曦华科技、燧原科技、中茵微电子等拟上市公司未上市，确认度有限, 中茵微电子市值份额数据来自招股书自述，需第三方核实, 天数智芯市值约1400亿港元、AI业务高速增长等数字描述时点需核对最新公告, 文章将港股板块整体作为产业链实体分析，颗粒度偏宏观，建议在归类时区分个股与板块, Cerebras客户集中度数据基于招股书，IPO进展及时效性需复核, 跳过未验证无ticker实体: 中茵微电子, 跳过未验证无ticker实体: 曦华科技, 跳过未验证无ticker实体: 昆仑芯, 跳过未验证无ticker实体: 燧原科技
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[554/746] 394944250.md (13721 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[555/746] 394954776.md (4473 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[556/746] 394962066.md (3198 bytes)
+  ⚠️ 需要 review: 小红书尚未官方确认IPO，文章为彭博社援引'知情人士'消息，事实确定性需打折, 30亿美元利润为'对股东预测'，非审计数据，置信度受限, 小红书为未上市公司，无股票代码，'analyzed'角色是否合适需确认, 跳过未验证无ticker实体: 小红书
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[557/746] 394979105.md (7640 bytes)
+  ⚠️ 需要 review: 信号方向为CEO自评，存在利益相关偏见，需读者结合独立分析判断, SpaceX IPO（SPCX）尚未实际发生，文章以预期和访谈形式报道，需确认SpaceX是否已正式提交IPO申请, Firefly Aerospace、Planet Labs、Palantir、Mitsubishi、Airbus是否处于watchlist需确认是否verified, 概念'月球与深空殖民'融合了月球与火星两个阶段，考虑是否应拆分为两个L2概念, 跳过未验证无ticker实体: Firefly Aerospace, 跳过未验证无ticker实体: Planet Labs, 跳过未验证无ticker实体: Astrobotic
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[558/746] 394981954.md (4011 bytes)
+  ⚠️ 需要 review: 分拆消息为市场传闻，内部人士否认确认，信号置信度需进一步核实, Q1 2026财报时间标注可能为作者笔误（公司2025年11月才上市，2026年Q1财报时序偏紧），需核对财报时间
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[559/746] 394983158.md (6269 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 3973 (char 3972)
+  ✅ OK: 0 entities, 0 concepts
+
+[560/746] 394985039.md (9146 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

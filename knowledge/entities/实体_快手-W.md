@@ -1,7 +1,7 @@
 ---
 name: 快手-W
 type: company
-ticker: 01024.HK
+ticker: '01024'
 market: HK
 aliases:
 - $快手-W(01024)$
@@ -116,7 +116,10 @@ timeline:
 - date: '2026-06-10'
   source: sources/2026-06-10-394022542.md
   signals: []
-last_updated: '2026-07-07T00:48:16.604502+08:00'
+- date: '2026-06-16'
+  source: sources/2026-06-16-394962066.md
+  signals: []
+last_updated: '2026-07-07T01:46:43.864529+08:00'
 tags:
 - _entity_page
 - 实体/快手-W
@@ -125,10 +128,13 @@ tags:
 # 快手-W
 
 > 类型: company
-> 股票代码: 01024.HK
+> 股票代码: 01024
 
 ## 信号时间线
 
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-394962066.md](sources/2026-06-16-394962066.md)
 
 ### 2026-06-10
 > 来源: [sources/2026-06-10-393994747.md](sources/2026-06-10-393994747.md)

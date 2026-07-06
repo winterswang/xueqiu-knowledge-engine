@@ -1,12 +1,13 @@
 ---
 name: MINIMAX-W
 type: company
-ticker: 00100.HK
+ticker: '00100'
 market: ''
 tags:
 - _entity_page
 - 实体/MINIMAX-W
 aliases:
+- '00100'
 - MINIMAX-W
 - MINIMAX-W(00100)
 - MiniMax
@@ -32,16 +33,22 @@ timeline:
     - 解禁不等于减持，存在早期投资者继续持有的可能
     quote: 高估值、解禁潮、双重上市三大因素叠加，使得这两只股票的短期前景充满了不确定性。
     business_line: AI大模型
-last_updated: '2026-07-07T00:04:27.068246+08:00'
+- date: '2026-06-15'
+  source: sources/2026-06-15-394846197.md
+  signals: []
+last_updated: '2026-07-07T01:41:30.424660+08:00'
 ---
 
 # MINIMAX-W
 
 > 类型: company
-> 股票代码: 00100.HK
+> 股票代码: 00100
 
 ## 信号时间线
 
+
+### 2026-06-15
+> 来源: [sources/2026-06-15-394846197.md](sources/2026-06-15-394846197.md)
 
 ### 2026-06-08
 > 来源: [sources/2026-06-08-393480576.md](sources/2026-06-08-393480576.md)

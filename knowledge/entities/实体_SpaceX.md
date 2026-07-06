@@ -16,8 +16,10 @@ aliases:
 - SpaceX AI
 - SpaceX 领导团队
 - SpaceX(SPCX)
+- Spacex
 - StarShield
 - Starlink
+- Starlink的母公司
 - Starship
 - Transporter
 - 埃隆·马斯克旗下SpaceX
@@ -497,7 +499,90 @@ timeline:
     - 估值已部分定价乐观预期
     quote: 被SpaceX、Anthropic和OpenAI这短短三家公司彻底垄断。用少了一半的时间，在少了一半的公司身上，凭空再造一个万亿营收神话。
     business_line: 火箭+星链+算力
-last_updated: '2026-07-07T01:25:30.800810+08:00'
+- date: '2026-06-15'
+  source: sources/2026-06-15-394837509.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: Starlink已成现金牛，市占率超80%，盈利能力断层领先
+    caveats:
+    - D2C业务面临频谱主权和监管挑战
+    - 3-5年内难以完全替代地面移动运营商
+    - 火箭发射/卫星制造/AI业务仍在巨额烧钱
+    quote: Starlink 营收从约 39 亿美元暴涨至 113 亿美元，两年复合增长率超过 70%；运营利润更是跨越盈亏平衡点，从 4.7 亿美元飙升至约
+      44 亿美元，营业利润率逼近 40%。
+    business_line: Starlink卫星宽带
+  - entity: SpaceX
+    direction: neutral
+    confidence: medium
+    time_frame: medium_term
+    summary: D2C业务潜力大但替代移动运营商仍不易
+    caveats:
+    - 频谱资源受国家主权限制
+    - 65MHz带宽在人口稠密区会被瓜分至不可用
+    - 需V3卫星+手机硬件升级+多国监管审批
+    - 3-5年后运营商频谱议价权才会被稀释
+    quote: 3-5 年之后，运营商的'频谱议价权'可能会被持续稀释……Space X 要讲所谓的全量替代仍然不容易。
+    business_line: Starlink Direct-to-Cell
+- date: '2026-06-15'
+  source: sources/2026-06-15-394873814.md
+  signals: []
+- date: '2026-06-16'
+  source: sources/2026-06-16-394944250.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 股价已涨20%仍建议买入，看好代际变革
+    caveats:
+    - 公司尚未盈利
+    - 估值采用2025年远期市销率
+    - 为孤例个例，不适用于其他板块类比
+    quote: 如果说之前大家还有所顾虑，觉得'已经涨了20%了，我还要继续买入吗？'，我认为答案是肯定的。如果你的眼光放得足够长远，这是一家能够带来'代际变革'的企业。
+    business_line: 整体
+- date: '2026-06-16'
+  source: sources/2026-06-16-394979105.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: SpaceX是太空经济的核心赋能者，IPO将激活整个商业航天板块
+    caveats:
+    - 观点来自产业链合作方CEO，非独立分析
+    - 依赖SpaceX发射能力的公司存在供应商集中风险
+    quote: 我一直把 SpaceX 视为整个行业的'赋能者'。SpaceX 所打造的重型运载火箭发射能力，激活了许多以往无法落地的商业蓝图。
+    business_line: 火箭发射与星舰系统
+- date: '2026-06-16'
+  source: sources/2026-06-16-394985039.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 护城河无法复制，领先行业十年
+    caveats:
+    - 来源为单一长期持有人观点
+    - 护城河高度依赖马斯克个人
+    - 招股书信息尚未被市场充分验证
+    quote: 他们所缔造的护城河，是任何其他人都无法复制的。无论是在卫星制造、火箭研发还是网络构建上，他至少领先了全行业整整十年。
+    business_line: 火箭/卫星/星链整体
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 长期回报或达千亿，AI算力成第二曲线
+    caveats:
+    - 万亿美元营收预测来自CEO本人
+    - 50倍增长假设极为激进
+    - 巴伦自身立场极度乐观
+    - AI算力商业化路径仍处早期
+    quote: 我认为我们未来的回报将是以数千亿美元计——是的，数以千亿。
+    business_line: AI算力(Colossus)
+last_updated: '2026-07-07T01:49:48.433821+08:00'
 ---
 
 # SpaceX
@@ -512,6 +597,27 @@ last_updated: '2026-07-07T01:25:30.800810+08:00'
 > 来源: [sources/2026-06-16-394513134.md](sources/2026-06-16-394513134.md)
 - 📈 [positive] SpaceX长期具备数万亿美元增长期权
 - ➡️ [neutral] 短期受星舰研发拖累与毛利率压力
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-394944250.md](sources/2026-06-16-394944250.md)
+- 📈 [positive] 股价已涨20%仍建议买入，看好代际变革
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-394979105.md](sources/2026-06-16-394979105.md)
+- 📈 [positive] SpaceX是太空经济的核心赋能者，IPO将激活整个商业航天板块
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-394985039.md](sources/2026-06-16-394985039.md)
+- 📈 [positive] 护城河无法复制，领先行业十年
+- 📈 [positive] 长期回报或达千亿，AI算力成第二曲线
+
+### 2026-06-15
+> 来源: [sources/2026-06-15-394837509.md](sources/2026-06-15-394837509.md)
+- 📈 [positive] Starlink已成现金牛，市占率超80%，盈利能力断层领先
+- ➡️ [neutral] D2C业务潜力大但替代移动运营商仍不易
+
+### 2026-06-15
+> 来源: [sources/2026-06-15-394873814.md](sources/2026-06-15-394873814.md)
 
 ### 2026-06-14
 > 来源: [sources/2026-06-14-394597928.md](sources/2026-06-14-394597928.md)

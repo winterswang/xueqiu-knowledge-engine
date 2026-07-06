@@ -136,7 +136,34 @@ timeline:
 - date: '2026-06-16'
   source: sources/2026-06-16-394513134.md
   signals: []
-last_updated: '2026-07-07T01:19:16.921971+08:00'
+- date: '2026-06-15'
+  source: sources/2026-06-15-394873814.md
+  signals:
+  - entity: Rocket Lab
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 行业第二地位清晰，SpaceX 上市带来板块关注红利
+    caveats:
+    - CEO 自家口径存在自我宣传倾向
+    - 板块整体执行风险：若公司无法兑现融资承诺将压制估值
+    - 与 SpaceX 在发射业务上存在直接竞争
+    quote: Rocket Lab 都是不折不扣、显而易见的行业第二……当 SpaceX 推进上市时，它给这个板块带来了大量的瞩目、兴趣以及高质量的研究
+    business_line: 整体公司
+  - entity: Rocket Lab
+    direction: positive
+    confidence: medium
+    time_frame: medium_term
+    summary: 卫星制造与零部件业务占比高，估值锚定有别于纯发射商
+    caveats:
+    - 卫星业务客户集中度未披露
+    - 竞争与互补并存，发射业务仍受 SpaceX 价格压力
+    quote: 我们三分之二的业务实际上是在制造卫星和航天器，并向太空行业的其他所有企业供应商业零部件。所以，从这个意义上来说，我们根本算不上是竞争对手
+    business_line: 卫星与航天器制造
+- date: '2026-06-16'
+  source: sources/2026-06-16-394979105.md
+  signals: []
+last_updated: '2026-07-07T01:47:23.926644+08:00'
 ---
 
 # Rocket Lab
@@ -149,6 +176,14 @@ last_updated: '2026-07-07T01:19:16.921971+08:00'
 
 ### 2026-06-16
 > 来源: [sources/2026-06-16-394513134.md](sources/2026-06-16-394513134.md)
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-394979105.md](sources/2026-06-16-394979105.md)
+
+### 2026-06-15
+> 来源: [sources/2026-06-15-394873814.md](sources/2026-06-15-394873814.md)
+- 📈 [positive] 行业第二地位清晰，SpaceX 上市带来板块关注红利
+- 📈 [positive] 卫星制造与零部件业务占比高，估值锚定有别于纯发射商
 
 ### 2026-06-11
 > 来源: [sources/2026-06-11-394076037.md](sources/2026-06-11-394076037.md)
