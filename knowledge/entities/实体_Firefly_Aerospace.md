@@ -11,6 +11,8 @@ aliases:
 - FLY
 - Firefly
 - Firefly Aerospace
+- 萤火虫
+- 萤火虫航天
 timeline:
 - date: '2026-05-25'
   source: sources/2026-05-25-390651232.md
@@ -38,7 +40,20 @@ timeline:
     - 属于高投机性子市场
     quote: Firefly的'鞘翅'航天器被选中为'落月'任务运送无人机，直接刺激股价暴涨
     business_line: 月球着陆器与发射服务
-last_updated: '2026-07-06T21:51:47.815673+08:00'
+- date: '2026-06-03'
+  source: sources/2026-06-03-392658389.md
+  signals:
+  - entity: Firefly Aerospace
+    direction: positive
+    confidence: medium
+    time_frame: medium_term
+    summary: 斩获NASA 7500万美元月球无人机合同
+    caveats:
+    - 文章为访谈性质，缺乏深度财务与行业分析
+    - 产能扩建能否带来持续收入尚待观察
+    quote: 成功斩获NASA价值7500万美元的合同，将向月球运送四架无人机
+    business_line: null
+last_updated: '2026-07-06T23:11:14.932587+08:00'
 ---
 
 # Firefly Aerospace
@@ -48,6 +63,10 @@ last_updated: '2026-07-06T21:51:47.815673+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-03
+> 来源: [sources/2026-06-03-392658389.md](sources/2026-06-03-392658389.md)
+- 📈 [positive] 斩获NASA 7500万美元月球无人机合同
 
 ### 2026-05-27
 > 来源: [sources/2026-05-27-391321001.md](sources/2026-05-27-391321001.md)

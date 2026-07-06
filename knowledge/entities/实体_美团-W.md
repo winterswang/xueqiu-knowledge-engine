@@ -1,7 +1,7 @@
 ---
 name: 美团-W
 type: company
-ticker: 3690.HK
+ticker: 03690.HK
 market: HK
 aliases:
 - $美团-W(03690)$
@@ -10,6 +10,7 @@ aliases:
 - 小象超市
 - 美团
 - 美团-W
+- 美团-W（03690.HK）
 - 美团ADR
 - 美团兴总
 timeline:
@@ -200,7 +201,10 @@ timeline:
 - date: '2026-06-02'
   source: sources/2026-06-02-392460854.md
   signals: []
-last_updated: '2026-07-06T23:02:41.488127+08:00'
+- date: '2026-06-03'
+  source: sources/2026-06-03-392647881.md
+  signals: []
+last_updated: '2026-07-06T23:10:43.339973+08:00'
 tags:
 - _entity_page
 - 实体/美团-W
@@ -209,10 +213,13 @@ tags:
 # 美团-W
 
 > 类型: company
-> 股票代码: 3690.HK
+> 股票代码: 03690.HK
 
 ## 信号时间线
 
+
+### 2026-06-03
+> 来源: [sources/2026-06-03-392647881.md](sources/2026-06-03-392647881.md)
 
 ### 2026-06-02
 > 来源: [sources/2026-06-02-392392871.md](sources/2026-06-02-392392871.md)

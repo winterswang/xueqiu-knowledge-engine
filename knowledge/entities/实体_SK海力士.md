@@ -1,7 +1,7 @@
 ---
 name: SK海力士
 type: company
-ticker: 000660.KS
+ticker: KRX:000660
 market: ''
 tags:
 - _entity_page
@@ -23,16 +23,22 @@ timeline:
 - date: '2026-05-28'
   source: sources/2026-05-28-391427248.md
   signals: []
-last_updated: '2026-07-06T22:01:35.361267+08:00'
+- date: '2026-06-03'
+  source: sources/2026-06-03-392632127.md
+  signals: []
+last_updated: '2026-07-06T23:08:02.661515+08:00'
 ---
 
 # SK海力士
 
 > 类型: company
-> 股票代码: 000660.KS
+> 股票代码: KRX:000660
 
 ## 信号时间线
 
+
+### 2026-06-03
+> 来源: [sources/2026-06-03-392632127.md](sources/2026-06-03-392632127.md)
 
 ### 2026-05-28
 > 来源: [sources/2026-05-28-391427248.md](sources/2026-05-28-391427248.md)

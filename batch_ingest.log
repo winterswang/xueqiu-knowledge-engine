@@ -1180,3 +1180,68 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [360/746] 392460854.md (13185 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[361/746] 392489093.md (5675 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2255 (char 2254)
+  ✅ OK: 0 entities, 0 concepts
+
+[362/746] 392506366.md (2984 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[363/746] 392525798.md (2325 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[364/746] 392542220.md (36813 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[365/746] 392551610.md (4407 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[366/746] 392559389.md (29237 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[367/746] 392588796.md (4249 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[368/746] 392609203.md (3741 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[369/746] 392621516.md (7252 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[370/746] 392632127.md (3300 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[371/746] 392632677.md (8375 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[372/746] 392636360.md (5468 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[373/746] 392642472.md (6754 bytes)
+  ⚠️ 需要 review: 真健康医疗为未上市/拟上市公司，实体规范名及 ticker 暂未确定，需要确认港交所招股书披露后是否分配股票代码, 文章为IPO招股信息汇编型新闻，缺乏投资观点与分析框架，未提取到投资信号，需确认是否需要追加neutral/negative信号描述其商业化困境, 跳过未验证无ticker实体: 真健康医疗, 跳过未验证无ticker实体: 灼识咨询
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[374/746] 392647881.md (3297 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[375/746] 392658389.md (3602 bytes)
+  ⚠️ 需要 review: 文章为CBS访谈转录文本，非投资分析文章，信息密度低，缺少财务数据与行业深度分析, 太空创新者ETF(NASA)对应实际ETF产品需进一步核实, 信号方向判断较容易（采访基调明显积极），但缺乏独立分析支撑，置信度有限
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[376/746] 392670134.md (12358 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[377/746] 392673986.md (22824 bytes)
+  ⚠️ 需要 review: 文章为CPO技术产业研究上篇，未给出明确个股投资建议，仅有技术趋势性判断, 对中际旭创、新易盛等传统光模块厂的'价值地位下降'判断为推论，非作者明确观点, 源杰科技等CW激光器厂商的positive信号置信度需结合下篇投资机会分析确认, 华为未上市，作为不可投资实体未提取，但其对NPO推动的行业意义需保留在概念描述中
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[378/746] 392674086.md (8224 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[379/746] 392677330.md (4146 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[380/746] 392680998.md (7034 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
