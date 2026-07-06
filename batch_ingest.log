@@ -779,3 +779,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [240/746] 390625098.md (5368 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[241/746] 390651232.md (23265 bytes)
+  ⚠️ 需要 review: 文章中$SpaceX(SPCX)$的ticker标签存疑：SpaceX为非上市公司，SPCX并非公认公开股票代码，需确认文章作者意图, 文章主体为NASA局长访谈纪要，并非直接投资分析文，信号的投资含义需要二次解读, Blue Origin、Stoke Space等公司文中提及但未给出可投资路径，建议复核是否应作为实体收录, 跳过未验证无ticker实体: Blue Origin
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[242/746] 390716091.md (15684 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[243/746] 390765040.md (31641 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[244/746] 390773019.md (40827 bytes)
+  ⚠️ 需要 review: JSON parse failed: Extra data: line 2 column 1 (char 5200)
+  ✅ OK: 0 entities, 0 concepts
+
+[245/746] 390783037.md (4237 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[246/746] 390812765.md (2558 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[247/746] 390821795.md (13998 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[248/746] 390918813.md (5546 bytes)
+  ⚠️ 需要 review: 融泰药业尚未上市，无股票代码，需确认IPO进度及最终代码, 文章为IPO新闻而非投资观点文章，信号方向判断基于基本面隐含的谨慎态度，主观性较强, 康哲药业实控人林刚持股融泰药业的具体持股比例及'超11%'是否准确需对照招股书核实, 跳过未验证无ticker实体: 融泰药业
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[249/746] 390934787.md (4033 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[250/746] 390937829.md (9791 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[251/746] 390957956.md (4316 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[252/746] 390992966.md (9845 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[253/746] 390994169.md (4373 bytes)
+  ⚠️ 需要 review: MINIMAX-W(00100)名称异常，港股00100对应的标准公司待核实，可能为输入错误或冷门标的, 讯策(03317.HK)需核实是否对应实际上市公司, 信号方向存在分歧：短期市场情绪负面 vs 长期机构观点正面，需结合二级市场最新表现综合判断, 概念'港股AI应用股估值回归'粒度判断存在不确定性，可能过于宽泛或与AI应用商业化重合, 跳过未验证无ticker实体: 海通国际
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[254/746] 391003348.md (4853 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[255/746] 391003736.md (4002 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[256/746] 391013923.md (3627 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[257/746] 391028551.md (3208 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[258/746] 391053821.md (3828 bytes)
+  ⚠️ 需要 review: 文章核心主体Weee!为非上市私营公司，不在可投资标的范围内，缺少主要可投资实体, 满帮、货拉拉仅作为模式对比被提及，文章未对其投资价值发表观点, 无明确投资信号可提取, 跳过未验证无ticker实体: 货拉拉
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[259/746] 391059563.md (5149 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[260/746] 391060641.md (4118 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

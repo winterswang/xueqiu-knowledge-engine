@@ -1,25 +1,29 @@
 ---
-name: 主权AI（Sovereign AI）
-definition: 国家层面自建AI算力与模型能力的趋势，类比电力与互联网基础设施
+name: 主权AI(Sovereign AI)
+definition: 各国政府主导建设的本土AI算力基础设施需求
 tags:
 - _concept_page
 - 概念
 entities:
+- CoreWeave
 - 英伟达
 sources:
 - sources/2026-02-26-377127545.md
-last_updated: '2026-07-06T18:13:42.263145+08:00'
+- sources/2026-05-25-390765040.md
+last_updated: '2026-07-06T21:17:45.024261+08:00'
 ---
-# 主权AI（Sovereign AI）
+# 主权AI(Sovereign AI)
 ## 定义
 
-国家层面自建AI算力与模型能力的趋势，类比电力与互联网基础设施
+各国政府主导建设的本土AI算力基础设施需求
 
 ## 关联实体
 
+- [[entities/CoreWeave|CoreWeave]]
 - [[entities/英伟达|英伟达]]
 
 ## 来源文章
 
 - [sources/2026-02-26-377127545.md](sources/2026-02-26-377127545.md)
+- [sources/2026-05-25-390765040.md](sources/2026-05-25-390765040.md)
 

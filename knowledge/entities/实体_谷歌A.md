@@ -59,7 +59,31 @@ timeline:
     - 行业远未到终局之战，竞争格局仍在演变
     quote: Nano Banana 带来了用户量，Gemini 3 把一部分用户留下来，两者共同让 Gemini 成为更重要的玩家。
     business_line: Gemini / AI产品
-last_updated: '2026-07-06T20:16:33.843331+08:00'
+- date: '2026-05-26'
+  source: sources/2026-05-26-390937829.md
+  signals:
+  - entity: 谷歌A
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 双向变现护城河使其比纯AI独角兽更稳健
+    caveats:
+    - 千亿级CapEx的ROI闭环时间尚未验证
+    - 前端消费级AI能否大规模变现仍存不确定性
+    - 智能眼镜赛道落后于Meta
+    quote: 谷歌将资产巧妙地同时布置在了'天平的两端'：它既能通过前端产品直接赚消费者的钱，又能像亚马逊AWS和微软Azure那样，通过底层数据中心出租算力给第三方来直接躺赚。这种双向一体的变现能力，让谷歌处在一个相对主动的独特身位上。
+    business_line: null
+  - entity: 谷歌A
+    direction: neutral
+    confidence: medium
+    time_frame: short_term
+    summary: 智能眼镜入局偏晚，能否复刻ChatGPT追赶存疑
+    caveats:
+    - Meta智能眼镜已迭代数年且产能扩张至2000-3000万副
+    - 硬件市场竞争极度拥挤
+    quote: 在智能眼镜这条赛道上，他们其实起了个大晚……就看谷歌能否上演同样的'绝地反击'了。
+    business_line: null
+last_updated: '2026-07-06T21:24:01.782022+08:00'
 ---
 
 # 谷歌A
@@ -69,6 +93,11 @@ last_updated: '2026-07-06T20:16:33.843331+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-26
+> 来源: [sources/2026-05-26-390937829.md](sources/2026-05-26-390937829.md)
+- 📈 [positive] 双向变现护城河使其比纯AI独角兽更稳健
+- ➡️ [neutral] 智能眼镜入局偏晚，能否复刻ChatGPT追赶存疑
 
 ### 2026-05-18
 > 来源: [sources/2026-05-18-389489713.md](sources/2026-05-18-389489713.md)

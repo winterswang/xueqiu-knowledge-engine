@@ -1,7 +1,7 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX.US
+ticker: SPCX
 market: US
 tags:
 - _entity_page
@@ -12,6 +12,7 @@ aliases:
 - SpaceX
 - 太空探索技术公司
 - 星链母公司
+- 这家火箭巨头
 timeline:
 - date: '2026-02-25'
   source: sources/2026-02-25-376829016.md
@@ -134,16 +135,58 @@ timeline:
     - PS高达80倍而增速仅约20%，远贵于英伟达；投资者是否愿意买单存疑
     quote: SpaceX 的估值已经高达 2 万亿美元，如果最终顺利上市，从理论上讲，它的定价相当于其销售额的 80 倍。而它的增速大概在 20% 左右。
     business_line: null
-last_updated: '2026-07-06T21:15:20.519447+08:00'
+- date: '2026-05-25'
+  source: sources/2026-05-25-390651232.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: Starship等可回收火箭主导发射成本雪崩，长期价值巨大
+    caveats:
+    - SpaceX为非上市公司，普通投资者无法直接购买
+    - SPCX并非公认公开股票代码
+    quote: 随着 SpaceX 的 Starship 和 Blue Origin 的 New Glenn 等超大型、全回收重型火箭投入使用，单次发射成本已经从当年的
+      5 亿美元出现断崖式下跌
+    business_line: 重型可回收火箭与卫星互联网
+- date: '2026-05-26'
+  source: sources/2026-05-26-390937829.md
+  signals: []
+- date: '2026-05-26'
+  source: sources/2026-05-26-390992966.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: medium_term
+    summary: SpaceX IPO被视为美股十年一遇造富机会
+    caveats:
+    - 2万亿美元估值属于市场预期情境，最终IPO定价存在不确定性
+    - 二级市场投资者是否获得合理估值入场份额尚不明确
+    - 上市后股价表现与发行定价、市场环境高度相关
+    quote: 顶配的星舰赛道加上AI的双重叙事，这绝对是美股十年一遇的造富神话。
+    business_line: null
+last_updated: '2026-07-06T21:25:56.308012+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX.US
+> 股票代码: SPCX
 
 ## 信号时间线
 
+
+### 2026-05-26
+> 来源: [sources/2026-05-26-390937829.md](sources/2026-05-26-390937829.md)
+
+### 2026-05-26
+> 来源: [sources/2026-05-26-390992966.md](sources/2026-05-26-390992966.md)
+- 📈 [positive] SpaceX IPO被视为美股十年一遇造富机会
+
+### 2026-05-25
+> 来源: [sources/2026-05-25-390651232.md](sources/2026-05-25-390651232.md)
+- 📈 [positive] Starship等可回收火箭主导发射成本雪崩，长期价值巨大
 
 ### 2026-05-24
 > 来源: [sources/2026-05-24-390625098.md](sources/2026-05-24-390625098.md)

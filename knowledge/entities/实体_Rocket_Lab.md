@@ -50,7 +50,21 @@ timeline:
     quote: 那些体量较小的跟风企业最终必须自证清白，用硬实力来支撑溢价。"市场将会用放大镜去审视每一个个体。我的第一个疑问就是：你拿什么去和埃隆·马斯克以及
       SpaceX 竞争？你的核心护城河在哪里？"
     business_line: null
-last_updated: '2026-07-06T21:09:20.313105+08:00'
+- date: '2026-05-25'
+  source: sources/2026-05-25-390651232.md
+  signals:
+  - entity: Rocket Lab
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 美国航天发射处于历史最繁荣期，火箭实验室受益
+    caveats:
+    - 文章为访谈性质，未给出具体估值/价位判断
+    - 商业发射竞争激烈
+    quote: 美国航天发射正处于历史最繁荣、最健康的黄金时期……无论是 SpaceX、Blue Origin，还是 Stoke、Firefly、Rocket
+      Lab、ULA（联合发射联盟）或 Boeing
+    business_line: 小型/中型运载火箭发射服务
+last_updated: '2026-07-06T21:16:25.075811+08:00'
 ---
 
 # Rocket Lab
@@ -60,6 +74,10 @@ last_updated: '2026-07-06T21:09:20.313105+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-25
+> 来源: [sources/2026-05-25-390651232.md](sources/2026-05-25-390651232.md)
+- 📈 [positive] 美国航天发射处于历史最繁荣期，火箭实验室受益
 
 ### 2026-05-23
 > 来源: [sources/2026-05-23-390564240.md](sources/2026-05-23-390564240.md)
