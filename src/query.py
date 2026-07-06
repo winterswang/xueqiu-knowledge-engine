@@ -8,9 +8,10 @@ import re
 from pathlib import Path
 from dataclasses import dataclass
 from typing import List, Dict, Optional, Tuple
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
-TZ = datetime.now().astimezone().tzinfo
+# 统一使用东八区，不依赖系统时区
+TZ = timezone(timedelta(hours=8))
 
 
 @dataclass

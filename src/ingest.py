@@ -405,7 +405,10 @@ class ConceptPageWriter:
         return str(filepath)
 
 
-from .validator import KnowledgeValidator
+try:
+    from .validator import KnowledgeValidator
+except ImportError:
+    from validator import KnowledgeValidator
 
 
 class IngestPipeline:
@@ -553,6 +556,9 @@ class IngestPipeline:
                 if not is_valid:
                     validation_errors.extend([f"概念 {cp['name']}: {i}" for i in issues])
             
+            # 9. 更新知识库索引
+            self.update_index()
+            
             return {
                 'success': len(validation_errors) == 0,
                 'source_page': source_page,
@@ -589,6 +595,56 @@ class IngestPipeline:
         except subprocess.CalledProcessError as e:
             print(f"Git commit failed: {e.stderr.decode()}")
             return False
+    
+    def update_index(self):
+        """更新 _知识库索引.md，自动统计实体/概念/来源数量"""
+        from datetime import datetime, timezone, timedelta
+        TZ = timezone(timedelta(hours=8))
+        now = datetime.now(TZ)
+        index_path = self.knowledge_dir / "_知识库索引.md"
+        
+        # 统计数量
+        sources = list((self.knowledge_dir / "sources").glob("*.md"))
+        sources = [s for s in sources if not s.name.startswith("_")]
+        entities = list((self.knowledge_dir / "entities").glob("实体_*.md"))
+        concepts = list((self.knowledge_dir / "concepts").glob("概念_*.md"))
+        
+        # 获取最近更新的文件
+        all_files = sources + entities + concepts
+        all_files.sort(key=lambda x: x.stat().st_mtime, reverse=True)
+        recent_updates = []
+        for f in all_files[:10]:
+            mtime = datetime.fromtimestamp(f.stat().st_mtime, TZ)
+            name = f.stem.replace("实体_", "").replace("概念_", "")
+            recent_updates.append(f"- {mtime.strftime('%Y-%m-%d %H:%M')} — {name}")
+        
+        # 生成索引内容
+        content = f"""# 雪球知识库索引
+
+> 自动生成，最后更新：{now.strftime('%Y-%m-%d %H:%M')}
+
+## 📊 统计
+
+| 类型 | 数量 |
+|------|------|
+| 📄 文章来源 | {len(sources)} |
+| 🏢 公司/实体 | {len(entities)} |
+| 💡 投资概念 | {len(concepts)} |
+
+## 🕒 最近更新
+
+{chr(10).join(recent_updates)}
+
+## 📁 目录结构
+
+- `sources/` — 原始文章元数据和正文摘要
+- `entities/` — 公司/指数实体页，包含所有关联信号、主张和来源链接
+- `concepts/` — 投资概念页，包含定义、关联实体和出处
+"""
+        
+        with open(index_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+        return str(index_path)
 
 
 if __name__ == "__main__":

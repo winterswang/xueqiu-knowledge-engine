@@ -145,7 +145,22 @@ class KnowledgeExtractor:
                 temperature=0.1,
             )
             raw_output = resp.choices[0].message.content
-            return self._parse_output(raw_output, entity_dict)
+            result = self._parse_output(raw_output, entity_dict)
+            # 如果JSON解析失败，重试一次
+            if result.needs_review and any("JSON parse failed" in r for r in result.review_reasons):
+                resp = self.client.chat.completions.create(
+                    model=self.model,
+                    messages=[
+                        {"role": "user", "content": prompt},
+                        {"role": "assistant", "content": raw_output},
+                        {"role": "user", "content": "上次输出JSON格式有误，请严格输出纯JSON，不要添加markdown解释。请重新输出正确的JSON结果："}
+                    ],
+                    max_tokens=8192,
+                    temperature=0.0,
+                )
+                raw_output = resp.choices[0].message.content
+                result = self._parse_output(raw_output, entity_dict)
+            return result
         except Exception as e:
             return ExtractionResult(
                 needs_review=True,
