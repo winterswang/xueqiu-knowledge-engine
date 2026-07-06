@@ -9,6 +9,8 @@ tags:
 aliases:
 - NOW
 - ServiceNow
+- 公司
+- 我们
 timeline:
 - date: '2026-03-08'
   source: sources/2026-03-08-378483274.md
@@ -87,7 +89,30 @@ timeline:
 - date: '2026-05-29'
   source: sources/2026-05-29-391740087.md
   signals: []
-last_updated: '2026-07-06T22:31:02.968179+08:00'
+- date: '2026-06-05'
+  source: sources/2026-06-05-392995831.md
+  signals:
+  - entity: ServiceNow
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: 数据与分析业务将在数季内突破10亿美元ARR
+    caveats:
+    - 管理层设定的目标，需观察实际季度披露兑现
+    - 2026H2 需决定是否组建独立销售铁军
+    quote: 照目前的势头来看，我们有把握在短短几个季度内，实现年度经常性收入突破10亿美元大关。
+    business_line: 数据与分析业务
+  - entity: ServiceNow
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 单一平台基因+AI Agent数据需求构建终极护城河
+    caveats:
+    - 依赖客户 AI 落地节奏
+    - 需持续整合被收购数据公司并保持产品开放性
+    quote: 真正的第一名，在于所有这些耀眼的珍珠，全部串在同一条项链上——也就是我们的单一平台。统一的数据模型、统一的安全模型、对所有人完全一致的无缝用户体验。放眼天下，绝无仅有。
+    business_line: 全平台/护城河
+last_updated: '2026-07-06T23:37:13.850456+08:00'
 ---
 
 # ServiceNow
@@ -97,6 +122,11 @@ last_updated: '2026-07-06T22:31:02.968179+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-05
+> 来源: [sources/2026-06-05-392995831.md](sources/2026-06-05-392995831.md)
+- 📈 [positive] 数据与分析业务将在数季内突破10亿美元ARR
+- 📈 [positive] 单一平台基因+AI Agent数据需求构建终极护城河
 
 ### 2026-05-29
 > 来源: [sources/2026-05-29-391740087.md](sources/2026-05-29-391740087.md)

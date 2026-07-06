@@ -4,6 +4,7 @@ type: company
 ticker: LULU
 market: ''
 aliases:
+- $Lululemon Athletica(LULU)$
 - Lululemon
 - Lululemon Athletica
 timeline:
@@ -28,7 +29,10 @@ timeline:
     - 中国大陆+29%表现亮眼为唯一亮点
     quote: 最大的问题依然是大本营北美市场一蹶不振……'客流、转化率、客单价'三个指标仍然在一起跌，基本上还是最差的组合……营业利润率仅为11.2%，同比大幅下滑730bps，为近年来最差水平
     business_line: 北美市场/整体盈利
-last_updated: '2026-06-30T01:23:17.473693+08:00'
+last_updated: '2026-07-06T23:35:47.119962+08:00'
+tags:
+- _entity_page
+- 实体/Lululemon Athletica
 ---
 
 # Lululemon Athletica

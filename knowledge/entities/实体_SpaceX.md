@@ -260,7 +260,55 @@ timeline:
     - 中长期优质龙头可守住估值中枢
     quote: 大批量巨型IPO集中上市将持续分流二级市场存量资金……存量上市公司被动面临抛压
     business_line: 全市场资金面
-last_updated: '2026-07-06T23:32:02.924456+08:00'
+- date: '2026-06-05'
+  source: sources/2026-06-05-392959875.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 运载+连接+AI三引擎驱动长期高增长
+    caveats:
+    - 观点源自SpaceX自家CFO路演原文，非独立第三方研究
+    - 长期70%毛利率、45%净利率属公司自定目标，存在执行风险
+    - 估值/募资条款未披露，文章未给出独立估值判断
+    quote: 我们长期的整体毛利率预计将稳定在70%左右，而根据GAAP（美国通用会计准则）计算的净利润率，则将高达45%上下。
+    business_line: null
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: Starlink用户与营收呈爆发式跃升
+    caveats:
+    - 用户数与营收数据为公司披露，未独立审计
+    - 用户翻番含前期低基数效应
+    quote: 时至目前第一季度末，我们网络上的用户已骤增至约1.03亿，同比增长率突破了100%，服务足迹横跨164个国家与地区。
+    business_line: 星链网络（Starlink）
+- date: '2026-06-05'
+  source: sources/2026-06-05-393027905.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: IPO开启大规模扩张周期，部署超10万颗V3卫星
+    caveats:
+    - 依赖资本支出规模与节奏
+    - V3卫星需依赖星舰发射能力
+    - 营收可预测性虽提升但仍存波动
+    quote: 我们正步入一个显著的增长阶段——一个需要大量资本的扩张阶段，我们可能要将10万颗卫星送入轨道
+    business_line: Starlink卫星互联网
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 太空AI数据中心与完全可重复使用火箭将定义下一代太空经济
+    caveats:
+    - 尚处早期阶段，技术与商业模式需验证
+    - 面临地面数据中心与电力基础设施的替代竞争
+    quote: 我们还在建设太空AI数据中心……这终将成为扩展AI的主要途径……进入轨道的成本将仅仅是推进剂的成本
+    business_line: 太空AI数据中心 + Starship
+last_updated: '2026-07-06T23:39:13.378313+08:00'
 ---
 
 # SpaceX
@@ -270,6 +318,16 @@ last_updated: '2026-07-06T23:32:02.924456+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-05
+> 来源: [sources/2026-06-05-392959875.md](sources/2026-06-05-392959875.md)
+- 📈 [positive] 运载+连接+AI三引擎驱动长期高增长
+- 📈 [positive] Starlink用户与营收呈爆发式跃升
+
+### 2026-06-05
+> 来源: [sources/2026-06-05-393027905.md](sources/2026-06-05-393027905.md)
+- 📈 [positive] IPO开启大规模扩张周期，部署超10万颗V3卫星
+- 📈 [positive] 太空AI数据中心与完全可重复使用火箭将定义下一代太空经济
 
 ### 2026-06-04
 > 来源: [sources/2026-06-04-392918360.md](sources/2026-06-04-392918360.md)

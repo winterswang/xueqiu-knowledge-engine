@@ -1312,3 +1312,71 @@ Batch Ingest: 746 total, 746 pending, 0 done
 [400/746] 392918360.md (11346 bytes)
   ⚠️ 需要 review: OpenAI与Anthropic尚未上市，作为投资标的的最终投资可行性需后续跟踪, Quantinuum计划募资14.58亿美元属计划值而非已落地，事实表述需注意时态, SpaceX的SPCX ticker为文章中给出的预期代码，实际上市后代码可能调整, Cerebras虽在已知词典中但仅作为mentioned角色处理, 跳过未验证无ticker实体: OpenAI, 跳过未验证无ticker实体: Anthropic
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[401/746] 392927012.md (3603 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[402/746] 392952918.md (19851 bytes)
+  ⚠️ 需要 review: 文章引用的财务数据涉及2026年Q1及2026年全年预测，部分内容超出知识截止时间，需核实是否为最新公司公告, 标题'我们要钱来了'带有作者主观倾向，提示读者关注股权融资稀释效应，信号方向判断需结合原始电话会议逐字稿复核, Waymo估值（1260亿美元）数据需与最新公开信息交叉验证
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[403/746] 392959875.md (21593 bytes)
+  ⚠️ 需要 review: 信号观点直接来源于SpaceX CFO路演原文（非独立研究），置信度判断已加入caveats，需确认是否需要降档, T-Mobile与英伟达在文中仅以合作伙伴/供应商身份短暂出现，已归为background角色，提取必要性可再评估, "空间轨道AI计算"属公司未来愿景（尚未商业化），概念置信度标记为medium, 文中提及的Anthropic、Cursor、X等均非上市公司，按规则未作为独立实体抽取，需确认是否符合预期
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[404/746] 392983221.md (2552 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[405/746] 392986491.md (34933 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 125 column 36 (char 3099)
+  ✅ OK: 0 entities, 0 concepts
+
+[406/746] 392995831.md (39680 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[407/746] 393009668.md (3348 bytes)
+  ⚠️ 需要 review: 心动公司不在已知实体词典中，ticker 02400.HK 需进一步核实, 文中'mk产品'具体含义（推测为AI生成小游戏）需结合公司业务进一步确认, 文章为社交媒体评论而非专业投资分析，信号方向判断存在主观性
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[408/746] 393027905.md (23112 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[409/746] 393028792.md (4717 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[410/746] 393030258.md (13775 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[411/746] 393036762.md (4908 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[412/746] 393043383.md (2381 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[413/746] 393058785.md (5688 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[414/746] 393059977.md (3822 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[415/746] 393077627.md (3583 bytes)
+  ⚠️ 需要 review: 闻泰、华勤在文中以简称出现，未注明股票代码，已根据上下文推测为闻泰科技和华勤技术，但需确认, 文中'国家大基金'应为'国家集成电路产业投资基金'的简称，已用规范名, 文章为IPO追踪+基本面分析混合体，信号方向在短长期有分化，已拆分处理, 跳过未验证无ticker实体: 顺为资本, 跳过未验证无ticker实体: 国家大基金, 跳过未验证无ticker实体: 闻泰科技, 跳过未验证无ticker实体: 华勤技术
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[416/746] 393112589.md (8589 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[417/746] 393116801.md (3264 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[418/746] 393119824.md (4178 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[419/746] 393123476.md (3696 bytes)
+  ⚠️ 需要 review: 文章为A股每日行情综述，非投研观点文章，缺乏明确投资逻辑主线, 信号主要来自国信证券/东吴证券引述，并非文章作者独立判断，归属需确认, 文章罗列约40只个股，仅选取核心叙事相关实体，其余以板块概念覆盖，可能存在代表性取舍偏差, 6G政策原文表述存在歧义（'到2029年……进一步激发……'句式不通顺），可能为转载断句, 跳过未验证无ticker实体: 国信证券, 跳过未验证无ticker实体: 东吴证券
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[420/746] 393137856.md (4264 bytes)
+  ⚠️ 需要 review: 本文为纯宏观经济分析报告，不涉及任何可投资标的（无个股、无指数）, 所有概念均为宏观主题，需确认是否纳入投资知识库及粒度是否合适, 因无实体，所有信号字段为空，主张也未关联到具体实体
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'

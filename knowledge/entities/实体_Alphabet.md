@@ -10,6 +10,7 @@ aliases:
 - Alphabet
 - Google
 - Google+
+- 谷歌
 - 谷歌C
 timeline:
 - date: '2026-03-06'
@@ -56,7 +57,10 @@ timeline:
 - date: '2026-05-22'
   source: sources/2026-05-22-390485921.md
   signals: []
-last_updated: '2026-07-06T21:03:47.194398+08:00'
+- date: '2026-06-05'
+  source: sources/2026-06-05-393027905.md
+  signals: []
+last_updated: '2026-07-06T23:39:13.394938+08:00'
 ---
 
 # Alphabet
@@ -66,6 +70,9 @@ last_updated: '2026-07-06T21:03:47.194398+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-05
+> 来源: [sources/2026-06-05-393027905.md](sources/2026-06-05-393027905.md)
 
 ### 2026-05-22
 > 来源: [sources/2026-05-22-390381832.md](sources/2026-05-22-390381832.md)
