@@ -65,3 +65,67 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [20/746] 375966460.md (8808 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[21/746] 376106202.md (12755 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[22/746] 376122502.md (12842 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[23/746] 376127355.md (12431 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[24/746] 376191669.md (14064 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[25/746] 376194623.md (3710 bytes)
+  ⚠️ 需要 review: 文章为个人投资组合年度总结日记，缺少行业/公司层面的深度分析, 大量公司为历史持仓回顾（14-24年），对当前投资决策指导意义有限, 未提供具体的公司基本面或行业逻辑支撑, 粤高速在A股为粤高速A(000429.SZ)，B股代码为200429，但文中将粤高速B单列为持仓，规范名需确认
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[26/746] 376219621.md (2785 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[27/746] 376601012.md (2039 bytes)
+  ⏭️  Skipped: body_length 1844 < min 2000
+
+[28/746] 376812092.md (2037 bytes)
+  ⏭️  Skipped: body_length 1841 < min 2000
+
+[29/746] 376829016.md (23118 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[30/746] 376847608.md (16201 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[31/746] 376870739.md (6551 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[32/746] 376935429.md (2968 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1871 (char 1870)
+  ✅ OK: 0 entities, 0 concepts
+
+[33/746] 376971531.md (14508 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[34/746] 376979571.md (14630 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 3883 (char 3882)
+  ✅ OK: 0 entities, 0 concepts
+
+[35/746] 377048189.md (11384 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[36/746] 377107149.md (2012 bytes)
+  ⏭️  Skipped: body_length 1793 < min 2000
+
+[37/746] 377127545.md (4887 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[38/746] 377137670.md (7557 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[39/746] 377138515.md (4486 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[40/746] 377143395.md (5206 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

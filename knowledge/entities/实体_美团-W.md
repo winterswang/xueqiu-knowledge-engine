@@ -71,7 +71,30 @@ timeline:
     - AI对本地生活服务业的颠覆程度未知
     quote: 相比于AI"比特（Byte）"逻辑的不确定性，美团这种搬运近场"原子"的履约能力，反而提供了一种确定性。
     business_line: null
-last_updated: '2026-07-06T17:59:38.701759+08:00'
+- date: '2026-02-14'
+  source: sources/2026-02-14-376219621.md
+  signals:
+  - entity: 美团-W
+    direction: negative
+    confidence: high
+    time_frame: short_term
+    summary: 2025年由盈转亏超230亿，符合预期
+    caveats:
+    - 亏损已被市场预期，跌幅可能有限
+    quote: 美团发布盈利预警，预计2025年将由盈转亏，全年净亏损超230亿元。考虑到24年美团还坐拥358亿元的净利润，一进一出之间，利润端出现了近600亿元的剧烈反转。
+    business_line: 外卖/即时零售
+  - entity: 美团-W
+    direction: neutral
+    confidence: medium
+    time_frame: long_term
+    summary: 对手变多变强，长期胜算存疑
+    caveats:
+    - 淘宝意图抢占'万物皆可送'心智
+    - 电商现金牛对补贴战的输血能力
+    - 美团能否'遇强则强'不确定
+    quote: 其实什么都没有变，只是环境变了，对手变多了，也变强了。市场更加有效了，就看美团能否再一次顶住压力，遇强则强了。
+    business_line: 外卖/即时零售
+last_updated: '2026-07-06T18:05:58.564579+08:00'
 tags:
 - _entity_page
 - 实体/美团-W
@@ -88,6 +111,11 @@ tags:
 ### 2026-03-04
 > 来源: [sources/2026-03-04-307548176.md](sources/2026-03-04-307548176.md)
 - 📉 [negative] 25年预计微亏，外卖竞争拖累业绩
+
+### 2026-02-14
+> 来源: [sources/2026-02-14-376219621.md](sources/2026-02-14-376219621.md)
+- 📉 [negative] 2025年由盈转亏超230亿，符合预期
+- ➡️ [neutral] 对手变多变强，长期胜算存疑
 
 ### 2026-02-12
 > 来源: [sources/2026-02-12-375894183.md](sources/2026-02-12-375894183.md)
