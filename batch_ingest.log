@@ -192,3 +192,65 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [60/746] 377720435.md (7951 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[61/746] 377722226.md (7011 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[62/746] 377724015.md (6060 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[63/746] 377724888.md (8063 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[64/746] 377862278.md (16271 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[65/746] 377940369.md (5053 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[66/746] 377945675.md (5253 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[67/746] 377947838.md (5850 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[68/746] 377948272.md (7274 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[69/746] 377962095.md (9097 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[70/746] 377972008.md (26749 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[71/746] 378033424.md (7642 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[72/746] 378046974.md (13298 bytes)
+  ⚠️ 需要 review: OpenAI与Anthropic作为文章核心主体但非可投资标的，未单独建实体页，其相关业务数据归入微软/亚马逊/谷歌A的概念关联中, 文章中部分投资金额数据来自2025/2026年预测，存在估算成分（如137.5亿、80亿、2800亿等），需核实数据来源, 微软的信号方向需要review：反垄断风险（negative）vs 护城河强化（positive）并存，最终方向取决于监管结果，文章本身未给出明确投资倾向
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[73/746] 378065599.md (2034 bytes)
+  ⏭️  Skipped: body_length 1842 < min 2000
+
+[74/746] 378090872.md (16332 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[75/746] 378094068.md (3457 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[76/746] 378120379.md (6935 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[77/746] 378121139.md (5264 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[78/746] 378121673.md (6746 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[79/746] 378140622.md (4163 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[80/746] 378142262.md (4689 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
