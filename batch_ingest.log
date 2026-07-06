@@ -845,3 +845,71 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [260/746] 391060641.md (4118 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[261/746] 391062889.md (3798 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[262/746] 391064760.md (14744 bytes)
+  ⚠️ 需要 review: 文章核心主体华为（未上市）不可投资，需确认是否应作为background角色单独标注, 文章为行业/赛道综述，信号方向偏正面但未给出明确目标价或量化预期，需判断信号置信度是否合理, 部分公司（芯德半导体、赛美特信息、晶合集成）处于递表/拟上市阶段，ticker和verified状态需确认, 概念'韬定律'与'3D先进封装'的粒度划分需确认是否需进一步拆分, 跳过未验证无ticker实体: 芯德半导体, 跳过未验证无ticker实体: 赛美特信息
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[263/746] 391079521.md (9156 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[264/746] 391084997.md (16700 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1987 (char 1986)
+  ✅ OK: 0 entities, 0 concepts
+
+[265/746] 391100049.md (2509 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[266/746] 391102170.md (31156 bytes)
+  ⚠️ 需要 review: 文章为Cerebras CEO自述立场，对英伟达和CUDA的批评明显偏向性，需注意立场偏见, Cerebras尚未盈利且市销率极高，文章未充分讨论估值风险, OpenAI 200亿美元订单的真实性与规模需进一步交叉验证, CUDA份额'一年内损失70%'的统计口径与数据来源未明确, 跳过未验证无ticker实体: OpenAI, 跳过未验证无ticker实体: Anthropic, 跳过未验证无ticker实体: 1789 Capital, 跳过未验证无ticker实体: G42
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[267/746] 391122183.md (5614 bytes)
+  ⚠️ 需要 review: 文章为纯方法论文章，无具体公司或标的分析，故无实体信号输出, 核心概念'中国本土修正层'为作者原创框架术语，是否值得作为独立概念页需确认, 多个被提及的海外投资大师（Greenwald、Klarman、Greenblatt、Pabrai、Fisher、Dorsey、Point72、马拉松资本）未提取为实体，因仅为框架名称引用，未作分析
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[268/746] 391165431.md (4889 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 90 column 61 (char 2523)
+  ✅ OK: 0 entities, 0 concepts
+
+[269/746] 391169981.md (4331 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[270/746] 391177250.md (5519 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 97 column 67 (char 2554)
+  ✅ OK: 0 entities, 0 concepts
+
+[271/746] 391199271.md (3721 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[272/746] 391226240.md (4135 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[273/746] 391242265.md (5810 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[274/746] 391257241.md (9071 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[275/746] 391262006.md (3793 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[276/746] 391265482.md (4394 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[277/746] 391280892.md (3129 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[278/746] 391293377.md (16543 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1889 (char 1888)
+  ✅ OK: 0 entities, 0 concepts
+
+[279/746] 391301609.md (2339 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[280/746] 391313887.md (2247 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
