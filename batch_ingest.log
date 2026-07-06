@@ -3,3 +3,65 @@ Batch Ingest: 746 total, 746 pending, 0 done
 ============================================================
 
 [1/746] 248257171.md (34978 bytes)
+  ⚠️ 需要 review: 文章为方法论/思辨型文章，没有明确的当前可投资标的推荐，signals 主要为回顾性案例，需确认是否适合作为当前投资信号, SRG、Antero Resources 等小型标的未在已知词典中，verified 标记需复核, 中概股部分作者明确表示'现在基本没有中概的持仓了'，拼多多/贝壳/微博/欢聚时代仅为历史案例，不应解读为当前推荐
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[2/746] 307548176.md (18248 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[3/746] 357639848.md (15554 bytes)
+  ⚠️ 需要 review: 本文为投资策略/哲学类文章，非具体公司分析，因此无实体级信号和具体投资标的, 文章末尾提及'附我初筛的高质量公司list'但该list未包含在正文中，可能有遗漏的具体公司标的, 信号数组为空，需确认是否符合预期——本文是方法论文章而非个股分析
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[4/746] 365069233.md (7605 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[5/746] 368325540.md (2089 bytes)
+  ⏭️  Skipped: body_length 1835 < min 2000
+
+[6/746] 371624650.md (2060 bytes)
+  ⏭️  Skipped: body_length 1860 < min 2000
+
+[7/746] 372308320.md (3342 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[8/746] 372532423.md (2057 bytes)
+  ⏭️  Skipped: body_length 1824 < min 2000
+
+[9/746] 372771178.md (4377 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[10/746] 372932943.md (3554 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[11/746] 373143737.md (2213 bytes)
+  ⏭️  Skipped: body_length 1978 < min 2000
+
+[12/746] 373595277.md (2943 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[13/746] 374128386.md (2698 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[14/746] 374922173.md (4056 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[15/746] 375117124.md (5033 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[16/746] 375418261.md (2298 bytes)
+  ⚠️ 需要 review: 文章为个人随笔/产品体验分享，非投资分析文章，信息密度低, 文章无明确投资观点，信号方向判断为neutral但置信度低, 未涉及财务数据、竞争格局、估值等投资关键要素, Gemini作为产品不可独立投资，仅作为谷歌公司内部产品讨论
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[17/746] 375573177.md (2303 bytes)
+  ⚠️ 需要 review: 信号方向存在歧义：作者从原先的看空顾虑转向考虑建仓，但行文结尾仍为'或许再等等，或许先搞观察仓'，态度摇摆, 第二个信号（原子vs比特）属于哲学层面的投资框架，置信度较低，是否单独成信号需判断
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[18/746] 375729044.md (3737 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[19/746] 375894183.md (2433 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[20/746] 375966460.md (8808 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

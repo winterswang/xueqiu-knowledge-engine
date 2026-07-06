@@ -2,7 +2,7 @@
 name: 快手-W
 type: company
 ticker: '01024'
-market: ''
+market: HK
 aliases:
 - $快手-W(01024)$
 - 快手
@@ -33,7 +33,21 @@ timeline:
     - AI算力投入占Capex大头，短期压制毛利率
     quote: 可灵是亮点，Q1收入6.5亿，比指引的5亿要高，截至3月ARR已经达到5亿美金，且4、5月继续增长
     business_line: 可灵AI
-last_updated: '2026-06-30T01:18:16.430117+08:00'
+- date: '2026-03-04'
+  source: sources/2026-03-04-307548176.md
+  signals:
+  - entity: 快手-W
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: 扣非净利190亿，13倍估值偏低
+    caveats: []
+    quote: Q1扣非利润率13%、Q2到15%……全年估计能做到190亿左右，目前估值13倍左右
+    business_line: null
+last_updated: '2026-07-06T17:51:16.366116+08:00'
+tags:
+- _entity_page
+- 实体/快手-W
 ---
 
 # 快手-W
@@ -48,3 +62,7 @@ last_updated: '2026-06-30T01:18:16.430117+08:00'
 > 来源: [sources/2026-05-27-391301609.md](sources/2026-05-27-391301609.md)
 - ➡️ [neutral] 业绩基本符合预期，经营利润beat不可持续
 - 📈 [positive] 可灵Q1收入6.5亿，ARR已达5亿美金且持续增长
+
+### 2026-03-04
+> 来源: [sources/2026-03-04-307548176.md](sources/2026-03-04-307548176.md)
+- 📈 [positive] 扣非净利190亿，13倍估值偏低
