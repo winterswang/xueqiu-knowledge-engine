@@ -516,3 +516,71 @@ Batch Ingest: 746 total, 746 pending, 0 done
 [160/746] 383896915.md (3091 bytes)
   ⚠️ 需要 review: 文章为社交媒体趣谈轶事，投资信息密度低，无明确投资观点, 信号方向判断困难：文章未表达对泡泡玛特基本面看法，仅为交易机制趣事, 概念'港股期权合约规模差异'更偏交易操作机制而非投资逻辑概念，粒度需评估, 未披露行权价，关键数据缺失影响判断
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[161/746] 385739181.md (3538 bytes)
+  ⚠️ 需要 review: 信号方向判断：作者态度偏负面但带有情绪化表达，且文章以个人评论和监管新闻复述为主，缺乏深度财务或行业分析, 文章信息密度较低，主体为监管事件回顾与个人经历（蛋糕订单）, 京东在文中仅作为类比背景出现，是否需独立提取实体可斟酌
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[162/746] 386683368.md (4338 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[163/746] 387684564.md (2074 bytes)
+  ⏭️  Skipped: body_length 1903 < min 2000
+
+[164/746] 388444200.md (2634 bytes)
+  ⚠️ 需要 review: 文章为30年长周期预测，信息密度低，论据以历史类比和情绪化表达为主，缺乏严谨财务/竞争分析, 小米看空信号置信度低，文章未充分论证小米受AI'光'负面影响的具体机制, 概念'技术长周期与估值重塑'的粒度可能过粗，需要确认是否符合L2标准
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[165/746] 388473383.md (3988 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[166/746] 389182141.md (6216 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[167/746] 389261319.md (10754 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[168/746] 389262138.md (12741 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[169/746] 389326981.md (2017 bytes)
+  ⏭️  Skipped: body_length 1820 < min 2000
+
+[170/746] 389362251.md (7452 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2246 (char 2245)
+  ✅ OK: 0 entities, 0 concepts
+
+[171/746] 389362299.md (12259 bytes)
+  ⚠️ 需要 review: 文章为深度公司研究而非明确投资观点，信号方向(positive)为基于整体语调的推断，需确认是否符合预期, 概念'堡垒资产负债表'与'银行护城河'存在一定粒度重叠，需确认是否合并或分立, 竞争对手实体（Visa、Mastercard、BlackRock等）仅为竞品列表中提及，是否建实体页需根据后续引用频率决定
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[172/746] 389362315.md (12713 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[173/746] 389470084.md (5023 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[174/746] 389489713.md (11024 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[175/746] 389518473.md (4315 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[176/746] 389559071.md (11752 bytes)
+  ⚠️ 需要 review: 文章为创始人访谈二手转述，阳萌原话与作者解读的边界需确认, 石头科技虽为提及实体但文章未做实质分析，是否纳入实体存在歧义, 多品类能力复利概念的成立性属于作者核心论断，需要交叉验证, 7系产品占比目标（2030年30%）为公司管理层愿景，非已发生事实，置信度需标注
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[177/746] 389560578.md (11336 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[178/746] 389584034.md (3239 bytes)
+  ⚠️ 需要 review: 文章为概念性/比较分析，对极兔的投资信号不明确，方向判断偏中性, 极兔在北美的具体业务进展数据不足，难以判断其全国网络是否已成型, 三通一达虽被讨论但未提及个股代码，文章实质将其作为模型参照而非投资标的, 跳过未验证无ticker实体: USPS
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[179/746] 389590922.md (45112 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting value: line 1 column 1 (char 0)
+  ✅ OK: 0 entities, 0 concepts
+
+[180/746] 389750015.md (2436 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

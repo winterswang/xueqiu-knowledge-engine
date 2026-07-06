@@ -9,7 +9,9 @@ tags:
 aliases:
 - Alphabet
 - GCP
+- Gemini
 - Google
+- Google DeepMind
 - 谷歌
 - 谷歌A
 timeline:
@@ -34,7 +36,30 @@ timeline:
     quote: Google 历史上更偏向于纯粹工程和工具属性，但在 2020 年后，为了应对 TikTok 和 Meta 的压力，也开始深度整合增长思维……其
       YouTube、Google Workspace 等核心业务现在都拥有独立的 Growth Pods（增长小组）。
     business_line: null
-last_updated: '2026-07-06T19:22:16.017238+08:00'
+- date: '2026-05-18'
+  source: sources/2026-05-18-389489713.md
+  signals:
+  - entity: 谷歌A
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: Google技术储备与组织改善支撑其成为更重要AI玩家
+    caveats:
+    - AI产品形态尚未到终局，位置并不稳固
+    - Anthropic/OpenAI等仍构成持续竞争压力
+    quote: Google 的优势是技术储备和工程管理……后来组织框架更清楚，尤其预训练开始变成一个可控的工程项目。
+    business_line: Google DeepMind / Gemini
+  - entity: 谷歌A
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: Nano Banana+Gemini 3带动用户增长与留存，推动Gemini转折
+    caveats:
+    - 未来关键在于long horizon和ML coding方向能否持续突破
+    - 行业远未到终局之战，竞争格局仍在演变
+    quote: Nano Banana 带来了用户量，Gemini 3 把一部分用户留下来，两者共同让 Gemini 成为更重要的玩家。
+    business_line: Gemini / AI产品
+last_updated: '2026-07-06T20:16:33.843331+08:00'
 ---
 
 # 谷歌A
@@ -44,6 +69,11 @@ last_updated: '2026-07-06T19:22:16.017238+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-18
+> 来源: [sources/2026-05-18-389489713.md](sources/2026-05-18-389489713.md)
+- 📈 [positive] Google技术储备与组织改善支撑其成为更重要AI玩家
+- 📈 [positive] Nano Banana+Gemini 3带动用户增长与留存，推动Gemini转折
 
 ### 2026-03-06
 > 来源: [sources/2026-03-06-378210899.md](sources/2026-03-06-378210899.md)
