@@ -1,7 +1,7 @@
 ---
 name: Rocket Lab
 type: company
-ticker: RKLB
+ticker: RKLB.US
 market: US
 tags:
 - _entity_page
@@ -12,6 +12,7 @@ aliases:
 - Rocket Lab
 - Rocket Lab（火箭实验室）
 - Rocketlab
+- 火箭实验室
 timeline:
 - date: '2026-02-27'
   source: sources/2026-02-27-377287845.md
@@ -132,16 +133,22 @@ timeline:
     - 短期内Space Systems业务仍是营收主力
     quote: 目前这一切都排在 8 月左右，但我们正努力尝试将其提前到 7 月。不过就目前而言，所有的数据依然表明，我们完全有机会在今年年底前实现首飞。
     business_line: null
-last_updated: '2026-07-07T00:50:59.938686+08:00'
+- date: '2026-06-16'
+  source: sources/2026-06-16-394513134.md
+  signals: []
+last_updated: '2026-07-07T01:19:16.921971+08:00'
 ---
 
 # Rocket Lab
 
 > 类型: company
-> 股票代码: RKLB
+> 股票代码: RKLB.US
 
 ## 信号时间线
 
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-394513134.md](sources/2026-06-16-394513134.md)
 
 ### 2026-06-11
 > 来源: [sources/2026-06-11-394076037.md](sources/2026-06-11-394076037.md)

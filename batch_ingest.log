@@ -1712,3 +1712,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 [520/746] 394482668.md (2965 bytes)
   ⚠️ 需要 review: 美团信号方向偏中性偏正面，文中同时存在看空因素（竞争）和看好因素（逐季改善），需确认方向判定, 腾讯的AI产出受益于'互惠互利思维'的论断偏定性，置信度需复核, 概念'互联网公司估值方法切换'的粒度是否合适需确认
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[521/746] 394500494.md (5353 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[522/746] 394502440.md (12368 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[523/746] 394503395.md (3074 bytes)
+  ⚠️ 需要 review: 文章对岚图汽车的整体信号方向模糊，同时存在看多（估值修复）和看空（淘汰赛、规模差距）论据，最终以'静观其变'收尾, 东风汽车与东风集团股份的实体关系需确认，文章中'东风汽车'签署Stellantis备忘录是否为上市公司主体需进一步核实, Stellantis的verified状态需确认（未在已知词典中，文章未给出代码）
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[524/746] 394511750.md (52252 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 260 column 55 (char 6907)
+  ✅ OK: 0 entities, 0 concepts
+
+[525/746] 394513134.md (25824 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[526/746] 394578951.md (17084 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[527/746] 394597928.md (11408 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[528/746] 394618677.md (45685 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[529/746] 394680111.md (19516 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[530/746] 394711410.md (3678 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[531/746] 394738948.md (3231 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2217 (char 2216)
+  ✅ OK: 0 entities, 0 concepts
+
+[532/746] 394742221.md (3625 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[533/746] 394746741.md (5096 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[534/746] 394747503.md (3059 bytes)
+  ⚠️ 需要 review: 文章基调较为复杂——承认短期利好但整体偏谨慎，信号方向判断存在歧义, 惠开香港经济发展有限公司虽非可投资标的，但作为事件核心关联方是否保留需确认, 'AI+储能'概念粒度判断：该概念在文章中主要与果下科技绑定，行业层面信息有限，归属为概念还是实体属性存在争议, 跳过未验证无ticker实体: 惠开香港经济发展有限公司
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[535/746] 394749612.md (2161 bytes)
+  ⏭️  Skipped: body_length 1881 < min 2000
+
+[536/746] 394763895.md (4241 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[537/746] 394779953.md (8808 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[538/746] 394783622.md (2279 bytes)
+  ⚠️ 需要 review: 文章为公司公告/PR稿性质，全文为单方面宣传性语言，缺乏第三方独立分析视角, 清盘呈请聆讯结果尚未最终落地（仅延期），'彻底化解'措辞存在过度乐观风险, 供股方案尚无具体细节，融资规模、定价、用途等关键信息缺失, 信号置信度需要review：信息来源为公司自身公告，正面观点的可信度需打折
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[539/746] 394790644.md (34563 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[540/746] 394797413.md (3385 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

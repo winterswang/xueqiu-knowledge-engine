@@ -10,6 +10,8 @@ aliases:
 - $SpaceX(SPCX)$
 - Falcon 9
 - SPCX
+- Space Exploration Technologies
+- Space X
 - SpaceX
 - SpaceX AI
 - SpaceX 领导团队
@@ -25,6 +27,7 @@ aliases:
 - 这家火箭巨头
 - 马斯克旗下商业航天公司
 - 马斯克的SpaceX
+- 马斯克的火箭公司
 timeline:
 - date: '2026-02-25'
   source: sources/2026-02-25-376829016.md
@@ -415,7 +418,86 @@ timeline:
     - 公司尚未实现稳定盈利
     quote: SpaceX 绝对是一个了不起的顶级猎物。
     business_line: 整体公司价值
-last_updated: '2026-07-07T01:07:33.994694+08:00'
+- date: '2026-06-16'
+  source: sources/2026-06-16-394513134.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: SpaceX长期具备数万亿美元增长期权
+    caveats:
+    - Starship完全可复用尚未实现
+    - 轨道AI数据中心仍处概念阶段面临散热/辐射/电力传输等工程挑战
+    - 竞争对手在数年内难以跨越技术门槛但中国厂商密集冲刺
+    quote: 这一操作，直接把Space X要服务的市场规模从'0.37万亿太空解决方案+1.6万亿美元全球连接市场'，急剧扩展至'26.5万亿美元AI市场'……太空AI数据中心为SpaceX提供了一个价值数万亿美元的'长期增长期权'
+    business_line: 整体公司
+  - entity: SpaceX
+    direction: neutral
+    confidence: medium
+    time_frame: short_term
+    summary: 短期受星舰研发拖累与毛利率压力
+    caveats:
+    - 星舰V3研发导致2026Q1发射业务毛利率从66%回落至55%
+    - AI板块2025年运营亏损64亿，吃光Starlink利润
+    - 政府与国防低毛利任务收入占比从35%提升至47%
+    quote: 2026年一季度，SpaceX发射业务毛利率又从去年同期约66%回落至约55%……新品星舰V3的研发拖累
+    business_line: 发射业务
+- date: '2026-06-13'
+  source: sources/2026-06-13-394578951.md
+  signals:
+  - entity: SpaceX
+    direction: negative
+    confidence: high
+    time_frame: short_term
+    summary: 估值110倍P/S过高，类比安然狂热
+    caveats:
+    - 目前无法直接做空SpaceX
+    - 马斯克叙事能力极强
+    - 星链业务有真实价值(数千亿美元)
+    - 作者本人长期看好航天经济
+    quote: SpaceX 目前的市销率（P/S）可能已经高达 110 倍左右。而历史经验无情地告诉我们：以超过 100 倍市销率的价格去买股票，基本上是不可能赚到钱的
+    business_line: 整体公司估值
+- date: '2026-06-14'
+  source: sources/2026-06-14-394597928.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: 史上最大IPO，上市首日表现强劲
+    caveats:
+    - 估值过高隐忧
+    - 尚未具备万亿级公司应有的现金流
+    - xAI合并及Cursor收购的整合风险
+    quote: 马斯克在敲钟前动情地说道：'当年我觉得 SpaceX 能活下来的概率甚至不到 10%。'
+    business_line: 整体上市
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 太空AI数据中心构建全新增长曲线
+    caveats:
+    - 4-5年时间框架内实现所需资金巨大
+    - 技术可行性存在不确定性
+    - 估值远超当前基本面
+    quote: 马斯克开始越来越多地描绘 SpaceX 将如何构建支撑 AI 运转的庞大数据中心。而其独一无二的卖点在于：这些数据中心将建在太空中，由 SpaceX
+      的巨型'星舰'火箭发射至近地轨道。
+    business_line: AI基础设施/太空数据中心
+- date: '2026-06-14'
+  source: sources/2026-06-14-394618677.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 已上市，将垄断下一个万亿营收
+    caveats:
+    - 火箭发射业务的政策与执行风险
+    - 估值已部分定价乐观预期
+    quote: 被SpaceX、Anthropic和OpenAI这短短三家公司彻底垄断。用少了一半的时间，在少了一半的公司身上，凭空再造一个万亿营收神话。
+    business_line: 火箭+星链+算力
+last_updated: '2026-07-07T01:25:30.800810+08:00'
 ---
 
 # SpaceX
@@ -425,6 +507,24 @@ last_updated: '2026-07-07T01:07:33.994694+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-394513134.md](sources/2026-06-16-394513134.md)
+- 📈 [positive] SpaceX长期具备数万亿美元增长期权
+- ➡️ [neutral] 短期受星舰研发拖累与毛利率压力
+
+### 2026-06-14
+> 来源: [sources/2026-06-14-394597928.md](sources/2026-06-14-394597928.md)
+- 📈 [positive] 史上最大IPO，上市首日表现强劲
+- 📈 [positive] 太空AI数据中心构建全新增长曲线
+
+### 2026-06-14
+> 来源: [sources/2026-06-14-394618677.md](sources/2026-06-14-394618677.md)
+- 📈 [positive] 已上市，将垄断下一个万亿营收
+
+### 2026-06-13
+> 来源: [sources/2026-06-13-394578951.md](sources/2026-06-13-394578951.md)
+- 📉 [negative] 估值110倍P/S过高，类比安然狂热
 
 ### 2026-06-12
 > 来源: [sources/2026-06-12-394254984.md](sources/2026-06-12-394254984.md)

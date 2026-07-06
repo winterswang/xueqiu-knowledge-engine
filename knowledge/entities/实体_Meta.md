@@ -1,7 +1,7 @@
 ---
 name: Meta
 type: company
-ticker: META.US
+ticker: META
 market: US
 tags:
 - _entity_page
@@ -173,16 +173,32 @@ timeline:
 - date: '2026-06-10'
   source: sources/2026-06-10-394022542.md
   signals: []
-last_updated: '2026-07-07T00:48:16.550481+08:00'
+- date: '2026-06-14'
+  source: sources/2026-06-14-394618677.md
+  signals:
+  - entity: Meta
+    direction: negative
+    confidence: medium
+    time_frame: medium_term
+    summary: 自研芯片进展令人失望
+    caveats:
+    - 仍可采购英伟达芯片维持AI投入
+    quote: Meta和微软自研芯片的进展说实话是让人失望的。
+    business_line: 自研AI芯片
+last_updated: '2026-07-07T01:25:30.875243+08:00'
 ---
 
 # Meta
 
 > 类型: company
-> 股票代码: META.US
+> 股票代码: META
 
 ## 信号时间线
 
+
+### 2026-06-14
+> 来源: [sources/2026-06-14-394618677.md](sources/2026-06-14-394618677.md)
+- 📉 [negative] 自研芯片进展令人失望
 
 ### 2026-06-10
 > 来源: [sources/2026-06-10-393687679.md](sources/2026-06-10-393687679.md)

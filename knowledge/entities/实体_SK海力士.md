@@ -1,7 +1,7 @@
 ---
 name: SK海力士
 type: company
-ticker: KRX:000660
+ticker: 000660.KS
 market: ''
 tags:
 - _entity_page
@@ -39,16 +39,22 @@ timeline:
     - 长期扩产计划执行存在不确定性
     quote: SK海力士计划到2034年将晶圆产能提高两倍，以满足人工智能推动下不断增长的存储芯片需求
     business_line: null
-last_updated: '2026-07-07T00:56:14.823756+08:00'
+- date: '2026-06-12'
+  source: sources/2026-06-12-394502440.md
+  signals: []
+last_updated: '2026-07-07T01:15:26.586115+08:00'
 ---
 
 # SK海力士
 
 > 类型: company
-> 股票代码: KRX:000660
+> 股票代码: 000660.KS
 
 ## 信号时间线
 
+
+### 2026-06-12
+> 来源: [sources/2026-06-12-394502440.md](sources/2026-06-12-394502440.md)
 
 ### 2026-06-11
 > 来源: [sources/2026-06-11-394222589.md](sources/2026-06-11-394222589.md)

@@ -1,16 +1,19 @@
 ---
 name: AI基础设施
-definition: 支撑大规模AI训练与推理的算力硬件、网络互联和能源供应体系
+definition: 支撑人工智能模型训练与推理的算力、网络及数据中心等底层设施
 tags:
 - _concept_page
 - 概念
 entities:
 - AMD
 - Alphabet
+- Anthropic
 - Coreweave
 - Meta
 - NVIDIA
+- OpenAI
 - SpaceX
+- xAI
 - 亚马逊
 - 博通
 - 微软
@@ -32,21 +35,25 @@ sources:
 - sources/2026-06-04-392803232.md
 - sources/2026-06-05-392959875.md
 - sources/2026-06-09-393736712.md
-last_updated: '2026-07-07T00:31:03.349273+08:00'
+- sources/2026-06-14-394597928.md
+last_updated: '2026-07-07T01:23:08.265243+08:00'
 ---
 # AI基础设施
 ## 定义
 
-支撑大规模AI训练与推理的算力硬件、网络互联和能源供应体系
+支撑人工智能模型训练与推理的算力、网络及数据中心等底层设施
 
 ## 关联实体
 
 - [[entities/AMD|AMD]]
 - [[entities/Alphabet|Alphabet]]
+- [[entities/Anthropic|Anthropic]]
 - [[entities/Coreweave|Coreweave]]
 - [[entities/Meta|Meta]]
 - [[entities/NVIDIA|NVIDIA]]
+- [[entities/OpenAI|OpenAI]]
 - [[entities/SpaceX|SpaceX]]
+- [[entities/xAI|xAI]]
 - [[entities/亚马逊|亚马逊]]
 - [[entities/博通|博通]]
 - [[entities/微软|微软]]
@@ -59,7 +66,6 @@ last_updated: '2026-07-07T00:31:03.349273+08:00'
 
 ## 来源文章
 
-- [sources/2026-02-26-377127545.md](sources/2026-02-26-377127545.md)
 - [sources/2026-03-02-377549697.md](sources/2026-03-02-377549697.md)
 - [sources/2026-03-06-378210899.md](sources/2026-03-06-378210899.md)
 - [sources/2026-03-06-378307797.md](sources/2026-03-06-378307797.md)
@@ -69,4 +75,5 @@ last_updated: '2026-07-07T00:31:03.349273+08:00'
 - [sources/2026-06-04-392803232.md](sources/2026-06-04-392803232.md)
 - [sources/2026-06-05-392959875.md](sources/2026-06-05-392959875.md)
 - [sources/2026-06-09-393736712.md](sources/2026-06-09-393736712.md)
+- [sources/2026-06-14-394597928.md](sources/2026-06-14-394597928.md)
 
