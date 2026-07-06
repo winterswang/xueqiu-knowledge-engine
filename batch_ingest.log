@@ -1048,3 +1048,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [320/746] 391731656.md (8121 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[321/746] 391735755.md (8940 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[322/746] 391739193.md (4795 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[323/746] 391740087.md (6780 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[324/746] 391745437.md (2021 bytes)
+  ⏭️  Skipped: body_length 1819 < min 2000
+
+[325/746] 391748081.md (4330 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[326/746] 391750211.md (3537 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[327/746] 391776166.md (9482 bytes)
+  ⚠️ 需要 review: LLM call failed: Error code: 400 - {'error': {'code': 'SensitiveContentDetected', 'message': 'The request failed because the input may contain sensitive information. Request id: 0217833483213325c847dce3dfef19d8a8a6e4aeb40e68b86b0ec', 'param': '', 'type': 'BadRequest'}}
+  ✅ OK: 0 entities, 0 concepts
+
+[328/746] 391786817.md (3709 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[329/746] 391802249.md (4464 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[330/746] 391808158.md (3698 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 3651 (char 3650)
+  ✅ OK: 0 entities, 0 concepts
+
+[331/746] 391811362.md (10983 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[332/746] 391819555.md (3215 bytes)
+  ⚠️ 需要 review: 文章以财务方法论分析为主，信号方向偏中性，positive/negative的拆分存在主观判断, 30%退货率为反向推算，准确性存疑, 1000亿净利润预测依赖多个假设（15% GMV增速、2.5%净利率），实际值可能偏差较大
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[333/746] 391835040.md (5809 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[334/746] 391836516.md (15881 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting value: line 1 column 1 (char 0)
+  ✅ OK: 0 entities, 0 concepts
+
+[335/746] 391838421.md (3367 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[336/746] 391839775.md (4044 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[337/746] 391884713.md (2491 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[338/746] 391937777.md (2193 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1655 (char 1654)
+  ✅ OK: 0 entities, 0 concepts
+
+[339/746] 391960222.md (2187 bytes)
+  ⏭️  Skipped: body_length 1990 < min 2000
+
+[340/746] 391964286.md (22393 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

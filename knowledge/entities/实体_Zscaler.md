@@ -61,7 +61,30 @@ timeline:
     quote: 我们提到第二财季 100 万美元以上的订单数量创下了历史新高，这有力支撑了我们在市场开拓（Go-to-market）方面的转型。Z-Flex本季度实现了
       2.9 亿美元的总合同价值（TCV）预订。
     business_line: 核心SASE/零信任业务
-last_updated: '2026-07-06T19:45:00.516288+08:00'
+- date: '2026-05-29'
+  source: sources/2026-05-29-391735755.md
+  signals:
+  - entity: Zscaler
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: 市场误读CFO发言，公司基本面强劲
+    caveats:
+    - 近期销售团队负责人变动可能影响初期指引
+    - 股价短期波动较大，员工股权激励感受影响
+    quote: 我们刚交出的财报，这其实是一个非常强劲的季度：营收同比增长 25%，市场规模突破 35 亿美元，营业利润率更是创下 23% 的历史新高。所以，我认为市场关于'新客户增速放缓'的解读完全是一场误会。
+    business_line: 整体
+  - entity: Zscaler
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: AI智能体安全需求将驱动零信任渗透加速
+    caveats:
+    - 不自行构建身份方案，依赖微软/谷歌/AWS/Snowflake等合作伙伴生态
+    - 与超大规模云巨头直接竞争身份领域不可取
+    quote: 从网络安全的角度来看，过去'人'是最薄弱的环节；而到了明天，'AI 智能体'将成为最薄弱的环节。我们 Zscaler 天生就是做这种'安全交换机'的。
+    business_line: AI安全/零信任
+last_updated: '2026-07-06T22:28:27.030597+08:00'
 ---
 
 # Zscaler
@@ -71,6 +94,11 @@ last_updated: '2026-07-06T19:45:00.516288+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-29
+> 来源: [sources/2026-05-29-391735755.md](sources/2026-05-29-391735755.md)
+- 📈 [positive] 市场误读CFO发言，公司基本面强劲
+- 📈 [positive] AI智能体安全需求将驱动零信任渗透加速
 
 ### 2026-03-08
 > 来源: [sources/2026-03-08-378489957.md](sources/2026-03-08-378489957.md)

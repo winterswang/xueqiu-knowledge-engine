@@ -10,6 +10,7 @@ aliases:
 - Azure
 - Microsoft
 - Microsoft Marketplace
+- 微软
 timeline:
 - date: '2026-03-06'
   source: sources/2026-03-06-378282128.md
@@ -20,7 +21,10 @@ timeline:
 - date: '2026-03-08'
   source: sources/2026-03-08-378479098.md
   signals: []
-last_updated: '2026-07-06T19:40:06.587594+08:00'
+- date: '2026-05-29'
+  source: sources/2026-05-29-391740087.md
+  signals: []
+last_updated: '2026-07-06T22:31:02.971568+08:00'
 ---
 
 # Microsoft
@@ -30,6 +34,9 @@ last_updated: '2026-07-06T19:40:06.587594+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-29
+> 来源: [sources/2026-05-29-391740087.md](sources/2026-05-29-391740087.md)
 
 ### 2026-03-08
 > 来源: [sources/2026-03-08-378479098.md](sources/2026-03-08-378479098.md)
