@@ -7,6 +7,7 @@ aliases:
 - TME
 - 腾讯音乐
 - 腾讯音乐-SW
+- 腾讯音乐-SW(01698.HK)
 timeline:
 - date: '2026-03-04'
   source: sources/2026-03-04-307548176.md
@@ -26,7 +27,10 @@ timeline:
 - date: '2026-06-23'
   source: sources/2026-06-23-396206255.md
   signals: []
-last_updated: '2026-07-07T03:10:50.497996+08:00'
+- date: '2026-06-24'
+  source: sources/2026-06-24-396456285.md
+  signals: []
+last_updated: '2026-07-07T03:26:21.126127+08:00'
 tags:
 - _entity_page
 - 实体/腾讯音乐-SW
@@ -39,6 +43,9 @@ tags:
 
 ## 信号时间线
 
+
+### 2026-06-24
+> 来源: [sources/2026-06-24-396456285.md](sources/2026-06-24-396456285.md)
 
 ### 2026-06-23
 > 来源: [sources/2026-06-23-396206255.md](sources/2026-06-23-396206255.md)

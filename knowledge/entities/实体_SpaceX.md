@@ -1,7 +1,7 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX
+ticker: SPCX.US
 market: US
 tags:
 - _entity_page
@@ -16,6 +16,7 @@ aliases:
 - SpaceX AI
 - SpaceX 领导团队
 - SpaceX(SPCX)
+- SpaceX（SPCX.US）
 - Spacex
 - StarShield
 - Starlink
@@ -687,13 +688,19 @@ timeline:
     - 太空制造商业模式尚未规模化验证
     quote: SpaceX实际上正在通过Starfall，悄悄肢解并取代国际空间站（ISS）最核心的'摇钱树'业务（微重力国家实验室）
     business_line: null
-last_updated: '2026-07-07T03:14:19.931093+08:00'
+- date: '2026-06-24'
+  source: sources/2026-06-24-396450868.md
+  signals: []
+- date: '2026-06-24'
+  source: sources/2026-06-24-396489482.md
+  signals: []
+last_updated: '2026-07-07T03:28:59.287527+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX
+> 股票代码: SPCX.US
 
 ## 信号时间线
 
@@ -701,6 +708,12 @@ last_updated: '2026-07-07T03:14:19.931093+08:00'
 ### 2026-06-24
 > 来源: [sources/2026-06-24-396277015.md](sources/2026-06-24-396277015.md)
 - 📈 [positive] Starfall无人舱将取代ISS核心商业职能
+
+### 2026-06-24
+> 来源: [sources/2026-06-24-396450868.md](sources/2026-06-24-396450868.md)
+
+### 2026-06-24
+> 来源: [sources/2026-06-24-396489482.md](sources/2026-06-24-396489482.md)
 
 ### 2026-06-22
 > 来源: [sources/2026-06-22-395926040.md](sources/2026-06-22-395926040.md)

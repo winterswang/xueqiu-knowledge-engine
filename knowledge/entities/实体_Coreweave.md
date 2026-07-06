@@ -11,6 +11,7 @@ aliases:
 - CoreWeave
 - Coreweave
 - Corweave（文中拼写）
+- 新云
 - 新云厂
 timeline:
 - date: '2026-03-02'
@@ -57,7 +58,10 @@ timeline:
 - date: '2026-06-20'
   source: sources/2026-06-20-395747240.md
   signals: []
-last_updated: '2026-07-07T02:42:36.269763+08:00'
+- date: '2026-06-24'
+  source: sources/2026-06-24-396497795.md
+  signals: []
+last_updated: '2026-07-07T03:32:41.850073+08:00'
 ---
 
 # Coreweave
@@ -67,6 +71,9 @@ last_updated: '2026-07-07T02:42:36.269763+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-24
+> 来源: [sources/2026-06-24-396497795.md](sources/2026-06-24-396497795.md)
 
 ### 2026-06-20
 > 来源: [sources/2026-06-20-395747240.md](sources/2026-06-20-395747240.md)

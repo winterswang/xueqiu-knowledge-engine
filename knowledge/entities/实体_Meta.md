@@ -1,7 +1,7 @@
 ---
 name: Meta
 type: company
-ticker: META
+ticker: META.US
 market: US
 tags:
 - _entity_page
@@ -195,16 +195,22 @@ timeline:
 - date: '2026-06-24'
   source: sources/2026-06-24-396398020.md
   signals: []
-last_updated: '2026-07-07T03:18:40.390524+08:00'
+- date: '2026-06-25'
+  source: sources/2026-06-25-396655082.md
+  signals: []
+last_updated: '2026-07-07T03:37:59.483032+08:00'
 ---
 
 # Meta
 
 > 类型: company
-> 股票代码: META
+> 股票代码: META.US
 
 ## 信号时间线
 
+
+### 2026-06-25
+> 来源: [sources/2026-06-25-396655082.md](sources/2026-06-25-396655082.md)
 
 ### 2026-06-24
 > 来源: [sources/2026-06-24-396398020.md](sources/2026-06-24-396398020.md)

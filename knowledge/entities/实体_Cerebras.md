@@ -1,7 +1,7 @@
 ---
 name: Cerebras
 type: company
-ticker: CBRS.US
+ticker: CBRS
 market: US
 tags:
 - _entity_page
@@ -65,16 +65,45 @@ timeline:
     - 无法普惠规模化
     quote: Cerebras WSE则是极致高门槛、高收益、高风险的小众模式……客户集中度极高，一旦核心客户流失，企业经营会直接承压，根据Cerebras的招股书，其两名阿联酋大客户G42和MBZUAI分别是其最近两年的单一大客，于2024年和2025年分别占了其总收入的85%和62%。
     business_line: 晶圆级AI芯片
-last_updated: '2026-07-07T01:45:13.627305+08:00'
+- date: '2026-06-25'
+  source: sources/2026-06-25-396651748.md
+  signals:
+  - entity: Cerebras
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: OpenAI超200亿订单+AWS合作，长期看好AI推理黑马
+    caveats:
+    - 数据中心建设速度是当前瓶颈
+    - 客户集中度风险未披露
+    - Q2毛利率短期承压10-15个百分点
+    quote: 这绝对是未来两三年AI推理赛道最值得死盯的黑马！
+    business_line: null
+  - entity: Cerebras
+    direction: negative
+    confidence: medium
+    time_frame: short_term
+    summary: 租赁算力拖累毛利率，Q2核心营业利润率-30%
+    caveats:
+    - 管理层指引称影响已完全消化在Q2和全年指引中
+    - 长期目标毛利率仍为60%以上
+    quote: 租赁第三方算力的额外成本将暂时压低核心云及其他服务的利润率……导致利润率下降10到15个百分点
+    business_line: null
+last_updated: '2026-07-07T03:37:01.483550+08:00'
 ---
 
 # Cerebras
 
 > 类型: company
-> 股票代码: CBRS.US
+> 股票代码: CBRS
 
 ## 信号时间线
 
+
+### 2026-06-25
+> 来源: [sources/2026-06-25-396651748.md](sources/2026-06-25-396651748.md)
+- 📈 [positive] OpenAI超200亿订单+AWS合作，长期看好AI推理黑马
+- 📉 [negative] 租赁算力拖累毛利率，Q2核心营业利润率-30%
 
 ### 2026-06-17
 > 来源: [sources/2026-06-17-394939307.md](sources/2026-06-17-394939307.md)
