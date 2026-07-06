@@ -1,7 +1,7 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX.US
+ticker: SPCX
 market: US
 tags:
 - _entity_page
@@ -28,6 +28,7 @@ aliases:
 - 太空探索技术公司
 - 星链
 - 星链母公司
+- 星链移动
 - 星链（Starlink）
 - 这家火箭巨头
 - 马斯克旗下商业航天公司
@@ -701,16 +702,39 @@ timeline:
 - date: '2026-06-26'
   source: sources/2026-06-26-397040678.md
   signals: []
-last_updated: '2026-07-07T04:08:34.939854+08:00'
+- date: '2026-06-27'
+  source: sources/2026-06-27-397127938.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: Direct to Cell将成万亿级新增长引擎
+    caveats:
+    - 需依赖地面运营商合作落地
+    - 卫星发射节奏与频谱资源是瓶颈
+    quote: 眼下，SpaceX 最具爆发力的下一个万亿级增长点，毫无疑问是太空移动互联网（Direct to Cell）
+    business_line: Direct to Cell / 星链移动
+- date: '2026-06-29'
+  source: sources/2026-06-29-397211590.md
+  signals: []
+last_updated: '2026-07-07T04:13:22.185393+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX.US
+> 股票代码: SPCX
 
 ## 信号时间线
 
+
+### 2026-06-29
+> 来源: [sources/2026-06-29-397211590.md](sources/2026-06-29-397211590.md)
+
+### 2026-06-27
+> 来源: [sources/2026-06-27-397127938.md](sources/2026-06-27-397127938.md)
+- 📈 [positive] Direct to Cell将成万亿级新增长引擎
 
 ### 2026-06-26
 > 来源: [sources/2026-06-26-397040678.md](sources/2026-06-26-397040678.md)

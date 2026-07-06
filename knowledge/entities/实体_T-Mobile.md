@@ -8,6 +8,7 @@ tags:
 - 实体/T-Mobile
 aliases:
 - T-Mobile
+- T-Mobile 美国
 - T-Mobile电信
 timeline:
 - date: '2026-06-05'
@@ -16,7 +17,10 @@ timeline:
 - date: '2026-06-15'
   source: sources/2026-06-15-394837509.md
   signals: []
-last_updated: '2026-07-07T01:40:21.287641+08:00'
+- date: '2026-06-27'
+  source: sources/2026-06-27-397127938.md
+  signals: []
+last_updated: '2026-07-07T04:12:41.593119+08:00'
 ---
 
 # T-Mobile
@@ -26,6 +30,9 @@ last_updated: '2026-07-07T01:40:21.287641+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-27
+> 来源: [sources/2026-06-27-397127938.md](sources/2026-06-27-397127938.md)
 
 ### 2026-06-15
 > 来源: [sources/2026-06-15-394837509.md](sources/2026-06-15-394837509.md)

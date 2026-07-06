@@ -49,7 +49,20 @@ timeline:
 - date: '2026-05-23'
   source: sources/2026-05-23-390564240.md
   signals: []
-last_updated: '2026-07-06T21:09:20.316683+08:00'
+- date: '2026-06-27'
+  source: sources/2026-06-27-397127938.md
+  signals:
+  - entity: AST SpaceMobile
+    direction: negative
+    confidence: medium
+    time_frame: medium_term
+    summary: 面对SpaceX降维打击承压
+    caveats:
+    - 可凭AT&T/Verizon结盟在细分场景夹缝求生
+    - 传统巨头为制衡SpaceX正主动扶持
+    quote: 面对 SpaceX 这种手握'自有火箭发射全产业链'的暴力级玩家，这个刚刚兴起的万亿蓝海市场，恐怕很快就会被马斯克连盘端走
+    business_line: 卫星直连手机
+last_updated: '2026-07-07T04:12:41.589300+08:00'
 ---
 
 # AST SpaceMobile
@@ -59,6 +72,10 @@ last_updated: '2026-07-06T21:09:20.316683+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-27
+> 来源: [sources/2026-06-27-397127938.md](sources/2026-06-27-397127938.md)
+- 📉 [negative] 面对SpaceX降维打击承压
 
 ### 2026-05-23
 > 来源: [sources/2026-05-23-390564240.md](sources/2026-05-23-390564240.md)

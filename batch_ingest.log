@@ -2447,3 +2447,24 @@ Batch Ingest: 746 total, 746 pending, 0 done
 [740/746] 397045099.md (2519 bytes)
   ⚠️ 需要 review: 宝盖新材为拟上市公司，尚无股票代码，实体verified状态需后续更新, 文章为IPO追踪/新闻稿性质，信息深度有限，财务数据仅覆盖三年且未做估值/同业对比, 信号方向判断：文章整体措辞偏正面（'硬龙头'、'成长空间'），但财务波动为明显瑕疵，故给medium置信度, 跳过未验证无ticker实体: 宝盖新材, 跳过未验证无ticker实体: 中泰国际
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+  💾 Committed: batch: ingest 20 articles
+
+[741/746] 397055412.md (5110 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[742/746] 397069658.md (14228 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[743/746] 397127938.md (3825 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[744/746] 397188693.md (454 bytes)
+  ⏭️  Skipped: body_length 247 < min 2000
+
+[745/746] 397211590.md (3744 bytes)
+  ⚠️ 需要 review: 文章使用$SpaceX(SPCX)$标签但实际内容讨论的是xAI（非上市），实体归属存疑, Siemens和Mitsubishi在美国是否有ADR及具体股票代码未明确, 微软的信号方向偏向中性，但其作为AI基建受益方可能也偏正面, 跳过未验证无ticker实体: Siemens, 跳过未验证无ticker实体: Mitsubishi, 跳过未验证无ticker实体: OpenAI
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[746/746] 397223871.md (2468 bytes)
+  ⚠️ 需要 review: 文章夹杂大量非投资内容（旅游、咖啡、抱怨抄袭），信息密度偏低, 核心数据（90%份额、5%供给增长）来源于引用第三方报告，未注明原报告名称及日期, 作者对宏和科技的看好带有主观'情怀'色彩，置信度需打折
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
