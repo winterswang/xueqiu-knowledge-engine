@@ -129,3 +129,66 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [40/746] 377143395.md (5206 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[41/746] 377143551.md (6263 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[42/746] 377160742.md (10972 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[43/746] 377192149.md (6372 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[44/746] 377202272.md (5538 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[45/746] 377206299.md (6193 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[46/746] 377208270.md (4467 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[47/746] 377209531.md (7875 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[48/746] 377209547.md (11869 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[49/746] 377213441.md (6776 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[50/746] 377254995.md (10567 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[51/746] 377287845.md (7767 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[52/746] 377536268.md (26870 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 7516 (char 7515)
+  ✅ OK: 0 entities, 0 concepts
+
+[53/746] 377548665.md (2117 bytes)
+  ⏭️  Skipped: body_length 1907 < min 2000
+
+[54/746] 377549697.md (6996 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[55/746] 377552628.md (7174 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[56/746] 377649520.md (9199 bytes)
+  ⚠️ 需要 review: 文章中公司名'MiniMax'出现大量乱码（'Minimax'），需确认完整公司名称（稀宇科技/MiniMax）, Q4企业服务毛利率从近70%回落至65%的推算为分析师假设，非公司披露数据, 概念'模型即产品'在文中是作者分析框架，需确认是否作为行业通用概念
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[57/746] 377714889.md (7110 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[58/746] 377715860.md (6315 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[59/746] 377719459.md (7869 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[60/746] 377720435.md (7951 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
