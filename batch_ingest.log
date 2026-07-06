@@ -2181,3 +2181,70 @@ Batch Ingest: 746 total, 746 pending, 0 done
 [660/746] 396202012.md (3849 bytes)
   ⚠️ 需要 review: 文章为宏观策略报告，全文未提及任何具体上市公司标的，实体识别以分析师和券商为主体, 信号与主张的entity字段在宏观行业层面表述（美国科技行业（宏观）），非个股层面，请确认是否需要将范围进一步收窄或保留行业级信号, 文章涉及大量美国本土科技企业（未具名），如需进一步细化到具体公司，需补充原报告正文
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[661/746] 396202047.md (14842 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[662/746] 396202718.md (2021 bytes)
+  ⏭️  Skipped: body_length 1827 < min 2000
+
+[663/746] 396206255.md (3098 bytes)
+  ⚠️ 需要 review: 文章为港股每日收评类快讯,信息以当日行情数据为主,缺乏深度投资逻辑和前瞻判断, 实体MINIMAX-W(00100)名称异常,需核实是否对应实际上市公司, 未提取投资信号:文章为纯市场行情描述,无明确方向性投资观点
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[664/746] 396231379.md (3107 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[665/746] 396233208.md (5899 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[666/746] 396236038.md (6705 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[667/746] 396237575.md (2670 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[668/746] 396238744.md (3500 bytes)
+  ⚠️ 需要 review: 文章正文中公司名称显示为'MiniMax'，疑为源文编码/替换问题，实体名以股票代码00100.HK为准，名称'MINIMAX-W'需人工确认是否为规范名, 小米仅以'小米大模型'形式一笔带过，是否应建独立实体页存疑
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[669/746] 396277015.md (2727 bytes)
+  ⚠️ 需要 review: 文章以营销/科普口吻撰写，投资分析深度有限，'吵翻了'等表述显示主要来源于社交媒体讨论而非一手技术文档, 任务尚处演示阶段，多处使用'有望''期待'等前瞻表述，实际技术验证尚未完成，信号置信度需复核, $太空创新者ETF(NASA)$是否为真实可交易ETF存疑，可能是文中引用标签，建议核实, Signal仅1条，文章核心论断较集中于SpaceX单一标的的演示任务描述，行业纵深不足
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[670/746] 396316274.md (17899 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[671/746] 396327595.md (8609 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[672/746] 396334184.md (5556 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[673/746] 396337735.md (3299 bytes)
+  ⚠️ 需要 review: 文章为IPO新闻播报而非深度投资分析，信息密度中等，缺少对管线价值、估值合理性的判断, 云顶新耀股票代码（01952.HK）系根据公开知识推断，文中未直接给出代码，需确认, 启源香港是否为可独立投资标的存疑，文中未明确说明其性质, 信号方向判断为neutral偏positive之间，因文章仅描述首日表现，未给出明确投资观点, 跳过未验证无ticker实体: 启源香港
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[674/746] 396363316.md (2981 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[675/746] 396371401.md (3958 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[676/746] 396398020.md (5002 bytes)
+  ⚠️ 需要 review: 文章为液冷赛道行业分析，重点分析对象是赛道而非英伟达个股，将英伟达归为analyzed角色需确认, 文中提及多家海外液冷企业（维谛、CoolIT、Motivair）均为行业背景，未给股票代码故未建实体，需确认是否应补充, 文中'港股一批手握英伟达官方认证'的液冷企业未具名，可能存在值得关注的潜在投资标的未在文中明示
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[677/746] 396406253.md (3182 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[678/746] 396415575.md (3676 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[679/746] 396435617.md (3565 bytes)
+  ⚠️ 需要 review: 文章为A股每日收评快讯，信息密度较低，缺乏深度投资逻辑分析, 大量个股仅作为板块涨跌的罗列提及，未涉及具体投资判断, 台积电、建滔积层板作为港股/非A股标的，仅作背景信息, CRO行业复苏与锂矿周期反转两个观点来自卖方研报引用，需注意区分作者本人观点与转述观点, 跳过未验证无ticker实体: 建滔积层板
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[680/746] 396442832.md (4459 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

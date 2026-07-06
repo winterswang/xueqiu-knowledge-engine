@@ -1,13 +1,14 @@
 ---
 name: MINIMAX-W
 type: company
-ticker: '00100'
+ticker: 00100.HK
 market: ''
 tags:
 - _entity_page
 - 实体/MINIMAX-W
 aliases:
 - '00100'
+- 00100.HK
 - MINIMAX-W
 - MINIMAX-W(00100)
 - MiniMax
@@ -39,19 +40,53 @@ timeline:
 - date: '2026-06-23'
   source: sources/2026-06-23-396011283.md
   signals: []
-last_updated: '2026-07-07T02:58:26.400644+08:00'
+- date: '2026-06-23'
+  source: sources/2026-06-23-396206255.md
+  signals: []
+- date: '2026-06-23'
+  source: sources/2026-06-23-396238744.md
+  signals:
+  - entity: MINIMAX-W
+    direction: negative
+    confidence: high
+    time_frame: short_term
+    summary: 稀缺溢价消退叠加解禁压力，股价持续承压
+    caveats:
+    - 已较高点回撤超6成，短期超跌可能存在技术性反弹
+    - 7月9日解禁抛压为关键风险事件
+    quote: MiniMax这轮回调背后，是整个市场对国产大模型企业估值体系的全面重构
+    business_line: 大模型API及企业级AI服务
+  - entity: MINIMAX-W
+    direction: negative
+    confidence: medium
+    time_frame: medium_term
+    summary: 商业化深水区变现压力下估值支撑弱化
+    caveats:
+    - 海外OpenAI/Anthropic若成功上市可能改变行业估值锚
+    - 技术差异化若能突破仍有重估可能
+    quote: 行业已正式进入商业化落地的深水区。技术差距持续缩小，市场要求企业交出可验证的经营答卷
+    business_line: 大模型主营业务
+last_updated: '2026-07-07T03:13:53.223281+08:00'
 ---
 
 # MINIMAX-W
 
 > 类型: company
-> 股票代码: 00100
+> 股票代码: 00100.HK
 
 ## 信号时间线
 
 
 ### 2026-06-23
 > 来源: [sources/2026-06-23-396011283.md](sources/2026-06-23-396011283.md)
+
+### 2026-06-23
+> 来源: [sources/2026-06-23-396206255.md](sources/2026-06-23-396206255.md)
+
+### 2026-06-23
+> 来源: [sources/2026-06-23-396238744.md](sources/2026-06-23-396238744.md)
+- 📉 [negative] 稀缺溢价消退叠加解禁压力，股价持续承压
+- 📉 [negative] 商业化深水区变现压力下估值支撑弱化
 
 ### 2026-06-15
 > 来源: [sources/2026-06-15-394846197.md](sources/2026-06-15-394846197.md)

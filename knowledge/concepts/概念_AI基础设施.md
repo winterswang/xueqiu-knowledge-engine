@@ -1,12 +1,13 @@
 ---
 name: AI基础设施
-definition: 支撑AI训练与推理的底层硬件与通信网络，包括光模块、服务器、数据中心等
+definition: 支撑AI模型训练与推理的算力、存力、运力等硬件基础设施总和
 tags:
 - _concept_page
 - 概念
 entities:
 - AMD
 - Alphabet
+- Amkor Technology
 - Anthropic
 - Coreweave
 - Meta
@@ -16,8 +17,10 @@ entities:
 - xAI
 - 亚马逊
 - 博通
+- 台积电
 - 圣邦股份
 - 微软
+- 日月光
 - 海光芯正
 - 特斯拉
 - 英伟达
@@ -40,17 +43,19 @@ sources:
 - sources/2026-06-14-394597928.md
 - sources/2026-06-17-395263879.md
 - sources/2026-06-18-395547139.md
-last_updated: '2026-07-07T02:29:34.553284+08:00'
+- sources/2026-06-24-396316274.md
+last_updated: '2026-07-07T03:15:03.632655+08:00'
 ---
 # AI基础设施
 ## 定义
 
-支撑AI训练与推理的底层硬件与通信网络，包括光模块、服务器、数据中心等
+支撑AI模型训练与推理的算力、存力、运力等硬件基础设施总和
 
 ## 关联实体
 
 - [[entities/AMD|AMD]]
 - [[entities/Alphabet|Alphabet]]
+- [[entities/Amkor_Technology|Amkor Technology]]
 - [[entities/Anthropic|Anthropic]]
 - [[entities/Coreweave|Coreweave]]
 - [[entities/Meta|Meta]]
@@ -60,8 +65,10 @@ last_updated: '2026-07-07T02:29:34.553284+08:00'
 - [[entities/xAI|xAI]]
 - [[entities/亚马逊|亚马逊]]
 - [[entities/博通|博通]]
+- [[entities/台积电|台积电]]
 - [[entities/圣邦股份|圣邦股份]]
 - [[entities/微软|微软]]
+- [[entities/日月光|日月光]]
 - [[entities/海光芯正|海光芯正]]
 - [[entities/特斯拉|特斯拉]]
 - [[entities/英伟达|英伟达]]
@@ -72,7 +79,6 @@ last_updated: '2026-07-07T02:29:34.553284+08:00'
 
 ## 来源文章
 
-- [sources/2026-03-06-378307797.md](sources/2026-03-06-378307797.md)
 - [sources/2026-05-26-390992966.md](sources/2026-05-26-390992966.md)
 - [sources/2026-05-27-391100049.md](sources/2026-05-27-391100049.md)
 - [sources/2026-05-28-391373215.md](sources/2026-05-28-391373215.md)
@@ -82,4 +88,5 @@ last_updated: '2026-07-07T02:29:34.553284+08:00'
 - [sources/2026-06-14-394597928.md](sources/2026-06-14-394597928.md)
 - [sources/2026-06-17-395263879.md](sources/2026-06-17-395263879.md)
 - [sources/2026-06-18-395547139.md](sources/2026-06-18-395547139.md)
+- [sources/2026-06-24-396316274.md](sources/2026-06-24-396316274.md)
 

@@ -1,7 +1,7 @@
 ---
 name: Coherent
 type: company
-ticker: COHR.US
+ticker: COHR
 market: ''
 tags:
 - _entity_page
@@ -25,16 +25,22 @@ timeline:
 - date: '2026-06-16'
   source: sources/2026-06-16-395063599.md
   signals: []
-last_updated: '2026-07-07T01:59:35.850828+08:00'
+- date: '2026-06-24'
+  source: sources/2026-06-24-396316274.md
+  signals: []
+last_updated: '2026-07-07T03:15:03.599093+08:00'
 ---
 
 # Coherent
 
 > 类型: company
-> 股票代码: COHR.US
+> 股票代码: COHR
 
 ## 信号时间线
 
+
+### 2026-06-24
+> 来源: [sources/2026-06-24-396316274.md](sources/2026-06-24-396316274.md)
 
 ### 2026-06-16
 > 来源: [sources/2026-06-16-395063599.md](sources/2026-06-16-395063599.md)

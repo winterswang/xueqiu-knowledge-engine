@@ -673,7 +673,21 @@ timeline:
     - 涟漪效应时间表不明确
     quote: 随着SpaceX迈向上市，大家普遍认为这也会彻底照亮整个商业航天生态
     business_line: null
-last_updated: '2026-07-07T02:46:32.609571+08:00'
+- date: '2026-06-24'
+  source: sources/2026-06-24-396277015.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: Starfall无人舱将取代ISS核心商业职能
+    caveats:
+    - 任务仍处于演示阶段，技术可行性待验证
+    - 再入黑障实时通信尚未经飞行验证
+    - 太空制造商业模式尚未规模化验证
+    quote: SpaceX实际上正在通过Starfall，悄悄肢解并取代国际空间站（ISS）最核心的'摇钱树'业务（微重力国家实验室）
+    business_line: null
+last_updated: '2026-07-07T03:14:19.931093+08:00'
 ---
 
 # SpaceX
@@ -683,6 +697,10 @@ last_updated: '2026-07-07T02:46:32.609571+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-24
+> 来源: [sources/2026-06-24-396277015.md](sources/2026-06-24-396277015.md)
+- 📈 [positive] Starfall无人舱将取代ISS核心商业职能
 
 ### 2026-06-22
 > 来源: [sources/2026-06-22-395926040.md](sources/2026-06-22-395926040.md)

@@ -1,7 +1,7 @@
 ---
 name: 阿里巴巴-W
 type: company
-ticker: 09988.HK
+ticker: 09988
 market: HK
 aliases:
 - 淘宝
@@ -61,7 +61,10 @@ timeline:
 - date: '2026-06-22'
   source: sources/2026-06-22-395934906.md
   signals: []
-last_updated: '2026-07-07T02:47:13.758887+08:00'
+- date: '2026-06-23'
+  source: sources/2026-06-23-396233208.md
+  signals: []
+last_updated: '2026-07-07T03:12:14.174287+08:00'
 tags:
 - _entity_page
 - 实体/阿里巴巴-W
@@ -70,10 +73,13 @@ tags:
 # 阿里巴巴-W
 
 > 类型: company
-> 股票代码: 09988.HK
+> 股票代码: 09988
 
 ## 信号时间线
 
+
+### 2026-06-23
+> 来源: [sources/2026-06-23-396233208.md](sources/2026-06-23-396233208.md)
 
 ### 2026-06-22
 > 来源: [sources/2026-06-22-395934906.md](sources/2026-06-22-395934906.md)
