@@ -1,10 +1,11 @@
 ---
 name: 快手-W
 type: company
-ticker: '01024'
+ticker: 1024.HK
 market: HK
 aliases:
 - $快手-W(01024)$
+- Kuaishou
 - 快手
 - 快手-W
 timeline:
@@ -44,7 +45,10 @@ timeline:
     caveats: []
     quote: Q1扣非利润率13%、Q2到15%……全年估计能做到190亿左右，目前估值13倍左右
     business_line: null
-last_updated: '2026-07-06T17:51:16.366116+08:00'
+- date: '2026-03-06'
+  source: sources/2026-03-06-378174038.md
+  signals: []
+last_updated: '2026-07-06T18:48:02.551338+08:00'
 tags:
 - _entity_page
 - 实体/快手-W
@@ -53,7 +57,7 @@ tags:
 # 快手-W
 
 > 类型: company
-> 股票代码: 01024
+> 股票代码: 1024.HK
 
 ## 信号时间线
 
@@ -62,6 +66,9 @@ tags:
 > 来源: [sources/2026-05-27-391301609.md](sources/2026-05-27-391301609.md)
 - ➡️ [neutral] 业绩基本符合预期，经营利润beat不可持续
 - 📈 [positive] 可灵Q1收入6.5亿，ARR已达5亿美金且持续增长
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378174038.md](sources/2026-03-06-378174038.md)
 
 ### 2026-03-04
 > 来源: [sources/2026-03-04-307548176.md](sources/2026-03-04-307548176.md)

@@ -8,7 +8,9 @@ tags:
 - 实体/Meta
 aliases:
 - Llama 3
+- MSL
 - Meta
+- Meta Super Lab
 - meta
 timeline:
 - date: '2026-03-04'
@@ -26,7 +28,16 @@ timeline:
 - date: '2026-03-05'
   source: sources/2026-03-05-378090872.md
   signals: []
-last_updated: '2026-07-06T18:41:53.800447+08:00'
+- date: '2026-03-06'
+  source: sources/2026-03-06-378210899.md
+  signals: []
+- date: '2026-03-06'
+  source: sources/2026-03-06-378292194.md
+  signals: []
+- date: '2026-03-06'
+  source: sources/2026-03-06-378303701.md
+  signals: []
+last_updated: '2026-07-06T19:00:54.094027+08:00'
 ---
 
 # Meta
@@ -36,6 +47,15 @@ last_updated: '2026-07-06T18:41:53.800447+08:00'
 
 ## 信号时间线
 
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378210899.md](sources/2026-03-06-378210899.md)
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378292194.md](sources/2026-03-06-378292194.md)
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378303701.md](sources/2026-03-06-378303701.md)
 
 ### 2026-03-05
 > 来源: [sources/2026-03-05-378090872.md](sources/2026-03-05-378090872.md)

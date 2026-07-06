@@ -5,6 +5,7 @@ ticker: 3690.HK
 market: HK
 aliases:
 - $美团-W(03690)$
+- Meituan
 - 小象超市
 - 美团
 - 美团-W
@@ -97,7 +98,10 @@ timeline:
 - date: '2026-02-27'
   source: sources/2026-02-27-377208270.md
   signals: []
-last_updated: '2026-07-06T18:20:30.849073+08:00'
+- date: '2026-03-06'
+  source: sources/2026-03-06-378174038.md
+  signals: []
+last_updated: '2026-07-06T18:48:02.546476+08:00'
 tags:
 - _entity_page
 - 实体/美团-W
@@ -110,6 +114,9 @@ tags:
 
 ## 信号时间线
 
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378174038.md](sources/2026-03-06-378174038.md)
 
 ### 2026-03-04
 > 来源: [sources/2026-03-04-307548176.md](sources/2026-03-04-307548176.md)

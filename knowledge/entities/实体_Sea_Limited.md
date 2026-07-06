@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/Sea Limited
 aliases:
+- $Sea Limited(SE)$
 - SE
 - Sea
 - Sea Limited
@@ -64,7 +65,10 @@ timeline:
     quote: 巴西是 2025 年增长最快的市场并已实现盈利……非 Shopee 平台的 SPayLater 贷款同比增长 300%……我们的内容业务占比已超
       20%。
     business_line: Shopee + Monee
-last_updated: '2026-07-06T18:36:05.356462+08:00'
+- date: '2026-03-06'
+  source: sources/2026-03-06-378174038.md
+  signals: []
+last_updated: '2026-07-06T18:48:02.540192+08:00'
 ---
 
 # Sea Limited
@@ -74,6 +78,9 @@ last_updated: '2026-07-06T18:36:05.356462+08:00'
 
 ## 信号时间线
 
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378174038.md](sources/2026-03-06-378174038.md)
 
 ### 2026-03-04
 > 来源: [sources/2026-03-04-377862278.md](sources/2026-03-04-377862278.md)

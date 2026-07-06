@@ -254,3 +254,68 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [80/746] 378142262.md (4689 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[81/746] 378166505.md (3359 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[82/746] 378167223.md (14684 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[83/746] 378174038.md (7148 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[84/746] 378178513.md (18921 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[85/746] 378187027.md (9641 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2863 (char 2862)
+  ✅ OK: 0 entities, 0 concepts
+
+[86/746] 378189495.md (3889 bytes)
+  ⚠️ 需要 review: 文章末尾提及腾讯控股、谷歌A、拼多多三个ticker，但未对任何一家公司进行具体投资分析，实体角色仅能标记为mentioned, 文章整体为AI广告机制的概念科普，未给出明确的个股投资观点，故未提取signals；需确认是否应基于此概念对相关公司构建中性偏多信号, Meta、TikTok在文中作为典型案例提及，但不属于词典内已知实体，且非独立可投资标的，已在概念页entities_related中体现而非建独立实体
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[87/746] 378194972.md (3109 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[88/746] 378210899.md (3426 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[89/746] 378246989.md (3838 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[90/746] 378272324.md (8136 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[91/746] 378274196.md (4383 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[92/746] 378278791.md (13686 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 110 column 93 (char 3007)
+  ✅ OK: 0 entities, 0 concepts
+
+[93/746] 378282128.md (16062 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[94/746] 378289746.md (5031 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[95/746] 378292194.md (35457 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[96/746] 378303701.md (26123 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[97/746] 378307797.md (32946 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[98/746] 378310280.md (30002 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[99/746] 378313179.md (6826 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[100/746] 378322313.md (13439 bytes)
+  ⚠️ 需要 review: 文章为Baillie Gifford的宏观思想论述，并非针对PDD/腾讯/谷歌的具体公司分析，三家公司在正文未出现，仅在文末标签中标注, 信号方向判断困难：文章无明确投资观点，对相关公司的影响属中性或弱方向, 概念粒度需确认：'AI对人类认知的重塑'是否需要拆分为更细粒度（如认知债务、自动化偏差等）已独立提取
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
