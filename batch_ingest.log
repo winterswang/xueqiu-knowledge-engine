@@ -2046,3 +2046,71 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [620/746] 395567031.md (13814 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[621/746] 395569871.md (3153 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[622/746] 395582766.md (3790 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[623/746] 395589811.md (19797 bytes)
+  ⚠️ 需要 review: 信号方向判断复杂：文章对壁仞的整体评价偏中性偏消极（定位为'二线'），但短期有明确催化，需确认是否应拆分为'短期看好+长期看空'两个相反方向信号, 摩尔线程、沐曦集成、燧原科技、天数智芯的上市状态需要确认（文章措辞'登陆科创板/港股'较模糊）, 概念'国产AI芯片替代'覆盖范围较广，可能需要进一步拆分为'推理端国产替代'、'主权AI国产替代'等更细粒度概念, 跳过未验证无ticker实体: 摩尔线程, 跳过未验证无ticker实体: 沐曦集成, 跳过未验证无ticker实体: 燧原科技, 跳过未验证无ticker实体: 天数智芯
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[624/746] 395603556.md (3421 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[625/746] 395609155.md (3313 bytes)
+  ⚠️ 需要 review: xAI 在文章中作为案例出现但其可投资性/IPO 前景未在文中讨论，按规则未建独立实体页，需确认是否应补为 background 实体, 文章本质是方法论介绍而非投资分析，信号方向为基于案例的间接推断，置信度仅给到 medium, SpaceX 出现 ticker 标注 'SPCX'，但 SpaceX 实际尚未上市，'SPCX' 并非其真实代码，需确认 ticker 字段如何处理
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[626/746] 395657919.md (3533 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[627/746] 395661027.md (10854 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[628/746] 395716277.md (37229 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[629/746] 395747240.md (12111 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[630/746] 395781173.md (21850 bytes)
+  ⚠️ 需要 review: 信号来源为CEO单方访谈，缺乏独立第三方分析，置信度被下调, 3L架构与LunaGrid TAM概念主要来自管理层叙事，需市场验证, 3亿美元对价与2027年财务增值目标均属公司方披露，未经审计验证
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[631/746] 395881414.md (2994 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[632/746] 395894418.md (6491 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1634 (char 1633)
+  ✅ OK: 0 entities, 0 concepts
+
+[633/746] 395926040.md (6329 bytes)
+  ⚠️ 需要 review: SpaceX文章中使用ticker SPCX，与现实公开市场信息可能存在差异，请核实SpaceX是否已正式IPO及对应ticker, Observable Space为未上市创业公司，是文章访谈主体但无可投资性，已排除实体但需确认其是否会在文中隐含的SAAS叙事中影响SpaceX/Rocket Lab估值判断, 文章为访谈形式而非投资分析，信号置信度依赖作者推论而非定量分析
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[634/746] 395934906.md (3701 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[635/746] 395955174.md (3058 bytes)
+  ⚠️ 需要 review: 酷哇科技为拟上市公司，未上市无股票代码，实体类型与角色需复核, 宇树科技仅为同行业提及，文中未明确其上市进展，提取价值需评估, 文章以新闻通稿性质为主，行业纵深分析与投资逻辑论述偏少, 对比亚迪、小鹏仅一句带过，未涉及具体布局细节，可能不应提取为分析对象, 跳过未验证无ticker实体: 酷哇科技, 跳过未验证无ticker实体: 宇树科技, 跳过未验证无ticker实体: 软银集团, 跳过未验证无ticker实体: 华泰证券
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[636/746] 395960731.md (3729 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[637/746] 395963244.md (3396 bytes)
+  ⚠️ 需要 review: UCB在文中仅作为历史合作方一笔带过，提取的必要性可再斟酌, 文章为事件性新闻报道，信息密度一般，缺乏深度行业分析, 文中提及'少数股权'作为对价形式，结构较复杂，需确认提取完整性, 跳过未验证无ticker实体: K2 Therapeutics, 跳过未验证无ticker实体: UCB, 跳过未验证无ticker实体: MPM BioImpact
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[638/746] 395963487.md (3420 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[639/746] 395963764.md (4650 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[640/746] 395969442.md (3690 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'

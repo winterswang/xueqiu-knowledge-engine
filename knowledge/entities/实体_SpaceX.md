@@ -603,7 +603,77 @@ timeline:
 - date: '2026-06-18'
   source: sources/2026-06-18-395456451.md
   signals: []
-last_updated: '2026-07-07T02:20:43.809103+08:00'
+- date: '2026-06-18'
+  source: sources/2026-06-18-395603556.md
+  signals: []
+- date: '2026-06-19'
+  source: sources/2026-06-19-395609155.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 质疑+删减构建的工程成本与速度护城河
+    caveats:
+    - 案例多为历史成就描述
+    - 未来项目仍需持续验证
+    - 目前仍未独立上市
+    quote: SpaceX 团队死磕其物理目的，发现普通工业件完全能平替，直接从五金手册上买回现货，成本暴跌两个数量级的同时完美通关。
+    business_line: 航天器与卫星制造
+- date: '2026-06-19'
+  source: sources/2026-06-19-395657919.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 长期看好太空经济与万亿营收愿景
+    caveats:
+    - 短期现金流和财报数据不好看
+    - 股价可能有波折
+    - 巨额净债务压力
+    - 债券投资人对信用风险极度担忧
+    quote: 虽然在这过程中，现金流和财报数据会不好看，股价也许会有波折，但这个世界上如果像马斯克这样的卷王都不能把太空经济向前推进，还有谁能推进呢？
+    business_line: null
+  - entity: SpaceX
+    direction: negative
+    confidence: medium
+    time_frame: short_term
+    summary: 短期巨额发债带来现金流与评级压力
+    caveats:
+    - 2031年净债务或飙升至4000亿美元
+    - 投资级评级或不保
+    - 与Anthropic/OpenAI等争夺资金
+    quote: 分析师建模预计，到 2031 年 SpaceX 的净债务将从目前的 130 亿美元飙升至 4000 亿美元，这将是甲骨文（Oracle）的三倍，冠绝美股。
+    business_line: null
+- date: '2026-06-21'
+  source: sources/2026-06-21-395781173.md
+  signals: []
+- date: '2026-06-22'
+  source: sources/2026-06-22-395926040.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: medium_term
+    summary: 太空数据中心与激光通信打开新增长曲线
+    caveats:
+    - 2028年时间表存在执行与技术风险
+    - 天地激光链路大气干扰尚未完全攻克
+    - 文章为访谈性质，未提供具体财务测算
+    quote: 宏伟蓝图一目了然：最快在2028年，SpaceX就将部署太空数据中心
+    business_line: 激光通信/太空数据中心
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 上市将催化商业航天生态分层与模块化
+    caveats:
+    - SpaceX自身高度垂直一体化，外部分工尚处早期
+    - 涟漪效应时间表不明确
+    quote: 随着SpaceX迈向上市，大家普遍认为这也会彻底照亮整个商业航天生态
+    business_line: null
+last_updated: '2026-07-07T02:46:32.609571+08:00'
 ---
 
 # SpaceX
@@ -614,11 +684,31 @@ last_updated: '2026-07-07T02:20:43.809103+08:00'
 ## 信号时间线
 
 
+### 2026-06-22
+> 来源: [sources/2026-06-22-395926040.md](sources/2026-06-22-395926040.md)
+- 📈 [positive] 太空数据中心与激光通信打开新增长曲线
+- 📈 [positive] 上市将催化商业航天生态分层与模块化
+
+### 2026-06-21
+> 来源: [sources/2026-06-21-395781173.md](sources/2026-06-21-395781173.md)
+
 ### 2026-06-19
 > 来源: [sources/2026-06-19-395431416.md](sources/2026-06-19-395431416.md)
 
+### 2026-06-19
+> 来源: [sources/2026-06-19-395609155.md](sources/2026-06-19-395609155.md)
+- 📈 [positive] 质疑+删减构建的工程成本与速度护城河
+
+### 2026-06-19
+> 来源: [sources/2026-06-19-395657919.md](sources/2026-06-19-395657919.md)
+- 📈 [positive] 长期看好太空经济与万亿营收愿景
+- 📉 [negative] 短期巨额发债带来现金流与评级压力
+
 ### 2026-06-18
 > 来源: [sources/2026-06-18-395456451.md](sources/2026-06-18-395456451.md)
+
+### 2026-06-18
+> 来源: [sources/2026-06-18-395603556.md](sources/2026-06-18-395603556.md)
 
 ### 2026-06-17
 > 来源: [sources/2026-06-17-395283080.md](sources/2026-06-17-395283080.md)

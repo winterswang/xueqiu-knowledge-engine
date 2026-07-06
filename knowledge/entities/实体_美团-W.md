@@ -1,7 +1,7 @@
 ---
 name: 美团-W
 type: company
-ticker: 03690.HK
+ticker: 3690.HK
 market: HK
 aliases:
 - $美团-W(03690)$
@@ -232,7 +232,19 @@ timeline:
     - 市场可能不会提前按明年利润估值
     quote: 在这种情况下，不管是今年的利润还是下半年单季度利润*4都是没法估值的，只能用明年的利润才能估值并且有不少空间
     business_line: 核心本地商业
-last_updated: '2026-07-07T01:13:18.797111+08:00'
+- date: '2026-06-18'
+  source: sources/2026-06-18-395603556.md
+  signals:
+  - entity: 美团-W
+    direction: negative
+    confidence: medium
+    time_frame: medium_term
+    summary: 基本面和护城河受攻击，前景看不清
+    caveats:
+    - 作者明确表示看不清楚未来
+    quote: 过去一年，美团的基本面和护城河都受到了猛烈的攻击，股价持续走跌，盈利也没法看了，展望未来，我确实看不清楚。
+    business_line: null
+last_updated: '2026-07-07T02:38:26.341895+08:00'
 tags:
 - _entity_page
 - 实体/美团-W
@@ -241,10 +253,14 @@ tags:
 # 美团-W
 
 > 类型: company
-> 股票代码: 03690.HK
+> 股票代码: 3690.HK
 
 ## 信号时间线
 
+
+### 2026-06-18
+> 来源: [sources/2026-06-18-395603556.md](sources/2026-06-18-395603556.md)
+- 📉 [negative] 基本面和护城河受攻击，前景看不清
 
 ### 2026-06-13
 > 来源: [sources/2026-06-13-394482668.md](sources/2026-06-13-394482668.md)

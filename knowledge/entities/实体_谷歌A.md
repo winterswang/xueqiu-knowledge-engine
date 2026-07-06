@@ -87,7 +87,22 @@ timeline:
 - date: '2026-05-27'
   source: sources/2026-05-27-391102170.md
   signals: []
-last_updated: '2026-07-06T21:39:05.940846+08:00'
+- date: '2026-06-20'
+  source: sources/2026-06-20-395747240.md
+  signals:
+  - entity: 谷歌A
+    direction: neutral
+    confidence: medium
+    time_frame: medium_term
+    summary: AI capex负担重但token需求爆发,双向力量平衡
+    caveats:
+    - 前五大厂商2026 capex约占经营性现金流100%,FCF快速恶化
+    - AI变现缺口是触发器,谷歌需求真实性是核心对冲
+    - 月token从9.7万亿→3,200万亿,3年增长超300倍
+    quote: 据 Sundar Pichai 在 Google I/O 2026 主题演讲,谷歌月处理 token 从两年前的 9.7 万亿 → 去年 I/O
+      的约 480 万亿 → 今天的 3,200 万亿以上(同比 7 倍)
+    business_line: AI/云/Capex
+last_updated: '2026-07-07T02:42:36.179229+08:00'
 ---
 
 # 谷歌A
@@ -97,6 +112,10 @@ last_updated: '2026-07-06T21:39:05.940846+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-20
+> 来源: [sources/2026-06-20-395747240.md](sources/2026-06-20-395747240.md)
+- ➡️ [neutral] AI capex负担重但token需求爆发,双向力量平衡
 
 ### 2026-05-27
 > 来源: [sources/2026-05-27-391102170.md](sources/2026-05-27-391102170.md)

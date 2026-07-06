@@ -46,7 +46,32 @@ timeline:
     - 商业空间站仍处早期阶段，盈利兑现存不确定性
     quote: 我们是一家专注于国家安全、国防及太空基础设施的公司……如果没有他们强大的重型火箭运载能力，我们根本无法建造出像'星空实验室'这样规模和体量的空间站。
     business_line: 商业空间站与月球着陆器
-last_updated: '2026-07-07T01:47:23.881273+08:00'
+- date: '2026-06-21'
+  source: sources/2026-06-21-395781173.md
+  signals:
+  - entity: Voyager Technologies
+    direction: positive
+    confidence: medium
+    time_frame: medium_term
+    summary: 3亿美元收购Astrobotic性价比高，2027年财务增值
+    caveats:
+    - 来源为CEO访谈，存在管理层主观偏倚
+    - 3亿美元对价及2027年增值为公司方陈述，未经独立验证
+    - 收购后整合执行存在不确定性
+    quote: 3亿美元的对价相较于Astrobotic丰厚的积压订单和极低的负债，性价极高，预计在2027年前即可实现财务增值（Accretive）
+    business_line: 整体
+  - entity: Voyager Technologies
+    direction: positive
+    confidence: medium
+    time_frame: short_term
+    summary: Griffin Mission 1年底前发射，登月任务成催化剂
+    caveats:
+    - 发射可能延期
+    - 登月任务历史上失败率较高
+    - 运载火箭选型尚未公布
+    quote: Griffin Mission 1将携带NASA'月球基地二号'载荷，预计不早于今年11/12月发射。这意味着Voyager在2026年底前就将在月球表面拥有实际运行的硬件资产
+    business_line: 月球业务
+last_updated: '2026-07-07T02:43:31.827580+08:00'
 tags:
 - _entity_page
 - 实体/Voyager Technologies
@@ -59,6 +84,11 @@ tags:
 
 ## 信号时间线
 
+
+### 2026-06-21
+> 来源: [sources/2026-06-21-395781173.md](sources/2026-06-21-395781173.md)
+- 📈 [positive] 3亿美元收购Astrobotic性价比高，2027年财务增值
+- 📈 [positive] Griffin Mission 1年底前发射，登月任务成催化剂
 
 ### 2026-06-16
 > 来源: [sources/2026-06-16-394979105.md](sources/2026-06-16-394979105.md)

@@ -1,15 +1,17 @@
 ---
 name: Coreweave
 type: company
-ticker: CRWV.US
+ticker: CRWV
 market: US
 tags:
 - _entity_page
 - 实体/Coreweave
 aliases:
+- CoreWave
 - CoreWeave
 - Coreweave
 - Corweave（文中拼写）
+- 新云厂
 timeline:
 - date: '2026-03-02'
   source: sources/2026-03-02-377549697.md
@@ -52,16 +54,22 @@ timeline:
 - date: '2026-06-14'
   source: sources/2026-06-14-394618677.md
   signals: []
-last_updated: '2026-07-07T01:25:30.832196+08:00'
+- date: '2026-06-20'
+  source: sources/2026-06-20-395747240.md
+  signals: []
+last_updated: '2026-07-07T02:42:36.269763+08:00'
 ---
 
 # Coreweave
 
 > 类型: company
-> 股票代码: CRWV.US
+> 股票代码: CRWV
 
 ## 信号时间线
 
+
+### 2026-06-20
+> 来源: [sources/2026-06-20-395747240.md](sources/2026-06-20-395747240.md)
 
 ### 2026-06-14
 > 来源: [sources/2026-06-14-394618677.md](sources/2026-06-14-394618677.md)

@@ -10,6 +10,7 @@ aliases:
 - AMD
 - AMD(AMD.US)
 - Advanced Micro Devices
+- 苏姿丰的AMD
 timeline:
 - date: '2026-03-06'
   source: sources/2026-03-06-378210899.md
@@ -38,7 +39,16 @@ timeline:
 - date: '2026-06-16'
   source: sources/2026-06-16-395032783.md
   signals: []
-last_updated: '2026-07-07T01:54:10.457477+08:00'
+- date: '2026-06-18'
+  source: sources/2026-06-18-395589811.md
+  signals: []
+- date: '2026-06-20'
+  source: sources/2026-06-20-395716277.md
+  signals: []
+- date: '2026-06-20'
+  source: sources/2026-06-20-395747240.md
+  signals: []
+last_updated: '2026-07-07T02:42:36.264759+08:00'
 ---
 
 # AMD
@@ -48,6 +58,15 @@ last_updated: '2026-07-07T01:54:10.457477+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-20
+> 来源: [sources/2026-06-20-395716277.md](sources/2026-06-20-395716277.md)
+
+### 2026-06-20
+> 来源: [sources/2026-06-20-395747240.md](sources/2026-06-20-395747240.md)
+
+### 2026-06-18
+> 来源: [sources/2026-06-18-395589811.md](sources/2026-06-18-395589811.md)
 
 ### 2026-06-16
 > 来源: [sources/2026-06-16-395032783.md](sources/2026-06-16-395032783.md)
