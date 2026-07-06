@@ -11,6 +11,7 @@ aliases:
 - Coin
 - Coinbase
 - Coinbase Global
+- Coinbase Global(COIN)
 timeline:
 - date: '2026-02-13'
   source: sources/2026-02-13-376191669.md
@@ -37,7 +38,32 @@ timeline:
     - 公司投入未明显收缩
     quote: 目前 385 亿市值一只脚即将迈入我们所说的保守估值区间，因此从空间上看可能有希望逐步看到底部踩实
     business_line: 估值与底部判断
-last_updated: '2026-07-06T18:04:22.584329+08:00'
+- date: '2026-03-06'
+  source: sources/2026-03-06-378371752.md
+  signals:
+  - entity: Coinbase Global
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 万物交易所战略与多元化产品矩阵
+    caveats:
+    - 短期加密价格波动剧烈
+    - 新业务(股票、预测市场)仍处早期
+    - 监管立法落地时间不确定
+    quote: 我们不再只是一个简单的比特币交易平台，现在我们有12款产品的年化收入超过1亿美元，有的甚至超过10亿美元，我们是多元化的。
+    business_line: 整体业务
+  - entity: Coinbase Global
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: 监管清晰度与稳定币增长带来中期顺风
+    caveats:
+    - 《清晰法案》立法尚未完成
+    - 代币化规则需SEC进一步明确
+    - 利率环境对稳定币构成逆风
+    quote: 我们相信今年春天能够达成立法……稳定币是任何代币化产品的关键支付环节……仅仅是代币化的增长就会导致稳定币的增长。
+    business_line: 稳定币/USDC与监管驱动业务
+last_updated: '2026-07-06T19:14:05.965378+08:00'
 ---
 
 # Coinbase Global
@@ -47,6 +73,11 @@ last_updated: '2026-07-06T18:04:22.584329+08:00'
 
 ## 信号时间线
 
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378371752.md](sources/2026-03-06-378371752.md)
+- 📈 [positive] 万物交易所战略与多元化产品矩阵
+- 📈 [positive] 监管清晰度与稳定币增长带来中期顺风
 
 ### 2026-02-13
 > 来源: [sources/2026-02-13-376191669.md](sources/2026-02-13-376191669.md)

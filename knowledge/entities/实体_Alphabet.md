@@ -1,7 +1,7 @@
 ---
 name: Alphabet
 type: company
-ticker: GOOG
+ticker: GOOGL
 market: ''
 tags:
 - _entity_page
@@ -37,16 +37,22 @@ timeline:
     - 增量EBIT利润率的可持续性有待观察
     quote: Google Cloud 在去年全年都取得了创纪录的成绩……以 48% 的速度增长，且拥有巨大的积压订单
     business_line: Google Cloud
-last_updated: '2026-07-06T19:02:42.646399+08:00'
+- date: '2026-03-07'
+  source: sources/2026-03-07-378451775.md
+  signals: []
+last_updated: '2026-07-06T19:28:46.698008+08:00'
 ---
 
 # Alphabet
 
 > 类型: company
-> 股票代码: GOOG
+> 股票代码: GOOGL
 
 ## 信号时间线
 
+
+### 2026-03-07
+> 来源: [sources/2026-03-07-378451775.md](sources/2026-03-07-378451775.md)
 
 ### 2026-03-06
 > 来源: [sources/2026-03-06-378303701.md](sources/2026-03-06-378303701.md)

@@ -1,7 +1,7 @@
 ---
 name: Block
 type: company
-ticker: XYZ
+ticker: SQ
 market: ''
 tags:
 - _entity_page
@@ -35,16 +35,22 @@ timeline:
     - 小型团队的创新能力存在不确定性
     quote: 智能工具已经改变了建立和运营一家公司的方式……一个显著更小的团队，借助我们正在构建的工具，可以做得更多、做得更好
     business_line: 整体
-last_updated: '2026-07-06T18:21:49.986116+08:00'
+- date: '2026-03-06'
+  source: sources/2026-03-06-378357010.md
+  signals: []
+last_updated: '2026-07-06T19:11:37.658119+08:00'
 ---
 
 # Block
 
 > 类型: company
-> 股票代码: XYZ
+> 股票代码: SQ
 
 ## 信号时间线
 
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378357010.md](sources/2026-03-06-378357010.md)
 
 ### 2026-02-27
 > 来源: [sources/2026-02-27-377213441.md](sources/2026-02-27-377213441.md)

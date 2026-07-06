@@ -8,6 +8,7 @@ tags:
 - 实体/Salesforce
 aliases:
 - CRM
+- IdeaExchange
 - Salesforce
 - 公司
 - 该公司
@@ -62,7 +63,10 @@ timeline:
     - 短期市场对CRPO指引反应略显防御
     quote: 公司将股票回购授权提高至 500亿美元，股息提升至每股0.44美元
     business_line: 整体资本配置
-last_updated: '2026-07-06T18:16:15.698764+08:00'
+- date: '2026-03-06'
+  source: sources/2026-03-06-378381989.md
+  signals: []
+last_updated: '2026-07-06T19:20:48.809438+08:00'
 ---
 
 # Salesforce
@@ -72,6 +76,9 @@ last_updated: '2026-07-06T18:16:15.698764+08:00'
 
 ## 信号时间线
 
+
+### 2026-03-06
+> 来源: [sources/2026-03-06-378381989.md](sources/2026-03-06-378381989.md)
 
 ### 2026-02-27
 > 来源: [sources/2026-02-27-377143395.md](sources/2026-02-27-377143395.md)

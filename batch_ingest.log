@@ -319,3 +319,72 @@ Batch Ingest: 746 total, 746 pending, 0 done
 [100/746] 378322313.md (13439 bytes)
   ⚠️ 需要 review: 文章为Baillie Gifford的宏观思想论述，并非针对PDD/腾讯/谷歌的具体公司分析，三家公司在正文未出现，仅在文末标签中标注, 信号方向判断困难：文章无明确投资观点，对相关公司的影响属中性或弱方向, 概念粒度需确认：'AI对人类认知的重塑'是否需要拆分为更细粒度（如认知债务、自动化偏差等）已独立提取
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[101/746] 378324094.md (15567 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[102/746] 378345466.md (11592 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[103/746] 378350910.md (31474 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[104/746] 378354590.md (11079 bytes)
+  ⚠️ 需要 review: 文章为华为管理哲学书籍《熵减》的读书摘要，非投资分析文章，投资相关性较弱, 文章末尾出现的$拼多多(PDD)$、$腾讯控股(00700)$、$苹果(AAPL)$为关联标签，文中未实际分析这些公司, 文中提及的柯达、惠普、索尼、IBM、微软、三星等公司均为案例引用且未给出股票代码，按规则未提取为实体, 文章无明确投资观点或信号，未提取signals, 华为作为文章核心主体但非上市公司，按规则未提取为公司实体
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[105/746] 378357010.md (12440 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[106/746] 378357554.md (7649 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[107/746] 378371752.md (34990 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[108/746] 378378200.md (31249 bytes)
+  ⚠️ 需要 review: 钱大妈为拟上市公司，IPO时间表和上市地未在文章中明确, 鸣鸣很忙是否已有明确上市计划未提及，role判定可能需调整, 多多买菜作为拼多多子业务，其10%净利率数据来源为文章作者测算，非官方财报披露，需注意, HelloFresh和Ocado的具体股票代码需进一步确认（HelloFresh已退市或私有化进展需核实）, 跳过未验证无ticker实体: 钱大妈, 跳过未验证无ticker实体: 鸣鸣很忙
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[109/746] 378379401.md (7143 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[110/746] 378379414.md (7427 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[111/746] 378381989.md (12504 bytes)
+  ⚠️ 需要 review: 文章为2008年出版的《Groundswell》读书笔记/书评，非投资分析或个股研究, 正文未实质讨论文末标记的拼多多(PDD)、腾讯控股(00700)、Meta(META)，三者仅以 ticker 标签形式出现，关联性可疑, 所列案例公司（戴尔、Salesforce、宝洁、麦当劳、AT&T、百思买）均为2008年及更早的历史案例，非当前投资标的分析, 无明确的方向性投资观点（signals 数组为空），与本书作为商业畅销书（非投资类）的定位一致, 建议：若用户实际关注 PDD/腾讯/Meta，需补充相关标的的当代社交/社区战略分析；本文内容更适合作为社交媒体营销的概念性参考
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[112/746] 378382776.md (20094 bytes)
+  ⚠️ 需要 review: 文章本质为两本增长黑客书籍的读书笔记与方法论梳理，非原创投资研究，信号方向需要更谨慎解读, 文中提到2026年现状等前瞻性表述，需确认文章生成时间, 多个案例公司(Twitter、Dropbox、Zappos等)的当前投资属性需进一步核实, 字节跳动虽被深入分析但非可投资标的，相关论断已并入Meta/PDD信号中
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[113/746] 378383158.md (9864 bytes)
+  ⚠️ 需要 review: 文章为商业模式深度科普，缺乏明确的投资判断（买入/卖出/看空）, Temu毛利率数据需要交叉验证，58%和67%的数字未注明具体成本口径, 阿里巴巴仅在文末出现一句，未明确关联到具体观点，可能存在误提
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[114/746] 378383949.md (2608 bytes)
+  ⚠️ 需要 review: 文章末尾标注的AMZN/BABA/PDD与正文内容无直接关联，可能是平台自动打标的关联标的, 正文中提及的生鲜传奇、钱大妈、很忙、老婆大人均为未上市公司，未提取为实体, 文章偏行业运营逻辑描述，对所标注的三家上市公司无具体投资观点，故未生成信号
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[115/746] 378401867.md (2527 bytes)
+  ⚠️ 需要 review: 文章为产品/策略评论而非投资分析，未给出明确投资方向判断, 豆包（字节跳动旗下）和小红书均未上市，仅作为竞争背景提及，未提取为实体, 信号方向判断为neutral，但文章隐含的竞争压力叙事可能偏向谨慎偏负面，需人工确认
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[116/746] 378422596.md (2469 bytes)
+  ⚠️ 需要 review: LLM call failed: Error code: 400 - {'error': {'code': 'SensitiveContentDetected', 'message': 'The request failed because the input may contain sensitive information. Request id: 0217833370878985c847dce3dfef19d8a8a6e4aeb40e68b76a95c', 'param': '', 'type': 'BadRequest'}}
+  ✅ OK: 0 entities, 0 concepts
+
+[117/746] 378428546.md (2616 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[118/746] 378430440.md (27199 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[119/746] 378443470.md (33370 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[120/746] 378451775.md (30667 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
