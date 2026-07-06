@@ -61,7 +61,30 @@ timeline:
 - date: '2026-05-28'
   source: sources/2026-05-28-391422355.md
   signals: []
-last_updated: '2026-07-06T22:00:47.654055+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391505797.md
+  signals:
+  - entity: ServiceNow
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: AI Agent平台全线变现加速，多个新业务高速增长
+    caveats:
+    - AI控制台与数据库专业版等新业务尚处早期放量阶段
+    - 需持续验证客户采纳深度
+    quote: 人工智能控制台是我们增速最快的产品之一
+    business_line: AI与Agent产品线
+  - entity: ServiceNow
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 2030年300亿美元营收目标具备清晰实现路径
+    caveats:
+    - 依赖AI、网络安全、数据分析、CRM四大引擎同步发力
+    - 并购整合执行风险
+    quote: 关于2030年，我们给出的基准线是实现300亿美元的营收规模……我们坚信能够轻松超越2030基准目标
+    business_line: 公司整体
+last_updated: '2026-07-06T22:10:17.874966+08:00'
 ---
 
 # ServiceNow
@@ -74,6 +97,11 @@ last_updated: '2026-07-06T22:00:47.654055+08:00'
 
 ### 2026-05-28
 > 来源: [sources/2026-05-28-391422355.md](sources/2026-05-28-391422355.md)
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391505797.md](sources/2026-05-28-391505797.md)
+- 📈 [positive] AI Agent平台全线变现加速，多个新业务高速增长
+- 📈 [positive] 2030年300亿美元营收目标具备清晰实现路径
 
 ### 2026-05-24
 > 来源: [sources/2026-05-24-390622628.md](sources/2026-05-24-390622628.md)

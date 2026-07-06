@@ -1,13 +1,14 @@
 ---
 name: AMD
 type: company
-ticker: AMD.US
+ticker: AMD
 market: ''
 tags:
 - _entity_page
 - 实体/AMD
 aliases:
 - AMD
+- AMD(AMD.US)
 - Advanced Micro Devices
 timeline:
 - date: '2026-03-06'
@@ -28,16 +29,22 @@ timeline:
 - date: '2026-05-26'
   source: sources/2026-05-26-391064760.md
   signals: []
-last_updated: '2026-07-06T21:35:26.414173+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391508916.md
+  signals: []
+last_updated: '2026-07-06T22:10:57.243463+08:00'
 ---
 
 # AMD
 
 > 类型: company
-> 股票代码: AMD.US
+> 股票代码: AMD
 
 ## 信号时间线
 
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391508916.md](sources/2026-05-28-391508916.md)
 
 ### 2026-05-26
 > 来源: [sources/2026-05-26-391064760.md](sources/2026-05-26-391064760.md)

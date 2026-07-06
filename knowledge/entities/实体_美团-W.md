@@ -1,7 +1,7 @@
 ---
 name: 美团-W
 type: company
-ticker: 3690.HK
+ticker: 03690.HK
 market: HK
 aliases:
 - $美团-W(03690)$
@@ -114,7 +114,10 @@ timeline:
 - date: '2026-05-27'
   source: sources/2026-05-27-391347843.md
   signals: []
-last_updated: '2026-07-06T21:58:33.998706+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391532703.md
+  signals: []
+last_updated: '2026-07-06T22:14:57.177734+08:00'
 tags:
 - _entity_page
 - 实体/美团-W
@@ -123,10 +126,13 @@ tags:
 # 美团-W
 
 > 类型: company
-> 股票代码: 3690.HK
+> 股票代码: 03690.HK
 
 ## 信号时间线
 
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391532703.md](sources/2026-05-28-391532703.md)
 
 ### 2026-05-27
 > 来源: [sources/2026-05-27-391347843.md](sources/2026-05-27-391347843.md)

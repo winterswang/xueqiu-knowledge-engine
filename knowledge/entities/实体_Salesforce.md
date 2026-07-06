@@ -83,7 +83,30 @@ timeline:
     - 若能保持稳定现金流+优质并购，表现可能好于现状
     quote: 它对下季度的业绩指引依然令人失望……这场由 AI 驱动的业务转型，耗时显然比预期的要漫长得多。
     business_line: 整体业务/AI转型
-last_updated: '2026-07-06T22:00:47.625806+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391549422.md
+  signals:
+  - entity: Salesforce
+    direction: negative
+    confidence: high
+    time_frame: short_term
+    summary: Q1业绩和下季指引均不及预期
+    caveats:
+    - 估值不高且有天量回购支撑
+    - 现金流增速远低于经营利润增速
+    quote: 对后续指引则相对偏弱，在收入未见明显加速迹象的情况下，对利润率的指引则有所下调
+    business_line: 整体业务
+  - entity: Salesforce
+    direction: negative
+    confidence: high
+    time_frame: medium_term
+    summary: AI未带来增长加速反致毛利承压
+    caveats:
+    - 天量回购限制纯杀估值下行空间
+    - 公司预期27财年剔除并购后原有业务增长可能提速
+    quote: 由于 AI 相关业务的成本更高，导致营收增长没太大起色的同时，毛利率反在下滑，利润反而提前承压，合在一起就是既没增长也没利润的双输局面
+    business_line: AI与Agent业务
+last_updated: '2026-07-06T22:20:18.827451+08:00'
 ---
 
 # Salesforce
@@ -97,6 +120,11 @@ last_updated: '2026-07-06T22:00:47.625806+08:00'
 ### 2026-05-28
 > 来源: [sources/2026-05-28-391422355.md](sources/2026-05-28-391422355.md)
 - 📉 [negative] AI转型缓慢，下季度指引失望，增速大幅放缓
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391549422.md](sources/2026-05-28-391549422.md)
+- 📉 [negative] Q1业绩和下季指引均不及预期
+- 📉 [negative] AI未带来增长加速反致毛利承压
 
 ### 2026-05-22
 > 来源: [sources/2026-05-22-390377458.md](sources/2026-05-22-390377458.md)

@@ -1,7 +1,7 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX
+ticker: SPCX.US
 market: US
 tags:
 - _entity_page
@@ -10,9 +10,12 @@ aliases:
 - $SpaceX(SPCX)$
 - SPCX
 - SpaceX
+- SpaceX(SPCX)
+- Starship
 - 太空探索技术公司
 - 星链母公司
 - 这家火箭巨头
+- 马斯克的SpaceX
 timeline:
 - date: '2026-02-25'
   source: sources/2026-02-25-376829016.md
@@ -180,16 +183,32 @@ timeline:
     - 高投机性细分市场建议控制仓位
     quote: 埃隆·马斯克旗下的SpaceX已正式启动上市进程，预计最快下个月挂牌，目标募资高达750亿美元
     business_line: 整体IPO
-last_updated: '2026-07-06T21:51:47.809777+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391599511.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 商业航天大浪潮处于早期，SpaceX为代表的核心标的长期空间大
+    caveats:
+    - 市场仍以概念性想象为主，量化验证有限
+    quote: 这波商业航天的大浪潮，真的才刚刚开始。
+    business_line: null
+last_updated: '2026-07-06T22:23:59.390017+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX
+> 股票代码: SPCX.US
 
 ## 信号时间线
 
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391599511.md](sources/2026-05-28-391599511.md)
+- 📈 [positive] 商业航天大浪潮处于早期，SpaceX为代表的核心标的长期空间大
 
 ### 2026-05-27
 > 来源: [sources/2026-05-27-391321001.md](sources/2026-05-27-391321001.md)

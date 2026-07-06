@@ -979,3 +979,72 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [300/746] 391501080.md (5145 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[301/746] 391505797.md (32090 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[302/746] 391508916.md (11385 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[303/746] 391516010.md (3616 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 257 column 45 (char 6178)
+  ✅ OK: 0 entities, 0 concepts
+
+[304/746] 391532703.md (3553 bytes)
+  ⚠️ 需要 review: 本文为港股每日行情综述（非投资分析），信息密度低且无深度个股分析, 涉及个股超过30只，是否全部提取需确认；目前全部以mentioned角色收录, AI概念信号方向仅为单日行情观察，需review是否构成有效投资信号
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[305/746] 391535509.md (3243 bytes)
+  ⚠️ 需要 review: 心动公司（XD Inc.）不在已知词典中，需确认ticker 02400.HK及规范名, 文章为非正式股东大会纪要，信息密度与结构化程度较低, 全文无明确买入/卖出观点，信号方向与置信度均较难判断
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[306/746] 391542933.md (56662 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[307/746] 391544420.md (12883 bytes)
+  ⚠️ 需要 review: Databricks尚未上市，作为可投资标的需注明其私募性质及投资门槛限制, 文章主体为CEO访谈而非投资分析文章，信号方向判断需结合主持人评价, Prada在文中仅作为客户案例，是否纳入实体可讨论, 跳过未验证无ticker实体: Databricks
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[308/746] 391549422.md (11915 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[309/746] 391562830.md (4288 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[310/746] 391565602.md (7875 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2396 (char 2395)
+  ✅ OK: 0 entities, 0 concepts
+
+[311/746] 391567952.md (3977 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[312/746] 391570107.md (3644 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1972 (char 1971)
+  ✅ OK: 0 entities, 0 concepts
+
+[313/746] 391588855.md (21186 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[314/746] 391599511.md (4068 bytes)
+  ⚠️ 需要 review: 文章以'经期研究'这一猎奇案例为引子，论证逻辑跳跃较大，多处为推测性论断（女性太空消费市场百亿级、专利护城河）, 未提供具体可验证的市场规模或营收数据, 蓝色起源未上市，实体是否值得保留待确认, SpaceX文中标注的ticker为SPCX，与实际不符，需核实是否为某SPV或ETF, 整体属于观点性/煽动性文章，数据支撑较弱, 跳过未验证无ticker实体: 蓝色起源
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[315/746] 391601890.md (6999 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[316/746] 391643486.md (2243 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[317/746] 391675710.md (5005 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[318/746] 391688405.md (12784 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[319/746] 391717200.md (4409 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2568 (char 2567)
+  ✅ OK: 0 entities, 0 concepts
+
+[320/746] 391731656.md (8121 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
