@@ -1,13 +1,15 @@
 ---
 name: 阿里巴巴-W
 type: company
-ticker: 09988.HK
+ticker: 09988
 market: HK
 aliases:
 - 淘宝
 - 淘宝闪购
 - 阿里
+- 阿里巴巴
 - 阿里巴巴-W
+- 饿了么
 timeline:
 - date: '2026-02-12'
   source: sources/2026-02-12-375894183.md
@@ -28,7 +30,23 @@ timeline:
 - date: '2026-05-21'
   source: sources/2026-05-21-390204768.md
   signals: []
-last_updated: '2026-07-06T20:36:03.156774+08:00'
+- date: '2026-06-02'
+  source: sources/2026-06-02-392392871.md
+  signals: []
+- date: '2026-06-02'
+  source: sources/2026-06-02-392418530.md
+  signals:
+  - entity: 阿里巴巴-W
+    direction: neutral
+    confidence: medium
+    time_frame: medium_term
+    summary: 淘宝闪购从规模扩张转向巩固
+    caveats:
+    - 中国电商集团经调整EBITA同比下滑44%
+    - 饿了么叠加淘宝闪购仍为主要拖累
+    quote: 淘宝闪购的整体订单规模按年大幅提高，但其核心任务已从'拓疆'转向'巩固'。
+    business_line: 中国电商集团
+last_updated: '2026-07-06T22:59:47.535326+08:00'
 tags:
 - _entity_page
 - 实体/阿里巴巴-W
@@ -37,10 +55,17 @@ tags:
 # 阿里巴巴-W
 
 > 类型: company
-> 股票代码: 09988.HK
+> 股票代码: 09988
 
 ## 信号时间线
 
+
+### 2026-06-02
+> 来源: [sources/2026-06-02-392392871.md](sources/2026-06-02-392392871.md)
+
+### 2026-06-02
+> 来源: [sources/2026-06-02-392418530.md](sources/2026-06-02-392418530.md)
+- ➡️ [neutral] 淘宝闪购从规模扩张转向巩固
 
 ### 2026-05-21
 > 来源: [sources/2026-05-21-390204768.md](sources/2026-05-21-390204768.md)

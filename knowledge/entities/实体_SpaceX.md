@@ -1,7 +1,7 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX.US
+ticker: SPCX
 market: US
 tags:
 - _entity_page
@@ -195,16 +195,52 @@ timeline:
     - 市场仍以概念性想象为主，量化验证有限
     quote: 这波商业航天的大浪潮，真的才刚刚开始。
     business_line: null
-last_updated: '2026-07-06T22:23:59.390017+08:00'
+- date: '2026-06-02'
+  source: sources/2026-06-02-392233965.md
+  signals: []
+- date: '2026-06-02'
+  source: sources/2026-06-02-392248874.md
+  signals:
+  - entity: SpaceX
+    direction: neutral
+    confidence: medium
+    time_frame: long_term
+    summary: 散户通过基金参与SpaceX已错过早期高回报窗口
+    caveats:
+    - 散户入局时点已偏后，VC早期百倍回报难以复制
+    - 封闭式基金费率与六个月锁定期侵蚀收益
+    - IPO时散户可能被基石投资者挤出配额
+    - 马斯克持股85.1%投票权，普通股东治理权有限
+    quote: 你确实拿到了 SpaceX 的份额……但与那些在早期布局、赚取纯粹估值翻倍红利的关键风险投资人（VC）相比，你入局的时间已经太晚了。
+    business_line: null
+  - entity: SpaceX
+    direction: positive
+    confidence: low
+    time_frame: long_term
+    summary: 作为赛道龙头仍具备稀缺资产敞口价值
+    caveats:
+    - 仅作为Pre-IPO/IPO稀缺资产，回报需扣除高费率
+    - 未给出明确估值或上行空间判断
+    quote: 毕竟它为你提供了稀缺的资产敞口。既然这是一种全新的尝试，为什么不试试看呢？
+    business_line: null
+last_updated: '2026-07-06T22:52:03.519992+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX.US
+> 股票代码: SPCX
 
 ## 信号时间线
 
+
+### 2026-06-02
+> 来源: [sources/2026-06-02-392233965.md](sources/2026-06-02-392233965.md)
+
+### 2026-06-02
+> 来源: [sources/2026-06-02-392248874.md](sources/2026-06-02-392248874.md)
+- ➡️ [neutral] 散户通过基金参与SpaceX已错过早期高回报窗口
+- 📈 [positive] 作为赛道龙头仍具备稀缺资产敞口价值
 
 ### 2026-05-28
 > 来源: [sources/2026-05-28-391599511.md](sources/2026-05-28-391599511.md)

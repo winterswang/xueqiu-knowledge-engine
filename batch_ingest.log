@@ -1114,3 +1114,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [340/746] 391964286.md (22393 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[341/746] 392022153.md (2977 bytes)
+  ⚠️ 需要 review: 文章以个人反思为主，前瞻性投资分析信息量有限, TMHC已被收购，提取的正向信号对实际操作参考价值不高, 文章大量篇幅为作者个人感悟和管理层轶事，对行业层面的深度分析较少
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[342/746] 392184094.md (2940 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[343/746] 392227566.md (15241 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[344/746] 392233734.md (28023 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[345/746] 392233748.md (40047 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[346/746] 392233965.md (6883 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[347/746] 392234161.md (4464 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 3194 (char 3193)
+  ✅ OK: 0 entities, 0 concepts
+
+[348/746] 392247773.md (9802 bytes)
+  ⚠️ 需要 review: 文章中AFDG公司名称翻译为'铜业情报公司'，与ticker对应的'African Discovery'存在不一致，需确认公司准确中文名, Andrew Grove是否为上市公司AFDG的实际董事长需进一步核实, Codelco为未上市国企，按规则可考虑不提取，但作为行业标杆对手方保留, 跳过未验证无ticker实体: Codelco
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[349/746] 392248874.md (13314 bytes)
+  ⚠️ 需要 review: SpaceX的SPCX代码在文章中以预期/占位形式出现，并非已正式生效的代码，信号方向判断时需注意区分预期与现实, OpenAI与Anthropic目前不可投资，作为实体提取属于边界情况，已在note中标注, 第二信号'positive/low confidence'支撑较弱，可能需要合并入主信号或删除, 跳过未验证无ticker实体: Anthropic, 跳过未验证无ticker实体: OpenAI, 跳过未验证无ticker实体: 富达, 跳过未验证无ticker实体: Star Cloud
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[350/746] 392277341.md (15829 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[351/746] 392289979.md (49122 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[352/746] 392296360.md (2108 bytes)
+  ⏭️  Skipped: body_length 1915 < min 2000
+
+[353/746] 392383620.md (4949 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[354/746] 392392871.md (3888 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[355/746] 392413883.md (7540 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 3929 (char 3928)
+  ✅ OK: 0 entities, 0 concepts
+
+[356/746] 392418530.md (9301 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[357/746] 392419167.md (2237 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[358/746] 392424815.md (5310 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[359/746] 392427751.md (4613 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[360/746] 392460854.md (13185 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
