@@ -9,7 +9,10 @@ tags:
 aliases:
 - $Block(XYZ)$
 - Block
+- Block(XYZ)
 - Block, Inc.
+- SQ
+- Square
 timeline:
 - date: '2026-02-27'
   source: sources/2026-02-27-377213441.md
@@ -41,7 +44,31 @@ timeline:
 - date: '2026-03-08'
   source: sources/2026-03-08-378483274.md
   signals: []
-last_updated: '2026-07-06T19:43:07.203269+08:00'
+- date: '2026-05-23'
+  source: sources/2026-05-23-390592892.md
+  signals:
+  - entity: Block
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: AI转型加速，今年密集推出新产品
+    caveats:
+    - 过去3年创新停滞，处于'安全中间地带'
+    - 管理层级从5层砍至2-3层的执行力待验证
+    quote: 公司现在终于有自由去做这些事了……我觉得公司内部现在涌现出了多得多的创造力。
+    business_line: 全公司/Cash App/Square
+  - entity: Block
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 世界模型+扁平组织构筑长期护城河
+    caveats:
+    - 世界模型尚未规模化验证
+    - 传统LLM路径的竞争压力
+    - 信贷业务在信用下行周期表现待检验
+    quote: AI 时代真正的终局，可能不是谁的模型更牛，而是谁的组织能率先像素级地和 AI 融为一体。
+    business_line: AI基础设施/风控
+last_updated: '2026-07-06T21:09:59.478827+08:00'
 ---
 
 # Block
@@ -51,6 +78,11 @@ last_updated: '2026-07-06T19:43:07.203269+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-23
+> 来源: [sources/2026-05-23-390592892.md](sources/2026-05-23-390592892.md)
+- 📈 [positive] AI转型加速，今年密集推出新产品
+- 📈 [positive] 世界模型+扁平组织构筑长期护城河
 
 ### 2026-03-08
 > 来源: [sources/2026-03-08-378483274.md](sources/2026-03-08-378483274.md)

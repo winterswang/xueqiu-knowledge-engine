@@ -9,6 +9,7 @@ tags:
 aliases:
 - RKLB
 - Rocket Lab
+- Rocketlab
 timeline:
 - date: '2026-02-27'
   source: sources/2026-02-27-377287845.md
@@ -34,7 +35,22 @@ timeline:
     - 管理层重申对设计可靠性的信心
     quote: Neutron 的首次发射目前计划在2026年第四季度进行。由于 Neutron 项目的研发与产能扩张，第一季度非 GAAP 自由现金流仍将维持较高的负值水平。
     business_line: null
-last_updated: '2026-07-06T18:22:49.201483+08:00'
+- date: '2026-05-23'
+  source: sources/2026-05-23-390564240.md
+  signals:
+  - entity: Rocket Lab
+    direction: neutral
+    confidence: medium
+    time_frame: short_term
+    summary: 短期受益热度但护城河待验证
+    caveats:
+    - 小型跟风企业需用硬实力支撑溢价
+    - 特斯拉追随者命运是前车之鉴
+    - 已通过ATM融资30亿美元估值已抬升
+    quote: 那些体量较小的跟风企业最终必须自证清白，用硬实力来支撑溢价。"市场将会用放大镜去审视每一个个体。我的第一个疑问就是：你拿什么去和埃隆·马斯克以及
+      SpaceX 竞争？你的核心护城河在哪里？"
+    business_line: null
+last_updated: '2026-07-06T21:09:20.313105+08:00'
 ---
 
 # Rocket Lab
@@ -44,6 +60,10 @@ last_updated: '2026-07-06T18:22:49.201483+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-23
+> 来源: [sources/2026-05-23-390564240.md](sources/2026-05-23-390564240.md)
+- ➡️ [neutral] 短期受益热度但护城河待验证
 
 ### 2026-02-27
 > 来源: [sources/2026-02-27-377287845.md](sources/2026-02-27-377287845.md)

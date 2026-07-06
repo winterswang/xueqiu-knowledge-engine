@@ -61,7 +61,29 @@ timeline:
     - AI功能变现节奏与定价模式尚未稳定
     quote: Zoom 客户体验（ZCX）在第一季度继续加速发展，在排名前 10 的 ZCX 订单中，有 9 个是由付费 AI 驱动的，从而实现了高双位数的增长。
     business_line: ZCX/AI
-last_updated: '2026-07-06T20:50:48.675280+08:00'
+- date: '2026-05-23'
+  source: sources/2026-05-23-390551348.md
+  signals:
+  - entity: Zoom通讯
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: AI变现+增长拐点，财务表现强劲
+    caveats:
+    - WebEx及科技巨头的竞争压力
+    - 增长可持续性待验证
+    quote: 这份成绩单清晰地表明，我们的AI正在成功变现；同时，业务正迎来了增长的拐点……我们在实现这一增长的同时，还保持了极高的盈利能力。
+    business_line: AI陪练/助手 + 企业行动系统
+  - entity: Zoom通讯
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 从视频会议升级为全周期会议生态
+    caveats:
+    - 战略转型能否持续兑现存在不确定性
+    quote: Zoom早已超越了会议本身……我们的核心是打造'行动系统'……对于公司未来的发展前景，我们感到无比兴奋。
+    business_line: 企业行动系统/全周期会议生态
+last_updated: '2026-07-06T21:04:40.555809+08:00'
 ---
 
 # Zoom通讯
@@ -71,6 +93,11 @@ last_updated: '2026-07-06T20:50:48.675280+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-23
+> 来源: [sources/2026-05-23-390551348.md](sources/2026-05-23-390551348.md)
+- 📈 [positive] AI变现+增长拐点，财务表现强劲
+- 📈 [positive] 从视频会议升级为全周期会议生态
 
 ### 2026-05-22
 > 来源: [sources/2026-05-22-390377458.md](sources/2026-05-22-390377458.md)

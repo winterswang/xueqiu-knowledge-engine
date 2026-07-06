@@ -715,3 +715,67 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [220/746] 390451885.md (7910 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[221/746] 390464414.md (7323 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[222/746] 390473806.md (9128 bytes)
+  ⚠️ 需要 review: 硅基智能为拟上市公司，尚未在港股挂牌，其'analyzed'实体角色需确认是否符合词典规范, AI数字人产业与多模态大模型两个概念存在一定重叠，需要确认是否合并或保留为两个独立概念, 海外竞品Synthesia是否应单独建实体（作为可投资标的）需确认，文中仅披露融资估值信息, 红杉中国、招银基金等投资机构作为背景实体的合理性需确认, 跳过未验证无ticker实体: 硅基智能, 跳过未验证无ticker实体: 红杉中国, 跳过未验证无ticker实体: 谷歌风投, 跳过未验证无ticker实体: 招银基金
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[223/746] 390475863.md (17239 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[224/746] 390477878.md (4518 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[225/746] 390484263.md (8361 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[226/746] 390485921.md (4077 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[227/746] 390512431.md (7774 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[228/746] 390551348.md (5752 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[229/746] 390552466.md (10646 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[230/746] 390554146.md (11701 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[231/746] 390555473.md (8187 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[232/746] 390556401.md (12689 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[233/746] 390564240.md (2939 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[234/746] 390592892.md (36891 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[235/746] 390597675.md (43724 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[236/746] 390600462.md (12186 bytes)
+  ⚠️ 需要 review: 文章主体为政治人物交易行为的新闻分析，并非针对可投资标的的研究报告，可提取的投资信号较弱, 纳斯达克综合指数和标普500指数在文章中被标记为标签但实际内容与指数本身无直接分析，角色定位需确认, 苹果公司仅作为单一交易案例被提及，是否构成有效实体存疑
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[237/746] 390609121.md (2515 bytes)
+  ⚠️ 需要 review: 文章为观点随笔而非投资分析，未明确点名具体可投资标的（收购方仅以'美国前三大卡网公司'泛指，疑似Visa/Mastercard/Amex但未确认）, 被收购初创公司及AI早期投资人均未具名，无法建立具体实体关联, 无明确个股/标的信号输出，信号数组为空
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[238/746] 390621083.md (33306 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[239/746] 390622628.md (38913 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[240/746] 390625098.md (5368 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

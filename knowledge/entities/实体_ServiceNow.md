@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/ServiceNow
 aliases:
+- NOW
 - ServiceNow
 timeline:
 - date: '2026-03-08'
@@ -33,7 +34,31 @@ timeline:
     - 并购引发短期关注
     quote: 我们的执行一直非常稳定。有时候甚至稳定到让人觉得有点'无聊'——每个季度收入增长超过20%，自由现金流不断上升。
     business_line: 整体业务
-last_updated: '2026-07-06T19:43:07.193267+08:00'
+- date: '2026-05-24'
+  source: sources/2026-05-24-390622628.md
+  signals:
+  - entity: ServiceNow
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 确定性溢价的SaaS王者，AI护城河深
+    caveats:
+    - 高估值
+    - AI终值风险导致客户观望情绪
+    - 大模型技术快速迭代的兼容性风险
+    quote: 在美股SaaS板块里，NOW依然是那个把'确定性'和'降维打击'玩得最明白的王者。高估值有高毛利和极深的行业元数据壁垒支撑。
+    business_line: 全平台
+  - entity: ServiceNow
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: 智能助理目标上调50%，AI变现加速
+    caveats:
+    - 百万级客单价能否持续扩大
+    - 新定价模式推广节奏
+    quote: 我们今年把新签年合同额的目标从10亿调高到了15亿...随着智能体的场景真正推向生产环境，客户的实际使用量正在呈指数级上升。
+    business_line: Now Assist智能助理
+last_updated: '2026-07-06T21:14:32.817474+08:00'
 ---
 
 # ServiceNow
@@ -43,6 +68,11 @@ last_updated: '2026-07-06T19:43:07.193267+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-24
+> 来源: [sources/2026-05-24-390622628.md](sources/2026-05-24-390622628.md)
+- 📈 [positive] 确定性溢价的SaaS王者，AI护城河深
+- 📈 [positive] 智能助理目标上调50%，AI变现加速
 
 ### 2026-03-08
 > 来源: [sources/2026-03-08-378483274.md](sources/2026-03-08-378483274.md)

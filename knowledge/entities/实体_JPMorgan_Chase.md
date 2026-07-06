@@ -8,14 +8,20 @@ tags:
 - 实体/JPMorgan Chase
 aliases:
 - Chase
+- JP Morgan
 - JPMorgan
 - JPMorgan Chase
+- JP摩根
 - 大通银行
+- 摩根大通
 timeline:
 - date: '2026-03-10'
   source: sources/2026-03-10-378754078.md
   signals: []
-last_updated: '2026-07-06T19:58:18.183302+08:00'
+- date: '2026-05-23'
+  source: sources/2026-05-23-390597675.md
+  signals: []
+last_updated: '2026-07-06T21:11:52.825479+08:00'
 ---
 
 # JPMorgan Chase
@@ -25,6 +31,9 @@ last_updated: '2026-07-06T19:58:18.183302+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-23
+> 来源: [sources/2026-05-23-390597675.md](sources/2026-05-23-390597675.md)
 
 ### 2026-03-10
 > 来源: [sources/2026-03-10-378754078.md](sources/2026-03-10-378754078.md)

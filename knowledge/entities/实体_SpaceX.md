@@ -1,13 +1,14 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX
+ticker: SPCX.US
 market: US
 tags:
 - _entity_page
 - 实体/SpaceX
 aliases:
 - $SpaceX(SPCX)$
+- SPCX
 - SpaceX
 - 太空探索技术公司
 - 星链母公司
@@ -93,21 +94,73 @@ timeline:
     - 需要持续发射DTC专用卫星，规模效应有待验证
     quote: 下一个万亿蓝海：移动端直连……目前星链已经和全球六大洲的 30家主流移动运营商（MNO）达成合作（包括美国的T-Mobile、Rogers、KDDI、Optus等）。
     business_line: Starlink Direct-to-Cell
-last_updated: '2026-07-06T20:58:42.862019+08:00'
+- date: '2026-05-23'
+  source: sources/2026-05-23-390555473.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 稀缺资产/IPO分水岭/史无前例投资赛道
+    caveats:
+    - 文中建议通过特斯拉间接投资而非直接买入
+    - 公司治理和投票权问题
+    - IPO具体时点不确定
+    quote: SpaceX可是独一无二的稀缺资产，它将彻底开创一个全新的投资赛道。...这不仅是马斯克和SpaceX的分水岭，更是整个投资界的分水岭
+    business_line: ''
+- date: '2026-05-23'
+  source: sources/2026-05-23-390564240.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: SpaceX上市引爆太空概念股资本狂欢
+    caveats:
+    - 具体上市时间未定
+    - 上市后能否持续带火赛道存疑
+    - 小型跟随者面临护城河考验
+    quote: 随着$SpaceX(SPCX)$ 即将上市的消息公布，正引发一场如出一辙的资本狂欢，直接将原本坐冷板凳的太空概念股送上了云霄。
+    business_line: IPO/估值
+- date: '2026-05-24'
+  source: sources/2026-05-24-390625098.md
+  signals:
+  - entity: SpaceX
+    direction: neutral
+    confidence: medium
+    time_frame: short_term
+    summary: 80倍PS估值惊人，引发消化能力疑问
+    caveats:
+    - PS高达80倍而增速仅约20%，远贵于英伟达；投资者是否愿意买单存疑
+    quote: SpaceX 的估值已经高达 2 万亿美元，如果最终顺利上市，从理论上讲，它的定价相当于其销售额的 80 倍。而它的增速大概在 20% 左右。
+    business_line: null
+last_updated: '2026-07-06T21:15:20.519447+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX
+> 股票代码: SPCX.US
 
 ## 信号时间线
 
+
+### 2026-05-24
+> 来源: [sources/2026-05-24-390625098.md](sources/2026-05-24-390625098.md)
+- ➡️ [neutral] 80倍PS估值惊人，引发消化能力疑问
 
 ### 2026-05-23
 > 来源: [sources/2026-05-23-390207921.md](sources/2026-05-23-390207921.md)
 - 📈 [positive] TAM高达28.5万亿美元，三大业务闭环
 - 📈 [positive] 可重复使用火箭将科幻变为确定性商业闭环
+
+### 2026-05-23
+> 来源: [sources/2026-05-23-390555473.md](sources/2026-05-23-390555473.md)
+- 📈 [positive] 稀缺资产/IPO分水岭/史无前例投资赛道
+
+### 2026-05-23
+> 来源: [sources/2026-05-23-390564240.md](sources/2026-05-23-390564240.md)
+- 📈 [positive] SpaceX上市引爆太空概念股资本狂欢
 
 ### 2026-05-22
 > 来源: [sources/2026-05-22-390354409.md](sources/2026-05-22-390354409.md)
