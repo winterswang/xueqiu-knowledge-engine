@@ -453,3 +453,66 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [140/746] 378622163.md (36998 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[141/746] 378636738.md (2140 bytes)
+  ⏭️  Skipped: body_length 1965 < min 2000
+
+[142/746] 378655701.md (27061 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[143/746] 378680281.md (2562 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[144/746] 378696533.md (2596 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[145/746] 378698079.md (27170 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[146/746] 378747784.md (26728 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 3801 (char 3800)
+  ✅ OK: 0 entities, 0 concepts
+
+[147/746] 378748705.md (20849 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[148/746] 378749851.md (22221 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[149/746] 378751236.md (22185 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[150/746] 378752958.md (17322 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[151/746] 378754078.md (23354 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[152/746] 378756271.md (7417 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[153/746] 378758738.md (8069 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[154/746] 378858373.md (17495 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[155/746] 379403665.md (3013 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[156/746] 380038502.md (2192 bytes)
+  ⏭️  Skipped: body_length 1967 < min 2000
+
+[157/746] 381156949.md (3283 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[158/746] 382912479.md (3575 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[159/746] 383262511.md (3915 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[160/746] 383896915.md (3091 bytes)
+  ⚠️ 需要 review: 文章为社交媒体趣谈轶事，投资信息密度低，无明确投资观点, 信号方向判断困难：文章未表达对泡泡玛特基本面看法，仅为交易机制趣事, 概念'港股期权合约规模差异'更偏交易操作机制而非投资逻辑概念，粒度需评估, 未披露行权价，关键数据缺失影响判断
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
