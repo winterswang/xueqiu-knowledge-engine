@@ -1,7 +1,7 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX
+ticker: SPCX.US
 market: US
 tags:
 - _entity_page
@@ -10,6 +10,8 @@ aliases:
 - $SpaceX(SPCX)$
 - SPCX
 - SpaceX
+- SpaceX AI
+- SpaceX 领导团队
 - SpaceX(SPCX)
 - Starship
 - 太空探索技术公司
@@ -312,19 +314,99 @@ timeline:
 - date: '2026-06-09'
   source: sources/2026-06-09-393463676.md
   signals: []
-last_updated: '2026-07-07T00:01:27.740083+08:00'
+- date: '2026-06-09'
+  source: sources/2026-06-09-393736712.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 空间AI算力宏大路线图，1GW→1TW十年跃迁
+    caveats:
+    - 时间表极为激进，执行风险高
+    - 依赖Terafab芯片工厂落地
+    - 长期1TW愿景需月球制造基础设施支持
+    - 未上市标的，流动性受限
+    quote: 我们的目标是在明年年底前，让空间 AI 计算达到大约每年 1 吉瓦的年化运行率……最终彻底跨入每年 1 太瓦的宏伟时代。
+    business_line: 空间AI计算（AI1卫星）
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: Terafab超级晶圆厂计划，规模空前但极早期
+    caveats:
+    - 1亿平方英尺工厂规模史无前例，建设周期与资本开支不确定
+    - 1TW年化功率等效全美用电量两倍，能源供给未说明
+    - 目前仍处于概念披露阶段
+    quote: Terafab 的面积将在 1 亿平方英尺左右……最终在硬件运行总功率上飙升至每年 1 太瓦。这个数字是目前全美总耗电量的两倍。
+    business_line: 半导体制造（Terafab）
+- date: '2026-06-10'
+  source: sources/2026-06-10-393776800.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 发射+星链+轨道算力+AI+芯片闭环，长期壁垒极强
+    caveats:
+    - 星舰快速重复使用仍处于试飞阶段，工程风险未完全释放
+    - 轨道算力规模化（GW级）属前瞻叙事，落地时间与执行风险显著
+    - Terafab属重资产+新进入者，工艺良率与产能爬坡存在不确定性
+    - 资本开支将进入历史峰值，对融资节奏与现金流匹配提出极高要求
+    quote: 外界看过来，可能会觉得这是散落一地的、互不相干的多元化拼图，但实际上的底层逻辑完全相反。核心在于，我们拥有一个无可匹敌的发射平台……这才是刚才列举的每一项业务能够成立的底层赋能器。
+    business_line: null
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: 星舰V3首飞成功，AI地面算力跻身全球前五
+    caveats:
+    - V3试飞为'巨大成功'但仍处于验证期，后续试飞节奏决定商业化进度
+    quote: 上周进行的 V3 版本首次发射对我们而言是一次巨大的成功……你们的产品发布和迭代的速度明显加快了。随着已签约的 Anthropic 交易落地，你们的季度年化运行率已经达到了
+      37.5 亿美元……已经挺进了全球前五的 AI 算力基础设施巨头之列。
+    business_line: 发射与AI基础设施
+- date: '2026-06-10'
+  source: sources/2026-06-10-393964547.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: low
+    time_frame: long_term
+    summary: 类比大航海，长期看好但短期估值撕裂
+    caveats:
+    - 传闻IPO导致多空两极分化
+    - PS/PE倍数高得离谱
+    - 可能买在高点或技术归零
+    - 本世纪最大一级割二级泡沫风险
+    quote: 把现在SpaceX、Rocket Lab这些商业航天的融资、发射，比作当年麦哲伦、哥伦布找西班牙王室拉赞助（风投），底层逻辑是一模一样的
+    business_line: null
+last_updated: '2026-07-07T00:40:45.858819+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX
+> 股票代码: SPCX.US
 
 ## 信号时间线
 
 
+### 2026-06-10
+> 来源: [sources/2026-06-10-393776800.md](sources/2026-06-10-393776800.md)
+- 📈 [positive] 发射+星链+轨道算力+AI+芯片闭环，长期壁垒极强
+- 📈 [positive] 星舰V3首飞成功，AI地面算力跻身全球前五
+
+### 2026-06-10
+> 来源: [sources/2026-06-10-393964547.md](sources/2026-06-10-393964547.md)
+- 📈 [positive] 类比大航海，长期看好但短期估值撕裂
+
 ### 2026-06-09
 > 来源: [sources/2026-06-09-393463676.md](sources/2026-06-09-393463676.md)
+
+### 2026-06-09
+> 来源: [sources/2026-06-09-393736712.md](sources/2026-06-09-393736712.md)
+- 📈 [positive] 空间AI算力宏大路线图，1GW→1TW十年跃迁
+- 📈 [positive] Terafab超级晶圆厂计划，规模空前但极早期
 
 ### 2026-06-05
 > 来源: [sources/2026-06-05-392959875.md](sources/2026-06-05-392959875.md)

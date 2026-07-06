@@ -7,7 +7,10 @@ tags:
 - _entity_page
 - 实体/NVIDIA
 aliases:
+- GV300
 - NVIDIA
+- NVIDIA GB300
+- NVIDIA Reuben
 - NVIDIA 生态系统
 - 英伟达
 timeline:
@@ -35,7 +38,10 @@ timeline:
 - date: '2026-06-05'
   source: sources/2026-06-05-393027905.md
   signals: []
-last_updated: '2026-07-06T23:39:13.391216+08:00'
+- date: '2026-06-09'
+  source: sources/2026-06-09-393736712.md
+  signals: []
+last_updated: '2026-07-07T00:31:03.330243+08:00'
 ---
 
 # NVIDIA
@@ -45,6 +51,9 @@ last_updated: '2026-07-06T23:39:13.391216+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-09
+> 来源: [sources/2026-06-09-393736712.md](sources/2026-06-09-393736712.md)
 
 ### 2026-06-05
 > 来源: [sources/2026-06-05-393027905.md](sources/2026-06-05-393027905.md)

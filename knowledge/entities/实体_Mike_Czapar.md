@@ -8,11 +8,15 @@ tags:
 - 实体/Mike Czapar
 aliases:
 - Mike Czapar
+- 迈克·扎帕尔
 timeline:
 - date: '2026-03-08'
   source: sources/2026-03-08-378479508.md
   signals: []
-last_updated: '2026-07-06T19:41:10.429853+08:00'
+- date: '2026-06-10'
+  source: sources/2026-06-10-393958286.md
+  signals: []
+last_updated: '2026-07-07T00:40:06.127117+08:00'
 ---
 
 # Mike Czapar
@@ -22,6 +26,9 @@ last_updated: '2026-07-06T19:41:10.429853+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-10
+> 来源: [sources/2026-06-10-393958286.md](sources/2026-06-10-393958286.md)
 
 ### 2026-03-08
 > 来源: [sources/2026-03-08-378479508.md](sources/2026-03-08-378479508.md)

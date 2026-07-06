@@ -1512,3 +1512,68 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [460/746] 393734804.md (3365 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[461/746] 393736712.md (14404 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[462/746] 393746838.md (16832 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[463/746] 393746860.md (3420 bytes)
+  ⚠️ 需要 review: 文章为宏观/行业研究报告，未提及任何具体可投资标的（无公司名/股票代码），实体列表为空, 文章摘要性质偏强，部分论断缺乏详细数据支撑，完整内容需查阅原报告, 信号维度因无具体实体而无法提取，概念粒度（L1/L2）需进一步确认
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[464/746] 393753503.md (3666 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[465/746] 393776800.md (36411 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[466/746] 393784256.md (5698 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[467/746] 393876086.md (3521 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[468/746] 393880030.md (19072 bytes)
+  ⚠️ 需要 review: Costco虽未在watchlist中但作为核心对标公司应被识别，已按开放识别规则标记verified=false, 文章中'沃尔玛中国'作为分部多次出现，是否需要单独建实体已与沃尔玛母公司合并处理, 山姆中国40%增速的可靠性来自公司口径，缺少第三方交叉验证
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[469/746] 393888916.md (3651 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[470/746] 393900110.md (6099 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[471/746] 393902979.md (8088 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[472/746] 393942180.md (3966 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[473/746] 393943489.md (3818 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[474/746] 393956529.md (26246 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[475/746] 393958286.md (43531 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[476/746] 393964547.md (2920 bytes)
+  ⚠️ 需要 review: 文章以哲学化、煽动性叙事为主，缺乏具体数据支撑，信息密度较低, SPCX是否确为SpaceX相关可交易标的存疑（SpaceX尚未上市）, 信号方向虽主基调正面，但文章本身反复强调'盈亏自负''血本无归'风险，方向判定边界模糊, 太空创新者ETF(NASA)是否为真实可交易ETF需要核实
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[477/746] 393977897.md (5605 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[478/746] 393977970.md (3414 bytes)
+  ⚠️ 需要 review: 文章为A股日评/盘面总结，信息密度低，深度投资观点有限, 多家个股仅作为板块代表被罗列，未做个股层面分析, CPO/光纤调整的方向判断置信度较低，仅为单日描述, 大量个股（旅游、工业气体、贵金属、煤炭等）未纳入实体列表，提取范围存在选择性偏差
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[479/746] 393990405.md (4292 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[480/746] 393990429.md (7464 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

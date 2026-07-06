@@ -94,7 +94,21 @@ timeline:
     - 高估值依赖长期想象
     quote: Rocket Lab 目前也尚未实现盈利，华尔街分析师预测你们要到 2028 年才能扭亏为盈。
     business_line: 全公司
-last_updated: '2026-07-07T00:01:27.724104+08:00'
+- date: '2026-06-10'
+  source: sources/2026-06-10-393964547.md
+  signals:
+  - entity: Rocket Lab
+    direction: positive
+    confidence: low
+    time_frame: long_term
+    summary: 与SpaceX同列商业航天先驱，长期超级周期
+    caveats:
+    - 高分歧标的
+    - 盈亏自负的游戏
+    - 发射损耗率风险
+    quote: 误打误撞在低轨卫星、激光通信上赚到第一桶金的……他们开启的时代，其溢出效应和商业回报，将远远超过早期这批投资人算盘上的那点财务收益
+    business_line: null
+last_updated: '2026-07-07T00:40:45.874876+08:00'
 ---
 
 # Rocket Lab
@@ -104,6 +118,10 @@ last_updated: '2026-07-07T00:01:27.724104+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-10
+> 来源: [sources/2026-06-10-393964547.md](sources/2026-06-10-393964547.md)
+- 📈 [positive] 与SpaceX同列商业航天先驱，长期超级周期
 
 ### 2026-06-09
 > 来源: [sources/2026-06-09-393463676.md](sources/2026-06-09-393463676.md)
