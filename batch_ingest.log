@@ -584,3 +584,68 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [180/746] 389750015.md (2436 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[181/746] 389766142.md (13432 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[182/746] 389769209.md (2318 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[183/746] 389844189.md (11713 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[184/746] 389890824.md (14560 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[185/746] 390056829.md (8805 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[186/746] 390101336.md (13009 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[187/746] 390109927.md (10931 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[188/746] 390113952.md (3062 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[189/746] 390121100.md (6298 bytes)
+  ⚠️ 需要 review: 文章提到'英伟达去年收购了Grok公司'，但据公开信息Grok是xAI的模型，未被英伟达收购——此处原文可能有事实性错误或指代不明，需review确认, 英伟达营收结构重新分类的具体细节（如Edge板块的明确定义）文章未深入展开，主持人本人也承认'还没来得及深入思考', John Belton的判断基于财报发布后极短时间的直觉反应，部分观点（如Vera机架归属）属于思想风暴阶段，置信度需打折扣, 跳过未验证无ticker实体: AMD, 跳过未验证无ticker实体: Alphabet
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[190/746] 390124351.md (35680 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[191/746] 390125793.md (6592 bytes)
+  ⚠️ 需要 review: 文章以治理哲学讨论为主，硬性投资数据（财报数字、估值）较少, 信号方向存在混合判断：业务面肯定 vs 治理面批评，需要综合解读, Temu虽被讨论但按规则不作为独立可投资实体提取，需确认是否符合预期, 黄铮(铮vs峥)姓名拼写需核实, 跳过未验证无ticker实体: 网易, 跳过未验证无ticker实体: 伯克希尔·哈撒韦
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[192/746] 390194142.md (3852 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[193/746] 390195156.md (4922 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[194/746] 390200168.md (4433 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[195/746] 390204768.md (3117 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[196/746] 390207921.md (6366 bytes)
+  ⚠️ 需要 review: EchoStar是否为上市公司且与文中SATS代码对应需核实, xAI当前未上市，是否应作为实体收录存疑（按规则不应提取，但文中Grok业务对SpaceX投资逻辑有实质影响）, 部分概念（如'AI算力基础设施'）粒度较粗，可考虑拆分, 跳过未验证无ticker实体: EchoStar, 跳过未验证无ticker实体: xAI
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[197/746] 390229494.md (3099 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[198/746] 390231956.md (4353 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[199/746] 390234394.md (11906 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2838 (char 2837)
+  ✅ OK: 0 entities, 0 concepts
+
+[200/746] 390238832.md (4610 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

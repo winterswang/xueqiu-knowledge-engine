@@ -1,7 +1,7 @@
 ---
 name: SpaceX
 type: company
-ticker: SPCX.US
+ticker: SPCX
 market: US
 tags:
 - _entity_page
@@ -27,16 +27,43 @@ timeline:
 - date: '2026-03-04'
   source: sources/2026-03-04-377948272.md
   signals: []
-last_updated: '2026-07-06T18:37:44.278746+08:00'
+- date: '2026-05-23'
+  source: sources/2026-05-23-390207921.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: TAM高达28.5万亿美元，三大业务闭环
+    caveats:
+    - TAM中AI算力26.5万亿含大量远期假设
+    - 轨道数据中心、在轨制造等仍处概念阶段
+    quote: 其锁定的 TAM（可触达总市场）高达28.5万亿美元！这绝非盲目画饼，而是以'可重复使用火箭'的绝对成本优势为底座，通吃太空、全球联通、AI算力三大领域的史诗级闭环。
+    business_line: 整体业务
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 可重复使用火箭将科幻变为确定性商业闭环
+    caveats:
+    - 执行风险高，涉及地外工业化等远期愿景
+    quote: 它通过把火箭发射成本降低了几个数量级，硬生生把过去在科学上、经济上如同'镜花水月'的科幻空谈，变成了确定性极高的商业闭环。
+    business_line: 发射服务/火箭技术
+last_updated: '2026-07-06T20:36:42.401468+08:00'
 ---
 
 # SpaceX
 
 > 类型: company
-> 股票代码: SPCX.US
+> 股票代码: SPCX
 
 ## 信号时间线
 
+
+### 2026-05-23
+> 来源: [sources/2026-05-23-390207921.md](sources/2026-05-23-390207921.md)
+- 📈 [positive] TAM高达28.5万亿美元，三大业务闭环
+- 📈 [positive] 可重复使用火箭将科幻变为确定性商业闭环
 
 ### 2026-03-04
 > 来源: [sources/2026-03-04-377948272.md](sources/2026-03-04-377948272.md)

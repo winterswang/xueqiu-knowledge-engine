@@ -63,7 +63,32 @@ timeline:
     - 利率环境对稳定币构成逆风
     quote: 我们相信今年春天能够达成立法……稳定币是任何代币化产品的关键支付环节……仅仅是代币化的增长就会导致稳定币的增长。
     business_line: 稳定币/USDC与监管驱动业务
-last_updated: '2026-07-06T19:14:05.965378+08:00'
+- date: '2026-05-21'
+  source: sources/2026-05-21-390124351.md
+  signals:
+  - entity: Coinbase Global
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 监管明晰+全品类交易所，长期增长动能强化
+    caveats:
+    - 观点来源为公司高管，立场偏积极
+    - 《明晰法案》最终落地仍需参众两院通过及总统签署
+    - 预测市场等新品类竞争激烈，护城河需观察
+    quote: 我们深信，正如当年的《GENIUS 法案》激活了稳定币一样，这部法案将彻底释放该领域新一轮的创新浪潮。
+    business_line: 交易所/监管套利
+  - entity: Coinbase Global
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: AI代理支付飞轮成型，USDC+Base+x402三位一体
+    caveats:
+    - 麦肯锡3-5万亿美元预测为2030年远期目标
+    - AI代理商业模式仍处早期，实际变现节奏存在不确定性
+    - 观点来源为公司高管，立场偏积极
+    quote: 在这些链上代理型商业中，有 99% 的结算发生在 USDC 上，90% 发生在 Base 链上。这充分表明，我们的技术栈已经在引领和承接代理型商业的未来。
+    business_line: 稳定币/AI支付/Base链
+last_updated: '2026-07-06T20:32:31.428856+08:00'
 ---
 
 # Coinbase Global
@@ -73,6 +98,11 @@ last_updated: '2026-07-06T19:14:05.965378+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-21
+> 来源: [sources/2026-05-21-390124351.md](sources/2026-05-21-390124351.md)
+- 📈 [positive] 监管明晰+全品类交易所，长期增长动能强化
+- 📈 [positive] AI代理支付飞轮成型，USDC+Base+x402三位一体
 
 ### 2026-03-06
 > 来源: [sources/2026-03-06-378371752.md](sources/2026-03-06-378371752.md)
