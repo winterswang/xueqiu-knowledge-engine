@@ -9,11 +9,15 @@ tags:
 aliases:
 - Shiv
 - Shiv Verma
+- 希夫·维尔马
 timeline:
 - date: '2026-03-04'
   source: sources/2026-03-04-377972008.md
   signals: []
-last_updated: '2026-07-06T18:39:50.748220+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391461484.md
+  signals: []
+last_updated: '2026-07-06T22:04:57.926038+08:00'
 ---
 
 # Shiv Verma
@@ -23,6 +27,9 @@ last_updated: '2026-07-06T18:39:50.748220+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391461484.md](sources/2026-05-28-391461484.md)
 
 ### 2026-03-04
 > 来源: [sources/2026-03-04-377972008.md](sources/2026-03-04-377972008.md)

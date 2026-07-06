@@ -8,6 +8,7 @@ tags:
 - 实体/Uber
 aliases:
 - Uber
+- Uber One
 - Uber平台
 timeline:
 - date: '2026-02-26'
@@ -22,7 +23,10 @@ timeline:
 - date: '2026-03-06'
   source: sources/2026-03-06-378382776.md
   signals: []
-last_updated: '2026-07-06T19:22:16.019258+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391461484.md
+  signals: []
+last_updated: '2026-07-06T22:04:57.920336+08:00'
 ---
 
 # Uber
@@ -32,6 +36,9 @@ last_updated: '2026-07-06T19:22:16.019258+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391461484.md](sources/2026-05-28-391461484.md)
 
 ### 2026-03-06
 > 来源: [sources/2026-03-06-378382776.md](sources/2026-03-06-378382776.md)

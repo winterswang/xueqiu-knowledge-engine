@@ -1,6 +1,6 @@
 ---
 name: AI基础设施
-definition: 支撑AI算力的硬件与网络基础设施，包括光通信、数据中心、芯片等
+definition: 支撑AI训练与推理的底层硬件体系，包含存储、XPU与连接三大要素
 tags:
 - _concept_page
 - 概念
@@ -12,12 +12,14 @@ entities:
 - NVIDIA
 - SpaceX
 - 亚马逊
+- 博通
 - 微软
 - 特斯拉
 - 英伟达
 - 诺基亚
 - 谷歌
 - 谷歌A
+- 迈威尔科技
 sources:
 - sources/2026-02-10-375729044.md
 - sources/2026-02-26-377127545.md
@@ -26,12 +28,13 @@ sources:
 - sources/2026-03-06-378307797.md
 - sources/2026-05-26-390992966.md
 - sources/2026-05-27-391100049.md
-last_updated: '2026-07-06T21:37:27.165417+08:00'
+- sources/2026-05-28-391373215.md
+last_updated: '2026-07-06T21:59:01.967972+08:00'
 ---
 # AI基础设施
 ## 定义
 
-支撑AI算力的硬件与网络基础设施，包括光通信、数据中心、芯片等
+支撑AI训练与推理的底层硬件体系，包含存储、XPU与连接三大要素
 
 ## 关联实体
 
@@ -42,12 +45,14 @@ last_updated: '2026-07-06T21:37:27.165417+08:00'
 - [[entities/NVIDIA|NVIDIA]]
 - [[entities/SpaceX|SpaceX]]
 - [[entities/亚马逊|亚马逊]]
+- [[entities/博通|博通]]
 - [[entities/微软|微软]]
 - [[entities/特斯拉|特斯拉]]
 - [[entities/英伟达|英伟达]]
 - [[entities/诺基亚|诺基亚]]
 - [[entities/谷歌|谷歌]]
 - [[entities/谷歌A|谷歌A]]
+- [[entities/迈威尔科技|迈威尔科技]]
 
 ## 来源文章
 
@@ -58,4 +63,5 @@ last_updated: '2026-07-06T21:37:27.165417+08:00'
 - [sources/2026-03-06-378307797.md](sources/2026-03-06-378307797.md)
 - [sources/2026-05-26-390992966.md](sources/2026-05-26-390992966.md)
 - [sources/2026-05-27-391100049.md](sources/2026-05-27-391100049.md)
+- [sources/2026-05-28-391373215.md](sources/2026-05-28-391373215.md)
 

@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/Rocket Lab
 aliases:
+- $Rocket Lab(RKLB)$
 - RKLB
 - Rocket Lab
 - Rocketlab
@@ -64,7 +65,10 @@ timeline:
     quote: 美国航天发射正处于历史最繁荣、最健康的黄金时期……无论是 SpaceX、Blue Origin，还是 Stoke、Firefly、Rocket
       Lab、ULA（联合发射联盟）或 Boeing
     business_line: 小型/中型运载火箭发射服务
-last_updated: '2026-07-06T21:16:25.075811+08:00'
+- date: '2026-05-27'
+  source: sources/2026-05-27-391321001.md
+  signals: []
+last_updated: '2026-07-06T21:51:47.819658+08:00'
 ---
 
 # Rocket Lab
@@ -74,6 +78,9 @@ last_updated: '2026-07-06T21:16:25.075811+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-27
+> 来源: [sources/2026-05-27-391321001.md](sources/2026-05-27-391321001.md)
 
 ### 2026-05-25
 > 来源: [sources/2026-05-25-390651232.md](sources/2026-05-25-390651232.md)

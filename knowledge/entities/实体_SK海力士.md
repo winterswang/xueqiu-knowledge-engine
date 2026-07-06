@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/SK海力士
 aliases:
+- SK Hynix
 - SK海力士
 - 海力士
 timeline:
@@ -19,7 +20,10 @@ timeline:
 - date: '2026-05-23'
   source: sources/2026-05-23-390552466.md
   signals: []
-last_updated: '2026-07-06T21:05:05.464672+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391427248.md
+  signals: []
+last_updated: '2026-07-06T22:01:35.361267+08:00'
 ---
 
 # SK海力士
@@ -29,6 +33,9 @@ last_updated: '2026-07-06T21:05:05.464672+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391427248.md](sources/2026-05-28-391427248.md)
 
 ### 2026-05-23
 > 来源: [sources/2026-05-23-390552466.md](sources/2026-05-23-390552466.md)

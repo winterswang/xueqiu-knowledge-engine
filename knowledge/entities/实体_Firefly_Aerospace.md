@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/Firefly Aerospace
 aliases:
+- $Firefly Aerospace(FLY)$
 - FLY
 - Firefly
 - Firefly Aerospace
@@ -24,7 +25,20 @@ timeline:
     - 需关注2027年起采购落地节奏
     quote: 我们直接释放了庞大的市场需求信号：从2027年初开始，我们将以接近月度的频次常态化采购月球着陆器
     business_line: 月球着陆器/商业航天
-last_updated: '2026-07-06T21:16:25.077679+08:00'
+- date: '2026-05-27'
+  source: sources/2026-05-27-391321001.md
+  signals:
+  - entity: Firefly Aerospace
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: 中标NASA月球任务，股价直接刺激暴涨
+    caveats:
+    - 板块整体估值溢价过高
+    - 属于高投机性子市场
+    quote: Firefly的'鞘翅'航天器被选中为'落月'任务运送无人机，直接刺激股价暴涨
+    business_line: 月球着陆器与发射服务
+last_updated: '2026-07-06T21:51:47.815673+08:00'
 ---
 
 # Firefly Aerospace
@@ -34,6 +48,10 @@ last_updated: '2026-07-06T21:16:25.077679+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-27
+> 来源: [sources/2026-05-27-391321001.md](sources/2026-05-27-391321001.md)
+- 📈 [positive] 中标NASA月球任务，股价直接刺激暴涨
 
 ### 2026-05-25
 > 来源: [sources/2026-05-25-390651232.md](sources/2026-05-25-390651232.md)

@@ -166,7 +166,21 @@ timeline:
     - 上市后股价表现与发行定价、市场环境高度相关
     quote: 顶配的星舰赛道加上AI的双重叙事，这绝对是美股十年一遇的造富神话。
     business_line: null
-last_updated: '2026-07-06T21:25:56.308012+08:00'
+- date: '2026-05-27'
+  source: sources/2026-05-27-391321001.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: SpaceX IPO临近，2万亿估值催化太空板块
+    caveats:
+    - 目标估值高达2万亿美元，定价风险显著
+    - 公司尚未盈利
+    - 高投机性细分市场建议控制仓位
+    quote: 埃隆·马斯克旗下的SpaceX已正式启动上市进程，预计最快下个月挂牌，目标募资高达750亿美元
+    business_line: 整体IPO
+last_updated: '2026-07-06T21:51:47.809777+08:00'
 ---
 
 # SpaceX
@@ -176,6 +190,10 @@ last_updated: '2026-07-06T21:25:56.308012+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-27
+> 来源: [sources/2026-05-27-391321001.md](sources/2026-05-27-391321001.md)
+- 📈 [positive] SpaceX IPO临近，2万亿估值催化太空板块
 
 ### 2026-05-26
 > 来源: [sources/2026-05-26-390937829.md](sources/2026-05-26-390937829.md)

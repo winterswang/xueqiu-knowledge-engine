@@ -10,6 +10,7 @@ aliases:
 - AWS
 - AWS Marketplace
 - Amazon
+- Amazon Prime
 timeline:
 - date: '2026-02-25'
   source: sources/2026-02-25-376847608.md
@@ -23,7 +24,10 @@ timeline:
 - date: '2026-03-08'
   source: sources/2026-03-08-378483274.md
   signals: []
-last_updated: '2026-07-06T19:43:07.197176+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391461484.md
+  signals: []
+last_updated: '2026-07-06T22:04:57.918296+08:00'
 ---
 
 # Amazon
@@ -33,6 +37,9 @@ last_updated: '2026-07-06T19:43:07.197176+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391461484.md](sources/2026-05-28-391461484.md)
 
 ### 2026-03-08
 > 来源: [sources/2026-03-08-378483274.md](sources/2026-03-08-378483274.md)

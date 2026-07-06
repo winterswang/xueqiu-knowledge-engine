@@ -913,3 +913,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [280/746] 391313887.md (2247 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[281/746] 391320381.md (6585 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[282/746] 391321001.md (4025 bytes)
+  ⚠️ 需要 review: 文章为盘面新闻综述类，分析深度有限，多为事件罗列与简短点评, Intuitive Machines、BlackSky、Umbra、York Space Systems在文中均未给出明确股票代码，需核实, SpaceX股票代码SPCX为预期代码，IPO尚未正式挂牌，准确性需确认, Blue Origin未上市已按规则剔除，但其在NASA合同中的关键角色可能影响Firefly估值讨论, 跳过未验证无ticker实体: Umbra, 跳过未验证无ticker实体: York Space Systems
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[283/746] 391322454.md (4279 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[284/746] 391323873.md (3789 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[285/746] 391325226.md (3460 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[286/746] 391327652.md (6693 bytes)
+  ⚠️ 需要 review: 信号方向判断需要综合考虑：主业承压(negative) vs 可灵拆分上市催化(positive)，文章整体立场为'存在博弈空间'的谨慎看好, 百度作为对标案例是否应标记为analyzed还是example存在讨论空间，其拆分逻辑是文章核心论据之一, 概念粒度选择：'AI视频生成模型商业化'与'AI视频模型竞争格局'是否需合并需进一步判断
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[287/746] 391332929.md (17244 bytes)
+  ⚠️ 需要 review: 信号方向基于管理层自述判断，可能存在管理层正面叙事偏倚, 广告收入增速放缓与全球化竞争压力等风险在文中未充分量化, 全球业务具体数据（如Temu GMV、收入）未披露，限制了信号置信度判断
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[288/746] 391333026.md (8402 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 85 column 27 (char 1954)
+  ✅ OK: 0 entities, 0 concepts
+
+[289/746] 391347382.md (4381 bytes)
+  ⚠️ 需要 review: 作者明确自述财务知识不专业，文章中存在推测性结论, 关于'拼多多没有炒股'的结论主要基于公司过往投诉回复的推断，而非当期财报详细披露, Q1财报中投资损益的具体构成（可转债占比、标的具体信息）未在文中明确展开, Temu作为拼多多跨境电商业务线，文章虽提及但未给独立投资标的处理，需确认是否符合'不提取非上市子公司'规则
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[290/746] 391347843.md (13245 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[291/746] 391373215.md (2712 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[292/746] 391373248.md (7107 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[293/746] 391422355.md (6922 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[294/746] 391427248.md (5369 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[295/746] 391445698.md (4493 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[296/746] 391451493.md (14338 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[297/746] 391461484.md (56081 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[298/746] 391474098.md (4615 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[299/746] 391499151.md (5157 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[300/746] 391501080.md (5145 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

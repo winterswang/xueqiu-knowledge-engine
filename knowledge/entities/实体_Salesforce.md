@@ -69,7 +69,21 @@ timeline:
 - date: '2026-05-22'
   source: sources/2026-05-22-390377458.md
   signals: []
-last_updated: '2026-07-06T20:50:48.689755+08:00'
+- date: '2026-05-28'
+  source: sources/2026-05-28-391422355.md
+  signals:
+  - entity: Salesforce
+    direction: negative
+    confidence: high
+    time_frame: medium_term
+    summary: AI转型缓慢，下季度指引失望，增速大幅放缓
+    caveats:
+    - 估值已低至10倍现金流，部分悲观预期已price in
+    - 公司大幅增加股票回购，可为股东提供现金回报
+    - 若能保持稳定现金流+优质并购，表现可能好于现状
+    quote: 它对下季度的业绩指引依然令人失望……这场由 AI 驱动的业务转型，耗时显然比预期的要漫长得多。
+    business_line: 整体业务/AI转型
+last_updated: '2026-07-06T22:00:47.625806+08:00'
 ---
 
 # Salesforce
@@ -79,6 +93,10 @@ last_updated: '2026-07-06T20:50:48.689755+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-28
+> 来源: [sources/2026-05-28-391422355.md](sources/2026-05-28-391422355.md)
+- 📉 [negative] AI转型缓慢，下季度指引失望，增速大幅放缓
 
 ### 2026-05-22
 > 来源: [sources/2026-05-22-390377458.md](sources/2026-05-22-390377458.md)
