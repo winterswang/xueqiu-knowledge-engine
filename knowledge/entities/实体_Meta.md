@@ -18,6 +18,8 @@ aliases:
 - Meta Platforms
 - Meta Super Lab
 - meta
+- 扎克伯格的公司
+- 脸书
 - 脸谱网
 timeline:
 - date: '2026-03-04'
@@ -162,7 +164,13 @@ timeline:
 - date: '2026-06-04'
   source: sources/2026-06-04-392803232.md
   signals: []
-last_updated: '2026-07-06T23:20:12.488417+08:00'
+- date: '2026-06-08'
+  source: sources/2026-06-08-393519272.md
+  signals: []
+- date: '2026-06-10'
+  source: sources/2026-06-10-393687679.md
+  signals: []
+last_updated: '2026-07-07T00:24:56.612380+08:00'
 ---
 
 # Meta
@@ -172,6 +180,12 @@ last_updated: '2026-07-06T23:20:12.488417+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-10
+> 来源: [sources/2026-06-10-393687679.md](sources/2026-06-10-393687679.md)
+
+### 2026-06-08
+> 来源: [sources/2026-06-08-393519272.md](sources/2026-06-08-393519272.md)
 
 ### 2026-06-04
 > 来源: [sources/2026-06-04-392803232.md](sources/2026-06-04-392803232.md)

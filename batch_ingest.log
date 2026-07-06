@@ -1446,3 +1446,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [440/746] 393513010.md (5138 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[441/746] 393519272.md (20281 bytes)
+  ⚠️ 需要 review: 文章主体为霍华德·马克斯的投资哲学与方法论介绍，非具体标的分析，信号数量有限且为隐含观点, 苹果、英伟达相关信号均为类比性引用而非Marks直接分析，置信度需复核, 橡树资本为非上市投资机构，定位为background可能需要复核其信息深度, 跳过未验证无ticker实体: 橡树资本, 跳过未验证无ticker实体: AdvancePierre食品
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[442/746] 393519306.md (4660 bytes)
+  ⚠️ 需要 review: 文章为人物传记/投资理念介绍类内容，不涉及具体可投资标的, 无明确投资标的，无可提取的投资信号(signals为空), SAC Capital和Point72均非上市公司，作为实体价值有限, 文章信息密度一般，重复叙述科恩的成就和投资风格, 跳过未验证无ticker实体: SAC Capital, 跳过未验证无ticker实体: Point72 Asset Management
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[443/746] 393519327.md (5794 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[444/746] 393524042.md (3787 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[445/746] 393549759.md (7855 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[446/746] 393551563.md (3245 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[447/746] 393553104.md (3807 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[448/746] 393584598.md (23042 bytes)
+  ⚠️ 需要 review: 预测市场年化收入3-4亿美元的数据由主持人提出、Quirk以玩笑方式回应，需确认是否官方披露数字, Webull是否已上市(代码BULL)需进一步核实, 5月份交易数据未披露具体数字，仅以STRONG形容，信号判断存在主观性, AI代理交易才推出一周，缺少可量化数据
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[449/746] 393586277.md (8675 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 3410 (char 3409)
+  ✅ OK: 0 entities, 0 concepts
+
+[450/746] 393592146.md (31388 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[451/746] 393592672.md (33045 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[452/746] 393620291.md (26900 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[453/746] 393649204.md (5264 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[454/746] 393664983.md (3421 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[455/746] 393677579.md (5416 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[456/746] 393687679.md (40718 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[457/746] 393687771.md (27981 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[458/746] 393717189.md (6612 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[459/746] 393729271.md (5273 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 168 column 32 (char 3960)
+  ✅ OK: 0 entities, 0 concepts
+
+[460/746] 393734804.md (3365 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
