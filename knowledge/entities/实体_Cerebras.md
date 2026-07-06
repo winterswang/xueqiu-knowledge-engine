@@ -89,7 +89,32 @@ timeline:
     - 长期目标毛利率仍为60%以上
     quote: 租赁第三方算力的额外成本将暂时压低核心云及其他服务的利润率……导致利润率下降10到15个百分点
     business_line: null
-last_updated: '2026-07-07T03:37:01.483550+08:00'
+- date: '2026-06-25'
+  source: sources/2026-06-25-396730899.md
+  signals:
+  - entity: Cerebras
+    direction: negative
+    confidence: high
+    time_frame: short_term
+    summary: 首份季报后股价大跌19%,回购设备压制利润率
+    caveats:
+    - 营收1.91亿美元超华尔街预期
+    - 全年毛利率指引比市场共识高10个百分点
+    - CEO强调基本面领先于既定计划
+    quote: 该公司股价下跌了 17.5%,创下了其上市以来最大单日跌幅。背后的原因是什么?
+    business_line: 整体
+  - entity: Cerebras
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 营收高增+技术差异化+大客户突破,长期看好
+    caveats:
+    - 数据中心建设是核心瓶颈
+    - NVIDIA、定制ASIC等竞争加剧
+    - 毛利率受回购设备影响,需观察后续恢复
+    quote: 我们交付了 1.91 亿美元的创纪录营收,同比增长 92%;我们的云业务同比增长更是高达 167%
+    business_line: 整体
+last_updated: '2026-07-07T03:44:12.682990+08:00'
 ---
 
 # Cerebras
@@ -104,6 +129,11 @@ last_updated: '2026-07-07T03:37:01.483550+08:00'
 > 来源: [sources/2026-06-25-396651748.md](sources/2026-06-25-396651748.md)
 - 📈 [positive] OpenAI超200亿订单+AWS合作，长期看好AI推理黑马
 - 📉 [negative] 租赁算力拖累毛利率，Q2核心营业利润率-30%
+
+### 2026-06-25
+> 来源: [sources/2026-06-25-396730899.md](sources/2026-06-25-396730899.md)
+- 📉 [negative] 首份季报后股价大跌19%,回购设备压制利润率
+- 📈 [positive] 营收高增+技术差异化+大客户突破,长期看好
 
 ### 2026-06-17
 > 来源: [sources/2026-06-17-394939307.md](sources/2026-06-17-394939307.md)

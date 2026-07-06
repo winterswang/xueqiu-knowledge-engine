@@ -2314,3 +2314,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [700/746] 396679427.md (4499 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[701/746] 396687745.md (5596 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[702/746] 396709597.md (3497 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[703/746] 396720166.md (8881 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 145 column 51 (char 4073)
+  ✅ OK: 0 entities, 0 concepts
+
+[704/746] 396727189.md (4110 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[705/746] 396728701.md (13909 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[706/746] 396728723.md (4187 bytes)
+  ⚠️ 需要 review: 本报告为纯宏观策略报告，未涉及具体上市公司或可投资标的，因此 entities 数组为空，signals 数组亦为空, 概念粒度判断存在主观性：'养老产业'与'AI抗衰老'是否应拆分为两个独立概念，'中国宏观经济调控'与'财金政策协同'是否需要合并，需根据后续检索需求确认, 猪周期、AI抗衰老等概念在原文中信息量较为简略，建概念页的充分性需确认
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[707/746] 396730899.md (7155 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[708/746] 396737915.md (49955 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[709/746] 396755474.md (4646 bytes)
+  ⚠️ 需要 review: 齐云山为拟上市公司，未在已知实体词典中，需确认后续是否纳入watchlist, 信号方向在'谨慎'与'看空'之间存在模糊，文章整体为IPO冷静分析，语调偏负面但未完全否定, 跳过未验证无ticker实体: 齐云山, 跳过未验证无ticker实体: 中泰国际
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[710/746] 396757900.md (17026 bytes)
+  ⚠️ 需要 review: 美光科技signal方向：文章整体看好HBM结构性行情但明确警告2027下半年拐点和高估值风险，判断为positive+medium更合适, 中芯国际signal：文章将其定位为'国产存储上游核心受益标的'，投资逻辑清晰但signal的confidence需评估其与存储主业相关度, 概念层级判断：'AI算力基础设施'属于L1还是L2存在歧义，本文聚焦存储细分赛道，更接近L2
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[711/746] 396760850.md (6025 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[712/746] 396762515.md (2975 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[713/746] 396788832.md (13000 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[714/746] 396810499.md (6001 bytes)
+  ⚠️ 需要 review: OpenAI/Anthropic的negative信号基于间接引述（分析师与记者Kate Rooney）而非作者独立判断，置信度宜保守, 未上市公司的'增长率见顶'判断存在主观成分，建议在信号caveats中保留'待IPO招股书数据验证', AI Squared、PitchBook等机构名字未单独建实体（属background）, 跳过未验证无ticker实体: OpenAI, 跳过未验证无ticker实体: Anthropic, 跳过未验证无ticker实体: 微软
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[715/746] 396837487.md (6479 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[716/746] 396879065.md (3240 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[717/746] 396894229.md (2925 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[718/746] 396907512.md (2714 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[719/746] 396915490.md (3834 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[720/746] 396916522.md (3518 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
