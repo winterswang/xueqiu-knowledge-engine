@@ -1850,3 +1850,67 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [560/746] 394985039.md (9146 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[561/746] 394987970.md (6182 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[562/746] 394992637.md (4047 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[563/746] 395013362.md (3742 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[564/746] 395022395.md (3642 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[565/746] 395029831.md (3741 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[566/746] 395032783.md (26799 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[567/746] 395032824.md (3626 bytes)
+  ⚠️ 需要 review: 文章为纯宏观/央行政策研究，无具体可投资标的（公司/指数），实体页价值有限, 沃什作为person类型是否纳入需确认（其非典型投资人/分析师/企业家，而是政策人物）, 全文未涉及行业/板块/个股层面的投资含义，信号(signal)按规则未提取, 概念粒度判断：'脱实向虚'与'K型分化'是否独立建概念页，可结合后续相关文章统一处理
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[568/746] 395032866.md (9819 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[569/746] 395037465.md (3486 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[570/746] 395046873.md (4827 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[571/746] 395049910.md (25440 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[572/746] 395061031.md (5461 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[573/746] 395063599.md (14860 bytes)
+  ⚠️ 需要 review: 多家海外公司（Credo、MaxLinear、华工科技、纳真科技）未在文中明确给出股票代码，已按文中信息归入实体, Marvell财年数据基于2026年1月末止财年，文章可能基于其前瞻披露，需确认数据口径, 中际旭创/新易盛方向判定为neutral，但若侧重国产替代催化则可判positive，需结合投资视角确认, 跳过未验证无ticker实体: 纳真科技, 跳过未验证无ticker实体: Credo Technology, 跳过未验证无ticker实体: MaxLinear, 跳过未验证无ticker实体: 华工科技
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[574/746] 395067410.md (4763 bytes)
+  ⚠️ 需要 review: 文章对安德利果汁港股(02218.HK)与A股(SH605198)的整体方向判断偏中性偏负面，但市场对'消费+硬科技'双主业转型存在分歧，需确认文章整体基调, 甬强科技虽非上市公司但作为核心分析对象，是否需要单独建实体页或归入安德利果汁的属性信息需确认, 信号方向判定：文章标题与开头强调暴涨，但结尾提示'估值回归风险'，整体偏negative（短期）+ neutral（长期）的解读需复核, 跳过未验证无ticker实体: 甬强科技
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[575/746] 395070385.md (5648 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[576/746] 395071916.md (3306 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[577/746] 395175826.md (30284 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[578/746] 395186131.md (38931 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[579/746] 395191145.md (3138 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[580/746] 395192286.md (4078 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

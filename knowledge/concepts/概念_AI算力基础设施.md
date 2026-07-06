@@ -1,15 +1,18 @@
 ---
 name: AI算力基础设施
-definition: 支撑AI模型训练与推理的底层硬件产业链，涵盖GPU/AI芯片、高端PCB、服务器等
+definition: 支撑大模型训练与推理的GPU集群及互联硬件体系，光模块是其关键瓶颈
 tags:
 - _concept_page
 - 概念
 entities:
 - AMD
+- Marvell Technology
 - SK海力士
 - SpaceX
+- 中际旭创
 - 博通
 - 台积电
+- 新易盛
 - 曦智科技
 - 沃尔核材
 - 沐曦股份-U
@@ -34,20 +37,24 @@ sources:
 - sources/2026-06-10-393888916.md
 - sources/2026-06-11-394232848.md
 - sources/2026-06-11-394265820.md
-last_updated: '2026-07-07T01:01:28.517082+08:00'
+- sources/2026-06-16-395063599.md
+last_updated: '2026-07-07T01:59:35.858006+08:00'
 ---
 # AI算力基础设施
 ## 定义
 
-支撑AI模型训练与推理的底层硬件产业链，涵盖GPU/AI芯片、高端PCB、服务器等
+支撑大模型训练与推理的GPU集群及互联硬件体系，光模块是其关键瓶颈
 
 ## 关联实体
 
 - [[entities/AMD|AMD]]
+- [[entities/Marvell_Technology|Marvell Technology]]
 - [[entities/SK海力士|SK海力士]]
 - [[entities/SpaceX|SpaceX]]
+- [[entities/中际旭创|中际旭创]]
 - [[entities/博通|博通]]
 - [[entities/台积电|台积电]]
+- [[entities/新易盛|新易盛]]
 - [[entities/曦智科技|曦智科技]]
 - [[entities/沃尔核材|沃尔核材]]
 - [[entities/沐曦股份-U|沐曦股份-U]]
@@ -63,7 +70,6 @@ last_updated: '2026-07-07T01:01:28.517082+08:00'
 
 ## 来源文章
 
-- [sources/2026-05-23-390207921.md](sources/2026-05-23-390207921.md)
 - [sources/2026-05-22-390427813.md](sources/2026-05-22-390427813.md)
 - [sources/2026-05-28-391508916.md](sources/2026-05-28-391508916.md)
 - [sources/2026-06-03-392632127.md](sources/2026-06-03-392632127.md)
@@ -73,4 +79,5 @@ last_updated: '2026-07-07T01:01:28.517082+08:00'
 - [sources/2026-06-10-393888916.md](sources/2026-06-10-393888916.md)
 - [sources/2026-06-11-394232848.md](sources/2026-06-11-394232848.md)
 - [sources/2026-06-11-394265820.md](sources/2026-06-11-394265820.md)
+- [sources/2026-06-16-395063599.md](sources/2026-06-16-395063599.md)
 

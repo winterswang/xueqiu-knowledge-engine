@@ -1,7 +1,7 @@
 ---
 name: Meta
 type: company
-ticker: META
+ticker: META.US
 market: US
 tags:
 - _entity_page
@@ -12,6 +12,7 @@ aliases:
 - LLaMa
 - Llama 3
 - META
+- META.US
 - MSL
 - Meta
 - Meta MTIA
@@ -185,16 +186,22 @@ timeline:
     - 仍可采购英伟达芯片维持AI投入
     quote: Meta和微软自研芯片的进展说实话是让人失望的。
     business_line: 自研AI芯片
-last_updated: '2026-07-07T01:25:30.875243+08:00'
+- date: '2026-06-16'
+  source: sources/2026-06-16-395063599.md
+  signals: []
+last_updated: '2026-07-07T01:59:35.844811+08:00'
 ---
 
 # Meta
 
 > 类型: company
-> 股票代码: META
+> 股票代码: META.US
 
 ## 信号时间线
 
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-395063599.md](sources/2026-06-16-395063599.md)
 
 ### 2026-06-14
 > 来源: [sources/2026-06-14-394618677.md](sources/2026-06-14-394618677.md)

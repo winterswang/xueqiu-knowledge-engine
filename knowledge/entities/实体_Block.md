@@ -11,6 +11,7 @@ aliases:
 - Block
 - Block(XYZ)
 - Block, Inc.
+- Cash App
 - SQ
 - Square
 timeline:
@@ -68,7 +69,10 @@ timeline:
     - 信贷业务在信用下行周期表现待检验
     quote: AI 时代真正的终局，可能不是谁的模型更牛，而是谁的组织能率先像素级地和 AI 融为一体。
     business_line: AI基础设施/风控
-last_updated: '2026-07-06T21:09:59.478827+08:00'
+- date: '2026-06-16'
+  source: sources/2026-06-16-395049910.md
+  signals: []
+last_updated: '2026-07-07T01:58:03.440991+08:00'
 ---
 
 # Block
@@ -78,6 +82,9 @@ last_updated: '2026-07-06T21:09:59.478827+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-395049910.md](sources/2026-06-16-395049910.md)
 
 ### 2026-05-23
 > 来源: [sources/2026-05-23-390592892.md](sources/2026-05-23-390592892.md)

@@ -37,7 +37,32 @@ timeline:
     - SAP有完善的德国公司治理机制
     quote: 根据德国的治理规定，一旦合同面临续约，必须提前一年进行相关讨论。而我当时的个人状态无法对此做出承诺
     business_line: 产品工程领导层
-last_updated: '2026-07-06T19:49:58.129013+08:00'
+- date: '2026-06-17'
+  source: sources/2026-06-17-395186131.md
+  signals:
+  - entity: SAP SE
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: AI Units消耗曲线呈曲棍球棒式陡峭增长
+    caveats:
+    - 第一手公司高管访谈存在宣传倾向
+    - 具体绝对数字未披露
+    - AI新产品初期毛利率可能承压
+    quote: 我们目前看到的消耗曲线呈现出非常标准的、令人振奋的曲棍球棒式陡峭增长。我相信未来只会跑得更快。
+    business_line: 云业务AI变现
+  - entity: SAP SE
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 表格基础模型将颠覆结构化数据AI赛道
+    caveats:
+    - 技术尚在早期
+    - 需验证大规模生产环境表现
+    - 年底才承诺全面击败传统ML模型
+    quote: 我们有绝对的信心，到今年年底，我们将在100%的场景下全面拔掉它们的帅旗……这将在未来几年成为一个核弹级的技术级存在。
+    business_line: 表格基础模型/BDC
+last_updated: '2026-07-07T02:02:55.483584+08:00'
 ---
 
 # SAP SE
@@ -47,6 +72,11 @@ last_updated: '2026-07-06T19:49:58.129013+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-17
+> 来源: [sources/2026-06-17-395186131.md](sources/2026-06-17-395186131.md)
+- 📈 [positive] AI Units消耗曲线呈曲棍球棒式陡峭增长
+- 📈 [positive] 表格基础模型将颠覆结构化数据AI赛道
 
 ### 2026-03-09
 > 来源: [sources/2026-03-09-378655701.md](sources/2026-03-09-378655701.md)

@@ -1,7 +1,7 @@
 ---
 name: Okta
 type: company
-ticker: OKTA
+ticker: OKTA.US
 market: US
 tags:
 - _entity_page
@@ -61,16 +61,22 @@ timeline:
     - 面临Salesforce、ServiceNow等大型软件公司及AI初创公司的竞争
     quote: 这就是推动我们业绩增长的核心动力
     business_line: AI安全/智能体身份管理
-last_updated: '2026-07-06T22:31:02.952963+08:00'
+- date: '2026-06-17'
+  source: sources/2026-06-17-395175826.md
+  signals: []
+last_updated: '2026-07-07T02:02:10.061956+08:00'
 ---
 
 # Okta
 
 > 类型: company
-> 股票代码: OKTA
+> 股票代码: OKTA.US
 
 ## 信号时间线
 
+
+### 2026-06-17
+> 来源: [sources/2026-06-17-395175826.md](sources/2026-06-17-395175826.md)
 
 ### 2026-05-29
 > 来源: [sources/2026-05-29-391735755.md](sources/2026-05-29-391735755.md)

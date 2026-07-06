@@ -11,6 +11,7 @@ aliases:
 - BofA
 - BofA Securities
 - 美国银行
+- 美银
 - 美银证券
 timeline:
 - date: '2026-05-18'
@@ -19,7 +20,10 @@ timeline:
 - date: '2026-06-09'
   source: sources/2026-06-09-393592672.md
   signals: []
-last_updated: '2026-07-07T00:20:06.854749+08:00'
+- date: '2026-06-16'
+  source: sources/2026-06-16-395049910.md
+  signals: []
+last_updated: '2026-07-07T01:58:03.432107+08:00'
 ---
 
 # Bank of America
@@ -29,6 +33,9 @@ last_updated: '2026-07-07T00:20:06.854749+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-395049910.md](sources/2026-06-16-395049910.md)
 
 ### 2026-06-09
 > 来源: [sources/2026-06-09-393592672.md](sources/2026-06-09-393592672.md)

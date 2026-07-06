@@ -1,15 +1,17 @@
 ---
 name: Marvell Technology
 type: company
-ticker: MRVL
+ticker: MRVL.US
 market: ''
 tags:
 - _entity_page
 - 实体/Marvell Technology
 aliases:
 - MRVL
+- MRVL.US
 - Marvell
 - Marvell Technology
+- 迈威尔
 - 迈威尔科技
 timeline:
 - date: '2026-03-06'
@@ -37,16 +39,33 @@ timeline:
     quote: Marvell 在 2028 财年的整体营收将同比增长近 40%，达到约 150 亿美元，比我们去年 12 月财报电话会议中提供的展望高出约
       20 亿美元。
     business_line: 数据中心
-last_updated: '2026-07-06T19:03:51.686754+08:00'
+- date: '2026-06-16'
+  source: sources/2026-06-16-395063599.md
+  signals:
+  - entity: Marvell Technology
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: DSP双寡头之一，受益AI光模块高景气
+    caveats:
+    - 受美国出口管制约束
+    - 大中华区收入占比56%存在地缘风险
+    quote: 今年以来股价已累计上涨263.92%的迈威尔，核心王牌是光模块专用DSP芯片
+    business_line: 光模块DSP芯片
+last_updated: '2026-07-07T01:59:35.711664+08:00'
 ---
 
 # Marvell Technology
 
 > 类型: company
-> 股票代码: MRVL
+> 股票代码: MRVL.US
 
 ## 信号时间线
 
+
+### 2026-06-16
+> 来源: [sources/2026-06-16-395063599.md](sources/2026-06-16-395063599.md)
+- 📈 [positive] DSP双寡头之一，受益AI光模块高景气
 
 ### 2026-03-06
 > 来源: [sources/2026-03-06-378313179.md](sources/2026-03-06-378313179.md)

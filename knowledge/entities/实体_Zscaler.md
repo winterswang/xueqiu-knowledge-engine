@@ -84,7 +84,32 @@ timeline:
     - 与超大规模云巨头直接竞争身份领域不可取
     quote: 从网络安全的角度来看，过去'人'是最薄弱的环节；而到了明天，'AI 智能体'将成为最薄弱的环节。我们 Zscaler 天生就是做这种'安全交换机'的。
     business_line: AI安全/零信任
-last_updated: '2026-07-06T22:28:27.030597+08:00'
+- date: '2026-06-17'
+  source: sources/2026-06-17-395175826.md
+  signals:
+  - entity: Zscaler
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: AI浪潮反向加固零信任护城河，长期成长性极强
+    caveats:
+    - 大单结单周期拉长
+    - 销售管理层短期波动
+    - 大客户实测要求更严苛
+    quote: ZS完美把'AI带来的网络威胁'转化为了'自身业务的长期刚需'
+    business_line: 零信任平台/AI安全
+  - entity: Zscaler
+    direction: neutral
+    confidence: medium
+    time_frame: short_term
+    summary: 短期大单延迟与销售团队调整可能影响财报节奏
+    caveats:
+    - 部分大单因AI实测周期拉长而结单变慢
+    - 两位关键销售高管离职引发组织调整阵痛
+    - 2000-10000人新市场开拓需要时间兑现
+    quote: 大单管线很粗，但似乎有很多大额订单在持续被推迟、难以快速闭环
+    business_line: 整体业务
+last_updated: '2026-07-07T02:02:10.056267+08:00'
 ---
 
 # Zscaler
@@ -94,6 +119,11 @@ last_updated: '2026-07-06T22:28:27.030597+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-17
+> 来源: [sources/2026-06-17-395175826.md](sources/2026-06-17-395175826.md)
+- 📈 [positive] AI浪潮反向加固零信任护城河，长期成长性极强
+- ➡️ [neutral] 短期大单延迟与销售团队调整可能影响财报节奏
 
 ### 2026-05-29
 > 来源: [sources/2026-05-29-391735755.md](sources/2026-05-29-391735755.md)
