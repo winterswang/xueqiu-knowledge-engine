@@ -183,7 +183,20 @@ timeline:
 - date: '2026-06-22'
   source: sources/2026-06-22-395926040.md
   signals: []
-last_updated: '2026-07-07T02:46:32.640681+08:00'
+- date: '2026-06-23'
+  source: sources/2026-06-23-396136530.md
+  signals:
+  - entity: Rocket Lab
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: 软件定义卫星技术领先，37小时初始化能力超军方标准
+    caveats:
+    - 技术优势能否持续转化为商业订单和收入仍待验证
+    - 军用市场客户集中度高
+    quote: 而 Rocket Lab 的 Pioneer 卫星是高度软件定义和模块化的……这种'软硬件全自研'与'全自动体检'的能力，才是他们能将时间卡进37小时的核心科技。
+    business_line: 航天卫星制造
+last_updated: '2026-07-07T03:03:39.345814+08:00'
 ---
 
 # Rocket Lab
@@ -193,6 +206,10 @@ last_updated: '2026-07-07T02:46:32.640681+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-23
+> 来源: [sources/2026-06-23-396136530.md](sources/2026-06-23-396136530.md)
+- 📈 [positive] 软件定义卫星技术领先，37小时初始化能力超军方标准
 
 ### 2026-06-22
 > 来源: [sources/2026-06-22-395926040.md](sources/2026-06-22-395926040.md)

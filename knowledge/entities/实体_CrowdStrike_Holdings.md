@@ -39,7 +39,20 @@ timeline:
     quote: 未来会有两种公司：一种是在 AI 面前暴露出指数级漏洞的公司。另一种是会因 AI 而繁荣的公司...我们把 AI 和当年的 hyperscalers
       做类比，让大家理解我们是如何看待这个变化的
     business_line: 网络安全平台
-last_updated: '2026-07-06T18:57:35.992229+08:00'
+- date: '2026-06-23'
+  source: sources/2026-06-23-396156426.md
+  signals:
+  - entity: CrowdStrike Holdings
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: AI智能体治理驱动终端安全与ADR业务高增长
+    caveats:
+    - 依赖AI智能体广泛落地的节奏
+    - 面临多模型混合架构带来的识别复杂度
+    quote: 对于 CrowdStrike 而言，能够精准识别那些'违规智能体'或我们所说的'影子 AI'（Shadow AI），看清它们的行为并将其锁定，这是一个巨大的商业机遇。
+    business_line: 终端安全 / AI检测与响应（ADR）
+last_updated: '2026-07-07T03:04:37.683998+08:00'
 ---
 
 # CrowdStrike Holdings
@@ -49,6 +62,10 @@ last_updated: '2026-07-06T18:57:35.992229+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-23
+> 来源: [sources/2026-06-23-396156426.md](sources/2026-06-23-396156426.md)
+- 📈 [positive] AI智能体治理驱动终端安全与ADR业务高增长
 
 ### 2026-03-06
 > 来源: [sources/2026-03-06-378282128.md](sources/2026-03-06-378282128.md)

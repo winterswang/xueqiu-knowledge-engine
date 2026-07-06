@@ -2114,3 +2114,70 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [640/746] 395969442.md (3690 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+  💾 Committed: batch: ingest 20 articles
+
+[641/746] 395969458.md (13218 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 104 column 26 (char 2649)
+  ✅ OK: 0 entities, 0 concepts
+
+[642/746] 395969530.md (17182 bytes)
+  ⚠️ 需要 review: 信号提取为空：文章属于投资哲学/方法论类，未对具体可投资标的给出明确多空判断，不提取信号合理但需确认, 凯鹏华盈为非上市公司，作为机构被列为company类型需确认是否合适, 文章主体为约翰·杜尔的投资理念而非具体投资标的的分析，部分案例（康柏、网景、赛门铁克、太阳公司、赛格威、SGI）未提取实体，因均为已退市或非活跃投资标的, 跳过未验证无ticker实体: 凯鹏华盈
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[643/746] 395972864.md (4501 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[644/746] 396001641.md (6529 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[645/746] 396003128.md (3860 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[646/746] 396004904.md (2412 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[647/746] 396011283.md (8165 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[648/746] 396041569.md (4051 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[649/746] 396093414.md (6255 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 4172 (char 4171)
+  ✅ OK: 0 entities, 0 concepts
+
+[650/746] 396093897.md (4512 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 76 column 33 (char 1833)
+  ✅ OK: 0 entities, 0 concepts
+
+[651/746] 396129467.md (2556 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[652/746] 396129876.md (3386 bytes)
+  ⚠️ 需要 review: 文章为IPO追踪类新闻报道，投资观点较少，信号方向主要基于事实数据推断, 星源材质仅作为对比提及，缺乏深入分析, 华健未来的投资价值需结合其管线进展进一步评估
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[653/746] 396136530.md (3047 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[654/746] 396150221.md (4222 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[655/746] 396156426.md (6353 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[656/746] 396164759.md (3671 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[657/746] 396175670.md (3090 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[658/746] 396191260.md (35668 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[659/746] 396191912.md (3689 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[660/746] 396202012.md (3849 bytes)
+  ⚠️ 需要 review: 文章为宏观策略报告，全文未提及任何具体上市公司标的，实体识别以分析师和券商为主体, 信号与主张的entity字段在宏观行业层面表述（美国科技行业（宏观）），非个股层面，请确认是否需要将范围进一步收窄或保留行业级信号, 文章涉及大量美国本土科技企业（未具名），如需进一步细化到具体公司，需补充原报告正文
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

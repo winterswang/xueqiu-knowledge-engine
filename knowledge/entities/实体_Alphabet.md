@@ -11,6 +11,7 @@ aliases:
 - Google
 - Google TPU
 - Google+
+- Verily
 - 谷歌
 - 谷歌C
 timeline:
@@ -79,7 +80,10 @@ timeline:
 - date: '2026-06-19'
   source: sources/2026-06-19-395657919.md
   signals: []
-last_updated: '2026-07-07T02:40:01.711005+08:00'
+- date: '2026-06-23'
+  source: sources/2026-06-23-396191260.md
+  signals: []
+last_updated: '2026-07-07T03:06:26.640016+08:00'
 ---
 
 # Alphabet
@@ -89,6 +93,9 @@ last_updated: '2026-07-07T02:40:01.711005+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-23
+> 来源: [sources/2026-06-23-396191260.md](sources/2026-06-23-396191260.md)
 
 ### 2026-06-19
 > 来源: [sources/2026-06-19-395657919.md](sources/2026-06-19-395657919.md)

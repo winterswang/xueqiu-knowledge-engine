@@ -1,7 +1,7 @@
 ---
 name: 华健未来-B
 type: company
-ticker: 06132.HK
+ticker: '06132'
 market: ''
 tags:
 - _entity_page
@@ -34,16 +34,34 @@ timeline:
     - 收入主要来自授权许可非持续经营
     quote: 公司预计在2026年将继续录得大幅增加的亏损净额。
     business_line: 整体财务
-last_updated: '2026-07-07T01:08:22.298730+08:00'
+- date: '2026-06-23'
+  source: sources/2026-06-23-396129876.md
+  signals:
+  - entity: 华健未来-B
+    direction: negative
+    confidence: medium
+    time_frame: short_term
+    summary: 上市首日暴跌41%，与板块走强背离
+    caveats:
+    - 超额认购倍数高(2007x)，部分投资者看好
+    - 尚未有产品商业化，持续亏损
+    - 公司预计2026年亏损将继续扩大
+    quote: 华健未来在上市首日遭遇低开下跌，截至发稿时间已大挫近41%，股价现为48.22港元
+    business_line: 创新药研发
+last_updated: '2026-07-07T03:03:20.688234+08:00'
 ---
 
 # 华健未来-B
 
 > 类型: company
-> 股票代码: 06132.HK
+> 股票代码: 06132
 
 ## 信号时间线
 
+
+### 2026-06-23
+> 来源: [sources/2026-06-23-396129876.md](sources/2026-06-23-396129876.md)
+- 📉 [negative] 上市首日暴跌41%，与板块走强背离
 
 ### 2026-06-12
 > 来源: [sources/2026-06-12-394436158.md](sources/2026-06-12-394436158.md)
