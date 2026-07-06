@@ -251,7 +251,20 @@ timeline:
 - date: '2026-06-24'
   source: sources/2026-06-24-396489482.md
   signals: []
-last_updated: '2026-07-07T03:28:59.092075+08:00'
+- date: '2026-06-26'
+  source: sources/2026-06-26-397040678.md
+  signals:
+  - entity: 美团-W
+    direction: negative
+    confidence: medium
+    time_frame: short_term
+    summary: 本地生活价格战内卷压制利润，资金面持续失血
+    caveats:
+    - 电商、外卖补贴内卷是吞噬平台利润的重要元凶
+    - 若价格战有序收缩或边际改善
+    quote: 电商、外卖的持续补贴内卷，是吞噬平台利润的重要元凶，2026年各大平台价格战持续拉低行业整体利润率
+    business_line: 本地生活与外卖
+last_updated: '2026-07-07T04:08:34.887754+08:00'
 tags:
 - _entity_page
 - 实体/美团-W
@@ -264,6 +277,10 @@ tags:
 
 ## 信号时间线
 
+
+### 2026-06-26
+> 来源: [sources/2026-06-26-397040678.md](sources/2026-06-26-397040678.md)
+- 📉 [negative] 本地生活价格战内卷压制利润，资金面持续失血
 
 ### 2026-06-24
 > 来源: [sources/2026-06-24-396489482.md](sources/2026-06-24-396489482.md)

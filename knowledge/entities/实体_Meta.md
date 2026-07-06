@@ -1,7 +1,7 @@
 ---
 name: Meta
 type: company
-ticker: META.US
+ticker: META
 market: US
 tags:
 - _entity_page
@@ -198,16 +198,33 @@ timeline:
 - date: '2026-06-25'
   source: sources/2026-06-25-396655082.md
   signals: []
-last_updated: '2026-07-07T03:37:59.483032+08:00'
+- date: '2026-06-26'
+  source: sources/2026-06-26-396939925.md
+  signals:
+  - entity: Meta
+    direction: negative
+    confidence: high
+    time_frame: short_term
+    summary: AI巨额CAPEX蚕食利润率
+    caveats:
+    - 云巨头短期经营杠杆被压制
+    - 无法快速看到利润扩张
+    quote: 它们在指数中权重极高，但年内表现却非常糟糕。
+    business_line: AI资本支出
+last_updated: '2026-07-07T03:55:29.941696+08:00'
 ---
 
 # Meta
 
 > 类型: company
-> 股票代码: META.US
+> 股票代码: META
 
 ## 信号时间线
 
+
+### 2026-06-26
+> 来源: [sources/2026-06-26-396939925.md](sources/2026-06-26-396939925.md)
+- 📉 [negative] AI巨额CAPEX蚕食利润率
 
 ### 2026-06-25
 > 来源: [sources/2026-06-25-396655082.md](sources/2026-06-25-396655082.md)

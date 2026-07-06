@@ -1,7 +1,7 @@
 ---
 name: 文远知行-W
 type: company
-ticker: 00800
+ticker: 00800.HK
 market: ''
 tags:
 - _entity_page
@@ -25,16 +25,22 @@ timeline:
     - Robotaxi盈利模式尚未跑通
     quote: 以文远知行-W为例，公司上市首日即破发，此后股价虽偶有反弹，但仍不改破发局面...绝大多数企业仍处于'增收不增利'甚至持续亏损的状态
     business_line: Robotaxi自动驾驶出行
-last_updated: '2026-07-06T20:40:58.275613+08:00'
+- date: '2026-06-26'
+  source: sources/2026-06-26-397009522.md
+  signals: []
+last_updated: '2026-07-07T04:04:55.977361+08:00'
 ---
 
 # 文远知行-W
 
 > 类型: company
-> 股票代码: 00800
+> 股票代码: 00800.HK
 
 ## 信号时间线
 
+
+### 2026-06-26
+> 来源: [sources/2026-06-26-397009522.md](sources/2026-06-26-397009522.md)
 
 ### 2026-05-21
 > 来源: [sources/2026-05-21-390238832.md](sources/2026-05-21-390238832.md)

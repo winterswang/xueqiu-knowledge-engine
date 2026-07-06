@@ -2380,3 +2380,70 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [720/746] 396916522.md (3518 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[721/746] 396931447.md (4817 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[722/746] 396933719.md (7344 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[723/746] 396939925.md (16757 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[724/746] 396948387.md (3145 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[725/746] 396949449.md (10107 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[726/746] 396967468.md (6924 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[727/746] 396974889.md (3512 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[728/746] 396987129.md (723 bytes)
+  ⏭️  Skipped: body_length 547 < min 2000
+
+[729/746] 396990803.md (3553 bytes)
+  ⚠️ 需要 review: 文章为IPO资讯类报道，未提供明确投资观点，信号方向为中性偏弱判断, 同仁堂医养在词典中未收录，verified标记为false, 营收停滞与利润下滑等数据已提取为claim，但缺少估值与可比公司分析支撑投资判断
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[730/746] 396992837.md (3902 bytes)
+  ⚠️ 需要 review: 文章为A股每日收评类资讯快讯，非深度投资分析，信号和主张的提炼需结合更多上下文, 大量公司仅作为板块涨跌案例提及，未单独建实体页以控制噪声, 康宁(Corning)、台积电(TSMC)等非A股标的未单独建实体页，仅在claim中引用其作为行业事件背景
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[731/746] 396995839.md (3615 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[732/746] 397003966.md (11672 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1803 (char 1802)
+  ✅ OK: 0 entities, 0 concepts
+
+[733/746] 397003994.md (12999 bytes)
+  ⚠️ 需要 review: 文章为企业管理/领导力方法论内容（拉姆·查兰《领导梯队》100条准则），非投资分析文章, 全文未涉及任何可投资标的（上市公司、股票代码、指数）, 未包含任何投资观点、市场预测或行业分析, 无法提取符合规则的投资信号或投资相关主张
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[734/746] 397004029.md (4651 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 302 (char 301)
+  ✅ OK: 0 entities, 0 concepts
+
+[735/746] 397004809.md (4328 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[736/746] 397006654.md (9685 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[737/746] 397009522.md (3358 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[738/746] 397040678.md (11531 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[739/746] 397042780.md (5098 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[740/746] 397045099.md (2519 bytes)
+  ⚠️ 需要 review: 宝盖新材为拟上市公司，尚无股票代码，实体verified状态需后续更新, 文章为IPO追踪/新闻稿性质，信息深度有限，财务数据仅覆盖三年且未做估值/同业对比, 信号方向判断：文章整体措辞偏正面（'硬龙头'、'成长空间'），但财务波动为明显瑕疵，故给medium置信度, 跳过未验证无ticker实体: 宝盖新材, 跳过未验证无ticker实体: 中泰国际
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'

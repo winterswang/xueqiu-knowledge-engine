@@ -1,13 +1,14 @@
 ---
 name: 哔哩哔哩-W
 type: company
-ticker: 09626
+ticker: 09626.HK
 market: ''
 tags:
 - _entity_page
 - 实体/哔哩哔哩-W
 aliases:
 - B站
+- 哔哩哔哩
 - 哔哩哔哩-W
 - 哔哩哔哩-W（09626.HK）
 timeline:
@@ -29,16 +30,22 @@ timeline:
 - date: '2026-06-23'
   source: sources/2026-06-23-396206255.md
   signals: []
-last_updated: '2026-07-07T03:10:50.487008+08:00'
+- date: '2026-06-26'
+  source: sources/2026-06-26-397009522.md
+  signals: []
+last_updated: '2026-07-07T04:04:55.954245+08:00'
 ---
 
 # 哔哩哔哩-W
 
 > 类型: company
-> 股票代码: 09626
+> 股票代码: 09626.HK
 
 ## 信号时间线
 
+
+### 2026-06-26
+> 来源: [sources/2026-06-26-397009522.md](sources/2026-06-26-397009522.md)
 
 ### 2026-06-23
 > 来源: [sources/2026-06-23-396206255.md](sources/2026-06-23-396206255.md)
