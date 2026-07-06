@@ -1979,3 +1979,70 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [600/746] 395480507.md (4173 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[601/746] 395503175.md (5459 bytes)
+  ⚠️ 需要 review: 文章为IPO招股书解读+风险提示型文章，整体态度偏中性但篇幅侧重风险披露，信号方向判断存在一定主观性, 股价已涨700%背景下，'positive'与'neutral'两个信号方向可能存在偏差，需结合后续港股定价再做调整
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[602/746] 395523670.md (3670 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2291 (char 2290)
+  ✅ OK: 0 entities, 0 concepts
+
+[603/746] 395524130.md (6891 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[604/746] 395528255.md (5662 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[605/746] 395535302.md (43284 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[606/746] 395535365.md (33300 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[607/746] 395535386.md (4233 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[608/746] 395535412.md (14352 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[609/746] 395538649.md (3526 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 342 column 26 (char 7898)
+  ✅ OK: 0 entities, 0 concepts
+
+[610/746] 395546939.md (4256 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[611/746] 395547070.md (2261 bytes)
+  ⚠️ 需要 review: 罗氏作为非投资焦点是否需要建独立实体存疑，文中仅作为原研方提及, 文章为纯IPO信息性描述，缺乏投资观点分析，信号提取价值有限, 概念粒度判断：肾脏病创新药偏窄但有一定行业通用性, 跳过未验证无ticker实体: GIC, 跳过未验证无ticker实体: 罗氏
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[612/746] 395547139.md (2940 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[613/746] 395547444.md (4094 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[614/746] 395547573.md (5368 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[615/746] 395547671.md (6802 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[616/746] 395547751.md (5594 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[617/746] 395549181.md (2913 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[618/746] 395549274.md (5586 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2883 (char 2882)
+  ✅ OK: 0 entities, 0 concepts
+
+[619/746] 395565191.md (3681 bytes)
+  ⚠️ 需要 review: 文章对海吉亚医疗同时存在短期正面催化与中期结构性负面因素，信号方向存在分歧（已拆分为短期positive与中期negative两个信号，需确认拆分是否合理）, 概念'国际医疗业务'作为公司增量叙事被反复提及，但未独立建概念页，归入实体页属性是否妥当需确认
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[620/746] 395567031.md (13814 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
