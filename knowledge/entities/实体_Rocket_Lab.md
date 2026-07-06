@@ -1,7 +1,7 @@
 ---
 name: Rocket Lab
 type: company
-ticker: RKLB.US
+ticker: RKLB
 market: US
 tags:
 - _entity_page
@@ -163,16 +163,34 @@ timeline:
 - date: '2026-06-16'
   source: sources/2026-06-16-394979105.md
   signals: []
-last_updated: '2026-07-07T01:47:23.926644+08:00'
+- date: '2026-06-17'
+  source: sources/2026-06-17-395283080.md
+  signals:
+  - entity: Rocket Lab
+    direction: positive
+    confidence: medium
+    time_frame: medium_term
+    summary: 火箭实验室是少数真正突围的航天企业，承接在轨加注载荷发射
+    caveats:
+    - 文中仅为间接提及与背景定位，非重点分析对象
+    - 太空赛道整体估值仍存在泡沫风险
+    quote: 在过去十年的太空投资热潮中，除了 Rocket Lab（火箭实验室）等极少数公司最终真正突围并交出亮眼答卷外，其实有相当一部分航天企业的股价至今仍远远低于其
+      IPO 时的估值
+    business_line: 发射服务
+last_updated: '2026-07-07T02:16:43.941342+08:00'
 ---
 
 # Rocket Lab
 
 > 类型: company
-> 股票代码: RKLB.US
+> 股票代码: RKLB
 
 ## 信号时间线
 
+
+### 2026-06-17
+> 来源: [sources/2026-06-17-395283080.md](sources/2026-06-17-395283080.md)
+- 📈 [positive] 火箭实验室是少数真正突围的航天企业，承接在轨加注载荷发射
 
 ### 2026-06-16
 > 来源: [sources/2026-06-16-394513134.md](sources/2026-06-16-394513134.md)

@@ -88,7 +88,31 @@ timeline:
     - 观点来源为公司高管，立场偏积极
     quote: 在这些链上代理型商业中，有 99% 的结算发生在 USDC 上，90% 发生在 Base 链上。这充分表明，我们的技术栈已经在引领和承接代理型商业的未来。
     business_line: 稳定币/AI支付/Base链
-last_updated: '2026-07-06T20:32:31.428856+08:00'
+- date: '2026-06-19'
+  source: sources/2026-06-19-395431416.md
+  signals:
+  - entity: Coinbase Global
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: 交易量与衍生品合规化驱动短期业绩弹性
+    caveats:
+    - 依赖加密市场波动性与交易活跃度
+    - 短期股价已部分反映乐观预期
+    quote: 短期看交易量与衍生品合规化带来的业绩弹性
+    business_line: 交易业务
+  - entity: Coinbase Global
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: AI智能体经济清结算底层不可替代的垄断地位
+    caveats:
+    - AI智能体经济规模化落地时点不确定
+    - 面临来自其他L1/L2公链与传统支付巨头的竞争
+    - 加密监管政策仍存不确定性
+    quote: 长期看它作为 AI 智能体经济清结算底层不可替代的垄断地位。COIN 已经不仅仅是一家'加密交易所'，而是正在成长为未来链上全球经济的合规金融基础设施巨头
+    business_line: AI智能体金融基础设施
+last_updated: '2026-07-07T02:20:13.171610+08:00'
 ---
 
 # Coinbase Global
@@ -98,6 +122,11 @@ last_updated: '2026-07-06T20:32:31.428856+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-19
+> 来源: [sources/2026-06-19-395431416.md](sources/2026-06-19-395431416.md)
+- 📈 [positive] 交易量与衍生品合规化驱动短期业绩弹性
+- 📈 [positive] AI智能体经济清结算底层不可替代的垄断地位
 
 ### 2026-05-21
 > 来源: [sources/2026-05-21-390124351.md](sources/2026-05-21-390124351.md)

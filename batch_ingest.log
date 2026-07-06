@@ -1914,3 +1914,68 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [580/746] 395192286.md (4078 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[581/746] 395196125.md (5255 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1889 (char 1888)
+  ✅ OK: 0 entities, 0 concepts
+
+[582/746] 395211581.md (3474 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[583/746] 395242553.md (10854 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[584/746] 395259147.md (3627 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[585/746] 395261756.md (4266 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[586/746] 395263586.md (3064 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[587/746] 395263692.md (10770 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[588/746] 395263879.md (4166 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[589/746] 395270522.md (6013 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[590/746] 395270543.md (5569 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[591/746] 395272832.md (2929 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[592/746] 395277135.md (3711 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 346 column 74 (char 8351)
+  ✅ OK: 0 entities, 0 concepts
+
+[593/746] 395283080.md (29204 bytes)
+  ⚠️ 需要 review: Dawn Aerospace、Orbit Fab、Eta Space均非上市/可投资公司，作为行业概念背景处理而非实体, 太空创新者ETF(NASA) ticker需进一步核实是否为真实ETF代码（疑似示例性占位）, Planet Labs提及但非分析重点，仅作为案例, Stefan Powell作为公司CEO角色清晰，但作为投资标的关联性弱, 跳过未验证无ticker实体: Balerion Capital
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[594/746] 395301364.md (3844 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[595/746] 395306651.md (3831 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[596/746] 395318165.md (7429 bytes)
+  ⚠️ 需要 review: 文章为纯宏观经济/政策分析，未涉及具体可投资上市公司实体，实体提取极少, 信号层面为资产类别（日股、美债）方向判断，未绑定到词典中的个股/指数实体, 概念粒度集中在L1/L2宏观层面，是否纳入需结合知识库宏观主题覆盖度判断, 跳过未验证无ticker实体: GPIF
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[597/746] 395324903.md (21796 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[598/746] 395431416.md (51137 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[599/746] 395456451.md (10178 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[600/746] 395480507.md (4173 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

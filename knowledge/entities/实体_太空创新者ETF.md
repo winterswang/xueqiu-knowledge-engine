@@ -36,7 +36,21 @@ timeline:
 - date: '2026-06-16'
   source: sources/2026-06-16-394944250.md
   signals: []
-last_updated: '2026-07-07T01:45:56.620156+08:00'
+- date: '2026-06-17'
+  source: sources/2026-06-17-395283080.md
+  signals:
+  - entity: 太空创新者ETF
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: 在轨加注开启太空经济新赛道，主题ETF值得长期布局
+    caveats:
+    - 在轨加注商业化尚需2028年后全面验证
+    - 航天产业演进周期可能长于预期（>5年）
+    - 目前仍以国防需求为主，纯商业市场尚需培育
+    quote: 大家可以看这个新赛道，想象一下太空经济的未来产业布局的多样性
+    business_line: null
+last_updated: '2026-07-07T02:16:43.987585+08:00'
 ---
 
 # 太空创新者ETF
@@ -46,6 +60,10 @@ last_updated: '2026-07-07T01:45:56.620156+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-17
+> 来源: [sources/2026-06-17-395283080.md](sources/2026-06-17-395283080.md)
+- 📈 [positive] 在轨加注开启太空经济新赛道，主题ETF值得长期布局
 
 ### 2026-06-16
 > 来源: [sources/2026-06-16-394944250.md](sources/2026-06-16-394944250.md)

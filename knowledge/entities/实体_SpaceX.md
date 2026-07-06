@@ -21,6 +21,7 @@ aliases:
 - Starlink
 - Starlink的母公司
 - Starship
+- Starship（星舰）
 - Transporter
 - 埃隆·马斯克旗下SpaceX
 - 太空探索技术公司
@@ -582,7 +583,27 @@ timeline:
     - AI算力商业化路径仍处早期
     quote: 我认为我们未来的回报将是以数千亿美元计——是的，数以千亿。
     business_line: AI算力(Colossus)
-last_updated: '2026-07-07T01:49:48.433821+08:00'
+- date: '2026-06-17'
+  source: sources/2026-06-17-395283080.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: medium
+    time_frame: long_term
+    summary: SpaceX引领可复用火箭革命，IPO传闻和Starship能力是行业基石
+    caveats:
+    - IPO时间表不确定
+    - 潜在估值可能过高
+    - Starship大规模商业运营仍待验证
+    quote: 伴随着 SpaceX IPO 的传闻，无数目光正聚焦于此，人们也开始敏锐地察觉到这些太空能力背后蕴含的重大战略价值
+    business_line: 发射服务/卫星互联网
+- date: '2026-06-19'
+  source: sources/2026-06-19-395431416.md
+  signals: []
+- date: '2026-06-18'
+  source: sources/2026-06-18-395456451.md
+  signals: []
+last_updated: '2026-07-07T02:20:43.809103+08:00'
 ---
 
 # SpaceX
@@ -592,6 +613,16 @@ last_updated: '2026-07-07T01:49:48.433821+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-19
+> 来源: [sources/2026-06-19-395431416.md](sources/2026-06-19-395431416.md)
+
+### 2026-06-18
+> 来源: [sources/2026-06-18-395456451.md](sources/2026-06-18-395456451.md)
+
+### 2026-06-17
+> 来源: [sources/2026-06-17-395283080.md](sources/2026-06-17-395283080.md)
+- 📈 [positive] SpaceX引领可复用火箭革命，IPO传闻和Starship能力是行业基石
 
 ### 2026-06-16
 > 来源: [sources/2026-06-16-394513134.md](sources/2026-06-16-394513134.md)
