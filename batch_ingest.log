@@ -1577,3 +1577,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [480/746] 393990429.md (7464 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[481/746] 393994747.md (3792 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[482/746] 394022542.md (10919 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[483/746] 394023913.md (3666 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[484/746] 394025585.md (3539 bytes)
+  ⚠️ 需要 review: 两个股票代码（02493.HK与SH688062）实际为同一家公司，实体归一处理需确认, 文章对9MW2821 ADC 87.5% ORR数据的解读偏向正面，但样本量/对照组等关键信息未披露，需核实是否为可比读数, 信号方向为短期正面+中期负面，文章整体基调更接近中性观察而非明确多空判断
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[485/746] 394065854.md (29779 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[486/746] 394076037.md (37832 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[487/746] 394081494.md (3039 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[488/746] 394108489.md (12585 bytes)
+  ⚠️ 需要 review: 信号方向判断存在细微歧义：文章既肯定公司质地又警示估值偏高，最终判定为neutral可能低估长期看多成分；如解读偏长期可视为positive with medium confidence, 山姆会员店作为沃尔玛核心增长引擎是否应单独建为product类实体待定（当前未建，因其非独立可投资标的）, Flipkart与PhonePe作为独立估值资产被讨论，是否可标记为background类实体存在灰色地带（当前未建，因尚未独立上市）
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[489/746] 394134083.md (5059 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 189 column 45 (char 4716)
+  ✅ OK: 0 entities, 0 concepts
+
+[490/746] 394138630.md (6070 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[491/746] 394161744.md (19049 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[492/746] 394172632.md (2226 bytes)
+  ⚠️ 需要 review: 文章为个人实操感受分享，无具体投资标的，信号提取为空需确认, 文中'mk上'指代不明确，可能是某平台名称但未释义, 概念粒度待确认：'AI游戏开发'是否应进一步拆分（AI降本/AI质量瓶颈）
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[493/746] 394209377.md (3622 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[494/746] 394212767.md (4198 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[495/746] 394222589.md (3311 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[496/746] 394232848.md (5347 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[497/746] 394233168.md (5448 bytes)
+  ⚠️ 需要 review: 本篇为宏观进出口数据报告，未聚焦于任何具体可投资上市公司，未提取实体列表, 概念粒度在'中国出口超预期增长'与'AI算力需求'之间的归类可能需要进一步确认, 由于无明确个股投资观点，未提取signals，仅提取宏观层面的claims
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[498/746] 394233221.md (3870 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[499/746] 394238416.md (3355 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[500/746] 394246857.md (28884 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

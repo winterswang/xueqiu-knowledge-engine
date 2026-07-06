@@ -8,12 +8,16 @@ tags:
 - 实体/SpaceX
 aliases:
 - $SpaceX(SPCX)$
+- Falcon 9
 - SPCX
 - SpaceX
 - SpaceX AI
 - SpaceX 领导团队
 - SpaceX(SPCX)
+- StarShield
+- Starlink
 - Starship
+- Transporter
 - 太空探索技术公司
 - 星链母公司
 - 星链（Starlink）
@@ -380,7 +384,10 @@ timeline:
     - 本世纪最大一级割二级泡沫风险
     quote: 把现在SpaceX、Rocket Lab这些商业航天的融资、发射，比作当年麦哲伦、哥伦布找西班牙王室拉赞助（风投），底层逻辑是一模一样的
     business_line: null
-last_updated: '2026-07-07T00:40:45.858819+08:00'
+- date: '2026-06-11'
+  source: sources/2026-06-11-394076037.md
+  signals: []
+last_updated: '2026-07-07T00:50:59.972234+08:00'
 ---
 
 # SpaceX
@@ -390,6 +397,9 @@ last_updated: '2026-07-07T00:40:45.858819+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-11
+> 来源: [sources/2026-06-11-394076037.md](sources/2026-06-11-394076037.md)
 
 ### 2026-06-10
 > 来源: [sources/2026-06-10-393776800.md](sources/2026-06-10-393776800.md)

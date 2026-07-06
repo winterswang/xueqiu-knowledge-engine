@@ -8,6 +8,7 @@ tags:
 - 实体/Peter Beck
 aliases:
 - Beck
+- Peter
 - Peter Beck
 - Sir Peter Beck
 - 彼得·贝克
@@ -19,7 +20,10 @@ timeline:
 - date: '2026-06-09'
   source: sources/2026-06-09-393463676.md
   signals: []
-last_updated: '2026-07-07T00:01:27.751132+08:00'
+- date: '2026-06-11'
+  source: sources/2026-06-11-394076037.md
+  signals: []
+last_updated: '2026-07-07T00:51:00.001574+08:00'
 ---
 
 # Peter Beck
@@ -29,6 +33,9 @@ last_updated: '2026-07-07T00:01:27.751132+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-11
+> 来源: [sources/2026-06-11-394076037.md](sources/2026-06-11-394076037.md)
 
 ### 2026-06-09
 > 来源: [sources/2026-06-09-393463676.md](sources/2026-06-09-393463676.md)

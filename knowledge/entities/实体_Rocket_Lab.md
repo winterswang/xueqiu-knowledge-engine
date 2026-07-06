@@ -108,7 +108,31 @@ timeline:
     - 发射损耗率风险
     quote: 误打误撞在低轨卫星、激光通信上赚到第一桶金的……他们开启的时代，其溢出效应和商业回报，将远远超过早期这批投资人算盘上的那点财务收益
     business_line: null
-last_updated: '2026-07-07T00:40:45.874876+08:00'
+- date: '2026-06-11'
+  source: sources/2026-06-11-394076037.md
+  signals:
+  - entity: Rocket Lab
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 全产业链垂直整合打开长期成长空间
+    caveats:
+    - Neutron首飞及回收技术兑现存在执行风险
+    - 需持续大额资本投入
+    quote: Electron 搞定了，紧接着，一旦证明这条路走得通，我就要立刻着手建立高度整合的卫星制造能力。因为 Rocket Lab 的终极目标绝不仅仅是一家发射公司。我希望在轨道上拥有属于我们自己的资产，并以此产生源源不断的经常性收入，这才是真正的大金矿。
+    business_line: null
+  - entity: Rocket Lab
+    direction: positive
+    confidence: medium
+    time_frame: short_term
+    summary: Neutron首飞在即构成关键催化剂
+    caveats:
+    - 储箱测试尚需通过
+    - 首飞本身为纯研发性质不产生收入
+    - 短期内Space Systems业务仍是营收主力
+    quote: 目前这一切都排在 8 月左右，但我们正努力尝试将其提前到 7 月。不过就目前而言，所有的数据依然表明，我们完全有机会在今年年底前实现首飞。
+    business_line: null
+last_updated: '2026-07-07T00:50:59.938686+08:00'
 ---
 
 # Rocket Lab
@@ -118,6 +142,11 @@ last_updated: '2026-07-07T00:40:45.874876+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-11
+> 来源: [sources/2026-06-11-394076037.md](sources/2026-06-11-394076037.md)
+- 📈 [positive] 全产业链垂直整合打开长期成长空间
+- 📈 [positive] Neutron首飞在即构成关键催化剂
 
 ### 2026-06-10
 > 来源: [sources/2026-06-10-393964547.md](sources/2026-06-10-393964547.md)
