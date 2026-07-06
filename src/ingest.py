@@ -405,6 +405,9 @@ class ConceptPageWriter:
         return str(filepath)
 
 
+from .validator import KnowledgeValidator
+
+
 class IngestPipeline:
     """完整的摄入管线"""
 
@@ -529,13 +532,36 @@ class IngestPipeline:
                 )
                 concepts_updated.append(cp)
 
+            # 8. 验证本次更新的页面
+            validator = KnowledgeValidator(self.base_dir)
+            validation_errors = []
+            validation_warnings = []
+            # 只验证本次更新的页面
+            for ep in entities_updated:
+                is_valid, issues = validator.validate_entity(ep['path'])
+                if not is_valid:
+                    validation_errors.extend([f"实体 {ep['name']}: {i}" for i in issues])
+                # 检查warnings
+                # 简单检查：frontmatter缺失字段是warning
+                import frontmatter
+                post = frontmatter.load(ep['path'])
+                for field in ['type', 'ticker', 'aliases']:
+                    if field not in post.metadata:
+                        validation_warnings.append(f"实体 {ep['name']}: 缺少字段 {field}")
+            for cp in concepts_updated:
+                is_valid, issues = validator.validate_concept(cp['path'])
+                if not is_valid:
+                    validation_errors.extend([f"概念 {cp['name']}: {i}" for i in issues])
+            
             return {
-                'success': True,
+                'success': len(validation_errors) == 0,
                 'source_page': source_page,
                 'entities_updated': entities_updated,
                 'concepts_updated': concepts_updated,
                 'quality_score': result.quality_score,
                 'extraction_confidence': result.extraction_confidence,
+                'validation_errors': validation_errors,
+                'validation_warnings': validation_warnings,
             }
 
         except Exception as e:
