@@ -14,6 +14,7 @@ aliases:
 - META
 - MSL
 - Meta
+- Meta MTIA
 - Meta Platforms
 - Meta Super Lab
 - meta
@@ -158,7 +159,10 @@ timeline:
 - date: '2026-05-30'
   source: sources/2026-05-30-391688405.md
   signals: []
-last_updated: '2026-07-06T22:26:29.589188+08:00'
+- date: '2026-06-04'
+  source: sources/2026-06-04-392803232.md
+  signals: []
+last_updated: '2026-07-06T23:20:12.488417+08:00'
 ---
 
 # Meta
@@ -168,6 +172,9 @@ last_updated: '2026-07-06T22:26:29.589188+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-04
+> 来源: [sources/2026-06-04-392803232.md](sources/2026-06-04-392803232.md)
 
 ### 2026-05-30
 > 来源: [sources/2026-05-30-391688405.md](sources/2026-05-30-391688405.md)

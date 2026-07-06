@@ -1245,3 +1245,70 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [380/746] 392680998.md (7034 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[381/746] 392683104.md (4166 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 4179 (char 4178)
+  ✅ OK: 0 entities, 0 concepts
+
+[382/746] 392705368.md (12558 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[383/746] 392707699.md (7614 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[384/746] 392750136.md (3433 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[385/746] 392758081.md (4396 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[386/746] 392777104.md (2309 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[387/746] 392803232.md (16215 bytes)
+  ⚠️ 需要 review: 短期与长期信号方向分歧（短期指引偏负、长期护城河偏正），已拆分为两条信号需确认, Anthropic、OpenAI、字节跳动作为重要客户/合作方被提及但均为非上市公司，未提取为实体, 谷歌、Meta、英伟达、Marvell等关键公司未在文中标注股票代码，已按公开市场信息补充代码（verified=false）
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[388/746] 392807239.md (5581 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[389/746] 392829978.md (6474 bytes)
+  ⚠️ 需要 review: 文章对潍柴动力的'新经济复合型龙头'叙事偏重标签重塑，信号置信度依赖各新业务实际收入贡献验证, 整体行文带较强'科创主线'叙事倾向，部分长期判断（如'未来3-5年市场主线'）属预测性论断, 调出标的（如海尔智家、海天味业、迈瑞医疗）文章定性偏负面，但同时又承认'不会彻底丧失配置价值'，方向判断需进一步权衡, 跳过未验证无ticker实体: 富时罗素
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[390/746] 392843070.md (3449 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[391/746] 392854454.md (3915 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[392/746] 392872983.md (3960 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 480 column 34 (char 10839)
+  ✅ OK: 0 entities, 0 concepts
+
+[393/746] 392875922.md (5423 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[394/746] 392877013.md (5427 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[395/746] 392884815.md (4816 bytes)
+  ⚠️ 需要 review: 本文为纯宏观/地缘研究文章，未涉及具体可投资标的，entities 为空数组需确认是否符合预期, signals 为空——本文无明确个股投资观点，仅有宏观判断，是否需要补充宏观层面信号待确认, 霍尔木兹海峡封锁本身是短期事件，相关概念的长期适用性需评估
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+
+[396/746] 392884853.md (19441 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[397/746] 392889409.md (3354 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[398/746] 392897657.md (13574 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[399/746] 392915154.md (5369 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[400/746] 392918360.md (11346 bytes)
+  ⚠️ 需要 review: OpenAI与Anthropic尚未上市，作为投资标的的最终投资可行性需后续跟踪, Quantinuum计划募资14.58亿美元属计划值而非已落地，事实表述需注意时态, SpaceX的SPCX ticker为文章中给出的预期代码，实际上市后代码可能调整, Cerebras虽在已知词典中但仅作为mentioned角色处理, 跳过未验证无ticker实体: OpenAI, 跳过未验证无ticker实体: Anthropic
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

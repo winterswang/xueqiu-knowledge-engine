@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/Cerebras
 aliases:
+- CBRS.US
 - Cerebras
 - Cerebras Systems
 - Cerebras Systems(CBRS)
@@ -41,7 +42,10 @@ timeline:
     - 营收严重集中于G42
     quote: 我们避其锋芒，使用的是非常成熟且运筹帷幄的5纳米工艺。我们根本不用HBM，也不用CoWoS。
     business_line: 供应链与制造
-last_updated: '2026-07-06T21:39:05.918606+08:00'
+- date: '2026-06-04'
+  source: sources/2026-06-04-392918360.md
+  signals: []
+last_updated: '2026-07-06T23:32:02.932952+08:00'
 ---
 
 # Cerebras
@@ -51,6 +55,9 @@ last_updated: '2026-07-06T21:39:05.918606+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-04
+> 来源: [sources/2026-06-04-392918360.md](sources/2026-06-04-392918360.md)
 
 ### 2026-05-27
 > 来源: [sources/2026-05-27-391102170.md](sources/2026-05-27-391102170.md)

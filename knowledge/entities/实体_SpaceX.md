@@ -15,6 +15,7 @@ aliases:
 - 太空探索技术公司
 - 星链母公司
 - 这家火箭巨头
+- 马斯克旗下商业航天公司
 - 马斯克的SpaceX
 timeline:
 - date: '2026-02-25'
@@ -223,7 +224,43 @@ timeline:
     - 未给出明确估值或上行空间判断
     quote: 毕竟它为你提供了稀缺的资产敞口。既然这是一种全新的尝试，为什么不试试看呢？
     business_line: null
-last_updated: '2026-07-06T22:52:03.519992+08:00'
+- date: '2026-06-03'
+  source: sources/2026-06-03-392707699.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 买SpaceX就是买马斯克，IPO是航天分水岭
+    caveats:
+    - IPO估值高企
+    - 做空马斯克历史风险极大
+    quote: 买 SpaceX 也是在'押注马斯克'。回看历史，那些选择做空马斯克和特斯拉的人，最终都被证明站在了错误的一方。
+    business_line: IPO/航天
+- date: '2026-06-04'
+  source: sources/2026-06-04-392918360.md
+  signals:
+  - entity: SpaceX
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: 上市估值1.77万亿美元，募资750亿美元成全球第九
+    caveats:
+    - 尚未最终完成上市，发行价存在波动可能
+    - 估值高度依赖成长性兑现
+    quote: 上市后整体估值1.77万亿美元，将成为全球市值第九的上市公司……SpaceX计划募资750亿美元
+    business_line: 商业航天/卫星互联网/AI
+  - entity: SpaceX
+    direction: negative
+    confidence: medium
+    time_frame: short_term
+    summary: 天量募资分流二级市场资金，存量标的估值承压
+    caveats:
+    - 主要影响其他标的，对SpaceX自身影响有限
+    - 中长期优质龙头可守住估值中枢
+    quote: 大批量巨型IPO集中上市将持续分流二级市场存量资金……存量上市公司被动面临抛压
+    business_line: 全市场资金面
+last_updated: '2026-07-06T23:32:02.924456+08:00'
 ---
 
 # SpaceX
@@ -233,6 +270,15 @@ last_updated: '2026-07-06T22:52:03.519992+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-04
+> 来源: [sources/2026-06-04-392918360.md](sources/2026-06-04-392918360.md)
+- 📈 [positive] 上市估值1.77万亿美元，募资750亿美元成全球第九
+- 📉 [negative] 天量募资分流二级市场资金，存量标的估值承压
+
+### 2026-06-03
+> 来源: [sources/2026-06-03-392707699.md](sources/2026-06-03-392707699.md)
+- 📈 [positive] 买SpaceX就是买马斯克，IPO是航天分水岭
 
 ### 2026-06-02
 > 来源: [sources/2026-06-02-392233965.md](sources/2026-06-02-392233965.md)
