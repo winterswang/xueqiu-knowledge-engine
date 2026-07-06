@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/太空创新者ETF
 aliases:
+- $太空创新者ETF(NASA)$
 - 太空创新者ETF
 - 太空创新者ETF(NASA)
 timeline:
@@ -22,7 +23,10 @@ timeline:
 - date: '2026-06-05'
   source: sources/2026-06-05-393027905.md
   signals: []
-last_updated: '2026-07-06T23:39:13.401300+08:00'
+- date: '2026-06-09'
+  source: sources/2026-06-09-393463676.md
+  signals: []
+last_updated: '2026-07-07T00:01:27.749027+08:00'
 ---
 
 # 太空创新者ETF
@@ -32,6 +36,9 @@ last_updated: '2026-07-06T23:39:13.401300+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-09
+> 来源: [sources/2026-06-09-393463676.md](sources/2026-06-09-393463676.md)
 
 ### 2026-06-05
 > 来源: [sources/2026-06-05-392959875.md](sources/2026-06-05-392959875.md)

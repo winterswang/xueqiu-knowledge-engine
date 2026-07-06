@@ -1,7 +1,7 @@
 ---
 name: 精锋医疗-B
 type: company
-ticker: '02675'
+ticker: 02675.HK
 market: ''
 tags:
 - _entity_page
@@ -29,16 +29,22 @@ timeline:
 - date: '2026-06-03'
   source: sources/2026-06-03-392680998.md
   signals: []
-last_updated: '2026-07-06T23:15:12.229725+08:00'
+- date: '2026-06-08'
+  source: sources/2026-06-08-393467484.md
+  signals: []
+last_updated: '2026-07-07T00:03:07.129804+08:00'
 ---
 
 # 精锋医疗-B
 
 > 类型: company
-> 股票代码: 02675
+> 股票代码: 02675.HK
 
 ## 信号时间线
 
+
+### 2026-06-08
+> 来源: [sources/2026-06-08-393467484.md](sources/2026-06-08-393467484.md)
 
 ### 2026-06-03
 > 来源: [sources/2026-06-03-392642472.md](sources/2026-06-03-392642472.md)

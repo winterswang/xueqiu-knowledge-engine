@@ -1380,3 +1380,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 [420/746] 393137856.md (4264 bytes)
   ⚠️ 需要 review: 本文为纯宏观经济分析报告，不涉及任何可投资标的（无个股、无指数）, 所有概念均为宏观主题，需确认是否纳入投资知识库及粒度是否合适, 因无实体，所有信号字段为空，主张也未关联到具体实体
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_concept'
+  💾 Committed: batch: ingest 20 articles
+
+[421/746] 393137878.md (2901 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[422/746] 393137900.md (7253 bytes)
+  ⚠️ 需要 review: 文章为投资哲学与方法论文章，未涉及任何可投资上市公司或指数, 无实体投资标的，因此无 signals 可提取, 文章为芒格原则汇编，缺乏原创分析或具体案例，引用密度高但信息密度有限, 实体（芒格、巴菲特）为投资大师而非可投资标的，verified=false 需确认是否纳入
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[423/746] 393140005.md (3519 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[424/746] 393162726.md (11291 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[425/746] 393164899.md (5396 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[426/746] 393166633.md (3810 bytes)
+  ⚠️ 需要 review: 海伟股份不在已知词典中，需确认规范名及港股代码准确性, 文章整体基调为'机会+风险'并列，短期信号判断为negative的依据是题材炒作大于业绩，但作者也强调AI产业趋势，长期信号置信度受MLCC业务尚未落地影响, 英伟达数据（单机架60万颗MLCC、价值增幅180%）原文未注明出处，需交叉验证
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[427/746] 393170230.md (7264 bytes)
+  ⚠️ 需要 review: JSON parse failed: Extra data: line 2 column 1 (char 5104)
+  ✅ OK: 0 entities, 0 concepts
+
+[428/746] 393204096.md (6218 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[429/746] 393254832.md (7960 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[430/746] 393311692.md (2345 bytes)
+  ⚠️ 需要 review: 文章为活动议程/节目单，并非投资分析文章，缺乏实质性投资观点、论据和数据支撑, 文章明确声明'一切保密不可以录像录音以及所有知识不可以对外分享'，实际分享内容未公开, 信号与主张仅来源于议程标题，缺乏展开论证，置信度低, 美团、农夫山泉仅作为讨论话题被提及，是否纳入实体页需确认, 未提取的人物嘉宾（太文老师、Mungerzzz、一帆、文丰、黑黑无常、吉吉Queen、立涛、一登、Jeffery、渊哥、黄畅、维民等）无法确认真实身份与机构归属
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[431/746] 393364867.md (8320 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 2505 (char 2504)
+  ✅ OK: 0 entities, 0 concepts
+
+[432/746] 393405887.md (4185 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[433/746] 393463676.md (51706 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[434/746] 393464678.md (4621 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[435/746] 393467484.md (3318 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[436/746] 393480576.md (9979 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[437/746] 393502929.md (4501 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[438/746] 393507272.md (2932 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[439/746] 393511875.md (4506 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[440/746] 393513010.md (5138 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

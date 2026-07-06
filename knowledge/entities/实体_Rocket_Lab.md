@@ -10,6 +10,7 @@ aliases:
 - $Rocket Lab(RKLB)$
 - RKLB
 - Rocket Lab
+- Rocket Lab（火箭实验室）
 - Rocketlab
 timeline:
 - date: '2026-02-27'
@@ -68,7 +69,32 @@ timeline:
 - date: '2026-05-27'
   source: sources/2026-05-27-391321001.md
   signals: []
-last_updated: '2026-07-06T21:51:47.819658+08:00'
+- date: '2026-06-09'
+  source: sources/2026-06-09-393463676.md
+  signals:
+  - entity: Rocket Lab
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 全球仅两家成功实现常态化轨道发射公司之一
+    caveats:
+    - 尚未盈利
+    - 2028年才有望扭亏
+    - 太空产业整体估值泡沫严重
+    quote: 真正成功跨越了从实验室到商业发射的死亡之谷，并实现常态化、高频次、高可靠性规模化发射的火箭公司，全球仅有两家——SpaceX和我们。由此可见，稳定通往太空轨道的运力资源，是极其、极其稀缺的战略护城河。
+    business_line: Launch Services + Space Systems
+  - entity: Rocket Lab
+    direction: neutral
+    confidence: medium
+    time_frame: short_term
+    summary: 短期未盈利，2028年才有望扭亏
+    caveats:
+    - 持续烧钱
+    - 盈利拐点远
+    - 高估值依赖长期想象
+    quote: Rocket Lab 目前也尚未实现盈利，华尔街分析师预测你们要到 2028 年才能扭亏为盈。
+    business_line: 全公司
+last_updated: '2026-07-07T00:01:27.724104+08:00'
 ---
 
 # Rocket Lab
@@ -78,6 +104,11 @@ last_updated: '2026-07-06T21:51:47.819658+08:00'
 
 ## 信号时间线
 
+
+### 2026-06-09
+> 来源: [sources/2026-06-09-393463676.md](sources/2026-06-09-393463676.md)
+- 📈 [positive] 全球仅两家成功实现常态化轨道发射公司之一
+- ➡️ [neutral] 短期未盈利，2028年才有望扭亏
 
 ### 2026-05-27
 > 来源: [sources/2026-05-27-391321001.md](sources/2026-05-27-391321001.md)
