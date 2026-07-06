@@ -388,3 +388,68 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [120/746] 378451775.md (30667 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[121/746] 378453684.md (48917 bytes)
+  ⚠️ 需要 review: 文章为哈萨比斯传记内容，并非直接投资分析，从传记叙事中推断投资信号的置信度需进一步评估, DeepMind作为非独立可投资实体，其业绩与战略需完全归入Google/Alphabet分析框架, 阿里巴巴(BABA)仅在文末标签中出现，正文未详细讨论，角色判定为mentioned可能过于边缘, AGI技术路径之争概念的粒度介于L1和L2之间，需要确认是否应进一步聚焦为'具身智能与多模态'或'大模型Scaling路径'
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[122/746] 378454653.md (4893 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[123/746] 378454753.md (6252 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[124/746] 378456048.md (12767 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[125/746] 378466213.md (9889 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[126/746] 378466231.md (4454 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 107 column 28 (char 3124)
+  ✅ OK: 0 entities, 0 concepts
+
+[127/746] 378466321.md (6701 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[128/746] 378469109.md (6359 bytes)
+  ⚠️ 需要 review: 文章以FTC听证文件梳理为主，非典型投资分析文章，信号方向判断需确认, 腾讯控股出现在ticker列表中但文中无实质讨论，实体角色存在歧义
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[129/746] 378469112.md (8809 bytes)
+  ⚠️ 需要 review: 文章为 FTC 案证据汇总，未给出明确投资观点，信号方向判断为 neutral 但可能过于保守, 是否将 Snap/Google/腾讯等竞争对手作为独立实体提取存在权衡——它们在文章中作为对比案例而非投资标的, 概念粒度可进一步细化（如将'反垄断'与'隐私合规'拆分）
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[130/746] 378478692.md (24171 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[131/746] 378479098.md (20871 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[132/746] 378479508.md (28380 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[133/746] 378480173.md (31004 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[134/746] 378481065.md (6705 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[135/746] 378483274.md (23692 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[136/746] 378485942.md (33451 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[137/746] 378489957.md (28176 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[138/746] 378490875.md (22106 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[139/746] 378497742.md (15178 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[140/746] 378622163.md (36998 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

@@ -1,7 +1,7 @@
 ---
 name: Block
 type: company
-ticker: SQ
+ticker: XYZ
 market: ''
 tags:
 - _entity_page
@@ -38,16 +38,22 @@ timeline:
 - date: '2026-03-06'
   source: sources/2026-03-06-378357010.md
   signals: []
-last_updated: '2026-07-06T19:11:37.658119+08:00'
+- date: '2026-03-08'
+  source: sources/2026-03-08-378483274.md
+  signals: []
+last_updated: '2026-07-06T19:43:07.203269+08:00'
 ---
 
 # Block
 
 > 类型: company
-> 股票代码: SQ
+> 股票代码: XYZ
 
 ## 信号时间线
 
+
+### 2026-03-08
+> 来源: [sources/2026-03-08-378483274.md](sources/2026-03-08-378483274.md)
 
 ### 2026-03-06
 > 来源: [sources/2026-03-06-378357010.md](sources/2026-03-06-378357010.md)

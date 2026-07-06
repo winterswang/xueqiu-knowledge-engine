@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/Zscaler
 aliases:
+- ZS
 - Zscaler
 - 公司
 timeline:
@@ -35,7 +36,32 @@ timeline:
     quote: 我们相信，我们在保障 AI 转型方面具备独特优势；客户迁移至 Zero Trust Everywhere 后，ARR 通常可实现 2 至 3
       倍增长
     business_line: AI Security & Zero Trust
-last_updated: '2026-07-06T18:30:21.915690+08:00'
+- date: '2026-03-08'
+  source: sources/2026-03-08-378489957.md
+  signals:
+  - entity: Zscaler
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 长期看好三大支柱驱动达100亿美元ARR
+    caveats:
+    - 管理层主持的会议有天然乐观倾向
+    - AI智能体安全仍处早期阶段
+    - 内存成本周期对毛利率有潜在压力
+    quote: 总的来说，我看到我们的业务在三大支柱下增长：零信任无处不在、数据安全无处不在以及全方位的AI安全。这将为我们达到 100 亿美元 ARR 甚至更高提供充足的机会。
+    business_line: 整体公司战略
+  - entity: Zscaler
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: 短期执行力强劲，大额订单创纪录
+    caveats:
+    - Z-Flex等新模式仍处早期
+    - 股票薪酬水平偏高，GAAP盈利仍需推进
+    quote: 我们提到第二财季 100 万美元以上的订单数量创下了历史新高，这有力支撑了我们在市场开拓（Go-to-market）方面的转型。Z-Flex本季度实现了
+      2.9 亿美元的总合同价值（TCV）预订。
+    business_line: 核心SASE/零信任业务
+last_updated: '2026-07-06T19:45:00.516288+08:00'
 ---
 
 # Zscaler
@@ -45,6 +71,11 @@ last_updated: '2026-07-06T18:30:21.915690+08:00'
 
 ## 信号时间线
 
+
+### 2026-03-08
+> 来源: [sources/2026-03-08-378489957.md](sources/2026-03-08-378489957.md)
+- 📈 [positive] 长期看好三大支柱驱动达100亿美元ARR
+- 📈 [positive] 短期执行力强劲，大额订单创纪录
 
 ### 2026-03-03
 > 来源: [sources/2026-03-03-377719459.md](sources/2026-03-03-377719459.md)
