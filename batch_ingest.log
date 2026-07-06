@@ -649,3 +649,69 @@ Batch Ingest: 746 total, 746 pending, 0 done
 
 [200/746] 390238832.md (4610 bytes)
   ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+  💾 Committed: batch: ingest 20 articles
+
+[201/746] 390241883.md (3692 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[202/746] 390269093.md (7171 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[203/746] 390277684.md (2841 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[204/746] 390300374.md (10085 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[205/746] 390310838.md (6107 bytes)
+  ⚠️ 需要 review: JSON parse failed: Expecting ',' delimiter: line 1 column 1567 (char 1566)
+  ✅ OK: 0 entities, 0 concepts
+
+[206/746] 390318329.md (19581 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[207/746] 390336607.md (3343 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[208/746] 390354409.md (15799 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[209/746] 390358717.md (4590 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[210/746] 390367113.md (4520 bytes)
+  ⚠️ 需要 review: 溜溜梅为拟上市公司，尚未获得股票代码，信号方向判断为中性，但需确认是否应更明确地标注'pre-IPO'状态, 信号方向偏中性：营收净利增长与毛利率下滑并存，作者态度偏客观描述，最终方向需人工复核, 跳过未验证无ticker实体: 溜溜梅
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[211/746] 390373063.md (6686 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[212/746] 390377458.md (13150 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[213/746] 390381832.md (5748 bytes)
+  ⚠️ 需要 review: 文章无明确买卖建议，CEO积极表态与财务风险信号并存，信号方向需审慎判定, Sparkle、Colt Technology等合作伙伴是否为可投资标的需确认, 长期信号判定为neutral，但行业催化（Q-Day提前、美国政府20亿美元投资）与商业化迟缓存在矛盾, 跳过未验证无ticker实体: Cantor Fitzgerald
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[214/746] 390388624.md (4229 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[215/746] 390403122.md (32511 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[216/746] 390420891.md (5192 bytes)
+  ⚠️ 需要 review: 首钢朗泽尚未正式上市，IPO定价、估值及上市后表现未知，信号方向判断为neutral但可能需根据上市后情况调整, LanzaTech作为参股股东（技术入股）但持股比例未明确披露，需确认其持股关系是否影响首钢朗泽独立性, 首钢集团作为控股股东未上市，但其对首钢朗泽的隐性支持程度需进一步评估, 跳过未验证无ticker实体: 首钢朗泽, 跳过未验证无ticker实体: 首钢集团
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[217/746] 390427813.md (3488 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[218/746] 390433073.md (11240 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[219/746] 390445825.md (3081 bytes)
+  ⚠️ 需要 review: MINIMAX-W (00100.HK) 实体名疑似数据异常或编码错误，需核实具体公司, 文章为港股盘后综合评述，信息密度尚可但缺乏深度分析，多为板块涨跌罗列, 联想集团单日涨幅19.77%是否为业绩超预期的一次性反应需进一步判断
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'
+
+[220/746] 390451885.md (7910 bytes)
+  ❌ Failed: 'KnowledgeValidator' object has no attribute 'validate_entity'

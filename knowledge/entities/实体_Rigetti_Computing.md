@@ -1,7 +1,7 @@
 ---
 name: Rigetti Computing
 type: company
-ticker: RGTI
+ticker: RGTI.US
 market: ''
 tags:
 - _entity_page
@@ -10,6 +10,7 @@ aliases:
 - RGTI
 - Rigetti
 - Rigetti Computing
+- Rigetti Computing（RGTI.US）
 timeline:
 - date: '2026-03-06'
   source: sources/2026-03-06-378272324.md
@@ -36,16 +37,22 @@ timeline:
     - 大额订单将在2026年逐季确认
     quote: 2025年第四季度收入为190万美元，而2024年第四季度为230万美元。第四季度毛利率为35%，去年同期为44%。
     business_line: 整体财务
-last_updated: '2026-07-06T18:54:10.907685+08:00'
+- date: '2026-05-22'
+  source: sources/2026-05-22-390388624.md
+  signals: []
+last_updated: '2026-07-06T20:52:56.098923+08:00'
 ---
 
 # Rigetti Computing
 
 > 类型: company
-> 股票代码: RGTI
+> 股票代码: RGTI.US
 
 ## 信号时间线
 
+
+### 2026-05-22
+> 来源: [sources/2026-05-22-390388624.md](sources/2026-05-22-390388624.md)
 
 ### 2026-03-06
 > 来源: [sources/2026-03-06-378272324.md](sources/2026-03-06-378272324.md)

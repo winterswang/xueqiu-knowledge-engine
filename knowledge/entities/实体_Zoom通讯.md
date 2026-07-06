@@ -36,7 +36,32 @@ timeline:
     - 高端市场拓展仍需时间验证
     quote: 我们的前十大交易中，100%都包含AI。而且，这些大单中有70%是从竞品那里抢来的。
     business_line: Zoom Contact Center / ZVA
-last_updated: '2026-07-06T19:47:13.842178+08:00'
+- date: '2026-05-22'
+  source: sources/2026-05-22-390377458.md
+  signals:
+  - entity: Zoom通讯
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: FY27Q1业绩超预期，上调全年指引并追加10亿美元回购
+    caveats:
+    - 线上客户月流失率从2.8%升至3%
+    - 递延收入确认存在季度间波动
+    - 市场对行动系统定位的认知度仍待提升
+    quote: 第一季度营收增长 5.5%，超出了我们业绩指引的上限，是近年来表现最好的增速之一。
+    business_line: 整体公司
+  - entity: Zoom通讯
+    direction: positive
+    confidence: medium
+    time_frame: medium_term
+    summary: AI优先战略驱动ZCX高双位数增长，多产品置换加速
+    caveats:
+    - AI变现仍处早期，营收加速的可持续性待验证
+    - Salesforce等竞争对手在CX领域持续投入
+    - AI功能变现节奏与定价模式尚未稳定
+    quote: Zoom 客户体验（ZCX）在第一季度继续加速发展，在排名前 10 的 ZCX 订单中，有 9 个是由付费 AI 驱动的，从而实现了高双位数的增长。
+    business_line: ZCX/AI
+last_updated: '2026-07-06T20:50:48.675280+08:00'
 ---
 
 # Zoom通讯
@@ -46,6 +71,11 @@ last_updated: '2026-07-06T19:47:13.842178+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-22
+> 来源: [sources/2026-05-22-390377458.md](sources/2026-05-22-390377458.md)
+- 📈 [positive] FY27Q1业绩超预期，上调全年指引并追加10亿美元回购
+- 📈 [positive] AI优先战略驱动ZCX高双位数增长，多产品置换加速
 
 ### 2026-03-08
 > 来源: [sources/2026-03-08-378497742.md](sources/2026-03-08-378497742.md)

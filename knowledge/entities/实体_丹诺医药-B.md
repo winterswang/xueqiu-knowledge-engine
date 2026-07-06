@@ -1,0 +1,40 @@
+---
+name: 丹诺医药-B
+type: company
+ticker: 06872.HK
+market: ''
+tags:
+- _entity_page
+- 实体/丹诺医药-B
+aliases:
+- 丹诺医药
+- 丹诺医药-B
+timeline:
+- date: '2026-05-22'
+  source: sources/2026-05-22-390336607.md
+  signals:
+  - entity: 丹诺医药-B
+    direction: neutral
+    confidence: medium
+    time_frame: short_term
+    summary: 首日暴涨144%但公司尚未商业化
+    caveats:
+    - 公司2023-2025年收入均为0，连续亏损1.92亿/1.46亿/1.53亿元
+    - 基石投资者禁售期6个月，首日浮盈仅为账面
+    - 首日超额涨幅反映打新情绪，不等同于长期投资价值
+    quote: 其股价在首日迎来高开大涨，截至发稿时间逾144%，现报185港元……2023年至2025年，丹诺医药收入均为0（无产品商业化），净亏损分别为1.92亿元、1.46亿元及1.53亿元
+    business_line: null
+last_updated: '2026-07-06T20:46:35.508772+08:00'
+---
+
+# 丹诺医药-B
+
+> 类型: company
+> 股票代码: 06872.HK
+
+## 信号时间线
+
+
+### 2026-05-22
+> 来源: [sources/2026-05-22-390336607.md](sources/2026-05-22-390336607.md)
+- ➡️ [neutral] 首日暴涨144%但公司尚未商业化

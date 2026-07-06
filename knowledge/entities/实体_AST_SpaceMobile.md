@@ -7,6 +7,7 @@ tags:
 - _entity_page
 - 实体/AST SpaceMobile
 aliases:
+- $AST SpaceMobile(ASTS)$
 - AST
 - AST SpaceMobile
 - ASTS
@@ -39,7 +40,13 @@ timeline:
     - 当前仍处于高资本支出阶段，短期盈利能力有限
     quote: 凭借规模效应和运营杠杆，EBITDA利润率'有望达到或超过90%'。
     business_line: 卫星通信平台运营
-last_updated: '2026-07-06T18:29:47.452796+08:00'
+- date: '2026-05-22'
+  source: sources/2026-05-22-390373063.md
+  signals: []
+- date: '2026-05-22'
+  source: sources/2026-05-22-390451885.md
+  signals: []
+last_updated: '2026-07-06T20:58:42.877718+08:00'
 ---
 
 # AST SpaceMobile
@@ -49,6 +56,12 @@ last_updated: '2026-07-06T18:29:47.452796+08:00'
 
 ## 信号时间线
 
+
+### 2026-05-22
+> 来源: [sources/2026-05-22-390373063.md](sources/2026-05-22-390373063.md)
+
+### 2026-05-22
+> 来源: [sources/2026-05-22-390451885.md](sources/2026-05-22-390451885.md)
 
 ### 2026-03-03
 > 来源: [sources/2026-03-03-377715860.md](sources/2026-03-03-377715860.md)
