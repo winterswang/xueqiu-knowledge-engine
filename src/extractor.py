@@ -355,10 +355,17 @@ class KnowledgeExtractor:
                 continue
             seen_entities.add(key)
 
-            # 过滤：product 类型不建独立实体页，但保留在提取结果中
-            # 过滤规则：如果 type=product 且不是已验证实体，跳过
-            if entity_type == "product" and not verified:
-                continue
+            # 过滤规则：
+            # 1. product 类型且未验证：跳过，不建实体页
+            # 2. company 类型但未验证且没有ticker（非上市公司）：跳过，产品/一般公司不建实体页
+            # 3. person/index 类型：保留
+            if not verified:
+                if entity_type == "product":
+                    continue
+                if entity_type == "company" and not entity_ticker:
+                    # 未验证且无ticker的公司，大概率是产品/普通公司，不建独立实体页
+                    result.review_reasons.append(f"跳过未验证无ticker实体: {canonical_name}")
+                    continue
 
             result.entities.append(ExtractedEntity(
                 name=canonical_name,
