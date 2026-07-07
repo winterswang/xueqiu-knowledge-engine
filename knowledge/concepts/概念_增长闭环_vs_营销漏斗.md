@@ -4,6 +4,7 @@ definition: 增长闭环是自循环的(如用户推荐带来新用户)，营销
 tags:
 - _concept_page
 - 概念
+- 概念/增长闭环 vs 营销漏斗
 entities:
 - Meta
 - 字节跳动

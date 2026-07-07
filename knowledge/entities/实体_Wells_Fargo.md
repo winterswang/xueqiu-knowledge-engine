@@ -2,23 +2,28 @@
 name: Wells Fargo
 type: company
 ticker: WFC
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Wells Fargo
+- 市场/US
+- 股票/WFC
 aliases:
 - Wells Fargo
+- Wells Fargo Securities
 - 富国银行
 timeline:
-- date: '2026-05-18'
-  source: sources/2026-05-18-389362299.md
-  signals: []
 - date: '2026-06-15'
   source: sources/2026-06-15-394790644.md
   signals: []
+- date: '2026-06-11'
+  source: sources/2026-06-11-394076037.md
+  signals: []
+- date: '2026-05-18'
+  source: sources/2026-05-18-389362299.md
+  signals: []
 last_updated: '2026-07-07T01:33:04.033572+08:00'
 ---
-
 # Wells Fargo
 
 > 类型: company

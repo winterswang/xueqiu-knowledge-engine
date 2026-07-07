@@ -4,6 +4,7 @@ definition: 为AI终端设备提供高精密功能件及智能制造平台服务
 tags:
 - _concept_page
 - 概念
+- 概念/AI终端精密制造
 entities:
 - 胜宏科技
 - 舜宇光学科技

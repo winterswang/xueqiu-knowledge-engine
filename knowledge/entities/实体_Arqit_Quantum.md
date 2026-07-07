@@ -2,10 +2,12 @@
 name: Arqit Quantum
 type: company
 ticker: ARQQ
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Arqit Quantum
+- 市场/US
+- 股票/ARQQ
 aliases:
 - ARQQ
 - Arqit
@@ -38,7 +40,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-06T20:52:10.814078+08:00'
 ---
-
 # Arqit Quantum
 
 > 类型: company

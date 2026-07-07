@@ -2,10 +2,12 @@
 name: African Discovery Group
 type: company
 ticker: AFDG
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/African Discovery Group
+- 市场/US
+- 股票/AFDG
 aliases:
 - AFDG
 - AFRICN DSCRV ORD
@@ -37,7 +39,6 @@ timeline:
     business_line: 铜矿勘探与开发
 last_updated: '2026-07-06T22:51:10.775915+08:00'
 ---
-
 # African Discovery Group
 
 > 类型: company

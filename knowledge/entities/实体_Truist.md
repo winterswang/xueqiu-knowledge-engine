@@ -2,10 +2,12 @@
 name: Truist
 type: company
 ticker: TFC
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Truist
+- 市场/US
+- 股票/TFC
 aliases:
 - Truist
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:58:18.183879+08:00'
 ---
-
 # Truist
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: POSCO
 type: company
 ticker: 005490.KS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/POSCO
+- 市场/US
+- 股票/005490.KS
 aliases:
 - POSCO
 - 浦项钢铁
@@ -16,7 +18,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:25:27.239146+08:00'
 ---
-
 # POSCO
 
 > 类型: company

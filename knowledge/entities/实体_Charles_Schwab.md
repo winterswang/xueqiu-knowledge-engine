@@ -2,10 +2,12 @@
 name: Charles Schwab
 type: company
 ticker: SCHW
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Charles Schwab
+- 市场/US
+- 股票/SCHW
 aliases:
 - Charles Schwab
 - Schwab
@@ -20,7 +22,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:58:03.434566+08:00'
 ---
-
 # Charles Schwab
 
 > 类型: company

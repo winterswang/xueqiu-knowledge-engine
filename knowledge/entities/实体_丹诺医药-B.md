@@ -2,10 +2,12 @@
 name: 丹诺医药-B
 type: company
 ticker: 06872
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/丹诺医药-B
+- 市场/CN
+- 股票/06872
 aliases:
 - 丹诺医药
 - 丹诺医药-B
@@ -39,7 +41,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:00:42.454701+08:00'
 ---
-
 # 丹诺医药-B
 
 > 类型: company

@@ -6,6 +6,8 @@ market: HK
 tags:
 - _entity_page
 - 实体/贝壳-W
+- 市场/HK
+- 股票/02423.HK
 aliases:
 - 贝壳-W
 - 贝壳-W(02423.HK)
@@ -27,7 +29,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-06T20:57:39.429963+08:00'
 ---
-
 # 贝壳-W
 
 > 类型: company

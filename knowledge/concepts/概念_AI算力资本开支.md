@@ -4,6 +4,7 @@ definition: 全球云厂商与AI企业用于数据中心及算力硬件建设的
 tags:
 - _concept_page
 - 概念
+- 概念/AI算力资本开支
 entities:
 - Meta
 - 亚马逊

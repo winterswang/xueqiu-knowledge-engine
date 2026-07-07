@@ -2,10 +2,12 @@
 name: 蔚来-SW
 type: company
 ticker: 09866.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/蔚来-SW
+- 市场/CN
+- 股票/09866.HK
 aliases:
 - 蔚来
 - 蔚来-SW
@@ -18,7 +20,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:55:37.417882+08:00'
 ---
-
 # 蔚来-SW
 
 > 类型: company

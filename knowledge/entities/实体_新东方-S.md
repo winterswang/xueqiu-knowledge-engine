@@ -2,10 +2,12 @@
 name: 新东方-S
 type: company
 ticker: 09901.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/新东方-S
+- 市场/CN
+- 股票/09901.HK
 aliases:
 - 新东方
 - 新东方-S
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:56:05.433251+08:00'
 ---
-
 # 新东方-S
 
 > 类型: company

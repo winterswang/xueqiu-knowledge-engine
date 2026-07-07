@@ -6,6 +6,8 @@ market: HK
 tags:
 - _entity_page
 - 实体/华住集团-S
+- 市场/HK
+- 股票/01179
 aliases:
 - HTHT
 - 华住
@@ -46,7 +48,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:48:12.338530+08:00'
 ---
-
 # 华住集团-S
 
 > 类型: company

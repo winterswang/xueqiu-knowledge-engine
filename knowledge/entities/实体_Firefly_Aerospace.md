@@ -2,10 +2,12 @@
 name: Firefly Aerospace
 type: company
 ticker: FLY
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Firefly Aerospace
+- 市场/US
+- 股票/FLY
 aliases:
 - $Firefly Aerospace(FLY)$
 - FLY
@@ -55,7 +57,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-06T23:11:14.932587+08:00'
 ---
-
 # Firefly Aerospace
 
 > 类型: company

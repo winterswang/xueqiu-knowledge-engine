@@ -2,10 +2,12 @@
 name: Snowflake
 type: company
 ticker: SNOW
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Snowflake
+- 市场/US
+- 股票/SNOW
 aliases:
 - $Snowflake(SNOW)$
 - SNOW
@@ -63,7 +65,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:17:26.032727+08:00'
 ---
-
 # Snowflake
 
 > 类型: company

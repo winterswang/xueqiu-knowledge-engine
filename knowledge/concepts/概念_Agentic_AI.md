@@ -4,6 +4,7 @@ definition: 以多智能体（Multi-Agent）协作为核心的下一代AI应用�
 tags:
 - _concept_page
 - 概念
+- 概念/Agentic AI
 entities:
 - 明略科技-W
 sources:

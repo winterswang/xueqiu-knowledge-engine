@@ -2,10 +2,12 @@
 name: Roblox
 type: company
 ticker: RBLX
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Roblox
+- 市场/US
+- 股票/RBLX
 aliases:
 - RBLX
 - Roblox
@@ -64,7 +66,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T04:11:46.261804+08:00'
 ---
-
 # Roblox
 
 > 类型: company

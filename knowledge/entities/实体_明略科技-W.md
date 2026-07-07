@@ -2,16 +2,18 @@
 name: 明略科技-W
 type: company
 ticker: 02718.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/明略科技-W
+- 市场/CN
+- 股票/02718.HK
 aliases:
 - 明略科技
 - 明略科技-W
 timeline:
-- date: '2026-06-06'
-  source: sources/2026-06-06-393254832.md
+- date: '2026-06-22'
+  source: sources/2026-06-22-395972864.md
   signals: []
 - date: '2026-06-08'
   source: sources/2026-06-08-393502929.md
@@ -39,9 +41,14 @@ timeline:
     - 过往依托腾讯生态的协同优势逐步弱化
     quote: 天风证券持乐观态度，认为市场目前可能低估了明略科技在新兴Agentic AI领域的爆发潜力
     business_line: Agentic AI / 多Agent平台
+- date: '2026-06-06'
+  source: sources/2026-06-06-393254832.md
+  signals: []
+- date: '2026-05-27'
+  source: sources/2026-05-27-391169981.md
+  signals: []
 last_updated: '2026-07-07T00:05:12.002368+08:00'
 ---
-
 # 明略科技-W
 
 > 类型: company

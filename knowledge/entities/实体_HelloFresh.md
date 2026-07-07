@@ -2,10 +2,12 @@
 name: HelloFresh
 type: company
 ticker: HFG.DE
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/HelloFresh
+- 市场/US
+- 股票/HFG.DE
 aliases:
 - HelloFresh
 timeline:
@@ -25,7 +27,6 @@ timeline:
     business_line: D2C餐食订阅
 last_updated: '2026-07-06T19:15:09.822686+08:00'
 ---
-
 # HelloFresh
 
 > 类型: company

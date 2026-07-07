@@ -4,6 +4,7 @@ definition: 美国FINRA要求账户余额低于25,000美元的投资者日内交
 tags:
 - _concept_page
 - 概念
+- 概念/Pattern Day Trader规则
 entities:
 - Charles Schwab
 - Interactive Brokers

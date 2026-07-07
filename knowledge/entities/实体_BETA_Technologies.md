@@ -2,10 +2,12 @@
 name: BETA Technologies
 type: company
 ticker: BETA
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/BETA Technologies
+- 市场/US
+- 股票/BETA
 aliases:
 - BETA
 - BETA Technologies
@@ -41,7 +43,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-07T01:26:41.000579+08:00'
 ---
-
 # BETA Technologies
 
 > 类型: company

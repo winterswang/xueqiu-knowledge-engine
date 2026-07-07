@@ -2,10 +2,12 @@
 name: Quantinuum
 type: company
 ticker: QNT
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Quantinuum
+- 市场/US
+- 股票/QNT
 aliases:
 - Quantinuum
 - Quantinuum(QNT.US)
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:32:02.943849+08:00'
 ---
-
 # Quantinuum
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: 微创机器人-B
 type: company
 ticker: 02252.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/微创机器人-B
+- 市场/CN
+- 股票/02252.HK
 aliases:
 - 微创机器人
 - 微创机器人-B
@@ -35,7 +37,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:42:11.530702+08:00'
 ---
-
 # 微创机器人-B
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: 粤高速A
 type: company
 ticker: 000429.SZ
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/粤高速A
+- 市场/CN
+- 股票/000429.SZ
 aliases:
 - 粤高速A
 - 粤高速B
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:05:17.060429+08:00'
 ---
-
 # 粤高速A
 
 > 类型: company

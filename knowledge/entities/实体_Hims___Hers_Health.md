@@ -2,10 +2,12 @@
 name: Hims & Hers Health
 type: company
 ticker: HIMS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Hims & Hers Health
+- 市场/US
+- 股票/HIMS
 aliases:
 - Hims & Hers Health
 - Hims & Hers Health Inc.
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:06:26.635824+08:00'
 ---
-
 # Hims & Hers Health
 
 > 类型: company

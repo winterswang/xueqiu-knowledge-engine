@@ -2,10 +2,12 @@
 name: SAP SE
 type: company
 ticker: SAP
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/SAP SE
+- 市场/US
+- 股票/SAP
 aliases:
 - $SAP SE(SAP)$
 - SAP
@@ -64,7 +66,6 @@ timeline:
     business_line: 表格基础模型/BDC
 last_updated: '2026-07-07T02:02:55.483584+08:00'
 ---
-
 # SAP SE
 
 > 类型: company

@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/SpaceX
+- 市场/US
+- 股票/SPCX
 aliases:
 - $SpaceX(SPCX)$
 - Falcon 9
@@ -720,7 +722,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T04:13:22.185393+08:00'
 ---
-
 # SpaceX
 
 > 类型: company

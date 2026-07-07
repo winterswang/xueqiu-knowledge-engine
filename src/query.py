@@ -9,6 +9,7 @@ from pathlib import Path
 from dataclasses import dataclass
 from typing import List, Dict, Optional, Tuple
 from datetime import datetime, timedelta, timezone
+from collections import defaultdict
 
 # 统一使用东八区，不依赖系统时区
 TZ = timezone(timedelta(hours=8))
@@ -213,7 +214,7 @@ class KnowledgeQuery:
     # ========== Layer 4: 综合查询 ==========
     
     def query(self, q: str) -> QueryResult:
-        """综合查询
+        """综合查询（优化排序：实体/概念优先，匹配度加权排序）
         
         查询语法：
         - "拼多多" → 实体直达
@@ -222,17 +223,59 @@ class KnowledgeQuery:
         """
         q = q.strip()
         
-        # Layer 1: 实体直达
+        # Layer 1: 实体直达（精确匹配名称/别名/ticker）
         entity = self.query_entity(q)
         if entity:
-            return self._format_entity_result(q, entity)
+            result = self._format_entity_result(q, entity)
+            # 自动关联：找到实体相关的概念
+            result.concepts = self._find_related_concepts_for_entity(entity.get('name', ''))
+            # 信号冲突检测
+            self._add_conflict_warning(result)
+            return result
         
-        # Layer 2: 索引层
+        # Layer 2: 索引层，加权排序（精确匹配 > 名称匹配 > 别名匹配 > 定义匹配）
         entities = self.search_entities(q)
         concepts = self.search_concepts(q)
         
+        # 给实体/概念计算匹配度得分，排序
+        def entity_score(e):
+            name = e.get('name', '').lower()
+            ticker = e.get('ticker', '').lower()
+            aliases = [a.lower() for a in e.get('aliases', [])]
+            ql = q.lower()
+            if name == ql: return 100  # 精确名称匹配
+            if ticker == ql: return 95   # ticker精确匹配
+            if ql in name: return 80     # 名称包含
+            if any(ql == a for a in aliases): return 85  # 别名精确匹配
+            if any(ql in a for a in aliases): return 70  # 别名包含
+            return 50
+        
+        def concept_score(c):
+            name = c.get('name', '').lower()
+            definition = c.get('definition', '').lower()
+            ql = q.lower()
+            if name == ql: return 90
+            if ql in name: return 75
+            if ql in definition: return 60
+            return 40
+        
+        entities.sort(key=entity_score, reverse=True)
+        concepts.sort(key=concept_score, reverse=True)
+        
         if entities or concepts:
-            return self._format_index_result(q, entities, concepts)
+            result = self._format_index_result(q, entities, concepts)
+            # 自动关联：每个Top实体找相关概念，每个Top概念找相关实体
+            all_related_concepts = []
+            seen_concepts = set()
+            for e in entities[:3]:
+                for c in self._find_related_concepts_for_entity(e.get('name', '')):
+                    cname = c.get('name', '')
+                    if cname not in seen_concepts:
+                        seen_concepts.add(cname)
+                        all_related_concepts.append(c)
+            result.concepts.extend(all_related_concepts)
+            self._add_conflict_warning(result)
+            return result
         
         # Layer 3: 来源页检索
         sources = self.search_sources(q, days=30)
@@ -241,7 +284,55 @@ class KnowledgeQuery:
         
         # Layer 4: 综合层（扩大时间范围）
         all_sources = self.search_sources(q)
-        return self._format_comprehensive_result(q, all_sources)
+        result = self._format_comprehensive_result(q, all_sources)
+        return result
+    
+    def _find_related_concepts_for_entity(self, entity_name: str) -> List[Dict]:
+        """找到和指定实体相关联的概念"""
+        related = []
+        for f in self.concepts_dir.glob("*.md"):
+            fm = self._load_frontmatter(str(f))
+            entities_in_concept = fm.get('entities', [])
+            if entity_name in entities_in_concept:
+                fm['_file'] = str(f)
+                related.append(fm)
+        # 按关联文章数排序
+        related.sort(key=lambda x: len(x.get('sources', [])), reverse=True)
+        return related[:8]
+    
+    def _add_conflict_warning(self, result: QueryResult):
+        """检测信号冲突，如果同时有看多/看空信号，加警告"""
+        # 统计所有实体的信号方向
+        bull = 0
+        bear = 0
+        neutral = 0
+        conflict_entities = []
+        
+        for ent in result.entities:
+            ent_bull = 0
+            ent_bear = 0
+            for entry in ent.get('timeline', []):
+                for s in entry.get('signals', []):
+                    d = s.get('direction', '').lower()
+                    if d in ('positive', 'bull', 'bullish', '看多', '利好'):
+                        bull += 1
+                        ent_bull += 1
+                    elif d in ('negative', 'bear', 'bearish', '看空', '利空'):
+                        bear += 1
+                        ent_bear += 1
+                    else:
+                        neutral += 1
+            if ent_bull > 0 and ent_bear > 0:
+                conflict_entities.append(ent.get('name', ''))
+        
+        # 加冲突标记
+        if conflict_entities:
+            warning = f"⚠️ **信号冲突提示**："
+            warning += f"当前共 {bull} 个看多信号，{bear} 个看空信号，{neutral} 个中性信号。\n"
+            warning += f"存在分歧的公司：{', '.join(conflict_entities[:5])}"
+            if bull + bear > 0:
+                warning += f"，多空比 {bull}:{bear}"
+            result.summary = warning + "\n\n" + result.summary
     
     def _format_entity_result(self, q: str, entity: Dict) -> QueryResult:
         """格式化实体查询结果"""
@@ -265,21 +356,25 @@ class KnowledgeQuery:
             d = s['direction']
             direction_counts[d] = direction_counts.get(d, 0) + 1
         
-        summary = f"实体: {entity.get('name')} ({entity.get('ticker', 'N/A')})\n"
-        summary += f"类型: {entity.get('type', 'unknown')}\n"
+        summary = f"# 实体: {entity.get('name')} ({entity.get('ticker', 'N/A')})\n"
+        summary += f"市场: {entity.get('market', 'N/A')}\n"
         summary += f"信号数量: {len(signals)}\n"
         summary += f"方向分布: {direction_counts}\n"
         
         latest = signals[0] if signals else None
         if latest:
-            summary += f"\n最新信号 ({latest['date']}):\n"
-            summary += f"  [{latest['direction']}] {latest['summary']}\n"
+            summary += f"\n## 最新信号 ({latest['date']})\n"
+            emoji = {"positive": "📈 看多", "negative": "📉 看空", "neutral": "➡️ 中性"}.get(latest['direction'], latest['direction'])
+            summary += f"**[{emoji}]** {latest['summary']}\n"
+            if latest.get('caveats'):
+                summary += f"风险提示: {', '.join(latest['caveats'])}\n"
         
+        # 关联概念会在query()里填充到result.concepts
         return QueryResult(
             query=q,
             layer="entity_direct",
             entities=[entity],
-            concepts=[],
+            concepts=[],  # 后面填充
             sources=[],
             signals=signals,
             summary=summary,
@@ -357,7 +452,7 @@ class KnowledgeQuery:
     # ========== 日报生成 ==========
     
     def generate_daily_brief(self, date: str = None) -> str:
-        """生成日报
+        """生成知识引擎日报（优化版）
         
         Args:
             date: 日期字符串 'YYYY-MM-DD'，None = 今天
@@ -370,55 +465,104 @@ class KnowledgeQuery:
         
         # 获取当天的来源页
         sources = self._source_index.get(date, [])
+        if not sources:
+            return f"# 知识引擎日报 — {date}\n\n今日无新增文章。"
         
         lines = [
             f"# 知识引擎日报 — {date}",
             "",
-            f"今日新增来源: {len(sources)} 篇",
+            f"📊 今日新增来源: **{len(sources)}** 篇",
             "",
         ]
         
-        # 实体信号汇总
-        entity_signals = {}
+        # 收集所有信号
+        bull_signals = []
+        bear_signals = []
+        neutral_signals = []
+        entity_signal_map = defaultdict(list)
+        new_entities = set()
+        new_concepts = set()
+        all_signals = []
+        
         for filepath in sources:
             fm = self._load_frontmatter(filepath)
+            # 收集实体
+            new_entities.update(fm.get('entities', []))
+            new_concepts.update(fm.get('concepts', []))
+            # 收集信号
             for signal in fm.get('signals', []):
                 entity = signal.get('entity', 'Unknown')
-                if entity not in entity_signals:
-                    entity_signals[entity] = []
-                entity_signals[entity].append(signal)
+                direction = signal.get('direction', 'neutral').lower()
+                s = {
+                    'entity': entity,
+                    'direction': direction,
+                    'summary': signal.get('summary', ''),
+                    'confidence': signal.get('confidence', 'medium'),
+                    'source': filepath
+                }
+                all_signals.append(s)
+                entity_signal_map[entity].append(s)
+                if direction in ('positive', 'bull', 'bullish', '看多', '利好'):
+                    bull_signals.append(s)
+                elif direction in ('negative', 'bear', 'bearish', '看空', '利空'):
+                    bear_signals.append(s)
+                else:
+                    neutral_signals.append(s)
         
-        if entity_signals:
-            lines.extend(["## 实体信号", ""])
-            for entity, signals in sorted(entity_signals.items()):
-                latest = signals[-1]  # 最新的信号
-                direction = latest.get('direction', 'neutral')
-                emoji = {"positive": "📈", "negative": "📉", "neutral": "➡️"}.get(direction, "➡️")
-                lines.append(f"{emoji} **{entity}**: {latest.get('summary', '')}")
-                lines.append("")
+        # 多空概览
+        lines.extend([
+            "## 📈 今日信号概览",
+            "",
+            f"- 🟢 看多信号: **{len(bull_signals)}** 个",
+            f"- 🔴 看空信号: **{len(bear_signals)}** 个",
+            f"- ⚪ 中性信号: **{len(neutral_signals)}** 个",
+            ""
+        ])
         
-        # 新提及实体
-        new_entities = set()
-        for filepath in sources:
-            fm = self._load_frontmatter(filepath)
-            new_entities.update(fm.get('entities', []))
-        
-        if new_entities:
-            lines.extend(["## 新提及实体", ""])
-            for e in sorted(new_entities)[:10]:
-                lines.append(f"- {e}")
+        # 信号冲突提示
+        conflict_entities = [e for e, sigs in entity_signal_map.items()
+                            if any(s['direction'] in ('positive','bull','bullish','看多','利好') for s in sigs)
+                            and any(s['direction'] in ('negative','bear','bearish','看空','利空') for s in sigs)]
+        if conflict_entities:
+            lines.append(f"⚠️ **存在分歧的公司**: {', '.join(conflict_entities)}")
             lines.append("")
         
-        # 新提及概念
-        new_concepts = set()
+        # 看多信号
+        if bull_signals:
+            lines.extend(["## 🟢 看多信号", ""])
+            for s in bull_signals[:10]:
+                conf_emoji = "⭐" if s['confidence'] == 'high' else ""
+                lines.append(f"- **{s['entity']}** {conf_emoji}: {s['summary']}")
+            lines.append("")
+        
+        # 看空信号
+        if bear_signals:
+            lines.extend(["## 🔴 看空信号", ""])
+            for s in bear_signals[:10]:
+                conf_emoji = "⭐" if s['confidence'] == 'high' else ""
+                lines.append(f"- **{s['entity']}** {conf_emoji}: {s['summary']}")
+            lines.append("")
+        
+        # 今日提及的热门概念
+        concept_counts = defaultdict(int)
         for filepath in sources:
             fm = self._load_frontmatter(filepath)
-            new_concepts.update(fm.get('concepts', []))
+            for c in fm.get('concepts', []):
+                concept_counts[c] += 1
+        top_concepts = sorted(concept_counts.items(), key=lambda x:x[1], reverse=True)[:8]
         
-        if new_concepts:
-            lines.extend(["## 新提及概念", ""])
-            for c in sorted(new_concepts)[:10]:
-                lines.append(f"- {c}")
+        if top_concepts:
+            lines.extend(["## 💡 热门概念", ""])
+            for c, cnt in top_concepts:
+                lines.append(f"- **{c}** — {cnt}篇文章提及")
+            lines.append("")
+        
+        # 新提及实体
+        if new_entities:
+            lines.extend(["## 🏢 今日提及实体", ""])
+            lines.append(", ".join(sorted(new_entities)[:20]))
+            if len(new_entities) > 20:
+                lines.append(f"... 共{len(new_entities)}家")
             lines.append("")
         
         return '\n'.join(lines)

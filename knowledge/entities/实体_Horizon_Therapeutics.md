@@ -2,10 +2,12 @@
 name: Horizon Therapeutics
 type: company
 ticker: HZNP
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Horizon Therapeutics
+- 市场/US
+- 股票/HZNP
 aliases:
 - Horizon
 - Horizon Therapeutics
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:41:46.545197+08:00'
 ---
-
 # Horizon Therapeutics
 
 > 类型: company

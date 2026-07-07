@@ -2,10 +2,12 @@
 name: Booking Holdings
 type: company
 ticker: BKNG
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Booking Holdings
+- 市场/US
+- 股票/BKNG
 aliases:
 - Booking
 - Booking Holdings
@@ -46,7 +48,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:04:19.428398+08:00'
 ---
-
 # Booking Holdings
 
 > 类型: company

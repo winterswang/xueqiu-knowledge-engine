@@ -2,10 +2,12 @@
 name: Blackstone Digital Infrastructure Trust
 type: company
 ticker: BXDC
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Blackstone Digital Infrastructure Trust
+- 市场/US
+- 股票/BXDC
 aliases:
 - BXDC.US
 - Blackstone Digital Infrastructure Trust
@@ -16,7 +18,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:32:02.945258+08:00'
 ---
-
 # Blackstone Digital Infrastructure Trust
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: 和誉-B
 type: company
 ticker: '02256'
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/和誉-B
+- 市场/CN
+- 股票/02256
 aliases:
 - 和誉-B
 - 和誉-B(02256)
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:02:59.499557+08:00'
 ---
-
 # 和誉-B
 
 > 类型: company

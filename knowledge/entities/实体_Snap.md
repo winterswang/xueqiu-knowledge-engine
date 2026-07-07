@@ -2,10 +2,12 @@
 name: Snap
 type: company
 ticker: SNAP
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Snap
+- 市场/US
+- 股票/SNAP
 aliases:
 - Snap
 - Snap Inc.
@@ -19,7 +21,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:38:18.590701+08:00'
 ---
-
 # Snap
 
 > 类型: company

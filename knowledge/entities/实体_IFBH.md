@@ -2,10 +2,12 @@
 name: IFBH
 type: company
 ticker: 06603.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/IFBH
+- 市场/CN
+- 股票/06603.HK
 aliases:
 - IFBH
 - IFBH(06603)
@@ -26,7 +28,6 @@ timeline:
     business_line: 即食饮料（椰子水）
 last_updated: '2026-07-07T00:55:34.981653+08:00'
 ---
-
 # IFBH
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: CyberArk
 type: company
 ticker: CYBR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/CyberArk
+- 市场/US
+- 股票/CYBR
 aliases:
 - CyberArk
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:11:50.188436+08:00'
 ---
-
 # CyberArk
 
 > 类型: company

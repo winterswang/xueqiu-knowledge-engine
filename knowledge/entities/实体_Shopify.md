@@ -2,10 +2,12 @@
 name: Shopify
 type: company
 ticker: SHOP
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Shopify
+- 市场/US
+- 股票/SHOP
 aliases:
 - Shopify
 timeline:
@@ -20,7 +22,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:20:13.223541+08:00'
 ---
-
 # Shopify
 
 > 类型: company

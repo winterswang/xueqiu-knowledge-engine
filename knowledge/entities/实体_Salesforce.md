@@ -2,10 +2,12 @@
 name: Salesforce
 type: company
 ticker: CRM
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Salesforce
+- 市场/US
+- 股票/CRM
 aliases:
 - CRM
 - IdeaExchange
@@ -117,7 +119,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:02:55.497682+08:00'
 ---
-
 # Salesforce
 
 > 类型: company

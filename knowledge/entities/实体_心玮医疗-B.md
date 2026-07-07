@@ -2,10 +2,12 @@
 name: 心玮医疗-B
 type: company
 ticker: 06609.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/心玮医疗-B
+- 市场/CN
+- 股票/06609.HK
 aliases:
 - 心玮医疗-B
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T22:14:57.200700+08:00'
 ---
-
 # 心玮医疗-B
 
 > 类型: company

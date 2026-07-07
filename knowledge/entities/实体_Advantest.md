@@ -2,10 +2,12 @@
 name: Advantest
 type: company
 ticker: 6857.T
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Advantest
+- 市场/US
+- 股票/6857.T
 aliases:
 - Advantest
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:15:03.603610+08:00'
 ---
-
 # Advantest
 
 > 类型: company

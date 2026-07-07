@@ -2,10 +2,12 @@
 name: Alchip
 type: company
 ticker: 3661.TW
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Alchip
+- 市场/US
+- 股票/3661.TW
 aliases:
 - Alchip
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T22:03:04.462840+08:00'
 ---
-
 # Alchip
 
 > 类型: company

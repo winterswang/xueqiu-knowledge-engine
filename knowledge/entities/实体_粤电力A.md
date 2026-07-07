@@ -2,10 +2,12 @@
 name: 粤电力A
 type: company
 ticker: 000539.SZ
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/粤电力A
+- 市场/CN
+- 股票/000539.SZ
 aliases:
 - 粤电力A
 timeline:
@@ -24,7 +26,6 @@ timeline:
     business_line: 电力运营
 last_updated: '2026-07-06T21:46:57.786361+08:00'
 ---
-
 # 粤电力A
 
 > 类型: company

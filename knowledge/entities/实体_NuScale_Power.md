@@ -2,10 +2,12 @@
 name: NuScale Power
 type: company
 ticker: SMR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/NuScale Power
+- 市场/US
+- 股票/SMR
 aliases:
 - NuScale
 - NuScale Power
@@ -39,7 +41,6 @@ timeline:
     business_line: 整体业绩
 last_updated: '2026-07-06T18:26:19.304263+08:00'
 ---
-
 # NuScale Power
 
 > 类型: company

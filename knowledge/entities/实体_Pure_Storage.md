@@ -2,10 +2,12 @@
 name: Pure Storage
 type: company
 ticker: PSTG
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Pure Storage
+- 市场/US
+- 股票/PSTG
 aliases:
 - FlashArray
 - Pure Storage
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:39:10.855373+08:00'
 ---
-
 # Pure Storage
 
 > 类型: company

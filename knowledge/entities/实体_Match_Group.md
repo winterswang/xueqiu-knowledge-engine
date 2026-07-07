@@ -2,10 +2,12 @@
 name: Match Group
 type: company
 ticker: MTCH
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Match Group
+- 市场/US
+- 股票/MTCH
 aliases:
 - MTCH
 - Match
@@ -44,7 +46,6 @@ timeline:
     business_line: 集团整体
 last_updated: '2026-07-06T21:11:52.805083+08:00'
 ---
-
 # Match Group
 
 > 类型: company

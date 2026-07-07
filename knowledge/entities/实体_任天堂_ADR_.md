@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/任天堂(ADR)
+- 市场/US
+- 股票/NTDOY
 aliases:
 - 任天堂
 - 任天堂(ADR)
@@ -16,7 +18,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T04:11:46.264100+08:00'
 ---
-
 # 任天堂(ADR)
 
 > 类型: company

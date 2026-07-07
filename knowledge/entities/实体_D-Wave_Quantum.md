@@ -2,10 +2,12 @@
 name: D-Wave Quantum
 type: company
 ticker: QBTS.US
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/D-Wave Quantum
+- 市场/US
+- 股票/QBTS.US
 aliases:
 - $D-Wave Quantum(QBTS)$
 - D-Wave
@@ -68,7 +70,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:52:56.095472+08:00'
 ---
-
 # D-Wave Quantum
 
 > 类型: company

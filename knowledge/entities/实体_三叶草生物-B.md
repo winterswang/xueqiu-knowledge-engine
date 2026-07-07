@@ -2,10 +2,12 @@
 name: 三叶草生物-B
 type: company
 ticker: 02197.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/三叶草生物-B
+- 市场/CN
+- 股票/02197.HK
 aliases:
 - 三叶草生物-B
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T22:14:57.164816+08:00'
 ---
-
 # 三叶草生物-B
 
 > 类型: company

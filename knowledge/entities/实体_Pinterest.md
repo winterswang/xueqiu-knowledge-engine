@@ -2,10 +2,12 @@
 name: Pinterest
 type: company
 ticker: PINS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Pinterest
+- 市场/US
+- 股票/PINS
 aliases:
 - Pinterest
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:22:16.022715+08:00'
 ---
-
 # Pinterest
 
 > 类型: company

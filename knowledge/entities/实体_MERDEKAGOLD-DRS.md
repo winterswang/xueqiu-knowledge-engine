@@ -2,10 +2,12 @@
 name: MERDEKAGOLD-DRS
 type: company
 ticker: 06228.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/MERDEKAGOLD-DRS
+- 市场/CN
+- 股票/06228.HK
 aliases:
 - MERDEKAGOLD-DRS
 - MGR
@@ -37,7 +39,6 @@ timeline:
     business_line: Pani金矿
 last_updated: '2026-07-07T04:03:31.300279+08:00'
 ---
-
 # MERDEKAGOLD-DRS
 
 > 类型: company

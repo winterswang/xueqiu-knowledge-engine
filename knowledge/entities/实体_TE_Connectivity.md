@@ -2,10 +2,12 @@
 name: TE Connectivity
 type: company
 ticker: TEL
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/TE Connectivity
+- 市场/US
+- 股票/TEL
 aliases:
 - TE
 - TE Connectivity
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:15:03.602615+08:00'
 ---
-
 # TE Connectivity
 
 > 类型: company

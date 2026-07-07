@@ -2,19 +2,18 @@
 name: 万科A
 type: company
 ticker: 000002.SZ
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/万科A
+- 市场/CN
+- 股票/000002.SZ
 aliases:
 - 万科
 - 万科A
 timeline:
 - date: '2026-06-13'
   source: sources/2026-06-13-248257171.md
-  signals: []
-- date: '2026-03-05'
-  source: sources/2026-03-05-365069233.md
   signals: []
 - date: '2026-05-29'
   source: sources/2026-05-29-391786817.md
@@ -29,9 +28,11 @@ timeline:
     - 政策落地节奏存在不确定性
     quote: 国务院印发《城市更新十五五规划》。规划提出，全面摸清城市存量资产资源底数，推动已供未开发土地和在建项目分类处置
     business_line: 房地产开发
+- date: '2026-03-05'
+  source: sources/2026-03-05-365069233.md
+  signals: []
 last_updated: '2026-07-06T22:34:07.876071+08:00'
 ---
-
 # 万科A
 
 > 类型: company

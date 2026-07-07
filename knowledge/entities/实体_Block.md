@@ -2,10 +2,12 @@
 name: Block
 type: company
 ticker: XYZ
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Block
+- 市场/US
+- 股票/XYZ
 aliases:
 - $Block(XYZ)$
 - Block
@@ -74,7 +76,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:58:03.440991+08:00'
 ---
-
 # Block
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: Cadence
 type: company
 ticker: CDNS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Cadence
+- 市场/US
+- 股票/CDNS
 aliases:
 - Cadence
 timeline:
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:41:17.367835+08:00'
 ---
-
 # Cadence
 
 > 类型: company

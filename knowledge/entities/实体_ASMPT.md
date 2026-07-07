@@ -2,10 +2,12 @@
 name: ASMPT
 type: company
 ticker: 00522.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/ASMPT
+- 市场/CN
+- 股票/00522.HK
 aliases:
 - ASMPT
 - ASMPT（00522.HK）
@@ -32,7 +34,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:28:59.250188+08:00'
 ---
-
 # ASMPT
 
 > 类型: company

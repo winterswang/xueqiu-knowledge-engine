@@ -4,6 +4,7 @@ definition: 支撑AI模型训练与推理的服务器及硬件需求，带动上
 tags:
 - _concept_page
 - 概念
+- 概念/AI算力基础设施
 entities:
 - AMD
 - Marvell Technology

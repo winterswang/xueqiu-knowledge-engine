@@ -2,10 +2,12 @@
 name: Intuitive Machines
 type: company
 ticker: LUNR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Intuitive Machines
+- 市场/US
+- 股票/LUNR
 aliases:
 - Intuitive Machines
 timeline:
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:51:47.822225+08:00'
 ---
-
 # Intuitive Machines
 
 > 类型: company

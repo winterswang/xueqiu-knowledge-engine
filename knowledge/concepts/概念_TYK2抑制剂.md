@@ -4,6 +4,7 @@ definition: 选择性酪氨酸激酶2（TYK2）抑制剂，为自身免疫疾病
 tags:
 - _concept_page
 - 概念
+- 概念/TYK2抑制剂
 entities:
 - 华健未来
 - 华健未来-B

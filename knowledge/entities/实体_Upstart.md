@@ -2,10 +2,12 @@
 name: Upstart
 type: company
 ticker: UPST
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Upstart
+- 市场/US
+- 股票/UPST
 aliases:
 - Upstart
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:58:03.437084+08:00'
 ---
-
 # Upstart
 
 > 类型: company

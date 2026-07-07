@@ -2,10 +2,12 @@
 name: Cloudflare
 type: company
 ticker: NET
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Cloudflare
+- 市场/US
+- 股票/NET
 aliases:
 - Cloudflare
 timeline:
@@ -20,7 +22,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:52:10.819782+08:00'
 ---
-
 # Cloudflare
 
 > 类型: company

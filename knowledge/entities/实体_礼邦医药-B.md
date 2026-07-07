@@ -2,7 +2,7 @@
 name: 礼邦医药-B
 type: company
 ticker: 09637.HK
-market: ''
+market: CN
 aliases:
 - 礼邦医药
 - 礼邦医药-B
@@ -57,8 +57,9 @@ last_updated: '2026-07-07T02:29:58.257367+08:00'
 tags:
 - _entity_page
 - 实体/礼邦医药-B
+- 市场/CN
+- 股票/09637.HK
 ---
-
 # 礼邦医药-B
 
 > 类型: company

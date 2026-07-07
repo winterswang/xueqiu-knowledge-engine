@@ -2,10 +2,12 @@
 name: 真健康医疗-B
 type: company
 ticker: 02697.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/真健康医疗-B
+- 市场/CN
+- 股票/02697.HK
 aliases:
 - 真健康医疗
 - 真健康医疗-B
@@ -26,7 +28,6 @@ timeline:
     business_line: 经皮穿刺手术机器人及消融手术机器人
 last_updated: '2026-07-07T02:43:57.064564+08:00'
 ---
-
 # 真健康医疗-B
 
 > 类型: company

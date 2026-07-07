@@ -2,26 +2,31 @@
 name: 地平线机器人-W
 type: company
 ticker: 09660.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/地平线机器人-W
+- 市场/CN
+- 股票/09660.HK
 aliases:
 - 地平线
+- 地平线机器人
 - 地平线机器人-W
 timeline:
-- date: '2026-05-27'
-  source: sources/2026-05-27-391280892.md
-  signals: []
 - date: '2026-06-27'
   source: sources/2026-06-27-396879065.md
   signals: []
 - date: '2026-06-26'
   source: sources/2026-06-26-397009522.md
   signals: []
+- date: '2026-05-28'
+  source: sources/2026-05-28-391567952.md
+  signals: []
+- date: '2026-05-27'
+  source: sources/2026-05-27-391280892.md
+  signals: []
 last_updated: '2026-07-07T04:04:55.975580+08:00'
 ---
-
 # 地平线机器人-W
 
 > 类型: company

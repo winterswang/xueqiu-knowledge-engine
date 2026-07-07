@@ -2,10 +2,12 @@
 name: Figma
 type: company
 ticker: FIG
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Figma
+- 市场/US
+- 股票/FIG
 aliases:
 - Figma
 - 协同设计巨头
@@ -36,7 +38,6 @@ timeline:
     business_line: Figma Weave / 品牌资产管理
 last_updated: '2026-07-07T03:52:48.960769+08:00'
 ---
-
 # Figma
 
 > 类型: company

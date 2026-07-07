@@ -2,10 +2,12 @@
 name: Blue Owl Capital
 type: company
 ticker: OWL
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Blue Owl Capital
+- 市场/US
+- 股票/OWL
 aliases:
 - Blue Owl
 - Blue Owl Capital
@@ -19,7 +21,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:19:20.221326+08:00'
 ---
-
 # Blue Owl Capital
 
 > 类型: company

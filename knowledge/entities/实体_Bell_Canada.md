@@ -2,10 +2,12 @@
 name: Bell Canada
 type: company
 ticker: BCE
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Bell Canada
+- 市场/US
+- 股票/BCE
 aliases:
 - Bell Canada
 - 加拿大贝尔
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:44:12.689302+08:00'
 ---
-
 # Bell Canada
 
 > 类型: company

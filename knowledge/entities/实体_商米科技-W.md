@@ -2,10 +2,12 @@
 name: 商米科技-W
 type: company
 ticker: 06810
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/商米科技-W
+- 市场/CN
+- 股票/06810
 aliases:
 - 商米科技-W
 timeline:
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:27:41.019235+08:00'
 ---
-
 # 商米科技-W
 
 > 类型: company

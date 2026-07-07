@@ -2,10 +2,12 @@
 name: MercadoLibre
 type: company
 ticker: MELI
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/MercadoLibre
+- 市场/US
+- 股票/MELI
 aliases:
 - MELI
 - Meli
@@ -42,7 +44,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:34:20.940527+08:00'
 ---
-
 # MercadoLibre
 
 > 类型: company

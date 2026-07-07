@@ -2,10 +2,12 @@
 name: MongoDB
 type: company
 ticker: MDB
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/MongoDB
+- 市场/US
+- 股票/MDB
 aliases:
 - MDB
 - MongoDB
@@ -64,7 +66,6 @@ timeline:
     business_line: Enterprise Advanced (本地高级版)
 last_updated: '2026-07-07T01:02:35.222555+08:00'
 ---
-
 # MongoDB
 
 > 类型: company

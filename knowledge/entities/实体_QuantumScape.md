@@ -2,10 +2,12 @@
 name: QuantumScape
 type: company
 ticker: QS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/QuantumScape
+- 市场/US
+- 股票/QS
 aliases:
 - QS
 - QuantumScape
@@ -37,7 +39,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-07T01:33:03.985364+08:00'
 ---
-
 # QuantumScape
 
 > 类型: company

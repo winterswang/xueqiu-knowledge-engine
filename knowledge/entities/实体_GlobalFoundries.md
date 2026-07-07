@@ -2,10 +2,12 @@
 name: GlobalFoundries
 type: company
 ticker: GFS.US
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/GlobalFoundries
+- 市场/US
+- 股票/GFS.US
 aliases:
 - GlobalFoundries
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:52:56.100624+08:00'
 ---
-
 # GlobalFoundries
 
 > 类型: company

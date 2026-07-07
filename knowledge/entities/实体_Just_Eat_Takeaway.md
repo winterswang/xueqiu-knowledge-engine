@@ -2,10 +2,12 @@
 name: Just Eat Takeaway
 type: company
 ticker: TKWY
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Just Eat Takeaway
+- 市场/US
+- 股票/TKWY
 aliases:
 - Just Eat Takeaway
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:48:10.824839+08:00'
 ---
-
 # Just Eat Takeaway
 
 > 类型: company

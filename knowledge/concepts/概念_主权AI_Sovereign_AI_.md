@@ -4,6 +4,7 @@ definition: 各国政府主导建设的本土AI算力基础设施需求
 tags:
 - _concept_page
 - 概念
+- 概念/主权AI(Sovereign AI)
 entities:
 - CoreWeave
 - 英伟达

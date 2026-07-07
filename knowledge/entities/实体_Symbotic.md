@@ -2,10 +2,12 @@
 name: Symbotic
 type: company
 ticker: SYM
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Symbotic
+- 市场/US
+- 股票/SYM
 aliases:
 - Symbotic
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:21:03.136427+08:00'
 ---
-
 # Symbotic
 
 > 类型: company

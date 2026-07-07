@@ -2,10 +2,12 @@
 name: Take-Two Interactive
 type: company
 ticker: TTWO
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Take-Two Interactive
+- 市场/US
+- 股票/TTWO
 aliases:
 - Take-Two
 - Take-Two Interactive
@@ -37,7 +39,6 @@ timeline:
     business_line: 数字分发与在线服务
 last_updated: '2026-07-07T04:11:46.257596+08:00'
 ---
-
 # Take-Two Interactive
 
 > 类型: company

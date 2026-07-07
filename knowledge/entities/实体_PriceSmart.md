@@ -2,10 +2,12 @@
 name: PriceSmart
 type: company
 ticker: PSMT
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/PriceSmart
+- 市场/US
+- 股票/PSMT
 aliases:
 - PSMT
 - PriceSmart
@@ -27,7 +29,6 @@ timeline:
     business_line: 拉美仓储会员零售
 last_updated: '2026-07-06T23:29:25.822880+08:00'
 ---
-
 # PriceSmart
 
 > 类型: company

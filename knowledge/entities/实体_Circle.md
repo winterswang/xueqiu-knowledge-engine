@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/Circle
+- 市场/US
+- 股票/CRCL
 aliases:
 - CRCL
 - Circle
@@ -68,7 +70,6 @@ timeline:
     business_line: Agentic Payments / Arc区块链
 last_updated: '2026-07-06T18:20:53.312256+08:00'
 ---
-
 # Circle
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: 网易-S
 type: company
 ticker: 09999
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/网易-S
+- 市场/CN
+- 股票/09999
 aliases:
 - 网易-S
 - 网易-S(09999)
@@ -21,7 +23,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:33:28.691454+08:00'
 ---
-
 # 网易-S
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: 麦科医药-B
 type: company
 ticker: 02335.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/麦科医药-B
+- 市场/CN
+- 股票/02335.HK
 aliases:
 - 02335.HK
 - 麦科医药
@@ -56,7 +58,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:17:09.804668+08:00'
 ---
-
 # 麦科医药-B
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: Antero Resources
 type: company
 ticker: AR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Antero Resources
+- 市场/US
+- 股票/AR
 aliases:
 - Antero Resources
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T17:49:00.229386+08:00'
 ---
-
 # Antero Resources
 
 > 类型: company

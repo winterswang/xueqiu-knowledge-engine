@@ -2,10 +2,12 @@
 name: Webull
 type: company
 ticker: BULL
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Webull
+- 市场/US
+- 股票/BULL
 aliases:
 - Webull
 - 微牛
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:15:37.876869+08:00'
 ---
-
 # Webull
 
 > 类型: company

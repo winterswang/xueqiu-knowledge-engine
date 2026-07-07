@@ -2,10 +2,12 @@
 name: Mattel
 type: company
 ticker: MAT
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Mattel
+- 市场/US
+- 股票/MAT
 aliases:
 - Mattel
 - 芭比
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:44:47.177877+08:00'
 ---
-
 # Mattel
 
 > 类型: company

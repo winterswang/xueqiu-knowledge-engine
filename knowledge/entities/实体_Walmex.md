@@ -2,10 +2,12 @@
 name: Walmex
 type: company
 ticker: WALMEX
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Walmex
+- 市场/US
+- 股票/WALMEX
 aliases:
 - Walmex
 - Walmex（墨西哥 + 中美洲）
@@ -16,7 +18,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:01:30.489084+08:00'
 ---
-
 # Walmex
 
 > 类型: company

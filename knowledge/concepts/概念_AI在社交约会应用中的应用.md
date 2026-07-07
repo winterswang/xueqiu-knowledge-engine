@@ -4,6 +4,7 @@ definition: AI算法在匹配推荐、信任安全、前端交互（如Chemistry
 tags:
 - _concept_page
 - 概念
+- 概念/AI在社交约会应用中的应用
 entities:
 - Match Group
 sources:

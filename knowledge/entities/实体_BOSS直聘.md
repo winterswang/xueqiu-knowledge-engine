@@ -2,10 +2,12 @@
 name: BOSS直聘
 type: company
 ticker: '02076'
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/BOSS直聘
+- 市场/CN
+- 股票/02076
 aliases:
 - BOSS Zhipin
 - BOSS直聘
@@ -52,7 +54,6 @@ timeline:
     business_line: 在线招聘主业
 last_updated: '2026-07-06T20:29:02.674765+08:00'
 ---
-
 # BOSS直聘
 
 > 类型: company

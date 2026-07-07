@@ -2,10 +2,12 @@
 name: Maxar
 type: company
 ticker: MAXR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Maxar
+- 市场/US
+- 股票/MAXR
 aliases:
 - Maxar
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:24:13.413252+08:00'
 ---
-
 # Maxar
 
 > 类型: company

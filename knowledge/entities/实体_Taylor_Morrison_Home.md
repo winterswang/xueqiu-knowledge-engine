@@ -2,10 +2,12 @@
 name: Taylor Morrison Home
 type: company
 ticker: TMHC
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Taylor Morrison Home
+- 市场/US
+- 股票/TMHC
 aliases:
 - TMHC
 - Taylor Morrison
@@ -26,7 +28,6 @@ timeline:
     business_line: 住宅建筑
 last_updated: '2026-07-06T22:45:26.895503+08:00'
 ---
-
 # Taylor Morrison Home
 
 > 类型: company

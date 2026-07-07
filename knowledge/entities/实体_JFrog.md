@@ -2,10 +2,12 @@
 name: JFrog
 type: company
 ticker: FROG
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/JFrog
+- 市场/US
+- 股票/FROG
 aliases:
 - JFrog
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T22:00:47.658474+08:00'
 ---
-
 # JFrog
 
 > 类型: company

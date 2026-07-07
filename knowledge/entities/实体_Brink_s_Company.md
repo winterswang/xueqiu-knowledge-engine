@@ -2,10 +2,12 @@
 name: Brink's Company
 type: company
 ticker: BCO
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Brink's Company
+- 市场/US
+- 股票/BCO
 aliases:
 - Brink's
 - Brink's Company
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:02:10.077137+08:00'
 ---
-
 # Brink's Company
 
 > 类型: company

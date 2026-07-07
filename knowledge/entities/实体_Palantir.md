@@ -2,10 +2,12 @@
 name: Palantir
 type: company
 ticker: PLTR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Palantir
+- 市场/US
+- 股票/PLTR
 aliases:
 - $Palantir(PLTR)$
 - Palantir
@@ -38,7 +40,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:47:23.932400+08:00'
 ---
-
 # Palantir
 
 > 类型: company

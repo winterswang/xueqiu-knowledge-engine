@@ -2,10 +2,12 @@
 name: Yelp
 type: company
 ticker: YELP
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Yelp
+- 市场/US
+- 股票/YELP
 aliases:
 - Yelp
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:22:16.023748+08:00'
 ---
-
 # Yelp
 
 > 类型: company

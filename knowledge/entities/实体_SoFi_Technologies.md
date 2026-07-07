@@ -2,10 +2,12 @@
 name: SoFi Technologies
 type: company
 ticker: SOFI
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/SoFi Technologies
+- 市场/US
+- 股票/SOFI
 aliases:
 - SOFI
 - SoFi
@@ -65,7 +67,6 @@ timeline:
     business_line: 一站式金融平台业务
 last_updated: '2026-07-07T02:19:20.217117+08:00'
 ---
-
 # SoFi Technologies
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: 华健未来-B
 type: company
 ticker: '06132'
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/华健未来-B
+- 市场/CN
+- 股票/06132
 aliases:
 - 华健未来
 - 华健未来-B
@@ -54,7 +56,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:13:11.635800+08:00'
 ---
-
 # 华健未来-B
 
 > 类型: company

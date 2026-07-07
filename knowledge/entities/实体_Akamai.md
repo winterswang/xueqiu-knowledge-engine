@@ -2,10 +2,12 @@
 name: Akamai
 type: company
 ticker: AKAM
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Akamai
+- 市场/US
+- 股票/AKAM
 aliases:
 - Akamai
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:58:18.188517+08:00'
 ---
-
 # Akamai
 
 > 类型: company

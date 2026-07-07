@@ -2,10 +2,12 @@
 name: Workday
 type: company
 ticker: WDAY
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Workday
+- 市场/US
+- 股票/WDAY
 aliases:
 - Workday
 timeline:
@@ -37,7 +39,6 @@ timeline:
     business_line: 整体订阅业务
 last_updated: '2026-07-06T18:09:28.615222+08:00'
 ---
-
 # Workday
 
 > 类型: company

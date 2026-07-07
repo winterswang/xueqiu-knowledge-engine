@@ -2,10 +2,12 @@
 name: Morgan Stanley
 type: company
 ticker: MS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Morgan Stanley
+- 市场/US
+- 股票/MS
 aliases:
 - Morgan Stanley
 - 摩根士丹利
@@ -33,7 +35,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:49:48.453692+08:00'
 ---
-
 # Morgan Stanley
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: HASHKEY HLDGS
 type: company
 ticker: 03887.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/HASHKEY HLDGS
+- 市场/CN
+- 股票/03887.HK
 aliases:
 - 03887
 - HASHKEY HLDGS
@@ -36,7 +38,6 @@ timeline:
     business_line: 交易业务
 last_updated: '2026-07-07T01:41:30.422023+08:00'
 ---
-
 # HASHKEY HLDGS
 
 > 类型: company

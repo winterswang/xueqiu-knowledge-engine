@@ -2,10 +2,12 @@
 name: Panasonic
 type: company
 ticker: 6752.T
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Panasonic
+- 市场/US
+- 股票/6752.T
 aliases:
 - Panasonic
 - 松下
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:33:04.012572+08:00'
 ---
-
 # Panasonic
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: Fiserv
 type: company
 ticker: FI
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Fiserv
+- 市场/US
+- 股票/FI
 aliases:
 - Fiserv
 timeline:
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:58:03.444066+08:00'
 ---
-
 # Fiserv
 
 > 类型: company

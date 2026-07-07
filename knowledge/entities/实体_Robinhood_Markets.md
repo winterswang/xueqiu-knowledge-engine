@@ -2,64 +2,26 @@
 name: Robinhood Markets
 type: company
 ticker: HOOD
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Robinhood Markets
+- 市场/US
+- 股票/HOOD
 aliases:
+- $Robinhood (HOOD.US)$
 - HOOD
 - Robinhood
 - Robinhood Markets
 - 我们
+- 罗宾汉风投
 timeline:
-- date: '2026-03-04'
-  source: sources/2026-03-04-377972008.md
-  signals:
-  - entity: Robinhood Markets
-    direction: positive
-    confidence: high
-    time_frame: medium_term
-    summary: 2026年不会消化年，多业务线驱动加速增长
-    caveats:
-    - 增长非线性
-    - 约85%为固定成本，依赖市场环境
-    quote: 2026年我们希望跑得更快。我不会称之为消化年。我们正在加大油门。
-    business_line: 整体
-  - entity: Robinhood Markets
-    direction: positive
-    confidence: high
-    time_frame: long_term
-    summary: 预测市场、代币化与私募市场构成长期超级周期机会
-    caveats:
-    - 处于非常早期阶段
-    - 需要监管清晰性
-    quote: 我们认为我们正处于预测市场超级周期的开端……这只是开始，非常非常早期的阶段。
-    business_line: 预测市场/代币化/私募市场
-- date: '2026-05-28'
-  source: sources/2026-05-28-391461484.md
-  signals:
-  - entity: Robinhood Markets
-    direction: positive
-    confidence: high
-    time_frame: long_term
-    summary: 多产品矩阵+国际化+私募市场打开万亿AUM空间
-    caveats:
-    - 竞争对手像素级模仿
-    - 国际化需5-10年长期兑现
-    - 私募基金一号仍处早期
-    quote: 我们的竞争对手已经证明了平台资产是可以做到几十万亿规模的，这在结构上没有不可逾越的鸿沟……这就是我们迈向 1 万亿美元资产大关的底气所在。
-    business_line: 整体平台/财富管理
-  - entity: Robinhood Markets
-    direction: positive
-    confidence: high
-    time_frame: short_term
-    summary: 变现率企稳+15亿回购+证券借贷回暖支撑业绩
-    caveats:
-    - 加密货币变现率仍受结构性下滑压制
-    - 期权变现率受ETF迁移影响
-    - 证券借贷依赖IPO市场回暖
-    quote: 目前这个数字已经推进到了 3.5 亿美元……我们刚刚对外高调官宣了一项高达 15 亿美元的股票回购计划，继续疯狂在二级市场扫货。
-    business_line: 证券经纪/加密/证券借贷
+- date: '2026-06-19'
+  source: sources/2026-06-19-395431416.md
+  signals: []
+- date: '2026-06-16'
+  source: sources/2026-06-16-395049910.md
+  signals: []
 - date: '2026-06-08'
   source: sources/2026-06-08-393584598.md
   signals:
@@ -85,12 +47,59 @@ timeline:
     - 客户资产管理规模仍远低于获客规模(10%美国成年人/不到1%零售资产)
     quote: 10%的美国成年人拥有Robinhood账户，但你们所占的美国零售资产总额却不到1%。高达124万亿美元的财富转移已经拉开帷幕。
     business_line: 财富管理
-- date: '2026-06-19'
-  source: sources/2026-06-19-395431416.md
+- date: '2026-06-02'
+  source: sources/2026-06-02-392248874.md
   signals: []
+- date: '2026-05-28'
+  source: sources/2026-05-28-391461484.md
+  signals:
+  - entity: Robinhood Markets
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 多产品矩阵+国际化+私募市场打开万亿AUM空间
+    caveats:
+    - 竞争对手像素级模仿
+    - 国际化需5-10年长期兑现
+    - 私募基金一号仍处早期
+    quote: 我们的竞争对手已经证明了平台资产是可以做到几十万亿规模的，这在结构上没有不可逾越的鸿沟……这就是我们迈向 1 万亿美元资产大关的底气所在。
+    business_line: 整体平台/财富管理
+  - entity: Robinhood Markets
+    direction: positive
+    confidence: high
+    time_frame: short_term
+    summary: 变现率企稳+15亿回购+证券借贷回暖支撑业绩
+    caveats:
+    - 加密货币变现率仍受结构性下滑压制
+    - 期权变现率受ETF迁移影响
+    - 证券借贷依赖IPO市场回暖
+    quote: 目前这个数字已经推进到了 3.5 亿美元……我们刚刚对外高调官宣了一项高达 15 亿美元的股票回购计划，继续疯狂在二级市场扫货。
+    business_line: 证券经纪/加密/证券借贷
+- date: '2026-03-04'
+  source: sources/2026-03-04-377972008.md
+  signals:
+  - entity: Robinhood Markets
+    direction: positive
+    confidence: high
+    time_frame: medium_term
+    summary: 2026年不会消化年，多业务线驱动加速增长
+    caveats:
+    - 增长非线性
+    - 约85%为固定成本，依赖市场环境
+    quote: 2026年我们希望跑得更快。我不会称之为消化年。我们正在加大油门。
+    business_line: 整体
+  - entity: Robinhood Markets
+    direction: positive
+    confidence: high
+    time_frame: long_term
+    summary: 预测市场、代币化与私募市场构成长期超级周期机会
+    caveats:
+    - 处于非常早期阶段
+    - 需要监管清晰性
+    quote: 我们认为我们正处于预测市场超级周期的开端……这只是开始，非常非常早期的阶段。
+    business_line: 预测市场/代币化/私募市场
 last_updated: '2026-07-07T02:20:13.178452+08:00'
 ---
-
 # Robinhood Markets
 
 > 类型: company

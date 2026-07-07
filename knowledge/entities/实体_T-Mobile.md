@@ -2,10 +2,12 @@
 name: T-Mobile
 type: company
 ticker: TMUS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/T-Mobile
+- 市场/US
+- 股票/TMUS
 aliases:
 - T-Mobile
 - T-Mobile 美国
@@ -22,7 +24,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T04:12:41.593119+08:00'
 ---
-
 # T-Mobile
 
 > 类型: company

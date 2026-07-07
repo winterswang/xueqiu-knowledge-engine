@@ -2,10 +2,12 @@
 name: 翰思艾泰-B
 type: company
 ticker: 03378.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/翰思艾泰-B
+- 市场/CN
+- 股票/03378.HK
 aliases:
 - 翰思艾泰
 - 翰思艾泰-B
@@ -33,7 +35,6 @@ timeline:
     business_line: 整体公司
 last_updated: '2026-07-06T23:03:55.622295+08:00'
 ---
-
 # 翰思艾泰-B
 
 > 类型: company

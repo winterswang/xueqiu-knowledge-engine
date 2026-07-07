@@ -2,10 +2,12 @@
 name: 沐曦股份-U
 type: company
 ticker: SH688802
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/沐曦股份-U
+- 市场/US
+- 股票/SH688802
 aliases:
 - 沐曦股份-U
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:08:02.653460+08:00'
 ---
-
 # 沐曦股份-U
 
 > 类型: company

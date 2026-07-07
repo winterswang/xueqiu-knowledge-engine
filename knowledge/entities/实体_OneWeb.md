@@ -2,10 +2,12 @@
 name: OneWeb
 type: company
 ticker: ETL.PA
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/OneWeb
+- 市场/US
+- 股票/ETL.PA
 aliases:
 - OneWeb
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:40:21.303759+08:00'
 ---
-
 # OneWeb
 
 > 类型: company

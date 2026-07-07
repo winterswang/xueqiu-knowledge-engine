@@ -2,10 +2,12 @@
 name: 东曜药业-B
 type: company
 ticker: 01875
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/东曜药业-B
+- 市场/CN
+- 股票/01875
 aliases:
 - 东曜药业-B
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:01:38.997458+08:00'
 ---
-
 # 东曜药业-B
 
 > 类型: company

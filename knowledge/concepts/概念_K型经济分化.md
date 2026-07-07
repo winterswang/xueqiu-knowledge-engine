@@ -4,6 +4,7 @@ definition: 科技行业资本开支增速超10%而内需相关领域下降近10
 tags:
 - _concept_page
 - 概念
+- 概念/K型经济分化
 entities: []
 sources:
 - sources/2026-06-08-393519327.md

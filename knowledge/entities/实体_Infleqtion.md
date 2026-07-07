@@ -2,10 +2,12 @@
 name: Infleqtion
 type: company
 ticker: INFQ.US
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Infleqtion
+- 市场/US
+- 股票/INFQ.US
 aliases:
 - Infleqtion
 - Infleqtion（INFQ.US）
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:52:56.100096+08:00'
 ---
-
 # Infleqtion
 
 > 类型: company

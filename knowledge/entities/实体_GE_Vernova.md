@@ -2,10 +2,12 @@
 name: GE Vernova
 type: company
 ticker: GEV
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/GE Vernova
+- 市场/US
+- 股票/GEV
 aliases:
 - GE
 - GE Vernova
@@ -37,7 +39,6 @@ timeline:
     business_line: 燃气轮机制造
 last_updated: '2026-07-07T04:13:22.116723+08:00'
 ---
-
 # GE Vernova
 
 > 类型: company

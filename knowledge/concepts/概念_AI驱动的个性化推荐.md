@@ -4,6 +4,7 @@ definition: 利用大语言模型等生成式AI技术，让用户通过自然语
 tags:
 - _concept_page
 - 概念
+- 概念/AI驱动的个性化推荐
 entities:
 - Airbnb
 - Gustaf Söderström

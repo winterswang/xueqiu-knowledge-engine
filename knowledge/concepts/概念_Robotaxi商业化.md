@@ -4,6 +4,7 @@ definition: L4级自动驾驶出行服务的规模化商业落地，包括车队
 tags:
 - _concept_page
 - 概念
+- 概念/Robotaxi商业化
 entities:
 - 小马智行
 - 小马智行-W

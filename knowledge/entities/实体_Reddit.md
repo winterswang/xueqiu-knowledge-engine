@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/Reddit
+- 市场/US
+- 股票/RDDT
 aliases:
 - Reddit
 timeline:
@@ -33,7 +35,6 @@ timeline:
     business_line: 整体业务/资本配置
 last_updated: '2026-07-07T00:20:06.851928+08:00'
 ---
-
 # Reddit
 
 > 类型: company

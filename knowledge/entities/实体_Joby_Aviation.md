@@ -2,10 +2,12 @@
 name: Joby Aviation
 type: company
 ticker: JOBY
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Joby Aviation
+- 市场/US
+- 股票/JOBY
 aliases:
 - Joby
 - Joby Aviation
@@ -30,7 +32,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:26:41.003574+08:00'
 ---
-
 # Joby Aviation
 
 > 类型: company

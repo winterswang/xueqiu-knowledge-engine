@@ -2,9 +2,10 @@
 name: Lululemon Athletica
 type: company
 ticker: LULU
-market: ''
+market: US
 aliases:
 - $Lululemon Athletica(LULU)$
+- LULU
 - Lululemon
 - Lululemon Athletica
 timeline:
@@ -33,8 +34,9 @@ last_updated: '2026-07-06T23:35:47.119962+08:00'
 tags:
 - _entity_page
 - 实体/Lululemon Athletica
+- 市场/US
+- 股票/LULU
 ---
-
 # Lululemon Athletica
 
 > 类型: company

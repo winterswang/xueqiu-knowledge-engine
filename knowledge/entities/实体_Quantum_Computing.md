@@ -2,10 +2,12 @@
 name: Quantum Computing
 type: company
 ticker: QUBT
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Quantum Computing
+- 市场/US
+- 股票/QUBT
 aliases:
 - QUBT
 - Quantum
@@ -42,7 +44,6 @@ timeline:
     business_line: 整体业务
 last_updated: '2026-07-06T18:28:43.694406+08:00'
 ---
-
 # Quantum Computing
 
 > 类型: company

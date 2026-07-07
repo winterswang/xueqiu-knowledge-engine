@@ -2,10 +2,12 @@
 name: Prada
 type: company
 ticker: 1913.HK
-market: ''
+market: HK
 tags:
 - _entity_page
 - 实体/Prada
+- 市场/HK
+- 股票/1913.HK
 aliases:
 - Prada
 - 普拉达
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T22:19:41.828977+08:00'
 ---
-
 # Prada
 
 > 类型: company

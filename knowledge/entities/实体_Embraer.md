@@ -2,10 +2,12 @@
 name: Embraer
 type: company
 ticker: ERJ
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Embraer
+- 市场/US
+- 股票/ERJ
 aliases:
 - Embraer
 - 巴西航空工业
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:26:41.007573+08:00'
 ---
-
 # Embraer
 
 > 类型: company

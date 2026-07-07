@@ -2,10 +2,12 @@
 name: VIZIO
 type: company
 ticker: VZIO
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/VIZIO
+- 市场/US
+- 股票/VZIO
 aliases:
 - VIZIO
 timeline:
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:38:56.049913+08:00'
 ---
-
 # VIZIO
 
 > 类型: company

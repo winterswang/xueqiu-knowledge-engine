@@ -2,10 +2,12 @@
 name: 理想汽车-W
 type: company
 ticker: 02015.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/理想汽车-W
+- 市场/CN
+- 股票/02015.HK
 aliases:
 - 理想汽车
 - 理想汽车-W
@@ -19,7 +21,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:42:11.516543+08:00'
 ---
-
 # 理想汽车-W
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: Vodafone Group
 type: company
 ticker: VOD
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Vodafone Group
+- 市场/US
+- 股票/VOD
 aliases:
 - Vodafone
 - Vodafone Group
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:29:47.454608+08:00'
 ---
-
 # Vodafone Group
 
 > 类型: company

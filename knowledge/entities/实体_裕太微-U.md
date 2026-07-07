@@ -2,10 +2,12 @@
 name: 裕太微-U
 type: company
 ticker: SH688515
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/裕太微-U
+- 市场/US
+- 股票/SH688515
 aliases:
 - 裕太微-U
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:08:02.653909+08:00'
 ---
-
 # 裕太微-U
 
 > 类型: company

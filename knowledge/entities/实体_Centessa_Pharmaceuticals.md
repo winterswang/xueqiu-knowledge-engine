@@ -2,10 +2,12 @@
 name: Centessa Pharmaceuticals
 type: company
 ticker: CSTA
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Centessa Pharmaceuticals
+- 市场/US
+- 股票/CSTA
 aliases:
 - Centessa
 - Centessa Pharmaceuticals
@@ -19,7 +21,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:06:26.635184+08:00'
 ---
-
 # Centessa Pharmaceuticals
 
 > 类型: company

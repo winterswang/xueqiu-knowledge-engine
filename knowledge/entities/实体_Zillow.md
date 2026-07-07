@@ -2,10 +2,12 @@
 name: Zillow
 type: company
 ticker: Z
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Zillow
+- 市场/US
+- 股票/Z
 aliases:
 - Zillow
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:11:52.807289+08:00'
 ---
-
 # Zillow
 
 > 类型: company

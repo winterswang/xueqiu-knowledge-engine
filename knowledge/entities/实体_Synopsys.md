@@ -2,10 +2,12 @@
 name: Synopsys
 type: company
 ticker: SNPS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Synopsys
+- 市场/US
+- 股票/SNPS
 aliases:
 - Synopsys
 - 新思科技
@@ -18,7 +20,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:41:17.369446+08:00'
 ---
-
 # Synopsys
 
 > 类型: company

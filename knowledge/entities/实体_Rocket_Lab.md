@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/Rocket Lab
+- 市场/US
+- 股票/RKLB
 aliases:
 - $Rocket Lab(RKLB)$
 - RKLB
@@ -198,7 +200,6 @@ timeline:
     business_line: 航天卫星制造
 last_updated: '2026-07-07T03:03:39.345814+08:00'
 ---
-
 # Rocket Lab
 
 > 类型: company

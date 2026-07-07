@@ -4,6 +4,7 @@ definition: 利用生成式AI、视频生成工具、智能推荐模型等提升
 tags:
 - _concept_page
 - 概念
+- 概念/AI驱动的广告变现
 entities:
 - Meta
 - 哔哩哔哩

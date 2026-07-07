@@ -2,10 +2,12 @@
 name: Madison Air Solutions
 type: company
 ticker: MAIR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Madison Air Solutions
+- 市场/US
+- 股票/MAIR
 aliases:
 - Madison Air Solutions
 - Madison Air Solutions(MAIR.US)
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:32:02.944308+08:00'
 ---
-
 # Madison Air Solutions
 
 > 类型: company

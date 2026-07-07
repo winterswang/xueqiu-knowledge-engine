@@ -4,6 +4,7 @@ definition: 以世界模型为基座、面向物理世界的AI技术体系，覆
 tags:
 - _concept_page
 - 概念
+- 概念/物理AI
 entities:
 - Momenta
 - 美格智能

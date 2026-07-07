@@ -2,10 +2,12 @@
 name: Interactive Brokers
 type: company
 ticker: IBKR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Interactive Brokers
+- 市场/US
+- 股票/IBKR
 aliases:
 - ForecastEx
 - Interactive Brokers
@@ -19,7 +21,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:15:37.875220+08:00'
 ---
-
 # Interactive Brokers
 
 > 类型: company

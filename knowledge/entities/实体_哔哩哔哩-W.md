@@ -2,10 +2,12 @@
 name: 哔哩哔哩-W
 type: company
 ticker: 09626.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/哔哩哔哩-W
+- 市场/CN
+- 股票/09626.HK
 aliases:
 - B站
 - 哔哩哔哩
@@ -35,7 +37,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T04:04:55.954245+08:00'
 ---
-
 # 哔哩哔哩-W
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: Sea Limited
 type: company
 ticker: SE
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Sea Limited
+- 市场/US
+- 股票/SE
 aliases:
 - $Sea Limited(SE)$
 - SE
@@ -70,7 +72,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:48:02.540192+08:00'
 ---
-
 # Sea Limited
 
 > 类型: company

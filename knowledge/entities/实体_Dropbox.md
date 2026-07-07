@@ -2,10 +2,12 @@
 name: Dropbox
 type: company
 ticker: DBX
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Dropbox
+- 市场/US
+- 股票/DBX
 aliases:
 - Dropbox
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:22:16.025111+08:00'
 ---
-
 # Dropbox
 
 > 类型: company

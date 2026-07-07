@@ -4,6 +4,7 @@ definition: 生成式AI在内容创作、个性化推荐、运营效率提升等
 tags:
 - _concept_page
 - 概念
+- 概念/AI在娱乐行业的应用
 entities:
 - 迪士尼
 sources:

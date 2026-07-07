@@ -2,10 +2,12 @@
 name: Unity
 type: company
 ticker: U
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Unity
+- 市场/US
+- 股票/U
 aliases:
 - $Unity(U)$
 - Unity
@@ -39,7 +41,6 @@ timeline:
     business_line: 整体
 last_updated: '2026-07-06T18:00:42.868631+08:00'
 ---
-
 # Unity
 
 > 类型: company

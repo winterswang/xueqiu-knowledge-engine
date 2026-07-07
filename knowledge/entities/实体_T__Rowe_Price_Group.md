@@ -2,10 +2,12 @@
 name: T. Rowe Price Group
 type: company
 ticker: TROW
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/T. Rowe Price Group
+- 市场/US
+- 股票/TROW
 aliases:
 - T. Rowe Price Group
 - 普信
@@ -27,7 +29,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-07T02:12:38.268369+08:00'
 ---
-
 # T. Rowe Price Group
 
 > 类型: company

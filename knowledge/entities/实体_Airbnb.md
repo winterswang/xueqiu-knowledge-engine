@@ -2,10 +2,12 @@
 name: Airbnb
 type: company
 ticker: ABNB
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Airbnb
+- 市场/US
+- 股票/ABNB
 aliases:
 - ABNB
 - Airbnb
@@ -62,7 +64,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-06T21:04:19.424278+08:00'
 ---
-
 # Airbnb
 
 > 类型: company

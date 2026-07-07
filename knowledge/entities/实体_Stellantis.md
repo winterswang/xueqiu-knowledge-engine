@@ -2,10 +2,12 @@
 name: Stellantis
 type: company
 ticker: STLA
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Stellantis
+- 市场/US
+- 股票/STLA
 aliases:
 - Stellantis
 - 斯泰兰蒂斯
@@ -29,7 +31,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:15:59.250389+08:00'
 ---
-
 # Stellantis
 
 > 类型: company

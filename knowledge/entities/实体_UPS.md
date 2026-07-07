@@ -2,10 +2,12 @@
 name: UPS
 type: company
 ticker: UPS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/UPS
+- 市场/US
+- 股票/UPS
 aliases:
 - UPS
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:21:02.471016+08:00'
 ---
-
 # UPS
 
 > 类型: company

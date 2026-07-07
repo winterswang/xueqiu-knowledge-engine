@@ -2,10 +2,12 @@
 name: DoorDash
 type: company
 ticker: DASH
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/DoorDash
+- 市场/US
+- 股票/DASH
 aliases:
 - DoorDash
 timeline:
@@ -20,7 +22,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:33:58.566423+08:00'
 ---
-
 # DoorDash
 
 > 类型: company

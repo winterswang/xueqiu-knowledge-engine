@@ -2,10 +2,12 @@
 name: Audi
 type: company
 ticker: NSU.DE
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Audi
+- 市场/US
+- 股票/NSU.DE
 aliases:
 - Audi
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:33:04.029774+08:00'
 ---
-
 # Audi
 
 > 类型: company

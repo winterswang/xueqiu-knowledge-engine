@@ -2,10 +2,12 @@
 name: HubSpot
 type: company
 ticker: HUBS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/HubSpot
+- 市场/US
+- 股票/HUBS
 aliases:
 - HubSpot
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:22:16.024210+08:00'
 ---
-
 # HubSpot
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: Marriott
 type: company
 ticker: MAR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Marriott
+- 市场/US
+- 股票/MAR
 aliases:
 - Marriott
 - 万豪
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:04:19.430719+08:00'
 ---
-
 # Marriott
 
 > 类型: company

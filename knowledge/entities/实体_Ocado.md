@@ -2,10 +2,12 @@
 name: Ocado
 type: company
 ticker: OCDO.L
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Ocado
+- 市场/US
+- 股票/OCDO.L
 aliases:
 - Ocado
 timeline:
@@ -25,7 +27,6 @@ timeline:
     business_line: 自动化生鲜电商+技术输出
 last_updated: '2026-07-06T19:15:09.823366+08:00'
 ---
-
 # Ocado
 
 > 类型: company

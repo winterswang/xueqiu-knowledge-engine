@@ -4,6 +4,7 @@ definition: AI加速芯片市场中英伟达与AMD、博通、英特尔、Cerebr
 tags:
 - _concept_page
 - 概念
+- 概念/AI芯片竞争格局
 entities:
 - AMD
 - ARM Holdings

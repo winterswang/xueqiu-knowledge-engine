@@ -2,10 +2,12 @@
 name: Mercedes-Benz
 type: company
 ticker: MBG.DE
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Mercedes-Benz
+- 市场/US
+- 股票/MBG.DE
 aliases:
 - Mercedes-Benz
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:13:42.261294+08:00'
 ---
-
 # Mercedes-Benz
 
 > 类型: company

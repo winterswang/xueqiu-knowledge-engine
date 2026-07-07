@@ -2,10 +2,12 @@
 name: Orange S.A.
 type: company
 ticker: ORA
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Orange S.A.
+- 市场/US
+- 股票/ORA
 aliases:
 - Orange
 - Orange S.A.
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:29:47.455569+08:00'
 ---
-
 # Orange S.A.
 
 > 类型: company

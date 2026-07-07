@@ -2,10 +2,12 @@
 name: 亚虹医药-U
 type: company
 ticker: SH688176
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/亚虹医药-U
+- 市场/US
+- 股票/SH688176
 aliases:
 - 亚虹医药-U
 - 亚虹医药-U(SH688176)
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:02:59.500030+08:00'
 ---
-
 # 亚虹医药-U
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: Deep Fission
 type: company
 ticker: FISN
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Deep Fission
+- 市场/US
+- 股票/FISN
 aliases:
 - Deep Fission
 - 深度裂变
@@ -28,7 +30,6 @@ timeline:
     business_line: 地下深钻孔核反应堆
 last_updated: '2026-07-07T02:40:30.375076+08:00'
 ---
-
 # Deep Fission
 
 > 类型: company

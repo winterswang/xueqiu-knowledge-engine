@@ -2,10 +2,12 @@
 name: Charter Communications
 type: company
 ticker: CHTR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Charter Communications
+- 市场/US
+- 股票/CHTR
 aliases:
 - Charter
 - Charter Communications
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T04:12:41.591561+08:00'
 ---
-
 # Charter Communications
 
 > 类型: company

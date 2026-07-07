@@ -4,6 +4,7 @@ definition: 零售商将生成式AI购物助手用于商品推荐与新型广告
 tags:
 - _concept_page
 - 概念
+- 概念/AI在零售中的应用（对话式广告）
 entities:
 - 沃尔玛
 sources:

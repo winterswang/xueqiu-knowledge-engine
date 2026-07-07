@@ -2,10 +2,12 @@
 name: KKR
 type: company
 ticker: KKR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/KKR
+- 市场/US
+- 股票/KKR
 aliases:
 - KKR
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:45:56.615106+08:00'
 ---
-
 # KKR
 
 > 类型: company

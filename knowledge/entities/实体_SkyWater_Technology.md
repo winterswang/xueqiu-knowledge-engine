@@ -2,10 +2,12 @@
 name: SkyWater Technology
 type: company
 ticker: SKYT
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/SkyWater Technology
+- 市场/US
+- 股票/SKYT
 aliases:
 - SkyWater
 - SkyWater Technology
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:14:21.878647+08:00'
 ---
-
 # SkyWater Technology
 
 > 类型: company

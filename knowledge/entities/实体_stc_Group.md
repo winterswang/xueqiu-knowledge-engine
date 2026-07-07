@@ -2,10 +2,12 @@
 name: stc Group
 type: company
 ticker: 7010.SR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/stc Group
+- 市场/US
+- 股票/7010.SR
 aliases:
 - stc
 - stc Group
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:29:47.457034+08:00'
 ---
-
 # stc Group
 
 > 类型: company

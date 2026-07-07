@@ -4,6 +4,7 @@ definition: AI驱动的大规模算力建设周期，涵盖芯片、服务器、
 tags:
 - _concept_page
 - 概念
+- 概念/AI基础设施投资周期
 entities:
 - Alphabet
 - GE Vernova

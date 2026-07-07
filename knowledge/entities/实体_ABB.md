@@ -2,10 +2,12 @@
 name: ABB
 type: company
 ticker: ABBN.SW
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/ABB
+- 市场/US
+- 股票/ABBN.SW
 aliases:
 - ABB
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:06:55.462908+08:00'
 ---
-
 # ABB
 
 > 类型: company

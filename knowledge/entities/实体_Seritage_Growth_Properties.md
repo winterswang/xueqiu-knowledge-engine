@@ -2,10 +2,12 @@
 name: Seritage Growth Properties
 type: company
 ticker: SRG
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Seritage Growth Properties
+- 市场/US
+- 股票/SRG
 aliases:
 - SRG
 - SRG-PA
@@ -16,7 +18,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T17:39:53.182807+08:00'
 ---
-
 # Seritage Growth Properties
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: Deliveroo
 type: company
 ticker: ROO.L
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Deliveroo
+- 市场/US
+- 股票/ROO.L
 aliases:
 - Deliveroo
 - 已被DoorDash收购
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:48:10.826285+08:00'
 ---
-
 # Deliveroo
 
 > 类型: company

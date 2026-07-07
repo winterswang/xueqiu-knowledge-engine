@@ -4,6 +4,7 @@ definition: 管理用户、系统及非人类实体（如AI Agent）身份及其
 tags:
 - _concept_page
 - 概念
+- 概念/身份与访问管理(IAM)
 entities:
 - Okta
 sources:

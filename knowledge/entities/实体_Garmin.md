@@ -2,10 +2,12 @@
 name: Garmin
 type: company
 ticker: GRMN
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Garmin
+- 市场/US
+- 股票/GRMN
 aliases:
 - Garmin
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:38:56.052310+08:00'
 ---
-
 # Garmin
 
 > 类型: company

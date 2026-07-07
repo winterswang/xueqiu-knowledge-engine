@@ -2,10 +2,12 @@
 name: MP Materials
 type: company
 ticker: MP
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/MP Materials
+- 市场/US
+- 股票/MP
 aliases:
 - MP
 - MP Materials
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:25:27.236302+08:00'
 ---
-
 # MP Materials
 
 > 类型: company

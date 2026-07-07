@@ -4,6 +4,7 @@ definition: AI技术在不同行业应用场景中的商业变现与落地进程
 tags:
 - _concept_page
 - 概念
+- 概念/AI应用商业化
 entities:
 - 北森控股
 - 哔哩哔哩-W

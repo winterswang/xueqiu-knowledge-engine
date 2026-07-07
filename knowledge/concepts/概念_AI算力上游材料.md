@@ -4,6 +4,7 @@ definition: AI服务器对高频高速材料的需求推动PCB、CCL、玻纤布
 tags:
 - _concept_page
 - 概念
+- 概念/AI算力上游材料
 entities:
 - 中际旭创
 - 安德利果汁

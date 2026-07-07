@@ -2,10 +2,12 @@
 name: Gevo
 type: company
 ticker: GEVO
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Gevo
+- 市场/US
+- 股票/GEVO
 aliases:
 - $Gevo(GEVO)$
 - Gevo
@@ -38,7 +40,6 @@ timeline:
     business_line: 可持续航空燃料（ATJ）
 last_updated: '2026-07-06T19:59:19.288834+08:00'
 ---
-
 # Gevo
 
 > 类型: company

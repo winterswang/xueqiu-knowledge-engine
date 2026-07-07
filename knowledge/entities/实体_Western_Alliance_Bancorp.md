@@ -2,12 +2,14 @@
 name: Western Alliance Bancorp
 type: company
 ticker: WAL
-market: ''
+market: US
 aliases:
 - WAL
 - WAL-PA
 - Western Alliance
 - Western Alliance Bancorp
+- Western Alliance Bancorporation
+- 阿莱恩斯西部银行
 - 阿莱恩斯银行
 timeline:
 - date: '2026-06-13'
@@ -27,8 +29,9 @@ last_updated: '2026-07-06T17:39:53.184362+08:00'
 tags:
 - _entity_page
 - 实体/Western Alliance Bancorp
+- 市场/US
+- 股票/WAL
 ---
-
 # Western Alliance Bancorp
 
 > 类型: company

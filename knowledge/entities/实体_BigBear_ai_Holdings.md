@@ -2,10 +2,12 @@
 name: BigBear.ai Holdings
 type: company
 ticker: BBAI
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/BigBear.ai Holdings
+- 市场/US
+- 股票/BBAI
 aliases:
 - BigBear
 - BigBear.ai
@@ -29,7 +31,6 @@ timeline:
     business_line: AI决策智能解决方案
 last_updated: '2026-07-06T19:42:39.555595+08:00'
 ---
-
 # BigBear.ai Holdings
 
 > 类型: company

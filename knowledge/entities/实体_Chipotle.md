@@ -2,10 +2,12 @@
 name: Chipotle
 type: company
 ticker: CMG
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Chipotle
+- 市场/US
+- 股票/CMG
 aliases:
 - Chipotle
 - 小辣椒
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:04:40.897295+08:00'
 ---
-
 # Chipotle
 
 > 类型: company

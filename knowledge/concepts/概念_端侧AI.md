@@ -4,6 +4,7 @@ definition: 在终端设备上运行AI推理和计算能力的技术方向，对
 tags:
 - _concept_page
 - 概念
+- 概念/端侧AI
 entities:
 - 美格智能
 sources:

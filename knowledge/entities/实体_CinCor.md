@@ -2,10 +2,12 @@
 name: CinCor
 type: company
 ticker: CINC
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/CinCor
+- 市场/US
+- 股票/CINC
 aliases:
 - CinCor
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:16:23.206509+08:00'
 ---
-
 # CinCor
 
 > 类型: company

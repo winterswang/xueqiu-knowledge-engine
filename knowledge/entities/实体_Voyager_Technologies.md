@@ -2,7 +2,7 @@
 name: Voyager Technologies
 type: company
 ticker: VOYG
-market: ''
+market: US
 aliases:
 - Voyager
 - Voyager Technologies
@@ -75,8 +75,9 @@ last_updated: '2026-07-07T02:43:31.827580+08:00'
 tags:
 - _entity_page
 - 实体/Voyager Technologies
+- 市场/US
+- 股票/VOYG
 ---
-
 # Voyager Technologies
 
 > 类型: company

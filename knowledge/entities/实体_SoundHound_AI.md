@@ -2,10 +2,12 @@
 name: SoundHound AI
 type: company
 ticker: SOUN
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/SoundHound AI
+- 市场/US
+- 股票/SOUN
 aliases:
 - SOUN
 - SoundHound
@@ -37,7 +39,6 @@ timeline:
     business_line: 整体业务
 last_updated: '2026-07-06T18:30:54.546021+08:00'
 ---
-
 # SoundHound AI
 
 > 类型: company

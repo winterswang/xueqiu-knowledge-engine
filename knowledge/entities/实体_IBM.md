@@ -2,10 +2,12 @@
 name: IBM
 type: company
 ticker: IBM
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/IBM
+- 市场/US
+- 股票/IBM
 aliases:
 - IBM
 - IBM公司
@@ -36,7 +38,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:12:38.273483+08:00'
 ---
-
 # IBM
 
 > 类型: company

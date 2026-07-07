@@ -2,10 +2,12 @@
 name: United Therapeutics
 type: company
 ticker: UTHR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/United Therapeutics
+- 市场/US
+- 股票/UTHR
 aliases:
 - United Therapeutics
 - 联合治疗公司
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:26:41.008088+08:00'
 ---
-
 # United Therapeutics
 
 > 类型: company

@@ -4,6 +4,7 @@ definition: 通过与英伟达Drive Hyperion平台合作获得海外OEM优先推
 tags:
 - _concept_page
 - 概念
+- 概念/中国Tier1出海(NVIDIA生态赋能)
 entities:
 - 禾赛
 - 英伟达

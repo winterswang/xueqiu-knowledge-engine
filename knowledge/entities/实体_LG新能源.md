@@ -2,10 +2,12 @@
 name: LG新能源
 type: company
 ticker: 373220.KS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/LG新能源
+- 市场/US
+- 股票/373220.KS
 aliases:
 - LG
 - LG新能源
@@ -21,7 +23,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:57:34.934390+08:00'
 ---
-
 # LG新能源
 
 > 类型: company

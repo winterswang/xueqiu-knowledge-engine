@@ -2,10 +2,12 @@
 name: Bank of America
 type: company
 ticker: BAC
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Bank of America
+- 市场/US
+- 股票/BAC
 aliases:
 - Bank of America
 - BofA
@@ -14,18 +16,23 @@ aliases:
 - 美银
 - 美银证券
 timeline:
-- date: '2026-05-18'
-  source: sources/2026-05-18-389362299.md
+- date: '2026-06-16'
+  source: sources/2026-06-16-395049910.md
   signals: []
 - date: '2026-06-09'
   source: sources/2026-06-09-393592672.md
   signals: []
-- date: '2026-06-16'
-  source: sources/2026-06-16-395049910.md
+- date: '2026-05-28'
+  source: sources/2026-05-28-391422355.md
+  signals: []
+- date: '2026-05-18'
+  source: sources/2026-05-18-389362299.md
+  signals: []
+- date: '2026-03-07'
+  source: sources/2026-03-07-378289746.md
   signals: []
 last_updated: '2026-07-07T01:58:03.432107+08:00'
 ---
-
 # Bank of America
 
 > 类型: company

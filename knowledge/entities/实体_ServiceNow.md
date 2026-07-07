@@ -2,10 +2,12 @@
 name: ServiceNow
 type: company
 ticker: NOW
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/ServiceNow
+- 市场/US
+- 股票/NOW
 aliases:
 - NOW
 - ServiceNow
@@ -114,7 +116,6 @@ timeline:
     business_line: 全平台/护城河
 last_updated: '2026-07-06T23:37:13.850456+08:00'
 ---
-
 # ServiceNow
 
 > 类型: company

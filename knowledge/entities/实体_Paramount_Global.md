@@ -2,10 +2,12 @@
 name: Paramount Global
 type: company
 ticker: PARA
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Paramount Global
+- 市场/US
+- 股票/PARA
 aliases:
 - Paramount Global
 - Paramount+
@@ -16,7 +18,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:38:56.050562+08:00'
 ---
-
 # Paramount Global
 
 > 类型: company

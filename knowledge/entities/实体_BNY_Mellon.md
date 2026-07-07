@@ -2,10 +2,12 @@
 name: BNY Mellon
 type: company
 ticker: BK
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/BNY Mellon
+- 市场/US
+- 股票/BK
 aliases:
 - BNY
 - BNY Mellon
@@ -16,7 +18,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:15:37.876364+08:00'
 ---
-
 # BNY Mellon
 
 > 类型: company

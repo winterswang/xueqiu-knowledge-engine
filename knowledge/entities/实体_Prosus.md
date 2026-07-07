@@ -2,10 +2,12 @@
 name: Prosus
 type: company
 ticker: PRX
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Prosus
+- 市场/US
+- 股票/PRX
 aliases:
 - Prosus
 - 大股东Prosus
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:48:02.555257+08:00'
 ---
-
 # Prosus
 
 > 类型: company

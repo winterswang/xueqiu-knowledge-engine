@@ -2,10 +2,12 @@
 name: AST SpaceMobile
 type: company
 ticker: ASTS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/AST SpaceMobile
+- 市场/US
+- 股票/ASTS
 aliases:
 - $AST SpaceMobile(ASTS)$
 - AST
@@ -64,7 +66,6 @@ timeline:
     business_line: 卫星直连手机
 last_updated: '2026-07-07T04:12:41.589300+08:00'
 ---
-
 # AST SpaceMobile
 
 > 类型: company

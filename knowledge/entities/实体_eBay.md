@@ -2,10 +2,12 @@
 name: eBay
 type: company
 ticker: EBAY
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/eBay
+- 市场/US
+- 股票/EBAY
 aliases:
 - eBay
 - 网购巨头
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:34:54.659870+08:00'
 ---
-
 # eBay
 
 > 类型: company

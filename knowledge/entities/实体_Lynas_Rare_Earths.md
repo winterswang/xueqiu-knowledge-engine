@@ -2,10 +2,12 @@
 name: Lynas Rare Earths
 type: company
 ticker: LYC.AX
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Lynas Rare Earths
+- 市场/US
+- 股票/LYC.AX
 aliases:
 - Lynas
 - Lynas Rare Earths
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:25:27.236832+08:00'
 ---
-
 # Lynas Rare Earths
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: 药捷安康-B
 type: company
 ticker: '02617'
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/药捷安康-B
+- 市场/CN
+- 股票/02617
 aliases:
 - 02617.HK
 - 药捷安康
@@ -35,7 +37,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-07T03:05:08.483160+08:00'
 ---
-
 # 药捷安康-B
 
 > 类型: company

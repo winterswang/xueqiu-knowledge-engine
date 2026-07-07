@@ -2,10 +2,12 @@
 name: CK Hutchison Holdings
 type: company
 ticker: 0001.HK
-market: ''
+market: HK
 tags:
 - _entity_page
 - 实体/CK Hutchison Holdings
+- 市场/HK
+- 股票/0001.HK
 aliases:
 - CK Hutchison
 - CK Hutchison Holdings
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:29:47.456038+08:00'
 ---
-
 # CK Hutchison Holdings
 
 > 类型: company

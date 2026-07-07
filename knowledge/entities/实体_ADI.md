@@ -2,10 +2,12 @@
 name: ADI
 type: company
 ticker: ADI
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/ADI
+- 市场/US
+- 股票/ADI
 aliases:
 - ADI
 - Analog Devices
@@ -16,7 +18,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:41:17.376612+08:00'
 ---
-
 # ADI
 
 > 类型: company

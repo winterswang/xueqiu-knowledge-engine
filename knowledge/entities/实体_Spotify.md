@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/Spotify
+- 市场/US
+- 股票/SPOT
 aliases:
 - $Spotify(SPOT)$
 - SPOT
@@ -71,7 +73,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:20:13.227134+08:00'
 ---
-
 # Spotify
 
 > 类型: company

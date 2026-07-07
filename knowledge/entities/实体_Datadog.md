@@ -2,10 +2,12 @@
 name: Datadog
 type: company
 ticker: DDOG
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Datadog
+- 市场/US
+- 股票/DDOG
 aliases:
 - Datadog
 timeline:
@@ -41,7 +43,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:17:26.036346+08:00'
 ---
-
 # Datadog
 
 > 类型: company

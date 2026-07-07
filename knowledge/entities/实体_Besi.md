@@ -2,10 +2,12 @@
 name: Besi
 type: company
 ticker: BESI
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Besi
+- 市场/US
+- 股票/BESI
 aliases:
 - Besi
 - 传统后道封装设备巨头
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T22:48:47.155581+08:00'
 ---
-
 # Besi
 
 > 类型: company

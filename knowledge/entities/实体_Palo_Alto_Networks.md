@@ -2,10 +2,12 @@
 name: Palo Alto Networks
 type: company
 ticker: PANW
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Palo Alto Networks
+- 市场/US
+- 股票/PANW
 aliases:
 - PANW
 - Palo Alto Networks
@@ -41,7 +43,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-06T23:11:50.185884+08:00'
 ---
-
 # Palo Alto Networks
 
 > 类型: company

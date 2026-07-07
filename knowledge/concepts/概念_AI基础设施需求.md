@@ -4,6 +4,7 @@ definition: 由生成式AI驱动的数据中心算力与存储需求扩张，是
 tags:
 - _concept_page
 - 概念
+- 概念/AI基础设施需求
 entities:
 - Meta
 - 亚马逊

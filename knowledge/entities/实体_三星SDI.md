@@ -2,10 +2,12 @@
 name: 三星SDI
 type: company
 ticker: 006400.KS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/三星SDI
+- 市场/US
+- 股票/006400.KS
 aliases:
 - 三星SDI
 timeline:
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:57:34.935740+08:00'
 ---
-
 # 三星SDI
 
 > 类型: company

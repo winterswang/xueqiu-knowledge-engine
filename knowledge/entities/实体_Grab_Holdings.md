@@ -2,10 +2,12 @@
 name: Grab Holdings
 type: company
 ticker: GRAB
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Grab Holdings
+- 市场/US
+- 股票/GRAB
 aliases:
 - Grab
 - Grab Holdings
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:34:20.941684+08:00'
 ---
-
 # Grab Holdings
 
 > 类型: company

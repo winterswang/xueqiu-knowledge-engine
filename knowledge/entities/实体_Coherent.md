@@ -2,10 +2,12 @@
 name: Coherent
 type: company
 ticker: COHR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Coherent
+- 市场/US
+- 股票/COHR
 aliases:
 - COHR.US
 - Coherent
@@ -30,7 +32,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:15:03.599093+08:00'
 ---
-
 # Coherent
 
 > 类型: company

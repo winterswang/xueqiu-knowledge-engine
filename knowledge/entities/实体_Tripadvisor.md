@@ -2,10 +2,12 @@
 name: Tripadvisor
 type: company
 ticker: TRIP
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Tripadvisor
+- 市场/US
+- 股票/TRIP
 aliases:
 - Tripadvisor
 - 猫途鹰
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:27:23.134418+08:00'
 ---
-
 # Tripadvisor
 
 > 类型: company

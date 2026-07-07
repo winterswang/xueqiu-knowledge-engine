@@ -2,10 +2,12 @@
 name: Archer Aviation
 type: company
 ticker: ACHR
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Archer Aviation
+- 市场/US
+- 股票/ACHR
 aliases:
 - ACHR
 - Archer
@@ -43,7 +45,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:26:41.006278+08:00'
 ---
-
 # Archer Aviation
 
 > 类型: company

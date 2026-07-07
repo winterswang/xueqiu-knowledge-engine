@@ -2,10 +2,12 @@
 name: AT&T
 type: company
 ticker: T
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/AT&T
+- 市场/US
+- 股票/T
 aliases:
 - AT&T
 timeline:
@@ -17,7 +19,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T04:12:41.594492+08:00'
 ---
-
 # AT&T
 
 > 类型: company

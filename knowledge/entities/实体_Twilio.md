@@ -2,10 +2,12 @@
 name: Twilio
 type: company
 ticker: TWLO
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Twilio
+- 市场/US
+- 股票/TWLO
 aliases:
 - TWLO
 - Twilio
@@ -59,7 +61,6 @@ timeline:
     business_line: 语音/对话式AI
 last_updated: '2026-07-06T21:13:56.980681+08:00'
 ---
-
 # Twilio
 
 > 类型: company

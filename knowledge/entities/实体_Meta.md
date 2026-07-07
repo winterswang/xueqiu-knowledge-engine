@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/Meta
+- 市场/US
+- 股票/META
 aliases:
 - FB
 - Facebook
@@ -23,74 +25,82 @@ aliases:
 - 脸书
 - 脸谱网
 timeline:
-- date: '2026-03-04'
-  source: sources/2026-03-04-307548176.md
-  signals: []
-- date: '2026-02-12'
-  source: sources/2026-02-12-375966460.md
-  signals: []
-- date: '2026-02-27'
-  source: sources/2026-02-27-377209547.md
-  signals: []
-- date: '2026-03-04'
-  source: sources/2026-03-04-378046974.md
-  signals: []
-- date: '2026-03-05'
-  source: sources/2026-03-05-378090872.md
-  signals: []
-- date: '2026-03-06'
-  source: sources/2026-03-06-378210899.md
-  signals: []
-- date: '2026-03-06'
-  source: sources/2026-03-06-378292194.md
-  signals: []
-- date: '2026-03-06'
-  source: sources/2026-03-06-378303701.md
-  signals: []
-- date: '2026-03-06'
-  source: sources/2026-03-06-378350910.md
+- date: '2026-06-26'
+  source: sources/2026-06-26-396939925.md
   signals:
   - entity: Meta
-    direction: positive
-    confidence: medium
-    time_frame: long_term
-    summary: 核心广告业务健康，AI与定制芯片打开长期增长空间
-    caveats:
-    - CFO明确表示AI新项目的CapEx判断'更像艺术而非科学'，存在明显不确定性
-    - Meta AI目前尚未基于最前沿基础模型
-    - 推理容量需求被公司自身认为'容易被低估'
-    - 新项目（商业代理等）尚未形成规模，发展轨迹难测
-    quote: 核心业务非常健康，我对那里的持续机会感到非常兴奋。这也让我们能够从实力和信心的角度为AI工作提供资金。
-    business_line: 整体公司
-  - entity: Meta
-    direction: positive
-    confidence: medium
+    direction: negative
+    confidence: high
     time_frame: short_term
-    summary: 广告IREV管道强劲，2026-2027收入增长可见性良好
+    summary: AI巨额CAPEX蚕食利润率
     caveats:
-    - 举措叠加存在未知斜率，CFO自述曾担心'打八折'，实际超出预期
-    - 良性飞轮效应难以精确量化
-    quote: 我们通常会将这些描述为通过高度ROI驱动的流程获得资助的工作……我对我们已有的和正在进行的举措管道感觉非常好。
-    business_line: 广告/核心业务
-- date: '2026-03-06'
-  source: sources/2026-03-06-378381989.md
+    - 云巨头短期经营杠杆被压制
+    - 无法快速看到利润扩张
+    quote: 它们在指数中权重极高，但年内表现却非常糟糕。
+    business_line: AI资本支出
+- date: '2026-06-25'
+  source: sources/2026-06-25-396655082.md
   signals: []
-- date: '2026-03-06'
-  source: sources/2026-03-06-378382776.md
+- date: '2026-06-24'
+  source: sources/2026-06-24-396398020.md
+  signals: []
+- date: '2026-06-20'
+  source: sources/2026-06-20-395747240.md
+  signals: []
+- date: '2026-06-16'
+  source: sources/2026-06-16-395063599.md
+  signals: []
+- date: '2026-06-14'
+  source: sources/2026-06-14-394618677.md
   signals:
   - entity: Meta
-    direction: positive
+    direction: negative
     confidence: medium
-    time_frame: long_term
-    summary: 现代增长模型的开创者，组织能力被字节工业化升级
+    time_frame: medium_term
+    summary: 自研芯片进展令人失望
     caveats:
-    - 文章为方法论梳理而非投资推荐
-    - TikTok/字节崛起对其增长模式构成竞争压力
-    quote: 如果说 Facebook 发明了增长模型，那么字节跳动则将其变成了流水线工业……这种跨产品、横向支撑的逻辑完全是 Facebook 早期增长团队的工业化升级版。
-    business_line: null
-- date: '2026-03-07'
-  source: sources/2026-03-07-378453684.md
+    - 仍可采购英伟达芯片维持AI投入
+    quote: Meta和微软自研芯片的进展说实话是让人失望的。
+    business_line: 自研AI芯片
+- date: '2026-06-10'
+  source: sources/2026-06-10-394022542.md
   signals: []
+- date: '2026-06-09'
+  source: sources/2026-06-09-393592672.md
+  signals: []
+- date: '2026-06-08'
+  source: sources/2026-06-08-393519272.md
+  signals: []
+- date: '2026-06-04'
+  source: sources/2026-06-04-392803232.md
+  signals: []
+- date: '2026-05-30'
+  source: sources/2026-05-30-391688405.md
+  signals: []
+- date: '2026-05-26'
+  source: sources/2026-05-26-390937829.md
+  signals: []
+- date: '2026-05-23'
+  source: sources/2026-05-23-390597675.md
+  signals: []
+- date: '2026-05-21'
+  source: sources/2026-05-21-390101336.md
+  signals: []
+- date: '2026-03-08'
+  source: sources/2026-03-08-378469112.md
+  signals:
+  - entity: Meta
+    direction: neutral
+    confidence: medium
+    time_frame: medium_term
+    summary: 护城河极深但反垄断风险显著
+    caveats:
+    - FTC 垄断诉讼可能带来强制拆分（如剥离 IG/WhatsApp）或巨额罚款
+    - 隐私与合规罚款记录累积（已超 70 亿美元）
+    - 广告负载接近用户体验上限，进一步提升空间有限
+    quote: Meta 内部承认：'我们很难被竞争，我们的网络效应是巨大的。你的朋友都在这里，你在 Facebook 的身份和网络上投入巨大，这很难舍弃'。但
+      FTC 指控 Meta 违反了《谢尔曼法》第 2 条。
+    business_line: 社交网络与广告
 - date: '2026-03-07'
   source: sources/2026-03-07-378466213.md
   signals:
@@ -114,106 +124,33 @@ timeline:
     - 智能眼镜市场尚未充分验证可持续盈利能力
     quote: 管理层预期 2026 年 RL 的亏损将与 2025 年持平，并且这很可能就是顶峰（Peak）……去年 Meta 的眼镜销量增长了 3 倍多，他认为这类似于翻盖手机向智能手机过渡的历史时刻。
     business_line: 现实实验室 (Reality Labs)
-- date: '2026-03-08'
-  source: sources/2026-03-08-378469109.md
+- date: '2026-03-06'
+  source: sources/2026-03-06-378382776.md
   signals:
   - entity: Meta
     direction: positive
     confidence: medium
-    time_frame: medium_term
-    summary: 反垄断指控缺乏支撑，护城河源于创新而非垄断
-    caveats:
-    - 反垄断诉讼结果仍存在不确定性
-    - TikTok等竞争对手带来巨大分流压力
-    quote: Meta 投入了巨额研发资金以提升应用质量……研发支出占营收的比例高于 Apple、Amazon、Microsoft 和 Google 等同行科技公司
-    business_line: 整体业务
-  - entity: Meta
-    direction: negative
-    confidence: medium
     time_frame: long_term
-    summary: 面临TikTok/YouTube等全方位竞争，社交功能被分流
+    summary: 现代增长模型的开创者，组织能力被字节工业化升级
     caveats:
-    - 用户使用时长持续被竞争对手侵蚀
-    - 用户观看朋友内容时间从22%降至7%
-    quote: Reels 受到 TikTok 的冲击（-69%）；Stories 受到 YouTube 的冲击（-70%）；其他功能受到 iMessage
-      的冲击（-65%）
-    business_line: 用户增长与参与度
-- date: '2026-03-08'
-  source: sources/2026-03-08-378469112.md
-  signals:
-  - entity: Meta
-    direction: neutral
-    confidence: medium
-    time_frame: medium_term
-    summary: 护城河极深但反垄断风险显著
-    caveats:
-    - FTC 垄断诉讼可能带来强制拆分（如剥离 IG/WhatsApp）或巨额罚款
-    - 隐私与合规罚款记录累积（已超 70 亿美元）
-    - 广告负载接近用户体验上限，进一步提升空间有限
-    quote: Meta 内部承认：'我们很难被竞争，我们的网络效应是巨大的。你的朋友都在这里，你在 Facebook 的身份和网络上投入巨大，这很难舍弃'。但
-      FTC 指控 Meta 违反了《谢尔曼法》第 2 条。
-    business_line: 社交网络与广告
-- date: '2026-05-21'
-  source: sources/2026-05-21-390101336.md
+    - 文章为方法论梳理而非投资推荐
+    - TikTok/字节崛起对其增长模式构成竞争压力
+    quote: 如果说 Facebook 发明了增长模型，那么字节跳动则将其变成了流水线工业……这种跨产品、横向支撑的逻辑完全是 Facebook 早期增长团队的工业化升级版。
+    business_line: null
+- date: '2026-03-05'
+  source: sources/2026-03-05-378090872.md
   signals: []
-- date: '2026-05-26'
-  source: sources/2026-05-26-390937829.md
+- date: '2026-03-04'
+  source: sources/2026-03-04-378046974.md
   signals: []
-- date: '2026-05-30'
-  source: sources/2026-05-30-391688405.md
+- date: '2026-02-27'
+  source: sources/2026-02-27-377209547.md
   signals: []
-- date: '2026-06-04'
-  source: sources/2026-06-04-392803232.md
+- date: '2026-02-12'
+  source: sources/2026-02-12-375966460.md
   signals: []
-- date: '2026-06-08'
-  source: sources/2026-06-08-393519272.md
-  signals: []
-- date: '2026-06-10'
-  source: sources/2026-06-10-393687679.md
-  signals: []
-- date: '2026-06-10'
-  source: sources/2026-06-10-394022542.md
-  signals: []
-- date: '2026-06-14'
-  source: sources/2026-06-14-394618677.md
-  signals:
-  - entity: Meta
-    direction: negative
-    confidence: medium
-    time_frame: medium_term
-    summary: 自研芯片进展令人失望
-    caveats:
-    - 仍可采购英伟达芯片维持AI投入
-    quote: Meta和微软自研芯片的进展说实话是让人失望的。
-    business_line: 自研AI芯片
-- date: '2026-06-16'
-  source: sources/2026-06-16-395063599.md
-  signals: []
-- date: '2026-06-20'
-  source: sources/2026-06-20-395747240.md
-  signals: []
-- date: '2026-06-24'
-  source: sources/2026-06-24-396398020.md
-  signals: []
-- date: '2026-06-25'
-  source: sources/2026-06-25-396655082.md
-  signals: []
-- date: '2026-06-26'
-  source: sources/2026-06-26-396939925.md
-  signals:
-  - entity: Meta
-    direction: negative
-    confidence: high
-    time_frame: short_term
-    summary: AI巨额CAPEX蚕食利润率
-    caveats:
-    - 云巨头短期经营杠杆被压制
-    - 无法快速看到利润扩张
-    quote: 它们在指数中权重极高，但年内表现却非常糟糕。
-    business_line: AI资本支出
 last_updated: '2026-07-07T03:55:29.941696+08:00'
 ---
-
 # Meta
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: CECONOMY
 type: company
 ticker: CEC1.DE
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/CECONOMY
+- 市场/US
+- 股票/CEC1.DE
 aliases:
 - CECONOMY
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:55:13.442717+08:00'
 ---
-
 # CECONOMY
 
 > 类型: company

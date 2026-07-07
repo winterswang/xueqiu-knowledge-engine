@@ -2,10 +2,12 @@
 name: Goldman Sachs
 type: company
 ticker: GS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Goldman Sachs
+- 市场/US
+- 股票/GS
 aliases:
 - Goldman Sachs
 - 高盛
@@ -21,7 +23,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:49:48.451593+08:00'
 ---
-
 # Goldman Sachs
 
 > 类型: company

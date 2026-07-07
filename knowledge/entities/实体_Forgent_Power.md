@@ -2,10 +2,12 @@
 name: Forgent Power
 type: company
 ticker: FPS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Forgent Power
+- 市场/US
+- 股票/FPS
 aliases:
 - Forgent Power
 - Forgent Power(FPS.US)
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:32:02.944806+08:00'
 ---
-
 # Forgent Power
 
 > 类型: company

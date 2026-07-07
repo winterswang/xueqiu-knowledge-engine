@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/爱马仕(ADR)
+- 市场/US
+- 股票/HESAY.US
 aliases:
 - 爱马仕
 - 爱马仕(ADR)
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:52:06.888890+08:00'
 ---
-
 # 爱马仕(ADR)
 
 > 类型: company

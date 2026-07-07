@@ -2,10 +2,12 @@
 name: Celsius
 type: company
 ticker: CELH
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Celsius
+- 市场/US
+- 股票/CELH
 aliases:
 - Celsius
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:22:25.602970+08:00'
 ---
-
 # Celsius
 
 > 类型: company

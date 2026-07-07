@@ -4,6 +4,7 @@ definition: AI算力、数据中心、芯片等底层硬件设施的资本投入
 tags:
 - _concept_page
 - 概念
+- 概念/AI基础设施投资
 entities:
 - 腾讯控股
 - 英伟达

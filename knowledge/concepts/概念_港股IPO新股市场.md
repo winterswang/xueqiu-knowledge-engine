@@ -4,6 +4,7 @@ definition: 港交所新上市公司挂牌后的市场表现与认购热度
 tags:
 - _concept_page
 - 概念
+- 概念/港股IPO新股市场
 entities:
 - SENASIC
 - 丰宜科技

@@ -4,6 +4,7 @@ definition: AI算力需求高速增长与数据中心传统房地产开发周期
 tags:
 - _concept_page
 - 概念
+- 概念/AI数据中心建设瓶颈
 entities:
 - Bell Canada
 - Cerebras

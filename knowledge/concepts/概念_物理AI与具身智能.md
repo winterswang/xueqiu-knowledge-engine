@@ -4,6 +4,7 @@ definition: AI技术在物理世界中通过机器人等载体实现感知、决
 tags:
 - _concept_page
 - 概念
+- 概念/物理AI与具身智能
 entities:
 - 乐动机器人
 - 佑驾创新

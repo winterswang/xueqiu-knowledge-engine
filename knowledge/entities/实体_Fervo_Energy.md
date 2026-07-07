@@ -2,10 +2,12 @@
 name: Fervo Energy
 type: company
 ticker: FRVO
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Fervo Energy
+- 市场/US
+- 股票/FRVO
 aliases:
 - Fervo Energy
 - Fervo Energy(FRVO.US)
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:32:02.943320+08:00'
 ---
-
 # Fervo Energy
 
 > 类型: company

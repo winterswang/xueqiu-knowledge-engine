@@ -2,10 +2,12 @@
 name: 德琪医药-B
 type: company
 ticker: 06996.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/德琪医药-B
+- 市场/CN
+- 股票/06996.HK
 aliases:
 - 德琪医药
 - 德琪医药-B
@@ -26,7 +28,6 @@ timeline:
     business_line: 创新药研发与BD授权
 last_updated: '2026-07-07T02:49:20.252767+08:00'
 ---
-
 # 德琪医药-B
 
 > 类型: company

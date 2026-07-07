@@ -2,10 +2,12 @@
 name: Hilton
 type: company
 ticker: HLT
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Hilton
+- 市场/US
+- 股票/HLT
 aliases:
 - Hilton
 - 希尔顿
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T21:04:19.430219+08:00'
 ---
-
 # Hilton
 
 > 类型: company

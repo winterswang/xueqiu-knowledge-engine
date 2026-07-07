@@ -2,10 +2,12 @@
 name: Lyft
 type: company
 ticker: LYFT
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Lyft
+- 市场/US
+- 股票/LYFT
 aliases:
 - Lyft
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:48:10.824372+08:00'
 ---
-
 # Lyft
 
 > 类型: company

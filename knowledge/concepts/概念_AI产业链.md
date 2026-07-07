@@ -4,6 +4,7 @@ definition: 涵盖存储、PCB、芯片设计、AI应用等环节的人工智能
 tags:
 - _concept_page
 - 概念
+- 概念/AI产业链
 entities:
 - 兆易创新
 - 天数智芯

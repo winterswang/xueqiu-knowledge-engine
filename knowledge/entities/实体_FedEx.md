@@ -2,10 +2,12 @@
 name: FedEx
 type: company
 ticker: FDX
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/FedEx
+- 市场/US
+- 股票/FDX
 aliases:
 - FedEx
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:21:02.471571+08:00'
 ---
-
 # FedEx
 
 > 类型: company

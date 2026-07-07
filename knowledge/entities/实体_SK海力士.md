@@ -2,10 +2,12 @@
 name: SK海力士
 type: company
 ticker: 000660.KS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/SK海力士
+- 市场/US
+- 股票/000660.KS
 aliases:
 - SK Hynix
 - SK海力士
@@ -56,7 +58,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:46:44.657413+08:00'
 ---
-
 # SK海力士
 
 > 类型: company

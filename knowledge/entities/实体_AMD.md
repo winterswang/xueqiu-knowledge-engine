@@ -2,10 +2,12 @@
 name: AMD
 type: company
 ticker: AMD
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/AMD
+- 市场/US
+- 股票/AMD
 aliases:
 - AMD
 - AMD(AMD.US)
@@ -53,7 +55,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:55:30.032360+08:00'
 ---
-
 # AMD
 
 > 类型: company

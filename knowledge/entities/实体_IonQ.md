@@ -2,10 +2,12 @@
 name: IonQ
 type: company
 ticker: IONQ
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/IonQ
+- 市场/US
+- 股票/IONQ
 aliases:
 - IONQ
 - IonQ
@@ -64,7 +66,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:52:10.823002+08:00'
 ---
-
 # IonQ
 
 > 类型: company

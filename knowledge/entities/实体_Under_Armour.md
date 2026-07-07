@@ -2,10 +2,12 @@
 name: Under Armour
 type: company
 ticker: UAA
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Under Armour
+- 市场/US
+- 股票/UAA
 aliases:
 - Under Armour
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:40:58.734599+08:00'
 ---
-
 # Under Armour
 
 > 类型: company

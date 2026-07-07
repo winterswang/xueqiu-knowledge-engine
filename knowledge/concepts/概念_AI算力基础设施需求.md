@@ -4,6 +4,7 @@ definition: 由AI数据中心建设驱动的算力硬件需求，拉动上游模
 tags:
 - _concept_page
 - 概念
+- 概念/AI算力基础设施需求
 entities:
 - 剑桥科技
 - 国民技术

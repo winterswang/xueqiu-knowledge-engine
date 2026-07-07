@@ -2,10 +2,12 @@
 name: WPP
 type: company
 ticker: WPP.L
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/WPP
+- 市场/US
+- 股票/WPP.L
 aliases:
 - WPP
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:19:12.566490+08:00'
 ---
-
 # WPP
 
 > 类型: company

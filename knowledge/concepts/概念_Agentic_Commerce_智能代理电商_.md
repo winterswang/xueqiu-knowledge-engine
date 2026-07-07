@@ -4,6 +4,7 @@ definition: AI Agent成为电商新流量入口，重构商品发现、推荐与
 tags:
 - _concept_page
 - 概念
+- 概念/Agentic Commerce（智能代理电商）
 entities:
 - 京东
 sources:

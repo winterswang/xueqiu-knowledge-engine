@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/Cerebras
+- 市场/US
+- 股票/CBRS
 aliases:
 - CBRS.US
 - Cerebras
@@ -116,7 +118,6 @@ timeline:
     business_line: 整体
 last_updated: '2026-07-07T03:44:12.682990+08:00'
 ---
-
 # Cerebras
 
 > 类型: company

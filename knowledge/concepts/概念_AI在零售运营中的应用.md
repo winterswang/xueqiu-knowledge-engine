@@ -4,6 +4,7 @@ definition: 利用AI智能体与算法实现选品、库存、物流、点位拓
 tags:
 - _concept_page
 - 概念
+- 概念/AI在零售运营中的应用
 entities:
 - 丰宜科技
 - 沃尔玛

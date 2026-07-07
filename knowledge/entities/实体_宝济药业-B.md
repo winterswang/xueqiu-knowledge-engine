@@ -2,15 +2,30 @@
 name: 宝济药业-B
 type: company
 ticker: 02659.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/宝济药业-B
+- 市场/CN
+- 股票/02659.HK
 aliases:
 - $宝济药业-B(02659)$
 - 宝济药业
 - 宝济药业-B
+- 宝济药业（02659.HK）
 timeline:
+- date: '2026-06-11'
+  source: sources/2026-06-11-394263931.md
+  signals:
+  - entity: 宝济药业
+    direction: negative
+    confidence: high
+    time_frame: medium_term
+    summary: 商业化收入微薄难撑估值，股价较高点回撤超九成
+    caveats:
+    - 12款候选产品中仅1款商业化；研发支出庞大；估值过高
+    quote: 2025年12月以26.38港元发行，上市后一路飙升至206.00港元高点，暴涨6.8倍，但随后获利盘集中出逃，股价从高点回撤超九成，如今较发行价跌幅已达26.54%。
+    business_line: null
 - date: '2026-06-10'
   source: sources/2026-06-10-393943489.md
   signals:
@@ -35,7 +50,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-07T00:38:13.671379+08:00'
 ---
-
 # 宝济药业-B
 
 > 类型: company

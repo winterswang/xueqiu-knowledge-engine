@@ -4,6 +4,7 @@ definition: AI基础设施投资驱动的跨行业资本支出扩张与融资热
 tags:
 - _concept_page
 - 概念
+- 概念/AI资本支出周期
 entities:
 - Alphabet
 - Anthropic

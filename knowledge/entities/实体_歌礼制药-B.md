@@ -2,10 +2,12 @@
 name: 歌礼制药-B
 type: company
 ticker: '01672'
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/歌礼制药-B
+- 市场/CN
+- 股票/01672
 aliases:
 - 歌礼制药-B
 timeline:
@@ -20,7 +22,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:10:50.559591+08:00'
 ---
-
 # 歌礼制药-B
 
 > 类型: company

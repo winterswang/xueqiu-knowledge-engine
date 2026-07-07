@@ -2,10 +2,12 @@
 name: Zscaler
 type: company
 ticker: ZS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Zscaler
+- 市场/US
+- 股票/ZS
 aliases:
 - ZS
 - Zscaler
@@ -111,7 +113,6 @@ timeline:
     business_line: 整体业务
 last_updated: '2026-07-07T02:02:10.056267+08:00'
 ---
-
 # Zscaler
 
 > 类型: company

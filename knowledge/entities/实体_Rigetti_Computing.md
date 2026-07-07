@@ -2,10 +2,12 @@
 name: Rigetti Computing
 type: company
 ticker: RGTI.US
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Rigetti Computing
+- 市场/US
+- 股票/RGTI.US
 aliases:
 - RGTI
 - Rigetti
@@ -42,7 +44,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:52:56.098923+08:00'
 ---
-
 # Rigetti Computing
 
 > 类型: company

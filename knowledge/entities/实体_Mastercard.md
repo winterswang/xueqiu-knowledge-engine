@@ -2,10 +2,12 @@
 name: Mastercard
 type: company
 ticker: MA
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Mastercard
+- 市场/US
+- 股票/MA
 aliases:
 - Mastercard
 - 万事达
@@ -21,7 +23,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:12:08.150529+08:00'
 ---
-
 # Mastercard
 
 > 类型: company

@@ -6,6 +6,8 @@ market: US
 tags:
 - _entity_page
 - 实体/Okta
+- 市场/US
+- 股票/OKTA.US
 aliases:
 - $Okta(OKTA)$
 - OKTA
@@ -66,7 +68,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T02:02:10.061956+08:00'
 ---
-
 # Okta
 
 > 类型: company

@@ -2,10 +2,12 @@
 name: JS环球生活
 type: company
 ticker: 01691.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/JS环球生活
+- 市场/CN
+- 股票/01691.HK
 aliases:
 - JS环球生活
 - JS环球生活（01691.HK）
@@ -18,7 +20,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T23:10:43.366088+08:00'
 ---
-
 # JS环球生活
 
 > 类型: company

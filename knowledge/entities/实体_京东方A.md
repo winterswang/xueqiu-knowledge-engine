@@ -2,14 +2,22 @@
 name: 京东方A
 type: company
 ticker: 000725.SZ
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/京东方A
+- 市场/CN
+- 股票/000725.SZ
 aliases:
 - 京东方
 - 京东方A
 timeline:
+- date: '2026-06-26'
+  source: sources/2026-06-26-396992837.md
+  signals: []
+- date: '2026-06-17'
+  source: sources/2026-06-17-395259147.md
+  signals: []
 - date: '2026-06-05'
   source: sources/2026-06-05-393123476.md
   signals:
@@ -23,15 +31,11 @@ timeline:
     - 需Intel/TSMC/三星等国际厂商验证兑现
     quote: 玻璃基板不是单一材料替代，而是从'材料、面板、封装、设备'共同驱动的先进封装生态重构。随着Intel、TSMC、三星电机、Absolics、京东方等持续推进中试和量产验证，2026年有望成为玻璃基板商业化导入关键节点，2028年前后进入加速渗透期。
     business_line: 先进封装/玻璃基板
-- date: '2026-06-17'
-  source: sources/2026-06-17-395259147.md
-  signals: []
-- date: '2026-06-26'
-  source: sources/2026-06-26-396992837.md
+- date: '2026-05-27'
+  source: sources/2026-05-27-391226240.md
   signals: []
 last_updated: '2026-07-07T04:00:07.765284+08:00'
 ---
-
 # 京东方A
 
 > 类型: company

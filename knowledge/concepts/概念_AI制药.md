@@ -4,6 +4,7 @@ definition: 利用人工智能技术（深度学习、生成式AI）进行药物
 tags:
 - _concept_page
 - 概念
+- 概念/AI制药
 entities:
 - 晶泰控股
 - 礼来

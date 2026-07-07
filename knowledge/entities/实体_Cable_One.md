@@ -2,10 +2,12 @@
 name: Cable One
 type: company
 ticker: CABO
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Cable One
+- 市场/US
+- 股票/CABO
 aliases:
 - Cable One
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:43:37.757521+08:00'
 ---
-
 # Cable One
 
 > 类型: company

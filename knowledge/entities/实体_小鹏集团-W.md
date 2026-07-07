@@ -2,38 +2,43 @@
 name: 小鹏集团-W
 type: company
 ticker: 09868
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/小鹏集团-W
+- 市场/CN
+- 股票/09868
 aliases:
 - 小鹏
 - 小鹏汽车
+- 小鹏汽车-W
 - 小鹏集团
 - 小鹏集团-W
 - 小鹏集团-W（09868.HK）
 timeline:
-- date: '2026-05-21'
-  source: sources/2026-05-21-390238832.md
-  signals: []
-- date: '2026-05-28'
-  source: sources/2026-05-28-391532703.md
-  signals: []
-- date: '2026-06-03'
-  source: sources/2026-06-03-392647881.md
-  signals: []
-- date: '2026-06-11'
-  source: sources/2026-06-11-394238416.md
+- date: '2026-06-27'
+  source: sources/2026-06-27-396879065.md
   signals: []
 - date: '2026-06-22'
   source: sources/2026-06-22-395955174.md
   signals: []
-- date: '2026-06-27'
-  source: sources/2026-06-27-396879065.md
+- date: '2026-06-11'
+  source: sources/2026-06-11-394238416.md
+  signals: []
+- date: '2026-06-03'
+  source: sources/2026-06-03-392647881.md
+  signals: []
+- date: '2026-05-28'
+  source: sources/2026-05-28-391532703.md
+  signals: []
+- date: '2026-05-27'
+  source: sources/2026-05-27-391280892.md
+  signals: []
+- date: '2026-05-21'
+  source: sources/2026-05-21-390238832.md
   signals: []
 last_updated: '2026-07-07T03:50:05.618808+08:00'
 ---
-
 # 小鹏集团-W
 
 > 类型: company

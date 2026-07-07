@@ -2,10 +2,12 @@
 name: HSBC Holdings
 type: company
 ticker: HSBC
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/HSBC Holdings
+- 市场/US
+- 股票/HSBC
 aliases:
 - HSBC Holdings
 - 汇丰
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T18:36:05.361729+08:00'
 ---
-
 # HSBC Holdings
 
 > 类型: company

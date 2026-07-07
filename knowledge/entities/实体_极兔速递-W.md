@@ -2,10 +2,12 @@
 name: 极兔速递-W
 type: company
 ticker: 01519
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/极兔速递-W
+- 市场/CN
+- 股票/01519
 aliases:
 - 极兔
 - 极兔速递-W
@@ -26,7 +28,6 @@ timeline:
     business_line: null
 last_updated: '2026-07-06T20:21:02.439139+08:00'
 ---
-
 # 极兔速递-W
 
 > 类型: company

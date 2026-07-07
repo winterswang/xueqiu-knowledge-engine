@@ -2,18 +2,21 @@
 name: 京东集团-SW
 type: company
 ticker: 09618
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/京东集团-SW
+- 市场/CN
+- 股票/09618
 aliases:
 - JD.US
 - 京东
 - 京东外卖
 - 京东集团-SW
+- 京东集团-W
 timeline:
-- date: '2026-06-02'
-  source: sources/2026-06-02-392392871.md
+- date: '2026-06-23'
+  source: sources/2026-06-23-396206255.md
   signals: []
 - date: '2026-06-02'
   source: sources/2026-06-02-392418530.md
@@ -30,7 +33,6 @@ timeline:
     business_line: 新业务（外卖）
 last_updated: '2026-07-06T22:59:47.532891+08:00'
 ---
-
 # 京东集团-SW
 
 > 类型: company

@@ -4,6 +4,7 @@ definition: 支撑AI模型训练与推理的算力、存力、运力等硬件基
 tags:
 - _concept_page
 - 概念
+- 概念/AI基础设施
 entities:
 - AMD
 - Alphabet

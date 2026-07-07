@@ -2,14 +2,18 @@
 name: 伯克希尔-哈撒韦A
 type: company
 ticker: BRK.A
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/伯克希尔-哈撒韦A
+- 市场/US
+- 股票/BRK.A
 aliases:
 - Berkshire
 - 伯克希尔
+- 伯克希尔-哈撒维
 - 伯克希尔-哈撒韦A
+- 伯克希尔一哈撒维公司
 timeline:
 - date: '2026-06-01'
   source: sources/2026-06-01-392022153.md
@@ -23,9 +27,11 @@ timeline:
     - 作者自身未能复制此优势
     quote: 羡慕伯克希尔的资金几乎永恒的稳定性，可以直接无视利息和住建周期
     business_line: null
+- date: '2026-05-31'
+  source: sources/2026-05-31-391884713.md
+  signals: []
 last_updated: '2026-07-06T22:45:26.896330+08:00'
 ---
-
 # 伯克希尔-哈撒韦A
 
 > 类型: company

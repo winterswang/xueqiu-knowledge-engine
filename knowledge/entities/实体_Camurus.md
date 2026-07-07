@@ -2,10 +2,12 @@
 name: Camurus
 type: company
 ticker: CAMX.ST
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Camurus
+- 市场/US
+- 股票/CAMX.ST
 aliases:
 - Camurus
 - 一家名为Camurus的瑞典公司
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:40:06.123385+08:00'
 ---
-
 # Camurus
 
 > 类型: company

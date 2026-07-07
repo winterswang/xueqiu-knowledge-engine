@@ -2,10 +2,12 @@
 name: 精锋医疗-B
 type: company
 ticker: 02675.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/精锋医疗-B
+- 市场/CN
+- 股票/02675.HK
 aliases:
 - 精锋医疗
 - 精锋医疗-B
@@ -34,7 +36,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T00:03:07.129804+08:00'
 ---
-
 # 精锋医疗-B
 
 > 类型: company

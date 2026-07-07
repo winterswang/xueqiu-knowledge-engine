@@ -2,10 +2,12 @@
 name: Etsy
 type: company
 ticker: ETSY
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Etsy
+- 市场/US
+- 股票/ETSY
 aliases:
 - Etsy
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T19:22:16.024675+08:00'
 ---
-
 # Etsy
 
 > 类型: company

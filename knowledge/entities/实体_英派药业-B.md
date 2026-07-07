@@ -2,10 +2,12 @@
 name: 英派药业-B
 type: company
 ticker: '07630'
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/英派药业-B
+- 市场/CN
+- 股票/07630
 aliases:
 - 英派药业
 - 英派药业-B
@@ -15,7 +17,6 @@ timeline:
   signals: []
 last_updated: '2026-07-06T20:46:35.509701+08:00'
 ---
-
 # 英派药业-B
 
 > 类型: company

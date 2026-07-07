@@ -4,6 +4,7 @@ definition: 新股上市后股价跌破发行价的现象
 tags:
 - _concept_page
 - 概念
+- 概念/港股IPO破发
 entities:
 - 先导智能
 - 爱芯元智

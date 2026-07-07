@@ -2,10 +2,12 @@
 name: Visa
 type: company
 ticker: V
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/Visa
+- 市场/US
+- 股票/V
 aliases:
 - VISA
 - Visa
@@ -49,7 +51,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T03:55:30.069628+08:00'
 ---
-
 # Visa
 
 > 类型: company

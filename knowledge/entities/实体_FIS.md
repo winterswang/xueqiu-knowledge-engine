@@ -2,10 +2,12 @@
 name: FIS
 type: company
 ticker: FIS
-market: ''
+market: US
 tags:
 - _entity_page
 - 实体/FIS
+- 市场/US
+- 股票/FIS
 aliases:
 - FIS
 timeline:
@@ -14,7 +16,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T01:58:03.444674+08:00'
 ---
-
 # FIS
 
 > 类型: company

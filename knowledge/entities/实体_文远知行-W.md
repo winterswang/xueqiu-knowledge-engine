@@ -2,10 +2,12 @@
 name: 文远知行-W
 type: company
 ticker: 00800.HK
-market: ''
+market: CN
 tags:
 - _entity_page
 - 实体/文远知行-W
+- 市场/CN
+- 股票/00800.HK
 aliases:
 - 文远知行
 - 文远知行-W
@@ -30,7 +32,6 @@ timeline:
   signals: []
 last_updated: '2026-07-07T04:04:55.977361+08:00'
 ---
-
 # 文远知行-W
 
 > 类型: company
