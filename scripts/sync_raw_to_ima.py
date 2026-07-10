@@ -15,7 +15,8 @@ import argparse
 from pathlib import Path
 
 # Add xueqiu-analyzer-skill to path for ima_kb_uploader
-sys.path.insert(0, '/root/code/xueqiu-analyzer-skill/src')
+_ANALYZER_SKILL_SRC = Path(__file__).resolve().parent.parent.parent / "xueqiu-analyzer-skill" / "src"
+sys.path.insert(0, str(_ANALYZER_SKILL_SRC))
 
 from xueqiu_analyzer.ima_kb_uploader import list_knowledge_bases, upload_file
 

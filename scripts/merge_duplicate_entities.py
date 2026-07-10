@@ -7,7 +7,8 @@ import yaml
 from pathlib import Path
 from collections import defaultdict
 
-ENTITIES_DIR = Path("/root/code/xueqiu-knowledge-engine/knowledge/entities")
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+ENTITIES_DIR = PROJECT_DIR / "knowledge" / "entities"
 
 def parse_md(path):
     content = path.read_text(encoding="utf-8", errors="replace")
@@ -20,6 +21,17 @@ def parse_md(path):
         return {}, content
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="实体去重合并")
+    parser.add_argument("--dry-run", action="store_true", help="只显示会合并什么，不实际删除")
+    parser.add_argument("--backup-dir", type=str, default=None, help="删除前备份到此目录")
+    args = parser.parse_args()
+
+    dry_run = args.dry_run
+    backup_dir = Path(args.backup_dir) if args.backup_dir else None
+    if backup_dir and not dry_run:
+        backup_dir.mkdir(parents=True, exist_ok=True)
+
     # 按ticker分组
     ticker_groups = defaultdict(list)
     for f in ENTITIES_DIR.glob("*.md"):
@@ -77,9 +89,15 @@ def main():
                 if t.get("date") and t["date"] not in all_timeline:
                     all_timeline[t["date"]] = t
             # 删除其他文件
-            other_f.unlink()
-            deleted_files.append(other_f.name)
-            merged_count += 1
+            if dry_run:
+                print(f"  [DRY-RUN] would merge & delete: {other_f.name}")
+            else:
+                if backup_dir:
+                    backup_path = backup_dir / other_f.name
+                    backup_path.write_bytes(other_f.read_bytes())
+                other_f.unlink()
+                deleted_files.append(other_f.name)
+                merged_count += 1
         
         # 更新主实体
         main_fm["aliases"] = sorted(list(all_aliases))
