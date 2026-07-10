@@ -12,6 +12,7 @@ Ingest Pipeline: 单篇文章摄入
 8. git commit
 """
 
+import logging
 import os
 import re
 import subprocess
@@ -25,6 +26,8 @@ try:
     from src.extractor import KnowledgeExtractor
 except ImportError:
     from extractor import KnowledgeExtractor
+
+logger = logging.getLogger(__name__)
 
 
 TZ = timezone(timedelta(hours=8))
@@ -178,6 +181,10 @@ class SourcePageWriter:
 
         return str(filepath)
 
+    def _format_source_path(self, filepath) -> dict:
+        """Wrap filepath into the dict callers expect."""
+        return {"path": str(filepath)}
+
     def _format_entities(self, entities: list) -> str:
         if not entities:
             return "_无明确提及的实体_"
@@ -307,7 +314,7 @@ class EntityPageWriter:
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(md_content)
 
-        return str(filepath)
+        return {"name": entity_name, "path": str(filepath)}
 
     def _format_timeline(self, timeline: list) -> str:
         if not timeline:
@@ -370,8 +377,9 @@ class ConceptPageWriter:
         frontmatter['last_updated'] = datetime.now(TZ).isoformat()
 
         # 构建 body（统一从 frontmatter 生成，避免首次创建与更新不一致）
+        entity_safe_pattern = re.compile(r'[^\w\u4e00-\u9fff\-]')
         entity_links = '\n'.join(
-            f'- [[entities/{re.sub(r"[^\w\u4e00-\u9fff\-]", "_", e)}|{e}]]'
+            f'- [[entities/{entity_safe_pattern.sub("_", e)}|{e}]]'
             for e in sorted(entities)
         ) if entities else '_暂无关联实体_'
         source_links = '\n'.join(
@@ -402,7 +410,7 @@ class ConceptPageWriter:
         with open(filepath, 'w', encoding='utf-8') as f:
             f.write(md_content)
 
-        return str(filepath)
+        return {"name": concept_name, "path": str(filepath)}
 
 
 try:
@@ -569,6 +577,7 @@ class IngestPipeline:
             }
 
         except Exception as e:
+            logger.exception("Ingest failed: %s", e)
             return {
                 'success': False,
                 'error': str(e),

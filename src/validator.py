@@ -7,11 +7,14 @@ Validator: 数据验证层
 3. 质量评分: 计算综合质量分
 """
 
+import logging
 import re
 from dataclasses import dataclass, field
 from typing import List, Optional
 
 import yaml
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -270,8 +273,8 @@ class KnowledgeValidator:
             match = re.search(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
             if match:
                 return yaml.safe_load(match.group(1)) or {}
-        except Exception:
-            pass
+        except Exception as e:
+            logger.warning("Failed to parse frontmatter in %s: %s", filepath, e)
         return None
 
 

@@ -6,10 +6,13 @@ Knowledge Extractor: 从投资文章中提取结构化知识
 """
 
 import json
+import logging
 import os
 import re
 from dataclasses import dataclass, field
 from typing import List, Optional
+
+logger = logging.getLogger(__name__)
 
 
 @dataclass
@@ -124,6 +127,18 @@ class KnowledgeExtractor:
                 raise ValueError("ARK_API_KEY or MINIMAX_API_KEY required")
             self.client = OpenAIClient(api_key=api_key, base_url=base_url)
 
+    def _read_config(self, section: str, key: str, default=None):
+        """Read a value from config/engine.yaml with fallback."""
+        try:
+            import yaml
+            from pathlib import Path
+            config_path = Path(__file__).resolve().parent.parent / "config" / "engine.yaml"
+            with open(config_path, 'r', encoding='utf-8') as f:
+                cfg = yaml.safe_load(f) or {}
+            return cfg.get(section, {}).get(key, default)
+        except Exception:
+            return default
+
     def extract(self, article_text: str, entity_dict: Optional[dict] = None) -> ExtractionResult:
         """
         从文章中提取知识
@@ -137,13 +152,22 @@ class KnowledgeExtractor:
 
         prompt = self._build_prompt(article_text, entity_dict)
 
+        llm_timeout = self._read_config('llm', 'timeout', 120)
+
         try:
             resp = self.client.chat.completions.create(
                 model=self.model,
                 messages=[{"role": "user", "content": prompt}],
                 max_tokens=8192,
                 temperature=0.1,
+                timeout=llm_timeout,
             )
+            if not resp.choices:
+                logger.warning("LLM returned empty choices (rate limit or timeout)")
+                return ExtractionResult(
+                    needs_review=True,
+                    review_reasons=["LLM returned empty choices"]
+                )
             raw_output = resp.choices[0].message.content
             result = self._parse_output(raw_output, entity_dict)
             # 如果JSON解析失败，重试一次
@@ -157,11 +181,16 @@ class KnowledgeExtractor:
                     ],
                     max_tokens=8192,
                     temperature=0.0,
+                    timeout=llm_timeout,
                 )
+                if not resp.choices:
+                    logger.warning("LLM retry returned empty choices")
+                    return result
                 raw_output = resp.choices[0].message.content
                 result = self._parse_output(raw_output, entity_dict)
             return result
         except Exception as e:
+            logger.exception("LLM extract failed: %s", e)
             return ExtractionResult(
                 needs_review=True,
                 review_reasons=[f"LLM call failed: {e}"]

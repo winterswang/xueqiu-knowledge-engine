@@ -76,9 +76,9 @@ def main():
         if ent not in source_entities and not entity_sources.get(ent):
             issues["orphan_entity"].append(f"实体 {ent} 没有在任何来源/概念中被引用过")
     
-    # 检查孤立概念
+    # 检查孤立概念：没有关联来源，也没有关联实体
     for con in all_concepts:
-        if len(concept_sources.get(con, set())) == 0 and len(entity_sources) == 0:
+        if len(concept_sources.get(con, set())) == 0 and len(entity_sources.get(con, set())) == 0:
             issues["orphan_concept"].append(f"概念 {con} 没有关联来源或实体")
     
     # 检查wikilink断裂

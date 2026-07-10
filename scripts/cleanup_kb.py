@@ -12,7 +12,8 @@ import yaml
 from pathlib import Path
 from collections import defaultdict
 
-KB_DIR = Path("/root/code/xueqiu-knowledge-engine/knowledge")
+PROJECT_DIR = Path(__file__).resolve().parent.parent
+KB_DIR = PROJECT_DIR / "knowledge"
 ENTITIES_DIR = KB_DIR / "entities"
 CONCEPTS_DIR = KB_DIR / "concepts"
 SOURCES_DIR = KB_DIR / "sources"
@@ -30,6 +31,17 @@ def parse_md_frontmatter(path):
         return {}, content
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="知识库清理")
+    parser.add_argument("--dry-run", action="store_true", help="只显示会删除什么，不实际删除")
+    parser.add_argument("--backup-dir", type=str, default=None, help="删除前备份到此目录")
+    args = parser.parse_args()
+
+    dry_run = args.dry_run
+    backup_dir = Path(args.backup_dir) if args.backup_dir else None
+    if backup_dir and not dry_run:
+        backup_dir.mkdir(parents=True, exist_ok=True)
+
     stats = defaultdict(int)
     
     # ========== 清理实体 ==========
@@ -67,7 +79,13 @@ def main():
     
     # 删除实体
     for f in entities_to_delete:
-        f.unlink()
+        if dry_run:
+            print(f"  [DRY-RUN] would delete: {f.name}")
+        else:
+            if backup_dir:
+                backup_path = backup_dir / f.name
+                backup_path.write_bytes(f.read_bytes())
+            f.unlink()
     
     print(f"实体总数原: {len(entity_files)} → 删除: {len(entities_to_delete)} → 剩余: {len(entity_files) - len(entities_to_delete)}")
     print(f"删除原因统计: {dict(stats)}")
@@ -105,7 +123,13 @@ def main():
     
     # 删除概念
     for f in concepts_to_delete:
-        f.unlink()
+        if dry_run:
+            print(f"  [DRY-RUN] would delete: {f.name}")
+        else:
+            if backup_dir:
+                backup_path = backup_dir / f.name
+                backup_path.write_bytes(f.read_bytes())
+            f.unlink()
     
     print(f"概念总数原: {len(concept_files)} → 删除: {len(concepts_to_delete)} → 剩余: {len(concept_files) - len(concepts_to_delete)}")
     print(f"删除原因统计: { {k:v for k,v in stats.items() if 'concept' in k} }")
